@@ -1,0 +1,7 @@
+{
+    "block.fishtraps.wooden_fish_trap": " 나무 통발",
+    "block.fishtraps.iron_fish_trap": "철 통발",
+    "block.fishtraps.diamond_fish_trap": "다이아몬드 통발",
+    "itemGroup.fishtraps.fishtraps": "Fish Traps",
+    "item.fishtraps.fish_trap_bait": "물고기 미끼"
+}

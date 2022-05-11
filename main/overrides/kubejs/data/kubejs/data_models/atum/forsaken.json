@@ -1,0 +1,25 @@
+{
+
+    "type": "atum:forsaken",
+    "name": "entity.atum.forsaken",
+    "name_color": "0x594a36",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 80,
+    "input": {
+      "item": "hostilenetworks:empty_prediction"
+    },
+    "base_drop": {
+      "item": "kubejs:sandy_prediction"
+    },
+    "trivia": "hostile_neural_compat.trivia.forsaken",
+    "fabricator_drops": [
+      {
+        "item": "atum:dusty_bone",
+        "count": 5
+      }
+    ]
+  
+}

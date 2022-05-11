@@ -1,0 +1,702 @@
+{
+	id: "480B06210A7357A0"
+	group: "34DA8A5C88ADFCAB"
+	order_index: 3
+	filename: "480B06210A7357A0"
+	title: "精致存储"
+	icon: "refinedstorage:controller"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -5.0d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "也是石英！"
+			description: ["这是制作 RS 机器和各种元件的基础材料。"]
+			id: "6E03B567517CD149"
+			tasks: [{
+				id: "0B7ED358C38A32B8"
+				type: "item"
+				item: "refinedstorage:quartz_enriched_iron"
+			}]
+			rewards: [
+				{
+					id: "53E436DE55457D98"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "4C6C70512A28A695"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "118A3410A5AB5221"
+					type: "custom"
+				}
+			]
+		}
+		{
+			title: "处理器"
+			x: -3.0d
+			y: 0.0d
+			subtitle: "我光刻机呢？"
+			description: ["我知道这很不科学，但你真的愿意花大把时间在等待压印器工作上面吗？"]
+			dependencies: ["6E03B567517CD149"]
+			id: "2201340B3E4A81B9"
+			tasks: [
+				{
+					id: "54324FD39D6A82FC"
+					type: "item"
+					item: "refinedstorage:basic_processor"
+				}
+				{
+					id: "46FC165B141F3E8E"
+					type: "item"
+					item: "refinedstorage:improved_processor"
+				}
+				{
+					id: "235148821470CE58"
+					type: "item"
+					item: "refinedstorage:advanced_processor"
+				}
+			]
+			rewards: [
+				{
+					id: "6AD7F2F370EF9BAC"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "10187C61E84A2742"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			subtitle: "网络中心"
+			description: ["不同于 AE2 ，RS 网络里必须有且只能有一个控制器。"]
+			dependencies: ["2201340B3E4A81B9"]
+			id: "649E2EE4B9F59932"
+			tasks: [{
+				id: "185AA8A89A688841"
+				type: "item"
+				item: "refinedstorage:controller"
+			}]
+			rewards: [
+				{
+					id: "0682AF8FCB227F2D"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "17A0FBA1ADE06231"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			description: ["可以用来制作磁盘，也可以升级成容量更大的版本。"]
+			dependencies: ["2201340B3E4A81B9"]
+			id: "6B2C73F8563559D3"
+			tasks: [{
+				id: "0EAA42700FCC9422"
+				type: "item"
+				item: "refinedstorage:1k_storage_part"
+			}]
+			rewards: [{
+				id: "0D3CBA72232787D0"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			dependencies: ["6B2C73F8563559D3"]
+			id: "4D3F1E979A5E28DE"
+			tasks: [{
+				id: "157515255F303F72"
+				type: "item"
+				item: "refinedstorage:4k_storage_part"
+			}]
+			rewards: [{
+				id: "3D5BACC152F752DD"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.5d
+			description: ["由于 RS 的磁盘不限制物品种类数量，所以这大概够用了。"]
+			dependencies: ["4D3F1E979A5E28DE"]
+			id: "7EFB194F43346FB7"
+			tasks: [{
+				id: "31CC890091AB6309"
+				type: "item"
+				item: "refinedstorage:16k_storage_part"
+			}]
+			rewards: [{
+				id: "459574AFE4D2095D"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			dependencies: ["7EFB194F43346FB7"]
+			id: "6C9D0CF8A95E02B6"
+			tasks: [{
+				id: "019D641C1E611BF4"
+				type: "item"
+				item: "refinedstorage:64k_storage_part"
+			}]
+			rewards: [{
+				id: "63CB3B4A969E3C00"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			description: ["看来你已经不满足于64k存储了。"]
+			dependencies: ["6C9D0CF8A95E02B6"]
+			id: "64229B0A434258AE"
+			tasks: [{
+				id: "7D817D7D130EB5BD"
+				type: "item"
+				item: "extradisks:256k_storage_part"
+			}]
+			rewards: [{
+				id: "257410EC5D4DD090"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.0d
+			dependencies: ["64229B0A434258AE"]
+			id: "786ED11FA12B9B97"
+			tasks: [{
+				id: "6C2638FA66ADD804"
+				type: "item"
+				item: "extradisks:1024k_storage_part"
+			}]
+			rewards: [{
+				id: "110BD81C431123D1"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.5d
+			dependencies: ["786ED11FA12B9B97"]
+			id: "2FB0CE03AD52C1F6"
+			tasks: [{
+				id: "037A0C26FE25183F"
+				type: "item"
+				item: "extradisks:4096k_storage_part"
+			}]
+			rewards: [{
+				id: "55294890ABB5B234"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 6.0d
+			y: -3.0d
+			dependencies: ["2FB0CE03AD52C1F6"]
+			id: "45A6FBC85BC7A0CC"
+			tasks: [{
+				id: "0C137D47FD39F301"
+				type: "item"
+				item: "extradisks:16384k_storage_part"
+			}]
+			rewards: [{
+				id: "4984C7D37E6918DA"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 7.0d
+			y: -1.5d
+			dependencies: ["45A6FBC85BC7A0CC"]
+			id: "39FDCF8B8C1038C6"
+			tasks: [{
+				id: "2789ABBF23EE71A9"
+				type: "item"
+				item: "extradisks:65536k_storage_part"
+			}]
+			rewards: [{
+				id: "58F89A0171C2CDC0"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 8.0d
+			y: -3.0d
+			dependencies: ["39FDCF8B8C1038C6"]
+			id: "2413EA4C6D42F82F"
+			tasks: [{
+				id: "508D361E558D2C0A"
+				type: "item"
+				item: "extradisks:262144k_storage_part"
+			}]
+			rewards: [{
+				id: "21624B3FD79D7567"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 9.0d
+			y: -1.5d
+			dependencies: ["2413EA4C6D42F82F"]
+			id: "5F1BDB33E3BA770D"
+			tasks: [{
+				id: "745D1A0D8932FDFD"
+				type: "item"
+				item: "extradisks:1048576k_storage_part"
+			}]
+			rewards: [{
+				id: "51253B7065C269CF"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 10.0d
+			y: -3.0d
+			description: ["再没更大的了！"]
+			dependencies: ["5F1BDB33E3BA770D"]
+			id: "2F2C6C97DA447920"
+			tasks: [{
+				id: "11A13A8BF5C68F5D"
+				type: "item"
+				item: "extradisks:infinite_storage_part"
+			}]
+			rewards: [{
+				id: "3AB5FF2B5F062B6F"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			subtitle: "插磁盘用的"
+			description: ["可以存放8个磁盘。"]
+			dependencies: ["2201340B3E4A81B9"]
+			id: "4A5C23D5EE897D60"
+			tasks: [{
+				id: "13A7E88E3683024E"
+				type: "item"
+				item: "refinedstorage:disk_drive"
+			}]
+			rewards: [{
+				id: "26DCED56CD33875A"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			subtitle: "让我看看！"
+			description: ["浏览存储网络里的物品。"]
+			dependencies: ["649E2EE4B9F59932"]
+			id: "61C363C3C9F4AF0C"
+			tasks: [{
+				id: "786078A3A2A4DDD8"
+				type: "item"
+				item: "refinedstorage:grid"
+			}]
+			rewards: [
+				{
+					id: "5282529BD6F31593"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "30AF2FB27F0733FE"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			subtitle: "合二为一！"
+			description: ["不仅可以浏览物品，还是一个合成台！"]
+			dependencies: ["61C363C3C9F4AF0C"]
+			id: "053B084684C9BAE8"
+			tasks: [{
+				id: "1DD6078DA2C11F1C"
+				type: "item"
+				item: "refinedstorage:crafting_grid"
+			}]
+			rewards: [
+				{
+					id: "501417E9491B2B0F"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "7C3BD49BCB06FC02"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			subtitle: "连接箱子"
+			description: ["如果你没有磁盘，可以用它对准你的箱子（支持抽屉管理器），这样你也可以在终端里访问容器里的物品了。"]
+			hide_dependency_lines: true
+			dependencies: ["6E03B567517CD149"]
+			id: "0EC7248DEF641E6D"
+			tasks: [{
+				id: "2055ED7E16E698CD"
+				type: "item"
+				item: "refinedstorage:external_storage"
+			}]
+			rewards: [{
+				id: "140C7E43CD7E14F5"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			title: "与世界交互"
+			disable_toast: true
+			x: 1.0d
+			y: 3.0d
+			subtitle: "直接输出"
+			description: ["成型面板可以从网络中提取方块并放置在世界中。破坏面板的作用则相反。"]
+			hide_dependency_lines: true
+			dependencies: ["6E03B567517CD149"]
+			id: "0181045C28FE4A38"
+			tasks: [
+				{
+					id: "78C5B6A160BE5A9C"
+					type: "item"
+					item: "refinedstorage:constructor"
+				}
+				{
+					id: "09D1C66A41906BE7"
+					type: "item"
+					item: "refinedstorage:destructor"
+				}
+			]
+			rewards: [{
+				id: "1E1D5C5CAF33F354"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			title: "输入输出"
+			x: 3.0d
+			y: 3.0d
+			subtitle: "容器交互"
+			description: [
+				"输入面板可以向网络中输入物品，而输出面板可以将网络中的物品输出到容器中。"
+				" "
+				"二者都有过滤物品的功能。"
+				" "
+				"如果你觉得速度太慢，可以制作速度升级或堆叠升级。也可以直接使用更高级的输入输出面板。"
+			]
+			hide_dependency_lines: true
+			dependencies: ["6E03B567517CD149"]
+			id: "70A730EA4032CC06"
+			tasks: [
+				{
+					id: "570BB8B605DDE885"
+					type: "item"
+					item: "refinedstorage:importer"
+				}
+				{
+					id: "4F54FA709614EAC7"
+					type: "item"
+					item: "refinedstorage:exporter"
+				}
+			]
+			rewards: [{
+				id: "1A5407A08D4DFE62"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			subtitle: "大概不是你想的那样"
+			description: [
+				"如果你想把内容从旧的磁盘转移到新的磁盘，那么你需要这个。"
+				" "
+				"是的，不能修改磁盘中的具体内容，只能转移。"
+			]
+			hide_dependency_lines: true
+			dependencies: ["6E03B567517CD149"]
+			id: "32CE497C88FD7C53"
+			tasks: [{
+				id: "57C80B77BA0DA528"
+				type: "item"
+				item: "refinedstorage:disk_manipulator"
+			}]
+			rewards: [{
+				id: "11DB9A663B715E1D"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			subtitle: "WIFI"
+			description: [
+				"方便你无线访问网络。"
+				""
+				"可以使用范围升级增加信号范围，但耗电量也会增加。"
+			]
+			dependencies: ["053B084684C9BAE8"]
+			id: "145C8F7BC91900FB"
+			tasks: [{
+				id: "2C7000AAD51DE8E5"
+				type: "item"
+				item: "refinedstorage:wireless_transmitter"
+			}]
+			rewards: [{
+				id: "5E899BB3FF95EC9D"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.0d
+			subtitle: "远程工作"
+			description: [
+				"远程访问网络的设备，还可以合成物品。"
+				" "
+				"SHIFT 右键控制器以绑定。"
+			]
+			dependencies: ["145C8F7BC91900FB"]
+			id: "7C0BB9F74AF63568"
+			tasks: [{
+				id: "04860C578D6426FB"
+				type: "item"
+				item: "refinedstorageaddons:wireless_crafting_grid"
+			}]
+			rewards: [{
+				id: "2E2CF1D1832AD0FD"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			title: "自动合成初步"
+			x: 3.0d
+			y: 1.5d
+			shape: "square"
+			subtitle: "解放双手!"
+			description: [
+				"为了开始自动合成，你需要制作一些样板并将它们放在合成仓中。"
+				" "
+				"在样板终端里选择需要制作的配方（可以使用JEI的+键），在右边的格子里面放上空白样板，如果配方有效，那么你可以点击下箭头写入样板。"
+				" "
+				"之后你就可以在终端里面发现带有“合成”字样的物品了，如果这种物品已经有了一些，你可以通过按下Ctrl+Shift+鼠标右键点击合成更多。选择数量就可以开始合成。"
+				"合成仓不仅可以进行工作台合成，也支持其他模组的机器，只需要把它的工作面（也就是有九宫格的一面）对着机器就行，注意调整机器的输入输出面。在这种情况下，你还需要一些输入面板来将成品提取出来。"
+				" "
+				"如果你觉得合成速度太慢，可以制作更高级的合成仓。"
+			]
+			hide_dependency_lines: true
+			dependencies: ["6E03B567517CD149"]
+			id: "285580A8BD90A862"
+			tasks: [
+				{
+					id: "1F6EA6D999012FAF"
+					type: "item"
+					item: "refinedstorage:pattern_grid"
+				}
+				{
+					id: "36BE1225D73F6B0D"
+					type: "item"
+					item: "refinedstorage:pattern"
+				}
+				{
+					id: "08298CEF46933338"
+					type: "item"
+					item: "refinedstorage:crafter"
+				}
+			]
+			rewards: [{
+				id: "7DB3AE48082D4B1A"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.5d
+			subtitle: "随时随地！"
+			description: ["其实不是真正无限的，但应该够用了。"]
+			dependencies: ["145C8F7BC91900FB"]
+			id: "3A42B679FFD6CED4"
+			tasks: [{
+				id: "32BD22357AA38F2D"
+				type: "item"
+				item: "rsinfinitybooster:infinity_card"
+			}]
+			rewards: [{
+				id: "4EA46B969C4C794F"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 1.5d
+			subtitle: "跨越维度！"
+			description: ["让你在别的维度也能收到信号。"]
+			dependencies: ["3A42B679FFD6CED4"]
+			id: "350E40E11552F532"
+			tasks: [{
+				id: "5144DAE918064C32"
+				type: "item"
+				item: "rsinfinitybooster:dimension_card"
+			}]
+			rewards: [{
+				id: "36E4ADAC20242DAA"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 3.0d
+			subtitle: "网络灌水"
+			description: ["如果你想从网络里提取流体，可以使用这个。"]
+			hide_dependency_lines: true
+			dependencies: ["6E03B567517CD149"]
+			id: "02C8D8B149DB335B"
+			tasks: [{
+				id: "394EC8F1A47707E3"
+				type: "item"
+				item: "refinedstorage:fluid_grid"
+			}]
+			rewards: [{
+				id: "203E3A2A862F94D4"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			title: "无线配网"
+			x: 5.0d
+			y: 3.0d
+			subtitle: "无线信号传递"
+			description: [
+				"将网络发送器连接在有控制器的那一端，使用网络卡右键绑定，之后放置在网络接收器里面，就可以将两边连接起来。"
+				" "
+				"注意：放置接收器的那一边不能有控制器！"
+			]
+			hide_dependency_lines: true
+			dependencies: ["6E03B567517CD149"]
+			id: "77ACC39D50658447"
+			tasks: [
+				{
+					id: "28605FD0858C0FA2"
+					type: "item"
+					item: "refinedstorage:network_transmitter"
+				}
+				{
+					id: "1A59994C124CF4AB"
+					type: "item"
+					item: "refinedstorage:network_receiver"
+				}
+				{
+					id: "3EF269A5EE2F631A"
+					type: "item"
+					item: "refinedstorage:network_card"
+				}
+			]
+			rewards: [{
+				id: "02BEF4570814ED79"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 3.0d
+			subtitle: "为了美观"
+			description: ["你可以使用任何方块和铁粒制作伪装板，覆盖伪装板的线缆不会与邻近的线缆等组件连接，而空心伪装板可以做到这一点。"]
+			hide_dependency_lines: true
+			dependencies: ["6E03B567517CD149"]
+			id: "3811091C6FDAD574"
+			tasks: [{
+				id: "6FEE27B11AF655AD"
+				type: "item"
+				item: {
+					id: "refinedstorage:cover"
+					Count: 1b
+					tag: {
+						Item: {
+							id: "minecraft:stone_bricks"
+							Count: 1b
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4A3BFA389A85CFD6"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			title: "更大的自动合成"
+			x: 5.0d
+			y: 1.5d
+			subtitle: "9*9的合成栏！"
+			description: ["你要自动化的配方超过了9种材料？用这个吧！"]
+			dependencies: ["285580A8BD90A862"]
+			id: "36F2765A91E8B128"
+			tasks: [
+				{
+					id: "67B3B974F27B6AC4"
+					type: "item"
+					item: "rslargepatterns:large_pattern_encoder"
+				}
+				{
+					id: "69EB4354D4FA4CC5"
+					type: "item"
+					item: "rslargepatterns:large_pattern"
+				}
+			]
+			rewards: [{
+				id: "7A18630C17B20C5D"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+	]
+}

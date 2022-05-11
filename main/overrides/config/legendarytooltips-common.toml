@@ -1,0 +1,117 @@
+
+#Client Configuration
+[client]
+
+	[client.visual_options]
+		# Whether item names in tooltips should have a line under them separating them from the rest of the tooltip.
+		name_separator = true
+		# If enabled, tooltip border colors will match item rarity colors (except for custom borders).
+		borders_match_rarity = true
+		# If enabled, tooltips will display a drop shadow.
+		tooltip_shadow = true
+		# If enabled, items showing a custom border will have a special shine effect when hovered over.
+		shine_effect = true
+
+	# Custom borders are broken into 16 "levels", with level 0 being intended for the "best" or "rarest" items. Only level 0 has a custom border built-in, but others can be added with resource packs.
+	[client.custom_borders]
+
+		# The start and end border colors of each levels' borders. Note that they can be entered as a hex code in the format "0xAARRGGBB" or "0xRRGGBB" for convenience.
+		[client.custom_borders.colors]
+			#Range: 0 ~ 4294967295
+			level9_start_color = 22694
+			#Range: 0 ~ 4294967295
+			level9_end_color = 5995386
+			#Range: 0 ~ 4294967295
+			level14_start_color = 4280692789
+			#Range: 0 ~ 4294967295
+			level15_end_color = 6085372
+			#Range: 0 ~ 4294967295
+			level15_start_color = 13956084
+			#Range: 0 ~ 4294967295
+			level0_start_color = 4288244002
+			#Range: 0 ~ 4294967295
+			level0_end_color = 4284103197
+			#Range: 0 ~ 4294967295
+			level1_start_color = 4283759868
+			#Range: 0 ~ 4294967295
+			level1_end_color = 4281382582
+			#Range: 0 ~ 4294967295
+			level2_start_color = 4294769748
+			#Range: 0 ~ 4294967295
+			level2_end_color = 4284103197
+			#Range: 0 ~ 4294967295
+			level3_start_color = 4288244002
+			#Range: 0 ~ 4294967295
+			level3_end_color = 4284103197
+			#Range: 0 ~ 4294967295
+			level4_start_color = 3095594
+			#Range: 0 ~ 4294967295
+			level4_end_color = 6123381
+			#Range: 0 ~ 4294967295
+			level5_start_color = 64702
+			#Range: 0 ~ 4294967295
+			level5_end_color = 3911894
+			#Range: 0 ~ 4294967295
+			level6_start_color = 12228193
+			#Range: 0 ~ 4294967295
+			level6_end_color = 3828844
+			#Range: 0 ~ 4294967295
+			level7_start_color = 8861105
+			#Range: 0 ~ 4294967295
+			level7_end_color = 14259219
+			#Range: 0 ~ 4294967295
+			level8_start_color = 8735793
+			#Range: 0 ~ 4294967295
+			level8_end_color = 2829099
+			#Range: 0 ~ 4294967295
+			level10_start_color = 3662336
+			#Range: 0 ~ 4294967295
+			level10_end_color = 518140
+			#Range: 0 ~ 4294967295
+			level11_start_color = 4280404939
+			#Range: 0 ~ 4294967295
+			level11_end_color = 4292239192
+			#Range: 0 ~ 4294967295
+			level12_start_color = 4291865690
+			#Range: 0 ~ 4294967295
+			level12_end_color = 4282920471
+			#Range: 0 ~ 4294967295
+			level13_start_color = 4294695516
+			#Range: 0 ~ 4294967295
+			level13_end_color = 4284688897
+			#Range: 0 ~ 4294967295
+			level14_end_color = 4282801236
+
+		# Entry types:
+		#   Item name - Use item name for vanilla items or include mod name for modded items.  Examples: "minecraft:stick", "iron_ore"
+		#   Tag - $ followed by tag name.  Examples: "$forge:stone" or "$planks"
+		#   Mod name - @ followed by mod identifier.  Examples: "@spoiledeggs"
+		#   Rarity - ! followed by item's rarity.  This is ONLY vanilla rarities.  Examples: "!uncommon", "!rare", "!epic"
+		#   Item name color - # followed by color hex code, the hex code must match exactly.  Examples: "#23F632"
+		#   Display name - % followed by any text.  Will match any item with this text in its tooltip display name.  Examples: "%[Uncommon]"
+		#   Tooltip text - ^ followed by any text.  Will match any item with this text anywhere in the tooltip text (besides the name).  Examples: "^Legendary"
+		#   NBT tag - & followed by tag name and optional comparator (=, >, <, or !=) and value, in the format <tag><comparator><value> or just <tag>.  Examples: "&Damage=0", "&Tier>1", "&Broken", "&map!=128"
+		[client.custom_borders.definitions]
+			level0_entries = ["!epic"]
+			level15_entries = ["@minecraft", "@biomesoplenty", "@byg", "@endergetic", "@atmospheric", "@abundance", "@environmental", "@neapolitan", "@supplementaries", "@quark", "@charm", "@inspirations", "@emendatusenigmatica", "@upgrade_aquatic", "@alexsmobs", "@oddwatermobs", "@farmersdelight", "@abnormals_delight", "@bayou_blues", "@savageandravage", "@pamhc2foodcore", "@pamhc2foodextended", "@pamhc2crops", "@pamhc2trees", "@simplefarming", "@betternether", "@betterendforge", "@buildersaddition", "@extraboats", "@cfm", "@morecfm", "@adorn", "@skinnedlanterns", "@neoncraft", "@fairylights", "@autumnity", "@decorative_blocks", "@decorative_blocks_abnormals", "@omniworldessentials", "@mcwdoors", "@mcwtrpdoors", "@mcwwindows", "@mcwbridges", "@mcwroofs", "@mcwfences", "@mcwlights", "@mysticalworld", "@cookingforblockheads", "@farmingforblockheads", "@doubleslabs", "@chisel", "@chiselsandbits", "@minecolonies", "@connectedglass", "@sophisticatedbackpacks", "@aquaculture", "@druidcraft", "@pitg", "@jaopca", "@mowziesmobs", "@structurize", "@ceramics", "@absentbydesign", "@projectvibrantjourneys", "@valhelsia_structures", "@drinkbeer", "@outer_end", "@enhanced_mushrooms", "@culinaryconstruct", "@uppers", "@chancecubes", "@kubejs", "@ftbquests", "@touhou_little_maid", "@framedblocks", "@neoncraft2", "@sereneseasons", "@solcarrot", "@chipped", "@extendedcrafting", "@scalinghealth", "@xercamusic"]
+			level1_entries = ["!rare"]
+			level2_entries = ["!uncommon"]
+			level3_entries = []
+			level4_entries = ["@undergarden"]
+			level5_entries = ["@tinymobfarm", "@ftb-power-pots", "@cyclic", "@miniutilities", "@darkutils", "@fishtraps", "@supplementaries", "@torchmaster", "@botanypots", "@pipez", "@tiab", "@waystones", "@comforts", "@prefab", "@paraglider", "@xplosives", "@bountifulbaubles", "@blockcarpentry", "@elevatorid", "@storagedrawers", "@transport", "@archers_paradox", "@enderstorage", "@patchouli", "@ironchest", "@akashictome", "@dummmmmmy", "hostilenetworks:deep_learner", "hostilenetworks:blank_data_model", "hostilenetworks:empty_prediction", "hostilenetworks:sim_chamber", "hostilenetworks:loot_fabricator", "hostilenetworks:overworld_prediction", "hostilenetworks:nether_prediction", "hostilenetworks:end_prediction", "@globalxp", "@framedcompactdrawers", "@constructionwand", "@metalbarrels", "@tesseract", "@redstonearsenal", "@ironfurnaces"]
+			level6_entries = ["@tconstruct", "@materialis", "@tdelight", "@bettercompat", "@tetra", "@tinker_rapier"]
+			level7_entries = ["@ars_nouveau", "@forbidden_arcanus", "@psi", "@bloodmagic", "@tomeofblood", "@astralsorcery", "@mysticalagriculture", "@mysticalagradditions", "@mysticaladaptations", "@eidolon", "@projecte", "@projectex", "@majobroom", "@occultism"]
+			level8_entries = ["@immersiveengineering", "@immersivepetroleum", "@immersiveposts", "@engineersdecor"]
+			level9_entries = ["@mekanism", "@mekanismtools", "@mekanismgenerators", "@industrialforegoing", "@thermal", "@refinedstorage", "@refinedstorageaddons", "@rsrequestify", "@extrastorage", "@extradisks", "@cabletiers", "@powah", "@draconicevolution", "@integrateddynamics", "@integratedtunnels", "@integratedterminals", "@buildinggadgets", "@custommachinery", "@compactmachines", "@solarflux", "@fluxnetworks", "@rslargepatterns", "@rftoolsbase", "@rftoolsutility", "@xnet", "@rftoolsbuilder", "@appliedenergistics2", "@ae2wtlib", "@lazierae2", "@aeinfinitybooster", "@ae2extras", "@energymeter", "@packagedauto", "@computercraft", "@advancedperipherals", "@boss_tools", "@boss_tools_giselle_addon"]
+			level10_entries = ["@botania", "@aiotbotania", "@mythicbotany", "@botaniaadditions"]
+			level11_entries = ["@blue_skies"]
+			level12_entries = ["@create", "@createaddition", "@createplus"]
+			level13_entries = ["@atum"]
+			level14_entries = ["@twilightforest"]
+			# Enter blacklist selectors here using the same format as above.  Any items that match these selectors will NOT show a border.
+			blacklist = []
+
+		# Set border priorities here.  This should be a list of numbers that correspond to border levels, with numbers coming first being higher priority.
+		[client.custom_borders.priorities]
+			priorities = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+

@@ -1,0 +1,293 @@
+{
+	id: "42EC74FDE4A3C414"
+	group: "08F56361546409AB"
+	order_index: 0
+	filename: "42EC74FDE4A3C414"
+	title: "日用品商店"
+	icon: { id: "thermal:copper_coin", Count: 64b }
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "皮革"
+			icon: "minecraft:leather"
+			disable_toast: true
+			x: -3.5d
+			y: -2.0d
+			id: "25A11BB5A8475AA0"
+			tasks: [{
+				id: "699D69A2C0BD5C7C"
+				type: "item"
+				item: "thermal:copper_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "3A95A37A99CE2BAB"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:leather"
+					count: 4
+				}
+				{
+					id: "20D1330830ED72B4"
+					type: "custom"
+					title: "重置任务"
+					icon: "thermal:machine_cycle_augment"
+					tags: ["repeatable"]
+					auto: "enabled"
+				}
+			]
+		}
+		{
+			title: "生牛肉"
+			icon: "minecraft:beef"
+			disable_toast: true
+			x: -1.5d
+			y: -2.0d
+			id: "3D4A088D5B2CBF5E"
+			tasks: [{
+				id: "2C0F8C1771C88D40"
+				type: "item"
+				item: "thermal:copper_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "263D3B5C26AFF26C"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:beef"
+					count: 4
+				}
+				{
+					id: "0F22DB6C66B30322"
+					type: "custom"
+					title: "重置任务"
+					icon: "thermal:machine_cycle_augment"
+					tags: ["repeatable"]
+					auto: "enabled"
+				}
+			]
+		}
+		{
+			title: "线"
+			icon: "minecraft:string"
+			disable_toast: true
+			x: 0.5d
+			y: -2.0d
+			id: "6881B76429C96492"
+			tasks: [{
+				id: "4D90CEBFFF7013CE"
+				type: "item"
+				item: "thermal:copper_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "13AA0782D4CD2441"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:string"
+					count: 4
+				}
+				{
+					id: "238F417B73DC14C3"
+					type: "custom"
+					title: "重置任务"
+					icon: "thermal:machine_cycle_augment"
+					tags: ["repeatable"]
+					auto: "enabled"
+				}
+			]
+		}
+		{
+			title: "羊毛"
+			icon: "minecraft:white_wool"
+			disable_toast: true
+			x: 2.5d
+			y: -2.0d
+			id: "4B200CC26029DB8F"
+			tasks: [{
+				id: "658A734021C348A7"
+				type: "item"
+				item: "thermal:copper_coin"
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "76474323D54C8A55"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:white_wool"
+					count: 4
+				}
+				{
+					id: "6ED8A764CBC90488"
+					type: "custom"
+					title: "重置任务"
+					icon: "thermal:machine_cycle_augment"
+					tags: ["repeatable"]
+					auto: "enabled"
+				}
+			]
+		}
+		{
+			title: "兔子脚"
+			icon: "minecraft:rabbit_foot"
+			disable_toast: true
+			x: -3.5d
+			y: 0.0d
+			id: "45BB87A6C0C309E6"
+			tasks: [{
+				id: "68C78E59F0F0C9D3"
+				type: "item"
+				item: "thermal:copper_coin"
+				count: 20L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "40BA362743F5F74E"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:rabbit_foot"
+				}
+				{
+					id: "1886D2BD2EE21CF0"
+					type: "custom"
+					title: "重置任务"
+					icon: "thermal:machine_cycle_augment"
+					tags: ["repeatable"]
+					auto: "enabled"
+				}
+			]
+		}
+		{
+			title: "末影珍珠"
+			icon: "minecraft:ender_pearl"
+			disable_toast: true
+			x: -1.5d
+			y: 0.0d
+			id: "72BC02E0923871CC"
+			tasks: [{
+				id: "15BAC19D7AE8969A"
+				type: "item"
+				item: "thermal:copper_coin"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "03C5B340F31EB861"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:ender_pearl"
+				}
+				{
+					id: "5CF24AEBE8617C1F"
+					type: "custom"
+					title: "重置任务"
+					icon: "thermal:machine_cycle_augment"
+					tags: ["repeatable"]
+					auto: "enabled"
+				}
+			]
+		}
+		{
+			title: "烈焰棒"
+			icon: "minecraft:blaze_rod"
+			disable_toast: true
+			x: 0.5d
+			y: 0.0d
+			id: "261168F39A637AEB"
+			tasks: [{
+				id: "4957191102F4255C"
+				type: "item"
+				item: "thermal:copper_coin"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "004894922EA56398"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:blaze_rod"
+				}
+				{
+					id: "36FFE0625DE655B1"
+					type: "custom"
+					title: "重置任务"
+					icon: "thermal:machine_cycle_augment"
+					tags: ["repeatable"]
+					auto: "enabled"
+				}
+			]
+		}
+		{
+			title: "鸡蛋"
+			icon: "minecraft:egg"
+			x: 2.5d
+			y: 0.0d
+			id: "6F449BFE44451B2A"
+			tasks: [{
+				id: "39E103292F78047E"
+				type: "item"
+				item: "thermal:copper_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "02BABAF32654975B"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:egg"
+					count: 4
+				}
+				{
+					id: "730CDA2E8F1E983D"
+					type: "custom"
+					title: "重置任务"
+					icon: "thermal:machine_cycle_augment"
+					tags: ["repeatable"]
+					auto: "enabled"
+				}
+			]
+		}
+		{
+			title: "恶魂之泪"
+			icon: "minecraft:ghast_tear"
+			x: -3.5d
+			y: 2.0d
+			id: "56E441F7E3822888"
+			tasks: [{
+				id: "1218680A386A05CB"
+				type: "item"
+				item: "thermal:copper_coin"
+				count: 30L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "05E201C8AD0472A5"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:ghast_tear"
+				}
+				{
+					id: "3B8270E18EA21636"
+					type: "custom"
+					title: "重置任务"
+					icon: "thermal:machine_cycle_augment"
+					tags: ["repeatable"]
+					auto: "enabled"
+				}
+			]
+		}
+	]
+}

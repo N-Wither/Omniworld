@@ -1,0 +1,12 @@
+{
+    "name": "逐暮晨曦",
+    "icon": "kubejs:torcherino",
+    "category": "sponsor",
+    "pages": [
+        {
+            "type":"spotlight",
+            "item":"minecraft:player_head",
+            "text":""
+        }
+    ]
+}

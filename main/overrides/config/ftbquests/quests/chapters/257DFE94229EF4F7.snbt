@@ -1,0 +1,123 @@
+{
+	id: "257DFE94229EF4F7"
+	group: "2A7154534D7EBF5F"
+	order_index: 1
+	filename: "257DFE94229EF4F7"
+	title: "阿图姆"
+	icon: "atum:scarab"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "阿图姆"
+			icon: "atum:scarab"
+			x: -5.0d
+			y: -0.5d
+			shape: "octagon"
+			subtitle: "沙漠世界"
+			description: ["建造传送门，进入阿图姆。"]
+			id: "0E9A88F6B924AEAC"
+			tasks: [
+				{
+					id: "36412852967EEDE5"
+					type: "item"
+					item: "minecraft:sandstone"
+					count: 49L
+				}
+				{
+					id: "71A3EA926008DDB1"
+					type: "item"
+					item: "atum:scarab"
+				}
+				{
+					id: "54BDCDD546392BCE"
+					type: "dimension"
+					dimension: "atum:atum"
+				}
+			]
+			rewards: [
+				{
+					id: "4DA09425BDA46DB1"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "77543FB13FA507E5"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "沙漠绿洲"
+			x: -2.5d
+			y: -2.5d
+			subtitle: "难得一见！"
+			dependencies: ["0E9A88F6B924AEAC"]
+			id: "6B1B6D3AECED3CAF"
+			tasks: [{
+				id: "5A95A9F3A6A8E387"
+				type: "biome"
+				icon: "atum:palm_sapling"
+				biome: "atum:oasis"
+			}]
+			rewards: [{
+				id: "13DAB99F1748745B"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -2.5d
+			y: -0.5d
+			subtitle: "豪华装饰！"
+			description: ["获得奈布火把，这样你就可以去探索金字塔了。"]
+			dependencies: ["0E9A88F6B924AEAC"]
+			id: "42B6EE70083B36CA"
+			tasks: [{
+				id: "022E1AEECCCD4CE6"
+				type: "item"
+				item: "atum:nebu_torch"
+			}]
+			rewards: [
+				{
+					id: "205AE16FED8ABF77"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "42A2123500F1FD08"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "弑君者"
+			x: 0.0d
+			y: -0.5d
+			subtitle: "死了的人是怎么再死一遍的"
+			description: ["击败法老，然后你就可以翻他棺材了。"]
+			dependencies: ["42B6EE70083B36CA"]
+			id: "75CF6E27F56DB40C"
+			tasks: [{
+				id: "50102885D8F79508"
+				type: "kill"
+				entity: "atum:pharaoh"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "074277AF841C66B9"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "3E6F87C3E06882BE"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+	]
+}

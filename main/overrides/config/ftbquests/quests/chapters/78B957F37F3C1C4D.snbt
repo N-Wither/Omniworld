@@ -1,0 +1,1058 @@
+{
+	id: "78B957F37F3C1C4D"
+	group: "34DA8A5C88ADFCAB"
+	order_index: 1
+	filename: "78B957F37F3C1C4D"
+	title: "沉浸工程"
+	icon: {
+		id: "immersiveengineering:hammer"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -8.0d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "八十！八十！"
+			description: [
+				"想要建造一个沉浸工程的多方块结构，你需要这个锤子。"
+				"也可以用来打板。"
+			]
+			id: "2882D39384EC1728"
+			tasks: [{
+				id: "6D7B463D29804AFA"
+				type: "item"
+				item: {
+					id: "immersiveengineering:hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "741F04FF4DD0C26D"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "15820E146CD389B8"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "合金窑"
+			icon: "immersiveengineering:alloy_smelter"
+			x: -6.0d
+			y: 0.0d
+			subtitle: "融合！"
+			description: [
+				"将8个窑砖摆成 2x2x2 的立方体，然后用工程师锤右键任意一面组装合金窑。"
+				" "
+				"你可以在里面用两种材料制作合金。"
+			]
+			dependencies: ["2882D39384EC1728"]
+			id: "334A76C5747A87B8"
+			tasks: [
+				{
+					id: "69552C42C9C46D4C"
+					type: "item"
+					item: "immersiveengineering:alloybrick"
+					count: 8L
+				}
+				{
+					id: "375FF525EE88C2C0"
+					type: "observation"
+					title: "观察 合金窑"
+					icon: {
+						id: "immersiveengineering:alloy_smelter"
+						Count: 1b
+						tag: { }
+					}
+					timer: 0L
+					observe_type: 0
+					to_observe: "immersiveengineering:alloy_smelter"
+				}
+			]
+			rewards: [
+				{
+					id: "0007C3F0313741BC"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "414DAB4A1EB95D9F"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "焦炉"
+			icon: "immersiveengineering:coke_oven"
+			x: -4.0d
+			y: 0.0d
+			subtitle: "碳化！"
+			description: [
+				"焦炉可以用来制作焦煤和木炭，产生的副产物杂酚油可用来制作防腐木板。"
+				" "
+				"将 27 块焦炉砖搭成 3*3*3 的立方体，然后用工程师锤右键侧面中心。"
+			]
+			dependencies: ["334A76C5747A87B8"]
+			id: "72FC23E2212A6884"
+			tasks: [
+				{
+					id: "39CFB7D015E9E9BC"
+					type: "item"
+					item: "immersiveengineering:cokebrick"
+					count: 27L
+				}
+				{
+					id: "650569EDC4A48545"
+					type: "observation"
+					title: "观察 焦炉"
+					icon: "immersiveengineering:coke_oven"
+					timer: 0L
+					observe_type: 0
+					to_observe: "immersiveengineering:coke_oven"
+				}
+			]
+			rewards: [
+				{
+					id: "56539031781D03D3"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "32FBD28104E1A632"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "基础高炉"
+			icon: "immersiveengineering:blast_furnace"
+			x: -2.0d
+			y: 0.0d
+			subtitle: "大炼钢铁！"
+			description: ["只能使用焦煤或木炭作燃料。"]
+			dependencies: ["72FC23E2212A6884"]
+			id: "23C09FC792D94F09"
+			tasks: [
+				{
+					id: "226D4E490EE4FF3F"
+					type: "item"
+					item: "immersiveengineering:blastbrick"
+					count: 27L
+				}
+				{
+					id: "62868B4DB27E8046"
+					type: "observation"
+					title: "观察 高炉"
+					icon: "immersiveengineering:blast_furnace"
+					timer: 0L
+					observe_type: 0
+					to_observe: "immersiveengineering:blast_furnace"
+				}
+			]
+			rewards: [
+				{
+					id: "024716B8C6A22E8B"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "60A2879B6CB70066"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "强化高炉"
+			icon: "immersiveengineering:advanced_blast_furnace"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "炼钢进化！"
+			description: ["强化高炉可以自动化。"]
+			dependencies: ["23C09FC792D94F09"]
+			id: "2F56A4144825FBB2"
+			tasks: [
+				{
+					id: "0573E16A6CB7110D"
+					type: "item"
+					item: "immersiveengineering:blastbrick_reinforced"
+					count: 27L
+				}
+				{
+					id: "26165333C0E751EF"
+					type: "item"
+					item: "minecraft:hopper"
+				}
+				{
+					id: "2B3584AE2124C42A"
+					type: "observation"
+					title: "观察 强化高炉"
+					icon: "immersiveengineering:advanced_blast_furnace"
+					timer: 0L
+					observe_type: 0
+					to_observe: "immersiveengineering:advanced_blast_furnace"
+				}
+			]
+			rewards: [
+				{
+					id: "2F65697C2D32E45E"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "4A2B5907C56C8B5C"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -2.5d
+			subtitle: "电力时代！"
+			description: ["制作动能发电机，可以和 IE 的风车和水车一起使用。"]
+			id: "525014373D388026"
+			tasks: [{
+				id: "2EE5E8BA96FA06B5"
+				type: "item"
+				item: "immersiveengineering:dynamo"
+			}]
+			rewards: [
+				{
+					id: "7C17FC92C0BDB193"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "29685C5539B09DFF"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -1.5d
+			subtitle: "吱溜溜地转！"
+			description: [
+				"放置在动能发电机前面来发电！"
+				" "
+				"不能有东西阻碍转动，下雨天转得更快。"
+			]
+			dependencies: ["525014373D388026"]
+			id: "74B5B32719859313"
+			tasks: [{
+				id: "65872DBE22D33671"
+				type: "item"
+				item: "immersiveengineering:windmill"
+			}]
+			rewards: [
+				{
+					id: "08C49E1DBE9D03BF"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "5BA5E8F4BF765145"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -3.5d
+			subtitle: "哗啦啦"
+			description: ["利用水流带动，可以连续摆放3个。"]
+			dependencies: ["525014373D388026"]
+			id: "61493CDEEEAA504C"
+			tasks: [{
+				id: "3166EFA1B9946851"
+				type: "item"
+				item: "immersiveengineering:watermill"
+			}]
+			rewards: [
+				{
+					id: "6295AE9FC9227F7F"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "7A44BCE23F860FE4"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -1.5d
+			subtitle: "呼呼呼~"
+			description: ["使用改良叶片右键风车可以提高转速。"]
+			dependencies: ["74B5B32719859313"]
+			id: "48BB71A9E830C300"
+			tasks: [{
+				id: "64FA4EB298EA3094"
+				type: "item"
+				item: "immersiveengineering:windmill_sail"
+			}]
+			rewards: [
+				{
+					id: "1E6532051B10863A"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "38BA355A009B3D2C"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 1.5d
+			subtitle: "画图与制作"
+			description: ["在这里面使用蓝图制作物品需要的材料更少，同时也可以用来装配 IE 的工具。"]
+			id: "156E86529FDDAC9D"
+			tasks: [{
+				id: "369AC3FE564FF23C"
+				type: "item"
+				item: "immersiveengineering:workbench"
+			}]
+			rewards: [
+				{
+					id: "345FB808B9C605E3"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "4876AB8C250FF9C2"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "输电"
+			x: -4.0d
+			y: 1.5d
+			subtitle: "当心触电！"
+			description: [
+				"在电源的输出端和用电器的输入端各放一个接线器，使用线圈连接它们就可以传输电力了。如果中间距离太远就需要继电器。"
+				" "
+				"绝缘线圈可以防止触电。"
+			]
+			id: "3841A30481DF277B"
+			tasks: [
+				{
+					id: "3FA4517D910150C4"
+					type: "item"
+					item: "immersiveengineering:connector_lv"
+				}
+				{
+					id: "3F41571802619F43"
+					type: "item"
+					item: "immersiveengineering:connector_lv_relay"
+				}
+				{
+					id: "27FB54C5C5C070BE"
+					type: "item"
+					item: "immersiveengineering:wirecoil_copper"
+				}
+			]
+			rewards: [
+				{
+					id: "3A963A1DF64ECD41"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "3F75C46416753E29"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 1.5d
+			subtitle: "焊几个电子管"
+			description: ["用来制作逻辑电路板。"]
+			id: "0798FB58529346B4"
+			tasks: [{
+				id: "1A911F9A7A7B6E5D"
+				type: "item"
+				item: "immersiveengineering:circuit_table"
+			}]
+			rewards: [
+				{
+					id: "537B1AEC5BD46A60"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "4730C71A5BCD6AF9"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "电弧炉"
+			icon: "immersiveengineering:arc_furnace"
+			x: 2.0d
+			y: 0.0d
+			subtitle: "超大炉子！"
+			description: ["电弧炉不仅可以炼钢，还能用一个矿石冶炼出2个锭！不过耗电量也很大。"]
+			dependencies: ["2F56A4144825FBB2"]
+			id: "64B86AEE716527B2"
+			tasks: [
+				{
+					id: "56C22A98B47332F8"
+					type: "item"
+					item: "immersiveengineering:blastbrick_reinforced"
+					count: 27L
+				}
+				{
+					id: "5F3D941BAF4C834D"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 10L
+				}
+				{
+					id: "1B6825B06B5BEE17"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "520A1A25FB098B56"
+					type: "item"
+					item: "minecraft:cauldron"
+				}
+				{
+					id: "437FE2D7530913AB"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 5L
+				}
+				{
+					id: "557F434BA6D4C3EE"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 5L
+				}
+				{
+					id: "345DCF58D79C5770"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_steel"
+					count: 5L
+				}
+				{
+					id: "1853FD17FDFC393D"
+					type: "item"
+					item: "immersiveengineering:slab_sheetmetal_steel"
+					count: 14L
+				}
+				{
+					id: "635B22087C2A6C41"
+					type: "item"
+					title: "钢块"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:storage_blocks/steel"
+						}
+					}
+					count: 6L
+				}
+				{
+					id: "4E62E83AA56A5087"
+					type: "observation"
+					title: "观察 电弧炉"
+					icon: "immersiveengineering:arc_furnace"
+					timer: 0L
+					observe_type: 0
+					to_observe: "immersiveengineering:arc_furnace"
+				}
+			]
+			rewards: [
+				{
+					id: "3AA3F30FE072E6DC"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "57BB9A81908B17CC"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			subtitle: "方便的建筑指导"
+			description: ["老是看书太麻烦了，使用投影仪可以直接把结构放在你需要的地方，让你知道怎样建造。"]
+			id: "38B41E084D7F9C18"
+			tasks: [{
+				id: "58E59E04F8994BBE"
+				type: "item"
+				item: "immersivepetroleum:projector"
+			}]
+			rewards: [
+				{
+					id: "154DAF0DB28C069E"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "6A23CDE74792CFB3"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "金属冲压机"
+			icon: "immersiveengineering:metal_press"
+			x: 4.0d
+			y: -3.5d
+			subtitle: "啪！"
+			description: ["把金属加工成各种形状。"]
+			id: "13FAC94B73E3E46E"
+			tasks: [{
+				id: "745A9325C5EBCA6F"
+				type: "observation"
+				title: "观察 金属冲压机"
+				icon: "immersiveengineering:metal_press"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersiveengineering:metal_press"
+			}]
+			rewards: [
+				{
+					id: "2240AE318829E19D"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "4E7A81256157DEED"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "工业挤压机"
+			icon: "immersiveengineering:squeezer"
+			x: 6.0d
+			y: -3.5d
+			subtitle: "压榨！"
+			description: ["从种子里面榨出植物油。"]
+			id: "00911973ABF1D044"
+			tasks: [{
+				id: "26FDF373F37C3A9D"
+				type: "observation"
+				title: "观察 工业挤压机"
+				icon: "immersiveengineering:squeezer"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersiveengineering:squeezer"
+			}]
+			rewards: [
+				{
+					id: "1EBBDF6B8C824C37"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "45A0FB6EB4C59315"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "工业发酵机"
+			icon: "immersiveengineering:fermenter"
+			x: 8.0d
+			y: -3.5d
+			subtitle: "不可饮用！"
+			description: ["酿造乙醇。"]
+			id: "2E2E1BD7ABA6C47B"
+			tasks: [{
+				id: "1FED97757FBB2960"
+				type: "observation"
+				title: "观察 工业发酵机"
+				icon: "immersiveengineering:fermenter"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersiveengineering:fermenter"
+			}]
+			rewards: [
+				{
+					id: "4256C9360A9E1A5D"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "3F7FE8D64A12D004"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "炼油厂"
+			icon: "immersiveengineering:refinery"
+			x: 4.0d
+			y: -1.5d
+			subtitle: "混合反应！"
+			description: ["将植物油和乙醇混合加工成生物柴油。"]
+			id: "774CD13802B590A9"
+			tasks: [{
+				id: "5A7C87CB327B28EB"
+				type: "observation"
+				title: "观察 炼油厂"
+				icon: "immersiveengineering:refinery"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersiveengineering:refinery"
+			}]
+			rewards: [
+				{
+					id: "58C8FD035885D246"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "7B0D1EEF48A4BC46"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "粉碎机"
+			icon: "immersiveengineering:crusher"
+			x: 6.0d
+			y: -1.5d
+			subtitle: "别掉进去了"
+			description: ["粉碎物品，就这。"]
+			id: "20E045F98D4F736A"
+			tasks: [{
+				id: "600B9AD353743A1E"
+				type: "observation"
+				title: "观察 粉碎机"
+				icon: "immersiveengineering:crusher"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersiveengineering:crusher"
+			}]
+			rewards: [
+				{
+					id: "29D5469C3E638E67"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "10D56FAFD4546D49"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "斗轮式挖掘机"
+			icon: "immersiveengineering:excavator"
+			x: 8.0d
+			y: -1.5d
+			subtitle: "挖到地心！"
+			description: ["挖掘矿物。这个结构事实上是两个结构：挖掘机和斗轮，你可以在投影仪里选择“挖掘机2”来查看完整结构的建造方式。"]
+			id: "01FC90E638F81CF1"
+			tasks: [
+				{
+					id: "624BCEB067C73376"
+					type: "observation"
+					title: "观察 挖掘机"
+					icon: "immersiveengineering:excavator"
+					timer: 0L
+					observe_type: 0
+					to_observe: "immersiveengineering:excavator"
+				}
+				{
+					id: "3001AD03A6672A92"
+					type: "observation"
+					title: "观察 斗轮"
+					icon: "immersiveengineering:bucket_wheel"
+					timer: 0L
+					observe_type: 0
+					to_observe: "immersiveengineering:bucket_wheel"
+				}
+			]
+			rewards: [
+				{
+					id: "6C15A192CC54246C"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "040801AFE347AF80"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			subtitle: "地质学家！"
+			description: ["通过获得的岩芯，可以知道地下有哪些矿物。"]
+			id: "478A4803891B537E"
+			tasks: [{
+				id: "1808950D5329800F"
+				type: "item"
+				item: "immersiveengineering:sample_drill"
+			}]
+			rewards: [
+				{
+					id: "5F6C127FB1A53EC6"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "49EA613FC4B7F444"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "石油钻井"
+			x: 4.0d
+			y: 0.5d
+			subtitle: "我为祖国献石油！"
+			description: ["在探测到石油的区块搭建钻井，采出的石油会自动输出。"]
+			id: "7EE63E8D3EC3C2FC"
+			tasks: [{
+				id: "7F93F78705853892"
+				type: "observation"
+				title: "观察 钻井"
+				icon: "immersivepetroleum:pumpjack"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersivepetroleum:pumpjack"
+			}]
+			rewards: [
+				{
+					id: "46A60296480013F4"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "339418EFD1A5DE7C"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "柴油发电机"
+			x: 0.0d
+			y: -2.5d
+			subtitle: "轰隆隆！"
+			description: ["发电量很大，使用生物柴油或石化柴油。"]
+			id: "5116B09FC2D5791E"
+			tasks: [{
+				id: "3D2599B8CCBC3764"
+				type: "observation"
+				title: "观察 柴油发电机"
+				icon: "immersiveengineering:diesel_generator"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersiveengineering:diesel_generator"
+			}]
+			rewards: [
+				{
+					id: "521DA172B2EDCD2C"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "5109FB341065950B"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "精馏塔"
+			x: 6.0d
+			y: 0.5d
+			subtitle: "蒸发凝结！"
+			description: ["原油在这里被加工成柴油、汽油、润滑油。"]
+			id: "40290FE38091C820"
+			tasks: [{
+				id: "7A3D88AC06B584A5"
+				type: "observation"
+				title: "观察 精馏塔"
+				icon: "immersivepetroleum:distillationtower"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersivepetroleum:distillationtower"
+			}]
+			rewards: [
+				{
+					id: "09A127167C21CDB8"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "168F413CE7AF6DF5"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "焦化器"
+			x: 8.0d
+			y: 0.5d
+			subtitle: "高温裂解"
+			description: ["沥青在这里被加工成石油焦和柴油。"]
+			id: "3E77AC086A6DD324"
+			tasks: [{
+				id: "5ECFD2C62165DBFB"
+				type: "observation"
+				title: "观察 焦化器"
+				icon: "immersivepetroleum:cokerunit"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersivepetroleum:cokerunit"
+			}]
+			rewards: [
+				{
+					id: "76D1552D06D1D82C"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "07BEE0079D0AA743"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "硫磺回收装置"
+			x: 2.0d
+			y: -2.5d
+			subtitle: "脱硫"
+			description: ["硫化柴油在这里被加工成柴油和硫磺。"]
+			id: "4687BAE2577DF98C"
+			tasks: [{
+				id: "62E07F3229076F58"
+				type: "observation"
+				title: "观察 硫磺回收装置"
+				icon: "immersivepetroleum:hydrotreater"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersivepetroleum:hydrotreater"
+			}]
+			rewards: [
+				{
+					id: "6E05EF000CF66410"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "578337675D798ABB"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 3.0d
+			subtitle: "让你们高兴高兴！"
+			description: ["可以发射多种子弹。"]
+			id: "5F02D80D651E7F58"
+			tasks: [{
+				id: "478AB52733B002AB"
+				type: "item"
+				item: {
+					id: "immersiveengineering:revolver"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 21
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2FAC4663EC69FB73"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "7709A30352FE60C9"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 3.0d
+			subtitle: "某科学的..."
+			description: ["可以发射铁棒、钢棒和石墨电极。"]
+			id: "28C00235BF7B2A03"
+			tasks: [{
+				id: "71DAD18FDC09091A"
+				type: "item"
+				item: {
+					id: "immersiveengineering:railgun"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 3
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "79F87FEB6B8BE2B7"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "7456832B5CEA67BF"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 3.0d
+			subtitle: "比镐子好！"
+			description: ["需要安装钻头。"]
+			id: "63F1F5D6134790E6"
+			tasks: [{
+				id: "2EEBB006B4CA7D77"
+				type: "item"
+				item: {
+					id: "immersiveengineering:drill"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 5
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5113825DB56FD228"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "53E3C15BAA069BAC"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			subtitle: "砍树达人"
+			description: ["需要锯片。"]
+			id: "2D07A774C435A4E7"
+			tasks: [{
+				id: "0FAA149C2C6E9AEC"
+				type: "item"
+				item: {
+					id: "immersiveengineering:buzzsaw"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 5
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "23541045B80FA222"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "0282D7A0D52178D1"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			subtitle: "燃烧一切！"
+			description: ["可以喷火，也可以洒除草剂。"]
+			id: "6F2E4EA59EAEE002"
+			tasks: [{
+				id: "33A195673411056C"
+				type: "item"
+				item: {
+					id: "immersiveengineering:chemthrower"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 4
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "027129F0ECC66C8D"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "2DCFB12AC42C9618"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+	]
+}

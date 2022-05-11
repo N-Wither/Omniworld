@@ -1,0 +1,260 @@
+{
+      /*    Fluids    */
+
+  "fluid.bettercompat.molten_aurinium": "熔融灵金",
+
+      //betterend
+  "fluid.bettercompat.molten_aeternium": "熔融太古合金",
+  "fluid.bettercompat.molten_terminite": "熔融终界铁",
+  "fluid.bettercompat.molten_thallasium": "熔融铊",
+      //oresabovediamonds
+  "fluid.bettercompat.molten_amethyst": "熔融紫水晶",
+  "fluid.bettercompat.molten_blackopal": "熔融Black Opal",
+  "fluid.bettercompat.molten_netheriteopal": "熔融Netherite Opal",
+      //druidcraft
+  "fluid.bettercompat.molten_moonstone": "熔融月长石",
+      //cyclic
+  "fluid.bettercompat.molten_crystallized_obsidian": "熔融黑曜石结晶",
+      //enderium in the end
+  "fluid.bettercompat.molten_enderium": "熔融Enderium",
+      //vulcanite
+  "fluid.bettercompat.molten_vulcanite": "熔融Vulcanite",
+      //endreborn
+  "fluid.bettercompat.molten_endorium": "熔融Endorium",
+      //botania
+  "fluid.bettercompat.molten_manasteel": "(已禁用)熔融魔力钢",
+  "fluid.bettercompat.molten_elementium": "(已禁用)熔融源质钢",
+  "fluid.bettercompat.molten_terrasteel": "(已禁用)熔融泰拉钢",
+      //mythic botany
+  "fluid.bettercompat.molten_alfsteel": "(已禁用)熔融精灵钢",
+      //ae2
+  "fluid.bettercompat.molten_certus_quartz": "熔融赛特斯石英",
+  "fluid.bettercompat.molten_fluix": "熔融福鲁伊克斯",
+      //iceandfire
+  "fluid.bettercompat.molten_sapphire": "熔融蓝宝石",
+        //malum
+  "fluid.bettercompat.molten_soul_stained_steel": "熔融Soul Stained Steel",
+      //undead expansion
+  "fluid.bettercompat.molten_shadowsteel": "熔融Shadowsteel",
+      //better nether
+  "fluid.bettercompat.molten_cincinnasite": "熔融辛辛那金",
+  "fluid.bettercompat.molten_ruby": "熔融红宝石",
+
+      /*     Items    */
+
+  "item.bettercompat.aurinium_ingot": "灵金锭",
+  "item.bettercompat.aurinium_nugget": "灵金粒",
+
+  "block.bettercompat.aurinium_block": "灵金块",
+
+  "item.bettercompat.aurinium_bucket": "熔融灵金桶",
+
+
+      //betterend
+  "item.bettercompat.aeternium_bucket": "熔融太古合金桶",
+  "item.bettercompat.terminite_bucket": "熔融终界铁桶",
+  "item.bettercompat.thallasium_bucket": "熔融铊桶",
+      //oresabovediamonds
+  "item.bettercompat.amethyst_bucket": "熔融紫水晶桶",
+  "item.bettercompat.blackopal_bucket": "熔融Black Opal桶",
+  "item.bettercompat.netheriteopal_bucket": "熔融Netherite Opal桶",
+      //druidcraft
+  "item.bettercompat.moonstone_bucket": "熔融月长石桶",
+      //cyclic
+  "item.bettercompat.crystallized_obsidian_bucket": "熔融黑曜石结晶桶",
+      //enderium in the end
+  "item.bettercompat.enderium_bucket": "熔融Enderium桶",
+      //vulcanite
+  "item.bettercompat.vulcanite_bucket": "熔融Vulcanite桶",
+      //endreborn
+  "item.bettercompat.endorium_bucket": "熔融Endorium桶",
+      //botania
+  "item.bettercompat.manasteel_bucket": "熔融魔力钢桶",
+  "item.bettercompat.elementium_bucket": "熔融源质钢桶",
+  "item.bettercompat.terrasteel_bucket": "熔融泰拉钢桶",
+      //mythic botany
+  "item.bettercompat.alfsteel_bucket": "熔融精灵钢桶",
+      //ae2
+  "item.bettercompat.certus_quartz_bucket": "熔融赛特斯石英桶",
+  "item.bettercompat.fluix_bucket": "熔融福鲁伊克斯桶",
+      //iceandfire
+  "item.bettercompat.sapphire_bucket": "熔融蓝宝石桶",
+  
+  "item.bettercompat.soul_stained_steel_bucket": "熔融Soul Stained Steel桶",
+      //undead expansion
+  "item.bettercompat.shadowsteel_bucket": "熔融Shadowsteel桶",
+      //better nether
+  "item.bettercompat.cincinnasite_bucket": "熔融辛辛那金桶",
+  "item.bettercompat.ruby_bucket": "熔融红宝石桶",
+
+      /*     Materials    */
+
+  "material.bettercompat.aurinium": "灵金",
+
+      //minecraft
+  "material.bettercompat.blaze_rod": "烈焰",
+  "material.bettercompat.diamond": "钻石",
+  "material.bettercompat.emerald": "绿宝石",
+      //oresabovediamonds
+  "material.bettercompat.amethyst": "紫水晶",
+  "material.bettercompat.blackopal": "Black Opal",
+  "material.bettercompat.netheriteopal": "Netherite Opal",
+      //cyclic
+  "material.bettercompat.crystallized_obsidian": "黑曜石结晶",
+      //druidcraft
+  "material.bettercompat.moonstone": "月长石",
+  "material.bettercompat.amber": "琥珀",
+      //enderium in the end
+  "material.bettercompat.enderium": "Enderium",
+      //vulcanite
+  "material.bettercompat.vulcanite": "Vulcanite",
+      //endreborn
+  "material.bettercompat.endorium": "Endorium",
+      //botania
+  "material.bettercompat.livingwood": "活木",
+  "material.bettercompat.manasteel": "魔力钢",
+  "material.bettercompat.elementium": "源质钢",
+  "material.bettercompat.terrasteel": "泰拉钢",
+      //mythic botany
+  "material.bettercompat.alfsteel": "精灵钢",
+      //ae2
+  "material.bettercompat.certus_quartz": "赛特斯石英",
+  "material.bettercompat.fluix": "福鲁伊克斯",
+      //iceandfire
+  "material.bettercompat.sapphire": "蓝宝石",
+  "material.bettercompat.firedragonsteel": "Fire Dragonsteel",
+  "material.bettercompat.icedragonsteel": "Ice Dragonsteel",
+  "material.bettercompat.lightningdragonsteel": "Lightning Dragonsteel",
+  "material.bettercompat.dragonbone": "Dragonbone",
+      //betterend
+  "material.bettercompat.aeternium": "太古合金",
+  "material.bettercompat.terminite": "终界铁",
+  "material.bettercompat.thallasium": "铊",
+      //projecte
+  "material.bettercompat.dark_matter": "暗物质",
+  "material.bettercompat.red_matter": "红物质",
+      //malum
+  "material.bettercompat.soul_stained_steel": "Soul Stained Steel",
+      //undead expansion
+  "material.bettercompat.shadowsteel": "Shadowsteel",
+      //better nether
+  "material.bettercompat.cincinnasite": "辛辛那金",
+  "material.bettercompat.ruby": "红宝石",
+
+    /*       Effects       */
+
+  "effect.bettercompat.enderference": "抑影",
+
+    /*      Modifiers      */
+
+  "modifier.bettercompat.crystallized": "晶化",
+  "modifier.bettercompat.crystallized.flavor": "削铁如泥！",
+  "modifier.bettercompat.crystallized.description": "晶体锋利的特性使工具的攻击伤害得以增强",
+  "modifier.bettercompat.barterable": "物物贸易",
+  "modifier.bettercompat.barterable.flavor": "货币价值！",
+  "modifier.bettercompat.barterable.description": "持握时在极短的时间内给予村庄英雄效果",
+  "modifier.bettercompat.enderference": "抑影",
+  "modifier.bettercompat.enderference.flavor": "末影失效！",
+  "modifier.bettercompat.enderference.description": "阻止末影人传送",
+  "modifier.bettercompat.quartz_infused": "石英灌注",
+  "modifier.bettercompat.quartz_infused.flavor": "石英钟！",
+  "modifier.bettercompat.quartz_infused.description": "略微提升攻击伤害",
+  "modifier.bettercompat.lava_efficiency": "熔岩提效",
+  "modifier.bettercompat.lava_efficiency.flavor": "高温熔岩！",
+  "modifier.bettercompat.lava_efficiency.description": "在熔岩里提升挖掘速度和攻击伤害",
+  "modifier.bettercompat.crystal_power": "晶体能量",
+  "modifier.bettercompat.crystal_power.flavor": "晶洞！",
+  "modifier.bettercompat.crystal_power.description": "提升采掘速度",
+  "modifier.bettercompat.moonlight": "月光",
+  "modifier.bettercompat.moonlight.flavor": "代表月亮！",
+  "modifier.bettercompat.moonlight.description": "工具在夜晚会得到增强",
+  "modifier.bettercompat.elemental": "元素力",
+  "modifier.bettercompat.elemental.flavor": "源质！",
+  "modifier.bettercompat.elemental.description": "攻击时给予随机正面效果",
+  "modifier.bettercompat.inclined": "倾斜",
+  "modifier.bettercompat.inclined.flavor": "飞得更高！",
+  "modifier.bettercompat.inclined.description": "你处在高海拔时，工具将得到增强",
+  "modifier.bettercompat.dark_might": "黑暗",
+  "modifier.bettercompat.dark_might.flavor": "吓人！",
+  "modifier.bettercompat.dark_might.description": "攻击特定生物时可能被反伤",
+  "modifier.bettercompat.fiery": "烈焰",
+  "modifier.bettercompat.fiery.flavor": "火辣！",
+  "modifier.bettercompat.fiery.description": "Harness the power of the fire dragon and inflict fire upon your opponents",
+  "modifier.bettercompat.icy": "Icy",
+  "modifier.bettercompat.icy.flavor": "Chilly!",
+  "modifier.bettercompat.icy.description": "Harness the power of the ice dragon and freeze your opponents",
+  "modifier.bettercompat.electric": "Electric",
+  "modifier.bettercompat.electric.flavor": "Shocky!",
+  "modifier.bettercompat.electric.description": "Harness the power of the lightning dragon and electrocute your opponents",
+  "modifier.bettercompat.ender_crushing": "末影粉碎",
+  "modifier.bettercompat.ender_crushing.flavor": "Smashing!",
+  "modifier.bettercompat.ender_crushing.description": "使用末地的力量提高挖掘末地石的速度",
+  "modifier.bettercompat.floras_blessing": "花之祝福",
+  "modifier.bettercompat.floras_blessing.flavor": "自然哲学！",
+  "modifier.bettercompat.floras_blessing.description": "破坏方块或杀死生物有惊喜",
+  "modifier.bettercompat.holy": "神圣",
+  "modifier.bettercompat.holy.flavor": "祝福之刃！",
+  "modifier.bettercompat.holy.description": "亡灵生物臣服于刀下！",
+  "modifier.bettercompat.mana": "魔力",
+  "modifier.bettercompat.mana.flavor": "魔法！",
+  "modifier.bettercompat.mana.description": "随时间使用魔力自动修复",
+  "modifier.bettercompat.clime": "气候",
+  "modifier.bettercompat.clime.flavor": "气象变化！",
+  "modifier.bettercompat.clime.description": "气温越低，工具越弱",
+  "modifier.bettercompat.obsidianified": "黑曜石化",
+  "modifier.bettercompat.obsidianified.flavor": "超级防御！",
+  "modifier.bettercompat.obsidianified.description": "根据流体的不同，你的工具效率会改变，而且不会损坏！",
+  "modifier.bettercompat.superheated": "超级加热",
+  "modifier.bettercompat.superheated.flavor": "灼烧！",
+  "modifier.bettercompat.superheated.description": "对免疫火焰的生物造成更多伤害，使其他生物着火，在下界提升采掘速度",
+  "modifier.bettercompat.rising": "上升",
+  "modifier.bettercompat.rising.flavor": "起来！",
+  "modifier.bettercompat.rising.description": "击中生物使其离开地面",
+  "modifier.bettercompat.lesser_mana_burst": "弱化魔力冲击",
+  "modifier.bettercompat.lesser_mana_burst.flavor": "魔法（第二部分）",
+  "modifier.bettercompat.lesser_mana_burst.description": "对你的敌人释放魔力冲击",
+  "modifier.bettercompat.greater_mana_burst": "强化魔力冲击",
+  "modifier.bettercompat.greater_mana_burst.flavor": "魔法（第三部分）",
+  "modifier.bettercompat.greater_mana_burst.description": "对你的敌人释放更强的魔力冲击",
+  "modifier.bettercompat.bone_shard": "骨头碎片",
+  "modifier.bettercompat.bone_shard.flavor": "破碎！",
+  "modifier.bettercompat.bone_shard.description": "有几率把骨头碎片插进生物身体里，随时间造成伤害",
+  "modifier.bettercompat.miners_luck": "矿工之幸",
+  "modifier.bettercompat.miners_luck.flavor": "好运气！",
+  "modifier.bettercompat.miners_luck.description": "挖矿时有几率给你一个惊喜",
+  "modifier.bettercompat.anti_armor": "对甲宝具",
+  "modifier.bettercompat.anti_armor.flavor": "对抗抵抗！",
+  "modifier.bettercompat.anti_armor.description": "根据目标的护甲值造成更多伤害",
+  "modifier.bettercompat.bloodied": "嗜血",
+  "modifier.bettercompat.bloodied.flavor": "真血腥！",
+  "modifier.bettercompat.bloodied.description": "当你的生命低于一半时，你的生命值越低，造成的伤害越高",
+  "modifier.bettercompat.sentient": "感知力",
+  "modifier.bettercompat.sentient.flavor": "吸收灵魂！",
+  "modifier.bettercompat.sentient.description": "当你的物品栏里有灵魂宝石时，杀死怪物将获得灵魂。如果没有，你会获得恶魔意志",
+  "modifier.bettercompat.spirit_reaper": "灵魂收割者",
+  "modifier.bettercompat.spirit_reaper.flavor": "Spiritual!",
+  "modifier.bettercompat.spirit_reaper.description": "收割杀死的生物灵魂",
+  "modifier.bettercompat.voodoo": "巫毒",
+  "modifier.bettercompat.voodoo.flavor": "Bewitched!",
+  "modifier.bettercompat.voodoo.description": "使用巫毒力量伤害敌人",
+  "modifier.bettercompat.shadow_rage": "影之怒",
+  "modifier.bettercompat.shadow_rage.flavor": "Gloomy!",
+  "modifier.bettercompat.shadow_rage.description": "杀死敌人后将你隐匿于暗影中",
+  "modifier.bettercompat.blood_leeching": "吸血",
+  "modifier.bettercompat.blood_leeching.flavor": "Bloody!",
+  "modifier.bettercompat.blood_leeching.description": "根据目标的受伤程度造成更多伤害",
+  "modifier.bettercompat.lunge": "突刺",
+  "modifier.bettercompat.lunge.flavor": "Thrusty!",
+  "modifier.bettercompat.lunge.description": "为你的工具添加突刺属性，像匠魂2中的长剑那样（右键蓄力，松开冲刺）",
+  "recipe.bettercompat.modifier.lunge_level_2": "需要等级 1 的突刺",
+  "recipe.bettercompat.modifier.lunge_level_3": "需要等级 2 的突刺",
+  "modifier.bettercompat.reflect": "反射",
+  "modifier.bettercompat.reflect.flavor": "镜子一样！",
+  "modifier.bettercompat.reflect.description": "挥空时，有概率将本应造成的伤害反射到自己身上",
+  "modifier.bettercompat.prospect": "探矿",
+  "modifier.bettercompat.prospect.flavor": "Miney!",
+  "modifier.bettercompat.prospect.description": "挖掘时，有几率获得短暂的急迫效果",
+  "modifier.bettercompat.angelic": "天使",
+  "modifier.bettercompat.angelic.flavor": "天堂之力！",
+  "modifier.bettercompat.angelic.description": ""
+}

@@ -1,0 +1,23 @@
+{
+    "name":"1.8.0 2021/10/17",
+    "icon":"draconicevolution:draconium_ingot",
+    "category":"update",
+    "pages":[
+        {
+            "type":"text",
+            "text":"添加了龙之进化（Draconic Evolution）模组；$(br)添加了更多的种植盆（Botany Pots Tiers）；$(br)添加了物品收集器（Item Collectors）模组；$(br)添加了等价交换增强（Project EX）模组；$(br)将 FastFurnace 替换为 FastFurnace Minus Replacement；$(br)将 Inventory Sorter 和 Inventory Essentials 替换为 Inventory Profiles Next；"
+        },
+        {
+            "type":"text",
+            "text":"将 Coloured Tooltips 替换为 Legendary Tooltips；$(br)将 Structures Compass 替换为 Explorers Compass；$(br)移除了 ChocolateFix，因为 Forge 已经有了相同功能；$(br)移除了 KleeSlabs ，因为 Double Slabs 已经有了相同功能；"
+        },
+        {
+            "type":"text",
+            "text":"移除了暗物质和红物质太阳能板的合成表；$(br)为星辉魔法（Astral Sorcery）和夸克（Quark）的大理石添加了标签，现在可以用 Chisel 的凿子转换它们；$(br)将几乎所有的矿物处理配方的输出统一为 Emendatus Enigmatica 的物品；"
+        },
+        {
+            "type":"text",
+            "text":"为星辉魔法添加了任务。"
+        }
+    ]
+}

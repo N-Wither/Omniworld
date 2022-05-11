@@ -1,0 +1,24 @@
+{
+  "type": "lazierae2:circuit_etcher",
+  "processing_time": 120,
+  "output": {
+    "item": "lazierae2:parallel_processor"
+  },
+  "inputs": [
+    {
+      "input": {
+        "tag": "forge:gems/resonating"
+      }
+    },
+    {
+      "input": {
+        "tag": "forge:dusts/redstone"
+      }
+    },
+    {
+      "input": {
+        "item": "emendatusenigmatica:silicon_gem"
+      }
+    }
+  ]
+}

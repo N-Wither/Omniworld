@@ -1,0 +1,15 @@
+~ Saved With Hammer Lib 16.3.27
+
++C:Data={
+  # Message of the Day (or second line in server list) (Default: "")
+  +S:MOTD=
+
+  # Maximal amount of players to let in. (Default: 8, Range: [0;32767])
+  +I:MaxPlayers=8
+
+  # LAN port on which the world would open. (Default: 25565, Range: [0;65535])
+  +I:Port=25565
+
+}
+
+

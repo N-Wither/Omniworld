@@ -1,0 +1,751 @@
+{
+	id: "22C86331777ABD1B"
+	group: "34DA8A5C88ADFCAB"
+	order_index: 6
+	filename: "22C86331777ABD1B"
+	title: "通用机械"
+	icon: "mekanism:alloy_atomic"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -5.0d
+			y: -2.5d
+			shape: "gear"
+			subtitle: "新的金属加工方式！"
+			description: [
+				"这是获得本模组许多重要材料的唯一途径，所以你要从这开始。"
+				" "
+				"点击 DUMP 按钮可以排空储液槽。"
+			]
+			id: "4E87D497CFA9A0ED"
+			tasks: [{
+				id: "2AFC7476E86598AD"
+				type: "item"
+				item: "mekanism:metallurgic_infuser"
+			}]
+			rewards: [{
+				id: "185A1B44634D27E3"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -0.5d
+			subtitle: "有点玄学"
+			description: [
+				"经过富集后的红石等灌注用品可以产出更多产品。"
+				" "
+				"也可以双倍增产矿物。"
+			]
+			dependencies: ["4E87D497CFA9A0ED"]
+			id: "46D129F7BEF4187D"
+			tasks: [{
+				id: "6B26B8532D74B9DA"
+				type: "item"
+				item: "mekanism:enrichment_chamber"
+			}]
+			rewards: [
+				{
+					id: "1677AEB27F4B8AF7"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "1A59D74C97F04EAF"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -0.5d
+			subtitle: "第一次升级"
+			description: ["把你的灌注机升级一下吧！"]
+			dependencies: ["46D129F7BEF4187D"]
+			id: "0E9FC7FD480584FD"
+			tasks: [{
+				id: "5616DDD38B92B7AF"
+				type: "item"
+				item: "mekanism:basic_infusing_factory"
+			}]
+			rewards: [
+				{
+					id: "761255DC8A6B12C9"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "665ACCD5E57422FC"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 1.5d
+			subtitle: "便捷升级"
+			description: ["除了把机器拆下来升级之外，你还可以通过工厂安装器来这么做。"]
+			id: "7D4AA0040DC34170"
+			tasks: [{
+				id: "635020CD0F595905"
+				type: "item"
+				item: "mekanism:basic_tier_installer"
+			}]
+			rewards: [{
+				id: "280CEEFA39992F71"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.5d
+			description: ["你只能逐次升级，而不能一次到位。"]
+			dependencies: ["7D4AA0040DC34170"]
+			id: "68E935E2BF1A9009"
+			tasks: [{
+				id: "283ECC9B3B7F649F"
+				type: "item"
+				item: "mekanism:advanced_tier_installer"
+			}]
+			rewards: [{
+				id: "193DB1771D9B72EE"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			dependencies: ["68E935E2BF1A9009"]
+			id: "50F09D6B4A04C45E"
+			tasks: [{
+				id: "1E2A84D845FFABE1"
+				type: "item"
+				item: "mekanism:elite_tier_installer"
+			}]
+			rewards: [{
+				id: "0C4F4F8814ACD08D"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			dependencies: ["50F09D6B4A04C45E"]
+			id: "1127BCA4646C076A"
+			tasks: [{
+				id: "6E8238F647E51FCE"
+				type: "item"
+				item: "mekanism:ultimate_tier_installer"
+			}]
+			rewards: [{
+				id: "23A1C1530BE6A5CB"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.5d
+			subtitle: "又一个粉碎机"
+			description: ["不能处理矿石，请在富集仓里这样做。"]
+			dependencies: ["4E87D497CFA9A0ED"]
+			id: "65B2945CE82D355E"
+			tasks: [{
+				id: "066ECE2F5AB4ADE4"
+				type: "item"
+				item: "mekanism:crusher"
+			}]
+			rewards: [{
+				id: "61ACCC84D7330684"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.5d
+			subtitle: "三倍矿物！"
+			description: [
+				"使用提纯仓将矿石加工成碎块！搭配粉碎机和富集仓使用。"
+				" "
+				"此过程需要消耗氧气。"
+			]
+			dependencies: [
+				"46D129F7BEF4187D"
+				"57A792BEC4130807"
+			]
+			id: "1C6F22E5D211D4D5"
+			tasks: [{
+				id: "0DB5BC0834753FBA"
+				type: "item"
+				item: "mekanism:purification_chamber"
+			}]
+			rewards: [{
+				id: "03C54A31CE65402E"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.5d
+			subtitle: "四倍矿物！"
+			description: [
+				"将一份矿石加工成4份碎片！需要搭配上一个任务提到的机器使用。"
+				" "
+				"此过程消耗氯化氢。"
+			]
+			dependencies: [
+				"1C6F22E5D211D4D5"
+				"27B5536C8C1AA41B"
+			]
+			id: "1B19167537182FAE"
+			tasks: [{
+				id: "6FA0241A4CBD9F8A"
+				type: "item"
+				item: "mekanism:chemical_injection_chamber"
+			}]
+			rewards: [{
+				id: "35DA1F421C48A746"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.5d
+			subtitle: "五倍矿物！"
+			description: [
+				"使用上面的3个设备，将一份矿石加工成5份结晶！搭配前面两个任务提到的所有机器使用。"
+				" "
+				"此过程需要消耗硫酸和水。"
+			]
+			dependencies: [
+				"1B19167537182FAE"
+				"43142396CF832E63"
+			]
+			id: "0CDF3E78BCF9BB41"
+			tasks: [
+				{
+					id: "2FDA911B325A175E"
+					type: "item"
+					item: "mekanism:chemical_dissolution_chamber"
+				}
+				{
+					id: "65AC9078190769D8"
+					type: "item"
+					item: "mekanism:chemical_washer"
+				}
+				{
+					id: "37FF0398FEE8C8BE"
+					type: "item"
+					item: "mekanism:chemical_crystallizer"
+				}
+			]
+			rewards: [{
+				id: "5B560459C23203FF"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -0.5d
+			subtitle: "高强合金"
+			description: ["制作装备的好材料，也是制作原子合金的重要原料。"]
+			dependencies: ["0E9FC7FD480584FD"]
+			id: "0CFB3C24C9915330"
+			tasks: [{
+				id: "4D7D1D313950FFA6"
+				type: "item"
+				item: "mekanism:ingot_refined_obsidian"
+			}]
+			rewards: [
+				{
+					id: "3BC0D04517FBBF66"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "79B9726084C3EEB3"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -4.5d
+			subtitle: "基础电化学"
+			description: ["通过电力分解某些物质。"]
+			dependencies: ["4E87D497CFA9A0ED"]
+			id: "57A792BEC4130807"
+			tasks: [{
+				id: "5CC1A32EA936FDC5"
+				type: "item"
+				item: "mekanism:electrolytic_separator"
+			}]
+			rewards: [{
+				id: "02A0D1FCBD6C74CD"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.5d
+			subtitle: "化学反应"
+			description: ["加工化学品。"]
+			dependencies: ["64CEE29EECFC1617"]
+			id: "27B5536C8C1AA41B"
+			tasks: [{
+				id: "2AC8A0B6D3EE03C3"
+				type: "item"
+				item: "mekanism:chemical_infuser"
+			}]
+			rewards: [{
+				id: "61BF260114F730E4"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -4.5d
+			subtitle: "物态变化"
+			description: ["转换气体和液体。"]
+			dependencies: ["5E27E45798E443FD"]
+			id: "64CEE29EECFC1617"
+			tasks: [{
+				id: "67807F3AA79E1C1B"
+				type: "item"
+				item: "mekanism:rotary_condensentrator"
+			}]
+			rewards: [{
+				id: "25F653087BBB4736"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.5d
+			subtitle: "氧化反应"
+			description: ["顾名思义。"]
+			dependencies: ["27B5536C8C1AA41B"]
+			id: "43142396CF832E63"
+			tasks: [{
+				id: "55B7A01BD7BE1EC4"
+				type: "item"
+				item: "mekanism:chemical_oxidizer"
+			}]
+			rewards: [{
+				id: "1F855E1CB8CEE7E8"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			title: "热力蒸馏塔"
+			x: -3.0d
+			y: -6.5d
+			subtitle: "蒸发浓缩"
+			description: [
+				"将水浓缩为盐水，或者将盐水进一步加工成液态锂。"
+				" "
+				"你可以查阅 Omniworld 指导手册查看建造方法。"
+			]
+			id: "5E27E45798E443FD"
+			tasks: [
+				{
+					id: "42B363E16DE2EE0C"
+					type: "item"
+					item: "mekanism:thermal_evaporation_controller"
+				}
+				{
+					id: "7A268031994FA7FD"
+					type: "item"
+					item: "mekanism:thermal_evaporation_valve"
+				}
+				{
+					id: "79BADEB28B864168"
+					type: "item"
+					item: "mekanism:thermal_evaporation_block"
+				}
+			]
+			rewards: [{
+				id: "5BAC4D60D20E63FD"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			title: "重水"
+			x: 11.0d
+			y: -4.5d
+			subtitle: "不一般的水"
+			description: ["给电动泵加装过滤升级就可以从水中分离重水。"]
+			id: "7132BF271880A971"
+			tasks: [
+				{
+					id: "2C9BE340DEF9B7C1"
+					type: "item"
+					item: "mekanism:electric_pump"
+				}
+				{
+					id: "0FEF0B5F9EA625FD"
+					type: "item"
+					item: "mekanism:upgrade_filter"
+				}
+			]
+			rewards: [{
+				id: "7BD084967F560314"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.5d
+			subtitle: "别被五常发现了"
+			description: ["将六氟化铀加工成裂变燃料。"]
+			dependencies: ["0CDF3E78BCF9BB41"]
+			id: "3440221C1EFB5531"
+			tasks: [{
+				id: "7084B5DB1E437E24"
+				type: "item"
+				item: "mekanism:isotopic_centrifuge"
+			}]
+			rewards: [{
+				id: "6E114304D4FA2F09"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			title: "裂变反应堆"
+			x: 7.0d
+			y: -2.5d
+			subtitle: "我超，核！"
+			description: ["查阅指导手册，根据你的需要建造一个裂变反应堆吧！"]
+			dependencies: [
+				"3440221C1EFB5531"
+				"2F05CE15E932BB7D"
+			]
+			id: "2968CA947EF5C730"
+			tasks: [
+				{
+					id: "390F19BEAB0F2C08"
+					type: "item"
+					item: "mekanismgenerators:fission_reactor_casing"
+				}
+				{
+					id: "06950766BB081A4E"
+					type: "item"
+					item: "mekanismgenerators:fission_reactor_port"
+				}
+				{
+					id: "106050C7101793D9"
+					type: "item"
+					item: "mekanismgenerators:fission_fuel_assembly"
+				}
+				{
+					id: "3B3E7B8842F3BCF1"
+					type: "item"
+					item: "mekanismgenerators:control_rod_assembly"
+				}
+			]
+			rewards: [{
+				id: "71669D9E18D38676"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			title: "工业涡轮"
+			x: 5.0d
+			y: -4.5d
+			subtitle: "烧水发电！"
+			description: ["消耗蒸汽（不是水蒸气）发电。建造方法请查阅指导手册。"]
+			id: "2F05CE15E932BB7D"
+			tasks: [
+				{
+					id: "6DC38FDC5E75ED3C"
+					type: "item"
+					item: "mekanismgenerators:turbine_rotor"
+				}
+				{
+					id: "250518686A0B29B1"
+					type: "item"
+					item: "mekanismgenerators:turbine_blade"
+				}
+				{
+					id: "25845CA26A4EE62D"
+					type: "item"
+					item: "mekanismgenerators:turbine_casing"
+				}
+				{
+					id: "385C983D2AD4F7A4"
+					type: "item"
+					item: "mekanismgenerators:turbine_valve"
+				}
+				{
+					id: "3BBC6D13BF6889B3"
+					type: "item"
+					item: "mekanismgenerators:turbine_vent"
+				}
+				{
+					id: "5034B8A754AD0AD0"
+					type: "item"
+					item: "mekanismgenerators:rotational_complex"
+				}
+				{
+					id: "7B24F0E4663268B8"
+					type: "item"
+					item: "mekanismgenerators:electromagnetic_coil"
+				}
+			]
+			rewards: [{
+				id: "29E4360183EE2793"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 9.0d
+			y: -2.5d
+			subtitle: "废物利用！"
+			description: ["将核废料加工成钋。"]
+			dependencies: ["2968CA947EF5C730"]
+			id: "6CEC90D0C4AF80E1"
+			tasks: [{
+				id: "67B3349E427ECB82"
+				type: "item"
+				item: "mekanism:solar_neutron_activator"
+			}]
+			rewards: [{
+				id: "50D2ADAA0BF2E955"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			title: "超临界移相器"
+			x: 7.0d
+			y: -0.5d
+			subtitle: "越来越科幻了！"
+			description: ["将钋转化为反物质。查阅指导手册查看搭建方法。"]
+			dependencies: [
+				"3440221C1EFB5531"
+				"6CEC90D0C4AF80E1"
+			]
+			id: "11917EF37F900F0E"
+			tasks: [
+				{
+					id: "29C3B2560A0315CF"
+					type: "item"
+					item: "mekanism:sps_casing"
+				}
+				{
+					id: "70D452429BC3F63C"
+					type: "item"
+					item: "mekanism:sps_port"
+				}
+				{
+					id: "36DEFB01BAB4DB1E"
+					type: "item"
+					item: "mekanism:supercharged_coil"
+				}
+			]
+			rewards: [{
+				id: "02CFDF0908976ED5"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 9.0d
+			y: -0.5d
+			subtitle: "居然能拿在手里！"
+			description: ["制作出反物质。"]
+			dependencies: ["11917EF37F900F0E"]
+			id: "489BFC72487EAEFF"
+			tasks: [{
+				id: "509E8CA5D9F92AC1"
+				type: "item"
+				item: "mekanism:pellet_antimatter"
+			}]
+			rewards: [
+				{
+					id: "44958BDC6196DAC8"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "74C4F62C18EE5FE2"
+					type: "xp"
+					xp: 500
+				}
+			]
+		}
+		{
+			title: "聚变反应堆"
+			x: 11.0d
+			y: -2.5d
+			subtitle: "更安全，更强大!"
+			description: [
+				"聚变堆还需要激光供能。虽然复杂，但没有爆炸与核泄漏的风险。"
+				" "
+				"本质上还是烧水发电。"
+			]
+			dependencies: [
+				"7132BF271880A971"
+				"6CEC90D0C4AF80E1"
+			]
+			id: "5EE40C38BDE78977"
+			tasks: [
+				{
+					id: "16561B655EEA3B1F"
+					type: "item"
+					item: "mekanismgenerators:fusion_reactor_frame"
+				}
+				{
+					id: "13A9D3568AD1AA86"
+					type: "item"
+					item: "mekanismgenerators:fusion_reactor_controller"
+				}
+				{
+					id: "2BBBB0BE874762DE"
+					type: "item"
+					item: "mekanismgenerators:fusion_reactor_port"
+				}
+				{
+					id: "4634567A321769C2"
+					type: "item"
+					item: "mekanismgenerators:laser_focus_matrix"
+				}
+				{
+					id: "2B4302077A7B3DCF"
+					type: "item"
+					item: "mekanismgenerators:hohlraum"
+				}
+			]
+			rewards: [{
+				id: "2FF72AFC1ACBC136"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			subtitle: "告别手动挖矿！"
+			description: ["数字型采矿机可以自动采掘附近地下的方块。"]
+			dependencies: ["0CFB3C24C9915330"]
+			id: "3AF98468FD78AAF7"
+			tasks: [{
+				id: "0A39E21EE15798F5"
+				type: "item"
+				item: "mekanism:digital_miner"
+			}]
+			rewards: [{
+				id: "3E7BE8CE95C0589D"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			title: "MekaSuit"
+			x: 9.0d
+			y: -4.5d
+			subtitle: "凝聚科技力量的强力装备！"
+			description: ["消耗能量为你抵消伤害，可以在改造站加装模块。"]
+			dependencies: ["6CEC90D0C4AF80E1"]
+			id: "000E89A83330E4CC"
+			tasks: [
+				{
+					id: "07E6AADD89E1DF7E"
+					type: "item"
+					item: {
+						id: "mekanism:mekasuit_helmet"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "6AC7544CBE88B41E"
+					type: "item"
+					item: {
+						id: "mekanism:mekasuit_bodyarmor"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "53DB9E3D6A69C75F"
+					type: "item"
+					item: {
+						id: "mekanism:mekasuit_pants"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "1DE76A948C96CD94"
+					type: "item"
+					item: {
+						id: "mekanism:mekasuit_boots"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "133BA767FA99E172"
+					type: "item"
+					item: "mekanism:module_base"
+					count: 4
+				}
+				{
+					id: "37DE14F6310E5027"
+					type: "xp"
+					xp: 500
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -0.5d
+			subtitle: "超距传输！"
+			hide_dependency_lines: true
+			dependencies: ["0CFB3C24C9915330"]
+			id: "73F9221B0D0866DB"
+			tasks: [{
+				id: "7442DC92A91DB91A"
+				type: "item"
+				item: "mekanism:quantum_entangloporter"
+			}]
+			rewards: [{
+				id: "670901ADB3EA9772"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+	]
+}

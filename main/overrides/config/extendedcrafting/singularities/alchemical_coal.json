@@ -1,0 +1,10 @@
+{
+    "name": "炼金煤炭",
+    "colors": [
+      "fcf000","560000"
+    ],
+    "ingredient": {
+      "item": "projecte:alchemical_coal"
+    },
+    "inUltimateSingularity": true
+}

@@ -1,0 +1,37 @@
+type = hud
+
+customization-meta {
+  randomgroup = 1
+  keepaspectratio = false
+  backgroundimage = config/fancymenu/slideshows/mainmenu/images/image_9.png
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  orientation = bottom-right
+  visible = false
+  x = -141
+  action = editlogo
+  y = -74
+}
+
+customization {
+  x = -1
+  action = editprogressbar
+  y = -73
+  barcolor = 70c3c8
+}
+
+customization {
+  path = fancymenu/logo.png
+  orientation = top-centered
+  x = 0
+  width = 380
+  action = addtexture
+  actionid = 06acab8f-fec9-4bc9-a280-913ad44eaf301644989446133
+  y = 79
+  height = 100
+}
+

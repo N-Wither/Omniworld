@@ -1,0 +1,87 @@
+{
+  "components": [
+    {
+      "capacity": 100000,
+      "maxInput": 2000,
+      "maxOutput": 2000,
+      "type": "custommachinery:energy"
+    },
+    {
+      "maxOutput": 2000,
+      "mode": "input",
+      "id": "input",
+      "capacity": 16000,
+      "maxInput": 2000,
+      "type": "custommachinery:fluid"
+    },
+    {
+      "maxOutput": 2000,
+      "mode": "output",
+      "id": "output",
+      "capacity": 16000,
+      "maxInput": 2000,
+      "type": "custommachinery:fluid"
+    }
+  ],
+  "name": {
+    "text": "流体转换机"
+  },
+  "appearance": {
+    "errored": {},
+    "running": {
+      "block":"custommachinery:machine/fluid_converter_on"
+    },
+    "idle": {
+      "block":"custommachinery:machine/fluid_converter"
+    },
+    "paused": {}
+  },
+  "gui":[
+    {
+      "type": "custommachinery:texture",
+      "x": 0,
+      "y": 0,
+      "texture": "custommachinery:textures/gui/base_background.png"
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 6,
+      "y": 6,
+      "text": "流体转换机",
+      "color":14540253
+    },
+    {
+      "type":"custommachinery:energy",
+      "x":60,
+      "y":16,
+      "width":16,
+      "height":60
+    },
+    {
+      "type":"custommachinery:fluid",
+      "x":88,
+      "y":16,
+      "width":16,
+      "height":60,
+      "id":"input"
+    },
+    {
+      "type":"custommachinery:player_inventory",
+      "x":48,
+      "y":82
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 116,
+      "y": 50
+    },
+    {
+      "type":"custommachinery:fluid",
+      "x":150,
+      "y":16,
+      "width":16,
+      "height":60,
+      "id":"output"
+    }
+  ]
+}

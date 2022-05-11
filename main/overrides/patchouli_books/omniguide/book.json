@@ -1,0 +1,8 @@
+{
+    "name": "Omniworld指导手册",
+    "landing_text": "欢迎游玩Omniworld！这本书将帮助你上手这个整合包。",
+    "version": "1",
+    "book_texture": "patchouli:textures/gui/book_cyan.png",
+    "model": "patchouli:book_cyan",
+    "show_progress": false
+}

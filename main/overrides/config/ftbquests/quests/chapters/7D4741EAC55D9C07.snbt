@@ -1,0 +1,272 @@
+{
+	id: "7D4741EAC55D9C07"
+	group: "08F56361546409AB"
+	order_index: 2
+	filename: "7D4741EAC55D9C07"
+	title: "荣誉殿堂"
+	icon: { id: "thermal:gold_coin", Count: 64b }
+	tags: ["repeatable"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "32x光辉石+32x暗影钢"
+			disable_toast: true
+			x: -3.5d
+			y: 3.5d
+			id: "30B1281173CCDB62"
+			tasks: [
+				{
+					id: "21790935AF5FB27F"
+					type: "item"
+					item: "create:refined_radiance"
+					count: 32L
+					consume_items: true
+				}
+				{
+					id: "2CE7099B6ABD412A"
+					type: "item"
+					item: "create:shadow_steel"
+					count: 32L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "57699656B1CC2CCD"
+					type: "item"
+					auto: "enabled"
+					item: "kubejs:medal_create"
+				}
+				{
+					id: "3D47828BFB1AD2A5"
+					type: "custom"
+					title: "重置任务"
+					icon: "thermal:machine_cycle_augment"
+					tags: ["repeatable"]
+					auto: "enabled"
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: -3.5d
+			y: 5.5d
+			id: "2724223C7198A388"
+			tasks: [{
+				id: "5FBEC066AE150E1A"
+				type: "item"
+				item: "immersiveengineering:ingot_hop_graphite"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "76B7314E90049D07"
+					type: "item"
+					auto: "enabled"
+					item: "kubejs:medal_immersiveengineering"
+				}
+				{
+					id: "761C44A93A44833F"
+					type: "custom"
+					title: "重置任务"
+					icon: "thermal:machine_cycle_augment"
+					tags: ["repeatable"]
+					auto: "enabled"
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: -1.5d
+			y: 3.5d
+			id: "46824100FF65886E"
+			tasks: [{
+				id: "6CF073E4026E1C11"
+				type: "item"
+				item: "thermal:upgrade_augment_3"
+				count: 16L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "79B12F9FD7070230"
+					type: "item"
+					auto: "enabled"
+					item: "kubejs:medal_thermal"
+				}
+				{
+					id: "03C95A42B4973CD7"
+					type: "custom"
+					title: "重置任务"
+					icon: "thermal:machine_cycle_augment"
+					tags: ["repeatable"]
+					auto: "enabled"
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: -1.5d
+			y: 5.5d
+			id: "1121EB817E25AA0C"
+			tasks: [{
+				id: "0245960342ECAE45"
+				type: "item"
+				item: "mekanism:pellet_antimatter"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "7C78AE866ADB37A7"
+					type: "item"
+					auto: "enabled"
+					item: "kubejs:medal_mekanism"
+				}
+				{
+					id: "79A1C651244EA5B8"
+					type: "custom"
+					title: "重置任务"
+					icon: "thermal:machine_cycle_augment"
+					tags: ["repeatable"]
+					auto: "enabled"
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: 0.5d
+			y: 3.5d
+			id: "37A0FA6BDFB7EB4C"
+			tasks: [{
+				id: "586E14938E25BB8D"
+				type: "item"
+				item: "draconicevolution:chaotic_core"
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "1451C9A5DE9B5F8A"
+					type: "item"
+					auto: "enabled"
+					item: "kubejs:medal_draconicevolution"
+				}
+				{
+					id: "6C102FDD592E22C4"
+					type: "custom"
+					title: "重置任务"
+					icon: "thermal:machine_cycle_augment"
+					tags: ["repeatable"]
+					auto: "enabled"
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: 0.5d
+			y: 5.5d
+			id: "1D5F583448859DBA"
+			tasks: [{
+				id: "76DCD59D74963DBE"
+				type: "item"
+				item: "botania:life_essence"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "6E825874BE9CB2C2"
+					type: "item"
+					auto: "enabled"
+					item: "kubejs:medal_botania"
+				}
+				{
+					id: "606C087592F433A4"
+					type: "custom"
+					title: "重置任务"
+					icon: "thermal:machine_cycle_augment"
+					tags: ["repeatable"]
+					auto: "enabled"
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: 2.5d
+			y: 3.5d
+			id: "1B4F703F668EE2E4"
+			tasks: [{
+				id: "0074868879B79750"
+				type: "item"
+				item: {
+					id: "astralsorcery:prism"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							crystalProperties: {
+								attributes: [
+									{
+										property: "astralsorcery:purity"
+										pLevel: 2
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:shape"
+										pLevel: 3
+										discovered: 1b
+									}
+								]
+							}
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "0405EE2C67987AA7"
+					type: "item"
+					auto: "enabled"
+					item: "kubejs:medal_astralsorcery"
+				}
+				{
+					id: "55E27FDE9078C136"
+					type: "custom"
+					title: "重置任务"
+					icon: "thermal:machine_cycle_augment"
+					tags: ["repeatable"]
+					auto: "enabled"
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: 2.5d
+			y: 5.5d
+			id: "572AAF9714A6B5A7"
+			tasks: [{
+				id: "6129CF6023D1A689"
+				type: "item"
+				item: "bloodmagic:masterbloodorb"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "19C775AF9A5C1466"
+					type: "item"
+					auto: "enabled"
+					item: "kubejs:medal_bloodmagic"
+				}
+				{
+					id: "24CE27B99E18268E"
+					type: "custom"
+					title: "重置任务"
+					icon: "thermal:machine_cycle_augment"
+					tags: ["repeatable"]
+					auto: "enabled"
+				}
+			]
+		}
+	]
+}

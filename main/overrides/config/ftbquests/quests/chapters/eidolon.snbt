@@ -1,0 +1,650 @@
+{
+	id: "36D3CF3D17DB6AC1"
+	group: "154749F0008514C8"
+	order_index: 4
+	filename: "eidolon"
+	title: "魔法杂项"
+	icon: {
+		id: "eidolon:warlock_hat"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Eidolon"
+			x: 0.0d
+			y: 3.0d
+			shape: "hexagon"
+			description: ["Eidolon 是一个以炼金术和死灵法术为主题的模组。"]
+			size: 1.2d
+			id: "4FB1479CB2710760"
+			tasks: [{
+				id: "2FC3BE593F815BA5"
+				type: "checkmark"
+				title: "点击确认"
+				icon: "eidolon:shadow_gem"
+			}]
+			rewards: [{
+				id: "1954E7DDB9DC1030"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			title: "新生魔艺"
+			icon: "ars_nouveau:novice_spell_book"
+			x: 0.0d
+			y: 9.0d
+			shape: "hexagon"
+			description: ["创造你自己的魔咒！"]
+			size: 1.2d
+			id: "762512FFB2C0AA9E"
+			tasks: [{
+				id: "0928A9BBCFAB4A09"
+				type: "checkmark"
+				title: "点击确认"
+			}]
+			rewards: [{
+				id: "3E9693221C292D63"
+				type: "item"
+				item: "ars_nouveau:novice_spell_book"
+			}]
+		}
+		{
+			title: "Psi"
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "psi:encyclopaedia_psionica"
+				}
+			}
+			x: 8.5d
+			y: 4.5d
+			shape: "hexagon"
+			description: ["以可视化编程的方式施展魔法。"]
+			size: 1.2d
+			id: "21799A7F7AFF1788"
+			tasks: [{
+				id: "6886E06D70D43A2C"
+				type: "checkmark"
+				title: "点击确认"
+			}]
+			rewards: [{
+				id: "79EC0A4E0F1EFF3D"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			title: "禁忌与奥秘"
+			icon: "forbidden_arcanus:forbiddenmicon"
+			x: 8.5d
+			y: 8.899999999999999d
+			shape: "hexagon"
+			description: ["事实上只是魔法主题的一些物品。"]
+			size: 1.2d
+			id: "41DD96A089E79DF3"
+			tasks: [{
+				id: "0A51531B6AC67843"
+				type: "checkmark"
+				title: "点击确认"
+			}]
+			rewards: [{
+				id: "4559C5A02B7C7A26"
+				type: "item"
+				item: "forbidden_arcanus:forbiddenmicon"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			description: ["获得一些锡镴锭。"]
+			dependencies: ["4FB1479CB2710760"]
+			id: "455ECA09E0A082DE"
+			tasks: [{
+				id: "11A9ED92579BE3FC"
+				type: "item"
+				item: "eidolon:pewter_ingot"
+			}]
+			rewards: [
+				{
+					id: "6C2C027F64988D9C"
+					type: "item"
+					item: "eidolon:pewter_ingot"
+				}
+				{
+					id: "64B465FBC10E7E89"
+					type: "xp"
+					xp: 200
+				}
+			]
+		}
+		{
+			title: "仪式入门"
+			x: 4.0d
+			y: 3.0d
+			description: ["获得用来进行仪式的物品。"]
+			dependencies: ["455ECA09E0A082DE"]
+			id: "3E0B648966DA3E93"
+			tasks: [
+				{
+					id: "54A9B8A2FEB51FE7"
+					type: "item"
+					item: "eidolon:brazier"
+				}
+				{
+					id: "18ACC20A5F8D56D1"
+					type: "item"
+					item: "eidolon:stone_hand"
+				}
+			]
+			rewards: [{
+				id: "019CABC600FD0DC6"
+				type: "xp"
+				xp: 300
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			description: ["进行一场结晶仪式，获得魂之碎片。"]
+			dependencies: ["3E0B648966DA3E93"]
+			id: "6C152913534B33FA"
+			tasks: [{
+				id: "619F87CAE41DEAD5"
+				type: "item"
+				item: "eidolon:soul_shard"
+			}]
+			rewards: [
+				{
+					id: "0551CBD6A3E537A2"
+					type: "item"
+					item: "eidolon:soul_shard"
+				}
+				{
+					id: "31C4EAE2D31FC4E0"
+					type: "xp"
+					xp: 300
+				}
+			]
+		}
+		{
+			title: "炼金入门"
+			x: 6.0d
+			y: 3.0d
+			dependencies: ["3E0B648966DA3E93"]
+			id: "6D3F772B4D38A7FD"
+			tasks: [{
+				id: "0A0A504F68AF1800"
+				type: "item"
+				item: "eidolon:crucible"
+			}]
+			rewards: [
+				{
+					id: "2BAA6939ABCA2BA9"
+					type: "item"
+					item: "eidolon:tattered_cloth"
+					count: 2
+				}
+				{
+					id: "095FD5CB35D69AAB"
+					type: "xp"
+					xp: 300
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 4.5d
+			description: ["获得魔力工作台，用于合成更高级的魔法物品。"]
+			dependencies: ["455ECA09E0A082DE"]
+			id: "16EFC2CA05AA2496"
+			tasks: [{
+				id: "3C42EFC233BCD0F4"
+				type: "item"
+				item: "eidolon:worktable"
+			}]
+			rewards: [
+				{
+					id: "559E48A11B582BE1"
+					type: "item"
+					item: "eidolon:soul_shard"
+					count: 3
+				}
+				{
+					id: "25854B640E7ABE0F"
+					type: "xp"
+					xp: 300
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 4.5d
+			description: ["获得灵歌附魔台，非常好用！"]
+			dependencies: ["16EFC2CA05AA2496"]
+			id: "59CB35C0EBD93904"
+			tasks: [{
+				id: "0063CE3136DF527F"
+				type: "item"
+				item: "eidolon:soul_enchanter"
+			}]
+			rewards: [
+				{
+					id: "608B4AEED6770D79"
+					type: "item"
+					item: "eidolon:soul_shard"
+					count: 3
+				}
+				{
+					id: "44AEC92CE4750D59"
+					type: "xp"
+					xp: 300
+				}
+			]
+		}
+		{
+			title: "祭坛"
+			x: 2.0d
+			y: 4.5d
+			description: ["为了更强的力量！"]
+			dependencies: ["4FB1479CB2710760"]
+			id: "3C1DCD1FBE3EC6D9"
+			tasks: [
+				{
+					id: "5BF6DE4C2CE403F8"
+					type: "item"
+					item: "eidolon:wooden_altar"
+				}
+				{
+					id: "484ED7992DCE1A92"
+					type: "item"
+					item: "eidolon:straw_effigy"
+				}
+				{
+					id: "02D01D3B55EC22EF"
+					type: "item"
+					item: "eidolon:goblet"
+				}
+			]
+			rewards: [
+				{
+					id: "3965CE777AD3CA3D"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "293FBEA42CA1BBBE"
+					type: "item"
+					item: "eidolon:wooden_altar"
+					count: 3
+				}
+			]
+		}
+		{
+			title: "更好的祭坛"
+			x: 6.0d
+			y: 6.0d
+			description: ["石头做的祭坛和雕像能让你进行更强的仪式。"]
+			dependencies: ["715FF695CF10345C"]
+			id: "31C1939D4F457208"
+			tasks: [
+				{
+					id: "212C28AB740ECAAB"
+					type: "item"
+					item: "eidolon:stone_altar"
+				}
+				{
+					id: "4EBDFDBD0FDD6E0C"
+					type: "item"
+					item: "eidolon:unholy_effigy"
+				}
+			]
+			rewards: [{
+				id: "03D9B35265A2D00D"
+				type: "xp"
+				xp: 300
+			}]
+		}
+		{
+			x: 4.0d
+			y: 6.0d
+			description: ["对着扔在地上的嵌材咏唱符文，获得亵渎象征符。"]
+			dependencies: ["3C1DCD1FBE3EC6D9"]
+			id: "715FF695CF10345C"
+			tasks: [{
+				id: "6DF12E20987A753A"
+				type: "item"
+				item: "eidolon:unholy_symbol"
+			}]
+			rewards: [{
+				id: "3F412F972428311F"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			title: "不是那个CAD！"
+			x: 10.5d
+			y: 4.5d
+			description: ["组装出你的第一个CAD。"]
+			dependencies: ["21799A7F7AFF1788"]
+			id: "71A579ECFA45DC2B"
+			tasks: [
+				{
+					id: "45025F5827D525C5"
+					type: "item"
+					item: "psi:cad_assembly_iron"
+				}
+				{
+					id: "73D901C4D33E0345"
+					type: "item"
+					item: "psi:cad_assembler"
+				}
+			]
+			rewards: [{
+				id: "7413E09E16664290"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			x: 12.5d
+			y: 4.5d
+			description: ["手持组装好的CAD对红石粉右键，获得Psi粉末。"]
+			dependencies: ["71A579ECFA45DC2B"]
+			id: "0758E7F00538975F"
+			tasks: [{
+				id: "354014056926A4EB"
+				type: "item"
+				item: "psi:psidust"
+			}]
+			rewards: [
+				{
+					id: "078124DA85D7B193"
+					type: "item"
+					item: "psi:psidust"
+				}
+				{
+					id: "4307E4B865B07F64"
+					type: "xp"
+					xp: 200
+				}
+			]
+		}
+		{
+			title: "开始编程"
+			x: 14.5d
+			y: 4.5d
+			dependencies: ["0758E7F00538975F"]
+			id: "409A30E33A5FF7E1"
+			tasks: [{
+				id: "6B06B72F60461283"
+				type: "item"
+				item: "psi:programmer"
+			}]
+			rewards: [{
+				id: "305DF1808BCBF89F"
+				type: "xp"
+				xp: 300
+			}]
+		}
+		{
+			x: 16.5d
+			y: 4.5d
+			description: ["使用带有【启动式：灌注】的术式对金锭施放，获得Psi金属。"]
+			dependencies: ["409A30E33A5FF7E1"]
+			id: "78CE9D8307A218FA"
+			tasks: [{
+				id: "195FCAC98E991843"
+				type: "item"
+				item: "psi:psimetal"
+			}]
+			rewards: [
+				{
+					id: "19D1E05D7D9F5419"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "7FD03306A4BC72FF"
+					type: "item"
+					item: "psi:psimetal"
+				}
+			]
+		}
+		{
+			x: 10.6d
+			y: 7.5d
+			description: ["获得永恒之石，和工具在锻造台里合成，工具将不再因使用而损坏。"]
+			dependencies: ["41DD96A089E79DF3"]
+			id: "50FE36664973F169"
+			tasks: [{
+				id: "4B0E2732CEA5ACDC"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:eternal_stella"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "5E472F3DE56DE4FF"
+				type: "xp"
+				xp: 500
+			}]
+		}
+		{
+			x: 4.0d
+			y: 9.0d
+			description: ["获得魔符压印器，制作出的魔符拿在手里右键即可学习。"]
+			dependencies: ["32D0149B5F88C98C"]
+			id: "0F61BDE9A6DA49F7"
+			tasks: [{
+				id: "776CF5C3D1E2D68D"
+				type: "item"
+				item: "ars_nouveau:glyph_press"
+			}]
+			rewards: [{
+				id: "5BA650715DC11F94"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			x: 2.0d
+			y: 9.0d
+			description: ["储存这个模组的魔源。"]
+			dependencies: ["762512FFB2C0AA9E"]
+			id: "32D0149B5F88C98C"
+			tasks: [{
+				id: "4EBECAF30373BF60"
+				type: "item"
+				item: "ars_nouveau:mana_jar"
+			}]
+			rewards: [{
+				id: "6DD85026D236C710"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			x: 2.0d
+			y: 7.5d
+			description: ["让你能使用2级的魔法。"]
+			dependencies: ["762512FFB2C0AA9E"]
+			id: "188060369A6E1FE0"
+			tasks: [{
+				id: "31EC111D133CF467"
+				type: "item"
+				item: "ars_nouveau:apprentice_spell_book"
+			}]
+			rewards: [{
+				id: "5D0C16BF053988F4"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			x: 4.0d
+			y: 7.5d
+			dependencies: [
+				"188060369A6E1FE0"
+				"35357AD7A6436305"
+			]
+			id: "18F4CA44C8C28648"
+			tasks: [{
+				id: "2EF8A0B2234572DE"
+				type: "item"
+				item: "ars_nouveau:archmage_spell_book"
+			}]
+			rewards: [{
+				id: "4B8FA404F075D2C6"
+				type: "xp"
+				xp: 500
+			}]
+		}
+		{
+			x: 6.0d
+			y: 7.5d
+			description: ["用法参见“仪式”章节。"]
+			dependencies: ["0F61BDE9A6DA49F7"]
+			id: "35357AD7A6436305"
+			tasks: [{
+				id: "3C97763B53DCB22C"
+				type: "item"
+				item: "ars_nouveau:ritual"
+			}]
+			rewards: [{
+				id: "21CA07310F0FF645"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			x: 6.0d
+			y: 9.0d
+			description: ["不仅可以用来附魔，也是制作一些材料的必要设备。"]
+			dependencies: ["0F61BDE9A6DA49F7"]
+			id: "58F80364D840B82B"
+			tasks: [{
+				id: "787AAD60CA76E948"
+				type: "item"
+				item: "ars_nouveau:enchanting_apparatus"
+			}]
+			rewards: [{
+				id: "0E68254FFD925BC3"
+				type: "xp"
+				xp: 300
+			}]
+		}
+		{
+			x: 10.5d
+			y: 10.0d
+			dependencies: ["41DD96A089E79DF3"]
+			id: "358338A6ED04F9E7"
+			tasks: [{
+				id: "1DCFC69A8AD683B9"
+				type: "item"
+				item: "forbidden_arcanus:dragon_scale"
+			}]
+			rewards: [
+				{
+					id: "07362008A1DB44EF"
+					type: "item"
+					item: "forbidden_arcanus:dragon_scale"
+					count: 2
+				}
+				{
+					id: "57175B92B09C1530"
+					type: "xp"
+					xp: 300
+				}
+			]
+		}
+		{
+			title: "战神盔甲"
+			x: 13.0d
+			y: 10.0d
+			dependencies: ["358338A6ED04F9E7"]
+			id: "4BEFA596496DD864"
+			tasks: [
+				{
+					id: "7FD75B29C84F16F4"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:tyr_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "22BA4523D5139178"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:tyr_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "70EB5ACAEC4DDB8F"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:tyr_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6895BAC92280CD57"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:tyr_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "4D1E4E7AD3692D98"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			title: "血之宝典"
+			x: 2.0d
+			y: 10.5d
+			description: ["可以消耗灵魂网络中存储的生命源质来施放法术。"]
+			dependencies: [
+				"762512FFB2C0AA9E"
+				"6AC802B91DCC980B"
+			]
+			id: "051BF7B85500DB98"
+			tasks: [{
+				id: "5FD811D57E9922D4"
+				type: "item"
+				item: "tomeofblood:blood_tome_one"
+			}]
+			rewards: [{
+				id: "4A53A82E457BB9F5"
+				type: "xp"
+				xp: 200
+			}]
+		}
+	]
+}

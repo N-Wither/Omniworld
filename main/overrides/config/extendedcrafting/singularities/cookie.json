@@ -1,0 +1,10 @@
+{
+    "name": "曲奇",
+    "colors": [
+      "d6813d","894a2a"
+    ],
+    "ingredient": {
+      "item": "minecraft:cookie"
+    },
+    "inUltimateSingularity": true
+}

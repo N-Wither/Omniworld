@@ -1,0 +1,329 @@
+{
+	id: "26A8093B5001BC4D"
+	group: ""
+	order_index: 3
+	filename: "_2"
+	title: "匠魂系列"
+	icon: "tconstruct:crafting_station"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -3.0d
+			y: 4.5d
+			shape: "circle"
+			description: ["这是制作匠魂工作设备的必需品。"]
+			id: "66EF772617B306BA"
+			tasks: [{
+				id: "0B4990CF7694AE1C"
+				type: "item"
+				item: "tconstruct:pattern"
+				consume_items: false
+			}]
+			rewards: [{
+				id: "7D5B6F9DED0E04AE"
+				type: "item"
+				item: "tconstruct:pattern"
+				count: 6
+			}]
+		}
+		{
+			title: "工作站套装"
+			x: -1.5d
+			y: 4.5d
+			description: ["这个版本的匠魂发生了很大变化，木制模具是消耗品了。"]
+			dependencies: ["66EF772617B306BA"]
+			id: "42429B77061EBA72"
+			tasks: [
+				{
+					id: "23D882FF9FB5F09C"
+					type: "item"
+					item: {
+						id: "tconstruct:part_builder"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "628BB91262ACB655"
+					type: "item"
+					item: {
+						id: "tconstruct:tinker_station"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "03DC26B1CDAE7444"
+				type: "item"
+				item: "tconstruct:tinkers_gadgetry"
+			}]
+		}
+		{
+			title: "烧砖的原料"
+			x: 0.0d
+			y: 4.5d
+			description: ["把砖泥烧成砖块，用来搭建冶炼炉。"]
+			dependencies: ["42429B77061EBA72"]
+			id: "6312B5F4F0C9E0C7"
+			tasks: [{
+				id: "7A141C022C4A2E10"
+				type: "item"
+				item: "tconstruct:grout"
+				count: 32L
+				consume_items: false
+			}]
+			rewards: [{
+				id: "53E68324EB68B0EA"
+				type: "item"
+				item: "tconstruct:grout"
+				count: 32
+			}]
+		}
+		{
+			title: "小炉子"
+			icon: "tconstruct:seared_melter"
+			x: 1.5d
+			y: 4.5d
+			description: ["这是一个迷你的冶炼炉，不能制作合金。把加热器放在下面来为其供热。"]
+			dependencies: ["6312B5F4F0C9E0C7"]
+			id: "63921BD3EFDC5D01"
+			tasks: [
+				{
+					id: "6B20DC9453403D77"
+					type: "item"
+					item: "tconstruct:seared_melter"
+					consume_items: false
+				}
+				{
+					id: "04C94322B15B68A8"
+					type: "item"
+					item: "tconstruct:seared_heater"
+					consume_items: false
+				}
+			]
+			rewards: [
+				{
+					id: "549226F3DF722AFF"
+					type: "item"
+					item: "tconstruct:seared_brick"
+					count: 16
+				}
+				{
+					id: "3F4C20870CFC0E09"
+					type: "item"
+					item: "tconstruct:puny_smelting"
+				}
+			]
+		}
+		{
+			title: "基础冶炼设备"
+			icon: "tconstruct:seared_table"
+			x: 1.5d
+			y: 3.0d
+			description: ["需要这些来完成冶炼。"]
+			dependencies: ["6312B5F4F0C9E0C7"]
+			id: "2F9EFD203A2EFDB6"
+			tasks: [
+				{
+					id: "243DF7A0A04D3A36"
+					type: "item"
+					item: "tconstruct:seared_basin"
+					consume_items: false
+				}
+				{
+					id: "1E72EF6FF995F131"
+					type: "item"
+					item: "tconstruct:seared_table"
+					consume_items: false
+				}
+				{
+					id: "30B4904C603068C6"
+					type: "item"
+					item: "tconstruct:seared_faucet"
+					consume_items: false
+				}
+			]
+			rewards: [{
+				id: "2BCFD45FBBACC13C"
+				type: "item"
+				item: "tconstruct:seared_brick"
+				count: 16
+			}]
+		}
+		{
+			title: "一次性铸模"
+			icon: "tconstruct:blank_sand_cast"
+			x: 1.5d
+			y: 6.0d
+			description: ["有些时候你没有足够的金子，那就用沙子试试看！"]
+			dependencies: ["6312B5F4F0C9E0C7"]
+			id: "0D832CA06CD045CD"
+			tasks: [{
+				id: "6BB024992668734F"
+				type: "item"
+				title: "任意沙子空白铸模"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tconstruct:casts/single_use/blank"
+					}
+				}
+				consume_items: false
+			}]
+			rewards: [{
+				id: "4082FA16B4E785F7"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "大炉子"
+			icon: "tconstruct:smeltery_controller"
+			x: 3.0d
+			y: 4.5d
+			description: [
+				"现在是时候做一个大的冶炼炉了，它可以把矿物增产一倍！"
+				"P.S.其实可以做得很小，也可以做得比你的房子还大。"
+			]
+			dependencies: ["63921BD3EFDC5D01"]
+			id: "315D6879103B64AE"
+			tasks: [
+				{
+					id: "1486E24C8991C4CF"
+					type: "item"
+					item: "tconstruct:smeltery_controller"
+				}
+				{
+					id: "6F23333D72BE4307"
+					type: "item"
+					item: "tconstruct:seared_drain"
+				}
+				{
+					id: "64CD190CB25A3C44"
+					type: "item"
+					item: "tconstruct:seared_fuel_tank"
+				}
+			]
+			rewards: [
+				{
+					id: "7A015BE77F0CECE3"
+					type: "item"
+					item: "tconstruct:seared_drain"
+				}
+				{
+					id: "618A7EC3EBB6A6BB"
+					type: "item"
+					item: "tconstruct:mighty_smelting"
+				}
+			]
+		}
+		{
+			title: "钴矿石"
+			x: 4.5d
+			y: 4.5d
+			dependencies: ["315D6879103B64AE"]
+			id: "40DA1EE7702152F6"
+			tasks: [{
+				id: "59B9B7D4079CC552"
+				type: "item"
+				title: "任意 钴矿石"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ores/cobalt"
+					}
+				}
+			}]
+			rewards: [{
+				id: "0FC0B16B368E14E2"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "最好的合金"
+			x: 6.0d
+			y: 4.5d
+			description: ["由于远古残骸的加入，阿迪特被取代了。"]
+			dependencies: [
+				"40DA1EE7702152F6"
+				"168CE88CDB9A4985"
+			]
+			id: "7033DDE6FD8DEFE4"
+			tasks: [{
+				id: "7DB3CF49C5135698"
+				type: "item"
+				item: "tconstruct:manyullyn_ingot"
+			}]
+			rewards: [{
+				id: "322625E1A96B5BFA"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			title: "更高的炉温"
+			x: 6.0d
+			y: 3.0d
+			description: ["熔岩的温度已经不能满足一些合金的制造条件了，熔化一些烈焰人来获得它们高温的血液。"]
+			id: "168CE88CDB9A4985"
+			tasks: [{
+				id: "7122C31D20F5A987"
+				type: "item"
+				item: "tconstruct:blazing_blood_bucket"
+			}]
+			rewards: [{
+				id: "5418102107BAFF2E"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "最高的炉温"
+			x: 7.5d
+			y: 4.5d
+			description: ["等量混合血腥熔岩和烈焰人的血液来获取最高温的燃料。"]
+			dependencies: ["168CE88CDB9A4985"]
+			id: "47B2952C54B5EB83"
+			tasks: [{
+				id: "6B7CF0BD9226ADBF"
+				type: "item"
+				item: "natureminerals:scorchingblood_bucket"
+			}]
+			rewards: [{
+				id: "5907EA57CD831C36"
+				type: "xp"
+				xp: 300
+			}]
+		}
+		{
+			title: "真·最好的合金"
+			x: 9.0d
+			y: 4.5d
+			description: ["复杂的配方带来的是最强力的合金！"]
+			dependencies: ["47B2952C54B5EB83"]
+			id: "76DC0D6594B0DBC9"
+			tasks: [{
+				id: "7A00C061E11802B0"
+				type: "item"
+				item: "natureminerals:thounite_ingot"
+			}]
+			rewards: [
+				{
+					id: "0BEC76124D465470"
+					type: "item"
+					item: "natureminerals:thounite_ingot"
+				}
+				{
+					id: "69F2E1B9D84CE160"
+					type: "xp"
+					xp: 400
+				}
+			]
+		}
+	]
+}

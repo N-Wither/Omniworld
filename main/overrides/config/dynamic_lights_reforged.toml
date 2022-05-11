@@ -1,0 +1,10 @@
+
+#Dynamic Lights Settings
+[Settings]
+
+	[Settings."Lighting Settings"]
+		"Quality Mode (OFF, SLOW, FAST, REALTIME)" = "FAST"
+		"Dynamic Entity Lighting" = false
+		"Dynamic TileEntity Lighting" = true
+		"Only Update On Position Change" = true
+

@@ -1,0 +1,7 @@
+{
+    "block.fishtraps.wooden_fish_trap": "木制捕鱼陷阱",
+    "block.fishtraps.iron_fish_trap": "铁制捕鱼陷阱",
+    "block.fishtraps.diamond_fish_trap": "钻石捕鱼陷阱",
+    "itemGroup.fishtraps.fishtraps": "捕鱼陷阱",
+    "item.fishtraps.fish_trap_bait": "鱼饵"
+}

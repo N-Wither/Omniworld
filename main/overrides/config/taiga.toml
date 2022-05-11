@@ -1,0 +1,58 @@
+
+["Ore Generation"]
+	#set to true to enable extra iron ore generation
+	ironGen = false
+	#set to true to enable extra endstone on the bottom of end islands
+	endGen = true
+	#generation count per chunk (workd ONLY if ironGen is true)
+	#Range: 0 ~ 100
+	ironVal = 20
+	#generation count per chunk
+	#Range: 0 ~ 100
+	tiberiumVal = 15
+	#generation count per chunk
+	#Range: 0 ~ 100
+	prometheumVal = 18
+	#generation count per chunk
+	#Range: 0 ~ 100
+	valyriumVal = 10
+	#generation count per chunk
+	#Range: 0 ~ 100
+	dilithiumVal = 12
+	#generation count per chunk
+	#Range: 0 ~ 100
+	osramVal = 1
+	#generation count per chunk
+	#Range: 0 ~ 100
+	duraniteVal = 1
+	#generation count per chunk
+	#Range: 0 ~ 100
+	basaltVal = 12
+	#generation count per chunk
+	#Range: 0 ~ 100
+	eezoVal = 3
+	#generation count per chunk
+	#Range: 0 ~ 100
+	karmesineVal = 12
+	#generation count per chunk
+	#Range: 0 ~ 100
+	jauxumVal = 12
+	#generation count per chunk
+	#Range: 0 ~ 100
+	oviumVal = 12
+	#generation count per chunk
+	#Range: 0 ~ 100
+	vibraniumVal = 8
+	#generation count per chunk
+	#Range: 0 ~ 100
+	uruVal = 1
+	#generation count per chunk
+	#Range: 0 ~ 100
+	auroriumVal = 10
+	#generation count per chunk
+	#Range: 0 ~ 100
+	palladiumVal = 10
+	#generation count per chunk
+	#Range: 0 ~ 100
+	abyssumVal = 4
+

@@ -1,0 +1,108 @@
+{
+	id: "2D1075D048F277E0"
+	group: "2A7154534D7EBF5F"
+	order_index: 3
+	filename: "2D1075D048F277E0"
+	title: "深暗之园"
+	icon: "undergarden:catalyst"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "深暗之园"
+			x: -4.0d
+			y: 0.0d
+			shape: "octagon"
+			subtitle: "奇特的生态系统"
+			description: ["使用深园催化石，启动石砖制作的传送门。"]
+			id: "58918EA140AE17E4"
+			tasks: [
+				{
+					id: "0AE8C6BCC50DF5F6"
+					type: "item"
+					item: "undergarden:catalyst"
+				}
+				{
+					id: "5F5CDAFE50766515"
+					type: "dimension"
+					dimension: "undergarden:undergarden"
+				}
+			]
+			rewards: [
+				{
+					id: "26624506B796B00C"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "54336910941C0CEE"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "一桶毒水"
+			x: -1.0d
+			y: -2.0d
+			subtitle: "有什么用？"
+			description: ["装一桶致毒混合物。"]
+			dependencies: ["58918EA140AE17E4"]
+			id: "4171540A3DA75BE7"
+			tasks: [{
+				id: "0F7356F01A6E91A5"
+				type: "item"
+				item: "undergarden:virulent_mix_bucket"
+			}]
+			rewards: [{
+				id: "5940863ECCD90933"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			subtitle: "把窗户打烂！"
+			description: ["制作一把渊邃弹弓。"]
+			dependencies: ["58918EA140AE17E4"]
+			id: "01F6631C36A57C08"
+			tasks: [{
+				id: "0A184A2800621B8E"
+				type: "item"
+				item: {
+					id: "undergarden:slingshot"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5DE14C722238B391"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			title: "遗忆守卫"
+			x: -1.0d
+			y: 0.0d
+			subtitle: "某种傀儡"
+			description: ["在遗忆府第击败一只遗忆守卫。"]
+			dependencies: ["58918EA140AE17E4"]
+			id: "582F553206934008"
+			tasks: [{
+				id: "0DB8BF1AC3DF30A5"
+				type: "kill"
+				entity: "undergarden:forgotten_guardian"
+				value: 1L
+			}]
+			rewards: [{
+				id: "78D449C6D37B3AF3"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+	]
+}

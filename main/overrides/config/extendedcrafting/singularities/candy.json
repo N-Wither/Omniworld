@@ -1,0 +1,10 @@
+{
+    "name": "糖果",
+    "colors": [
+      "fc9595","b00e58"
+    ],
+    "ingredient": {
+      "item": "supplementaries:candy"
+    },
+    "inUltimateSingularity": true
+}

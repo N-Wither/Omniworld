@@ -1,0 +1,276 @@
+{
+	id: "010EBBA7CE439D44"
+	group: "154749F0008514C8"
+	order_index: 3
+	filename: "010EBBA7CE439D44"
+	title: "神秘学"
+	icon: "occultism:ritual_dummy/custom_ritual"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -3.0d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "开端"
+			description: [
+				"通过破坏草获得魔鬼之梦种子，再通过种植获得这种奇特的果实。"
+				""
+				"食用它可以短暂地获得第三只眼，同时还有获取异界物资的能力。"
+			]
+			id: "6047E81370ABC3E3"
+			tasks: [{
+				id: "23067ADBB5DEAFFA"
+				type: "item"
+				item: "occultism:datura"
+			}]
+			rewards: [
+				{
+					id: "3854CCC476A04BC9"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "02CBAEF3C3B8BC14"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 0.0d
+			subtitle: "有的放矢"
+			description: [
+				"通过食用魔鬼之梦果来寻找异界物质无疑是不方便的（而且这果子也很难吃），制作一根探测杖来寻找会容易得多。"
+				""
+				"使用方法请查阅《魔灵全典》。"
+			]
+			dependencies: ["6047E81370ABC3E3"]
+			id: "488849BD999D3AEB"
+			tasks: [{
+				id: "63282DC152BBA700"
+				type: "item"
+				item: {
+					id: "occultism:divination_rod"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "1DB1F2271C2100DA"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "617620E670040001"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "异界物资"
+			x: 2.0d
+			y: 0.0d
+			subtitle: "新手起步"
+			description: ["获得这些物品，你可以通过合成获取，但是亲自在世界中找到它们无疑更有成就感。"]
+			dependencies: ["488849BD999D3AEB"]
+			id: "52F904633BBF861A"
+			tasks: [
+				{
+					id: "75F75737F00ABBDD"
+					type: "item"
+					item: "occultism:otherstone"
+				}
+				{
+					id: "12BDF207D6B23F39"
+					type: "item"
+					item: "occultism:otherworld_log"
+				}
+			]
+			rewards: [
+				{
+					id: "6BB1D25656E953D2"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "3802769B43833BFF"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "第一个仪式"
+			x: 4.5d
+			y: 0.0d
+			subtitle: "绘制，召唤"
+			description: [
+				"制作白色粉笔等材料，开始你的第一个仪式吧！"
+				""
+				"具体方法请查阅《魔灵全典》。"
+			]
+			dependencies: ["52F904633BBF861A"]
+			id: "1DD2E0C11BC7F9CE"
+			tasks: [
+				{
+					id: "54ECF8986E14F65E"
+					type: "item"
+					item: {
+						id: "occultism:chalk_white"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "13CBA493F013513E"
+					type: "item"
+					item: "occultism:candle_white"
+				}
+				{
+					id: "67C1CDC30C53EEA8"
+					type: "item"
+					item: "occultism:golden_sacrificial_bowl"
+				}
+			]
+			rewards: [
+				{
+					id: "03E81CA985A80E40"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "32E262BBCAE6F1E8"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -2.0d
+			subtitle: "更加深藏不露"
+			description: ["你需要一把灌注镐以及第三只眼状态才能挖掘这种矿石！"]
+			dependencies: ["1DD2E0C11BC7F9CE"]
+			id: "5DFCBE60BF6E5972"
+			tasks: [
+				{
+					id: "1F3B0CAD5F9AFEC9"
+					type: "item"
+					item: "occultism:iesnium_ore"
+				}
+				{
+					id: "5918F792BA4C730B"
+					type: "item"
+					item: {
+						id: "occultism:infused_pickaxe"
+						Count: 1b
+						tag: {
+							spiritName: "Zorkcrazur"
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "29C39798CEF8A506"
+					type: "item"
+					item: "occultism:iesnium_ore"
+					count: 2
+				}
+				{
+					id: "14DD6ADAB39AA08B"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 2.0d
+			subtitle: "全新视野"
+			description: ["这种眼镜可以赋予你看到异界物资的能力，但是不能让你挖掘它们。"]
+			dependencies: ["1DD2E0C11BC7F9CE"]
+			id: "0F71BC9F4D967DE0"
+			tasks: [{
+				id: "7327BBC2BBC1569E"
+				type: "item"
+				item: {
+					id: "occultism:otherworld_goggles"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "08788183BDF3ADAE"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "0D24CB3C799E0898"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -1.0d
+			subtitle: "美妙挖矿！"
+			description: ["放置一个神灯，里面的魔灵就能帮你从另外的维度挖掘矿物！"]
+			dependencies: ["1DD2E0C11BC7F9CE"]
+			id: "5DA4514ADF740DE5"
+			tasks: [{
+				id: "54BCDB0A0D3630E9"
+				type: "item"
+				item: "occultism:dimensional_mineshaft"
+			}]
+			rewards: [
+				{
+					id: "0A0613D43ED5391B"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "2CEA6BAC0121A034"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 1.0d
+			subtitle: "另一种存储！"
+			description: ["类似于RS的存储方式，但完全是魔法的！"]
+			dependencies: ["1DD2E0C11BC7F9CE"]
+			id: "35274FD7A3C6EB10"
+			tasks: [{
+				id: "5DE45AA9A520269A"
+				type: "item"
+				item: "occultism:storage_controller"
+			}]
+			rewards: [
+				{
+					id: "1DB8BA5457EC8465"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "370386EF73C45D2A"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+	]
+}

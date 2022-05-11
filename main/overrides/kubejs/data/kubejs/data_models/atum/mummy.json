@@ -1,0 +1,29 @@
+{
+
+    "type": "atum:mummy",
+    "name": "entity.atum.mummy",
+    "name_color": "0x6c7356",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 80,
+    "input": {
+      "item": "hostilenetworks:empty_prediction"
+    },
+    "base_drop": {
+      "item": "kubejs:sandy_prediction"
+    },
+    "trivia": "hostile_neural_compat.trivia.mummy",
+    "fabricator_drops": [
+      {
+        "item": "atum:cloth_scrap",
+        "count": 2
+      },
+      {
+        "item": "minecraft:rotten_flesh",
+        "count": 2
+      }
+    ]
+  
+}

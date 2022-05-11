@@ -1,0 +1,533 @@
+{
+	id: "49FFC550A448D9BA"
+	order_index: 0
+	title: "random"
+	icon: {
+		id: "botania:dice"
+		Count: 1b
+		tag: { }
+	}
+	loot_size: 1
+	hide_tooltip: true
+	rewards: [
+		{ item: "minecraft:cobblestone", count: 32 }
+		{ item: "minecraft:iron_ingot", count: 4 }
+		{ item: "minecraft:gold_ingot", count: 4 }
+		{ item: "minecraft:redstone", count: 8 }
+		{ item: "botania:black_lotus" }
+		{ item: "minecraft:diamond", count: 2 }
+		{ item: "draconicevolution:draconium_ingot", count: 8 }
+		{ item: "chancecubes:chance_cube", count: 2 }
+		{ item: "storagedrawers:gold_storage_upgrade" }
+		{ item: "thermal:machine_frame" }
+		{ item: "minecraft:clay", count: 8 }
+		{ item: "mysticalagradditions:nether_star_crux" }
+		{ item: "minecraft:egg", count: 2 }
+		{ item: "minecraft:quartz", count: 6 }
+		{ item: "refinedstorage:improved_processor", count: 2 }
+		{ item: "refinedstorage:advanced_processor", count: 2 }
+		{ item: "minecraft:end_crystal" }
+		{ item: "neapolitan:chocolate_bar" }
+		{ item: "minecraft:cake" }
+		{ item: "powah:dielectric_paste", count: 32 }
+		{ item: "minecraft:coal_block" }
+		{ item: "botania:pure_daisy" }
+		{ item: "minecolonies:scroll_buff" }
+		{
+			item: {
+				id: "waystones:warp_stone"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "waystones:warp_scroll", count: 4 }
+		{ item: "miniutilities:ender_lily_seeds" }
+		{ item: "mysticalagriculture:prosperity_shard", count: 8 }
+		{ item: "minecraft:golden_apple" }
+		{ item: "tconstruct:earth_slime_crystal" }
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "minecraft:swiftness"
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "minecraft:regeneration"
+				}
+			}
+		}
+		{ item: "astralsorcery:aquamarine", count: 2 }
+		{ item: "projecte:dark_matter" }
+		{ item: "ars_nouveau:carbuncle_shards" }
+		{ item: "minecraft:string", count: 4 }
+		{ item: "refinedstorage:4k_storage_part" }
+		{ item: "supplementaries:bomb" }
+		{ item: "prefab:item_moderate_house" }
+		{
+			item: {
+				id: "cyclic:glove_climb"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "cyclic:torch_launcher"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "farmersdelight:hamburger" }
+		{ item: "minecraft:obsidian", count: 4 }
+		{ item: "ironchest:diamond_chest" }
+		{ item: "enderstorage:ender_chest", count: 2 }
+		{ item: "powah:uraninite", count: 4 }
+		{ item: "minecraft:ice", count: 2 }
+		{ item: "enderstorage:ender_tank", count: 2 }
+		{ item: "cookingforblockheads:sink" }
+		{ item: "minecraft:white_wool", count: 3 }
+		{ item: "minecraft:hopper" }
+		{ item: "create:andesite_alloy", count: 2 }
+		{ item: "minecraft:dried_kelp_block" }
+		{ item: "omniworldessentials:strawberry_candy" }
+		{ item: "minecraft:soul_sand", count: 4 }
+		{ item: "minecraft:sand", count: 16 }
+		{ item: "minecraft:sugar_cane", count: 2 }
+		{ item: "botanypots:botany_pot" }
+		{
+			item: {
+				id: "ceramics:cracked_clay_bucket"
+				Count: 1b
+				tag: {
+					fluid: "minecraft:lava"
+				}
+			}
+		}
+		{ item: "psi:psidust", count: 2 }
+		{ item: "minecraft:grass_block", count: 2 }
+		{ item: "eidolon:soul_shard" }
+		{ item: "tinymobfarm:iron_farm" }
+		{ item: "farmersdelight:apple_pie" }
+		{
+			item: {
+				id: "tdelight:naginata"
+				Count: 1b
+				tag: {
+					tic_multipliers: { }
+					tic_stats: {
+						"tconstruct:attack_speed": 0.9f
+						"tconstruct:mining_speed": 6.5f
+						"tconstruct:attack_damage": 4.5f
+						"tconstruct:harvest_level": 2.0f
+						"tconstruct:durability": 400.2f
+					}
+					tic_broken: 0b
+					tic_modifiers: [{
+						name: "tconstruct:sturdy"
+						level: 3s
+					}]
+					HideFlags: 3
+					tic_materials: [
+						"tconstruct:iron"
+						"tconstruct:iron"
+						"tconstruct:iron"
+					]
+					Damage: 0
+					tic_persistent_data: {
+						abilities: 1
+						upgrades: 2
+					}
+				}
+			}
+		}
+		{ item: "cyclic:inventory_cake" }
+		{ item: "supplementaries:globe" }
+		{ item: "supplementaries:jar" }
+		{ item: "cyclic:water_candle" }
+		{ item: "mysticalagriculture:coral_seeds" }
+		{ item: "minecraft:prismarine_crystals", count: 2 }
+		{ item: "projecte:medium_covalence_dust", count: 8 }
+		{ item: "immersiveengineering:shader_bag_common" }
+		{ item: "bountifulbaubles:broken_black_dragon_scale" }
+		{ item: "cyclic:apple_lofty_stature" }
+		{ item: "minecraft:slime_block" }
+		{ item: "quark:blank_rune" }
+		{ item: "druidcraft:fiery_glass", count: 2 }
+		{
+			item: {
+				id: "cyclic:storage_bag"
+				Count: 1b
+				tag: { }
+				ForgeCaps: {
+					Parent: {
+						Size: 81
+						Items: [ ]
+					}
+				}
+			}
+		}
+		{ item: "create:cogwheel", count: 2 }
+		{ item: "pamhc2foodextended:groiledcheesesandwichitem" }
+		{ item: "pamhc2foodcore:epicbaconitem" }
+		{ item: "minecraft:honey_block" }
+		{ item: "create:rose_quartz" }
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "goblintraders:extended_slow_falling"
+				}
+			}
+		}
+		{ item: "minecraft:wither_rose" }
+		{ item: "pipez:universal_pipe", count: 6 }
+		{ item: "buildersaddition:arcade_oak" }
+		{ item: "industrialforegoing:pink_slime" }
+		{
+			item: {
+				id: "mekanismtools:bronze_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "immersiveengineering:sheetmetal_steel", count: 2 }
+		{ item: "botania:livingrock", count: 4 }
+		{ item: "alexsmobs:mimicream" }
+		{ item: "create:cogwheel", count: 2 }
+		{ item: "quark:iron_rod" }
+		{ item: "botania:mana_diamond" }
+		{ item: "create:empty_blaze_burner" }
+		{ item: "astralsorcery:liquid_starlight_bucket" }
+		{ item: "astralsorcery:stardust" }
+		{ item: "minecraft:saddle" }
+		{ item: "minecraft:ancient_debris" }
+		{ item: "immersiveengineering:shader_bag_uncommon" }
+		{
+			item: {
+				id: "chancecubes:chance_pendant_tier1"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "xplosives:hydrogen_bomb" }
+		{ item: "emendatusenigmatica:arcane_gem" }
+		{
+			item: {
+				id: "minecraft:player_head"
+				Count: 1b
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							651898310
+							1877823240
+							-1470822202
+							2139981564
+						]
+						Properties: {
+							textures: [{
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTYzNTk0NDY0ODYzNCwKICAicHJvZmlsZUlkIiA6ICIyNmRiMmRjNjZmZWQ0ZjA4YTg1NTA4YzY3ZjhkODZmYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJOV2l0aGVyS2F3YWlpIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzU2ZmY4ZmZiMTZhNzVjMWMzODdhZjc5ZDNlZWQ3ZTQ1MzRmNGNhODdiYmE4OTRkZTc4ZTA5NTAyNjA4NmQzMSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+								Signature: "fkOLmWXWRE1NKXxDy/gRW2IAWLFKJEcE/9UwYwuN1zQVxs0eeFWa373z+kZWTMtVJkRi3PuiY7oTONu5xgTF/ekoWh2UrW5WUQ9TwS6cJQAN1tk+N7yBXJiGhYPenByqFrukAAElgHLurskdFrP/OJEVhY5Dd0yIv/jo9W+YRP9e9doKRKkTHNCZXonqzIVKuBFCn0/2T7xFxXdiZU5oYgvgUrJoZj0/6H0N6uXDFqJ/wEm2EYW7LhVQwtvP5J1gcGT+rozGBRAgVqEn9wjK9FkhZdd/9KNOdrNcQ5wuU5TlPv6+bvRzwS5zjBAi8rpWYZ/w6P+GOdBrmRZAjOAfG7uWhqYPhi/IrfG7mDS8agyH4aFixvk3Myo7Qx8zT7TCSesCfE98ZtLcjTW9l1FwHxj3GomLee93Aw/tLJaqgFRTuOz1zkkyPdvvpsjuKvCRN9qjbZWajcxQC8i8r5SAck49J7FIf2HqWBllL3kas7daVKtiVQIuYWO0IFQmNyHdVcm9dCCoCJnqNPX6MC/G7jAh+z+IdhYnziP/Ggc++lXx83Q0TWfcIWmJDVkgIHEuaHkZEBkDBOCCVb+UVu0AQ/nfMnfapI7El+v3/mlArFCtRq8MrmQgVUYaf/aIjj9oSbv2bgWoCeM1gnydZmSTLoe6QdysXMaOKqbtqXbZFlo="
+							}]
+						}
+						Name: "NWitherKawaii"
+					}
+				}
+			}
+		}
+		{ item: "minecraft:wither_skeleton_spawn_egg" }
+		{ item: "prefab:item_ton_of_timber" }
+		{ item: "miniutilities:diamond_opinium_core" }
+		{ item: "miniutilities:ethereal_glass", count: 4 }
+		{ item: "betterendforge:eternal_crystal" }
+		{
+			item: {
+				id: "createaddition:diamond_grit_sandpaper"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "mysticalagriculture:prudentium_furnace" }
+		{ item: "mysticalagriculture:enderman_seeds" }
+		{ item: "tconstruct:magma_cake" }
+		{ item: "solarflux:sp_2" }
+		{ item: "druidcraft:fiery_glass", count: 4 }
+		{ item: "minecraft:lantern" }
+		{ item: "industrialforegoing:mechanical_dirt" }
+		{ item: "mekanism:elite_control_circuit", count: 2 }
+		{ item: "mekanism:basic_tier_installer" }
+		{ item: "thermal:upgrade_augment_1" }
+		{ item: "darkutils:vector_plate", count: 2 }
+		{ item: "cyclic:fan" }
+		{ item: "xercamusic:guitar" }
+		{ item: "botania:fel_pumpkin" }
+		{ item: "twilightforest:transformation_powder", count: 2 }
+		{ item: "tconstruct:slimesteel_reinforcement" }
+		{ item: "inspirations:barometer" }
+		{ item: "thermal:oil_sand", count: 4 }
+		{
+			item: {
+				id: "botania:manasteel_pick"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "aquaculture:nether_star_hook" }
+		{ item: "mekanism:upgrade_speed" }
+		{ item: "mekanism:upgrade_energy" }
+		{ item: "thermal:upgrade_augment_3" }
+		{ item: "botania:elementium_ingot", count: 2 }
+		{
+			item: {
+				id: "botania:mana_ring"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "bloodmagic:basemonstersoul"
+				Count: 1b
+				tag: {
+					souls: 5.0d
+				}
+			}
+		}
+		{
+			item: {
+				id: "astralsorcery:rock_crystal"
+				Count: 1b
+				tag: {
+					astralsorcery: { }
+				}
+			}
+		}
+		{ item: "torchmaster:megatorch" }
+		{ item: "botania:terrasteel_ingot" }
+		{ item: "botanypots:hopper_botany_pot" }
+		{
+			item: {
+				id: "supplementaries:slingshot"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "mekanism:ingot_refined_obsidian", count: 2 }
+		{ item: "thermal:fire_tnt" }
+		{ item: "ars_nouveau:greater_experience_gem" }
+		{ item: "losttrinkets:blank_eyes" }
+		{ item: "losttrinkets:pillow_of_secrets" }
+		{ item: "losttrinkets:golden_tooth" }
+		{ item: "artifacts:crystal_heart" }
+		{ item: "artifacts:lucky_scarf" }
+		{ item: "artifacts:cloud_in_a_bottle" }
+		{ item: "artifacts:pocket_piston" }
+		{ item: "artifacts:novelty_drinking_hat" }
+		{ item: "losttrinkets:lunch_bag" }
+		{ item: "losttrinkets:fire_mind" }
+		{ item: "apotheosis:boss_summoner" }
+		{ item: "farmersdelight:smoked_ham" }
+		{ item: "minecraft:netherite_ingot" }
+		{ item: "integratedtunnels:part_interface_item", count: 2 }
+		{ item: "occultism:iesnium_ingot" }
+		{ item: "thermal:device_collector" }
+		{
+			item: {
+				id: "mysticalworld:sapphire_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "refinedstorage:64k_storage_block" }
+		{ item: "thermal:device_water_gen" }
+		{ item: "thermal:machine_speed_augment" }
+		{ item: "mysticalagradditions:insanium_apple" }
+		{
+			item: {
+				id: "forbidden_arcanus:eternal_stella"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{ item: "industrialforegoing:laser_lens2" }
+		{ item: "industrialforegoing:laser_lens12" }
+		{ item: "industrialforegoing:laser_lens10" }
+		{
+			item: {
+				id: "mysticalagradditions:tertium_paxel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "botania:mana_ring"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "appliedenergistics2:4k_storage_cell"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "appliedenergistics2:16k_storage_cell"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{ item: "pamhc2foodextended:baconmushroomburgeritem", count: 5 }
+		{ item: "appliedenergistics2:fluix_crystal", count: 16 }
+		{ item: "appliedenergistics2:fluix_smart_cable", count: 16 }
+		{ item: "appliedenergistics2:formation_core", count: 4 }
+		{ item: "appliedenergistics2:annihilation_core", count: 4 }
+		{ item: "appliedenergistics2:terminal" }
+		{ item: "lazierae2:fluix_steel_ingot", count: 4 }
+		{ item: "pamhc2foodextended:grilledcheesevegemitetoastitem", count: 5 }
+		{ item: "pamhc2foodextended:cookoutmealitem", count: 4 }
+		{ item: "appliedenergistics2:16k_crafting_storage" }
+		{ item: "appliedenergistics2:4k_crafting_storage" }
+		{ item: "tesseract:tesseract" }
+		{ item: "metalbarrels:netherite_barrel" }
+		{ item: "bountifulbaubles:potion_wormhole" }
+		{ item: "astralsorcery:infused_wood", count: 4 }
+		{ item: "mekanism:block_refined_obsidian" }
+		{
+			item: {
+				id: "tconstruct:hand_axe"
+				Count: 1b
+				tag: {
+					tic_multipliers: { }
+					tic_stats: {
+						"tconstruct:attack_speed": 1.089f
+						"tconstruct:mining_speed": 9.68f
+						"tconstruct:attack_damage": 9.0f
+						"tconstruct:harvest_level": 3.0f
+						"tconstruct:durability": 734.0f
+					}
+					tic_broken: 0b
+					HideFlags: 3
+					tic_modifiers: [
+						{
+							name: "tconstruct:lightweight"
+							level: 3s
+						}
+						{
+							name: "tconstruct:axe_transform_hidden"
+							level: 1s
+						}
+					]
+					tic_materials: [
+						"tconstruct:azurium"
+						"tconstruct:azurium"
+						"tconstruct:azurium"
+					]
+					Damage: 0
+					tic_persistent_data: {
+						abilities: 1
+						upgrades: 3
+					}
+				}
+			}
+		}
+		{ item: "createaddition:chocolate_cake" }
+		{ item: "pamhc2foodextended:hamsweetpicklesandwichitem", count: 8 }
+		{ item: "refinedstorage:stack_upgrade" }
+		{
+			item: {
+				id: "betterendforge:aeternium_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "engineersdecor:panzerglass_block", count: 12 }
+		{ item: "immersiveengineering:component_steel", count: 4 }
+		{ item: "mysticalagradditions:insanium_apple" }
+		{ item: "mekanism:elite_fluid_tank" }
+		{ item: "neapolitan:banana_ice_cream_block" }
+		{ item: "minecraft:shulker_box" }
+		{ item: "minecraft:dragon_breath", count: 4 }
+		{ item: "minecraft:piston", count: 2 }
+		{ item: "solarflux:sp_3" }
+		{ item: "extradisks:256k_storage_block" }
+		{ item: "mekanism:alloy_infused", count: 16 }
+		{ item: "mekanism:alloy_reinforced", count: 2 }
+		{ item: "thermal:basalz_rod", count: 4 }
+		{ item: "thermal:blizz_rod", count: 4 }
+		{ item: "thermal:blitz_rod", count: 4 }
+		{ item: "ironfurnaces:rainbow_plating" }
+		{ item: "minecraft:flower_pot", count: 3 }
+		{ item: "extendedcrafting:black_iron_ingot", count: 8 }
+		{ item: "industrialforegoing:laser_lens12" }
+		{ item: "skinnedlanterns:pufferfish_lantern_block" }
+		{ item: "ftb-power-pots:power_pot_mk1" }
+		{ item: "create:depot" }
+		{
+			item: {
+				id: "botania:mana_tablet"
+				Count: 1b
+				tag: {
+					mana: 500000
+				}
+			}
+		}
+		{
+			item: {
+				id: "thermal:flux_capacitor"
+				Count: 1b
+				tag: {
+					Energy: 500000
+				}
+			}
+		}
+		{
+			item: {
+				id: "kubejs:cosmic_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "kubejs:torcherino" }
+		{ item: "kubejs:taiyaki" }
+		{ item: "thermal:silver_coin", count: 32 }
+		{ item: "archers_paradox:lightning_arrow", count: 8 }
+		{ item: "fluxnetworks:gargantuan_flux_storage" }
+		{ item: "pamhc2foodextended:supremepizzaitem", count: 8 }
+		{ item: "forbidden_arcanus:bat_soup" }
+	]
+}

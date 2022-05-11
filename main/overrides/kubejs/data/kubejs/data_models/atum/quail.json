@@ -1,0 +1,29 @@
+{
+
+    "type": "atum:quail",
+    "name": "entity.atum.quail",
+    "name_color": "0x845e3b",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 80,
+    "input": {
+      "item": "hostilenetworks:empty_prediction"
+    },
+    "base_drop": {
+      "item": "kubejs:sandy_prediction"
+    },
+    "trivia": "hostile_neural_compat.trivia.quail",
+    "fabricator_drops": [
+      {
+        "item": "minecraft:feather",
+        "count": 2
+      },
+      {
+        "item": "atum:quail",
+        "count": 1
+      }
+    ]
+  
+}

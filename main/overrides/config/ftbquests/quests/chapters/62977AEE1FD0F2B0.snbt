@@ -1,0 +1,221 @@
+{
+	id: "62977AEE1FD0F2B0"
+	group: "34DA8A5C88ADFCAB"
+	order_index: 7
+	filename: "62977AEE1FD0F2B0"
+	title: "太空探索"
+	icon: {
+		id: "boss_tools:rocket_t1"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -4.5d
+			y: 0.0d
+			subtitle: "火箭装配"
+			description: ["制作一个NASA工作台，开启你的太空之路！"]
+			id: "7EDD55B579867408"
+			tasks: [{
+				id: "299AC20F20C7B0ED"
+				type: "item"
+				item: "boss_tools:nasa_workbench"
+			}]
+			rewards: [
+				{
+					id: "14CCB8A893ABB47C"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "79CD453594159F82"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "火箭发射"
+			x: -2.0d
+			y: 0.0d
+			subtitle: "§5†升天†"
+			description: [
+				"将火箭发射台以3*3的方式摆放，如果摆放正确，发射台的中间会凸起，此时你就可以将你的火箭放在上面了。"
+				"火箭需要加注燃料，在物品栏中对火箭按U可以查看可用的燃料，你可以潜行右键手动加注燃料，也可以制作一个§6燃料装载机§f自动给周围的火箭加注燃料。"
+				"一切准备就绪后，你就可以右键坐上火箭，按空格发射了。"
+				"§e对了，这是单程旅行，所以记得准备回来的火箭！"
+				"还有，外太空没有氧气，所以你得准备一套航天服和一套氧气供应系统，本模组的氧气和通用机械的氧气不能通用，所以如果你有Mekasuit的话，可以使用§6太空呼吸单元§f。"
+			]
+			dependencies: ["7EDD55B579867408"]
+			id: "049F137A16809B2D"
+			tasks: [
+				{
+					id: "2B2A54E3A4380798"
+					type: "item"
+					item: "boss_tools:rocket_launch_pad"
+					count: 9L
+				}
+				{
+					id: "2DD34B55A1FB302F"
+					type: "item"
+					item: {
+						id: "boss_tools:rocket_t1"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "37DD790A39D89199"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "3D9C88A20742D166"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "空间站"
+			icon: "boss_tools:iron_mark_block"
+			x: 0.5d
+			y: -1.5d
+			subtitle: "轨道基地"
+			description: ["你可以在星球的轨道上建设空间站，前提是你要携带足够的材料。"]
+			dependencies: [
+				"049F137A16809B2D"
+				"1B8FFD28CC74680E"
+			]
+			id: "7115734DE4B3B969"
+			tasks: [
+				{
+					id: "177A99638477876E"
+					type: "dimension"
+					title: "在地球上空的轨道建设空间站"
+					dimension: "boss_tools:overworld_orbit"
+				}
+				{
+					id: "0A01EB40910AF223"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 6L
+				}
+				{
+					id: "3BE9D6380F09E051"
+					type: "item"
+					item: "emendatusenigmatica:steel_ingot"
+					count: 16L
+				}
+				{
+					id: "01A0F68A95092642"
+					type: "item"
+					item: "emendatusenigmatica:iron_plate"
+					count: 12L
+				}
+				{
+					id: "01914781DB264EE9"
+					type: "item"
+					item: "boss_tools:desh_plate"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "1FF1C85D09B31D87"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.0d
+			subtitle: "我的一小步"
+			description: ["在降落的时候记得按住空格减缓下落速度，否则你可能会出师未捷身先死。"]
+			dependencies: ["049F137A16809B2D"]
+			id: "1B8FFD28CC74680E"
+			tasks: [{
+				id: "27D60BF5D9D81999"
+				type: "dimension"
+				title: "到达月球"
+				icon: "boss_tools:moon_sand"
+				dimension: "boss_tools:moon"
+			}]
+			rewards: [
+				{
+					id: "69F7FBC169A7D583"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "55C2D455E487EE22"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "§b二级火箭"
+			x: 3.0d
+			y: 0.0d
+			subtitle: "去更远的地方！"
+			description: ["二级火箭允许你前往火星。"]
+			dependencies: ["1B8FFD28CC74680E"]
+			id: "4CF14F6EDACFA9FE"
+			tasks: [{
+				id: "684D8D581B3AFC1F"
+				type: "item"
+				item: {
+					id: "boss_tools:rocket_t2"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "6A8CBFBADF348DF6"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "5880745DAC301D09"
+					type: "xp"
+					xp: 200
+				}
+			]
+		}
+		{
+			title: "§6三级火箭"
+			x: 5.5d
+			y: 0.0d
+			subtitle: "再远一些！"
+			description: ["三级火箭允许你前往水星和金星。"]
+			dependencies: ["4CF14F6EDACFA9FE"]
+			id: "4A437C18449C54A1"
+			tasks: [{
+				id: "581E07BEAFCAB541"
+				type: "item"
+				item: {
+					id: "boss_tools:rocket_t3"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "4955D89E107CBC87"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "562D0F8DF05EABEB"
+					type: "xp"
+					xp: 300
+				}
+			]
+		}
+	]
+}

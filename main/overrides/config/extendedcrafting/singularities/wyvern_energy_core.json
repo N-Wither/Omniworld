@@ -1,0 +1,10 @@
+{
+    "name": "飞龙能量核心",
+    "colors": [
+      "8043a1","521b7a"
+    ],
+    "ingredient": {
+      "item": "draconicevolution:wyvern_energy_core"
+    },
+    "inUltimateSingularity": true
+}

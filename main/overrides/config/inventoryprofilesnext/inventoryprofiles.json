@@ -1,0 +1,20 @@
+{
+    "ModSettings": {
+        "sort_order": "ITEM_ID",
+        "first_run": false
+    },
+    "GuiSettings": {
+        "enable_profiles_ui": false,
+        "continuous_crafting_saved_value": false,
+        "show_sort_in_columns_button": false,
+        "show_sort_in_rows_button": false,
+        "show_move_all_button": false
+    },
+    "Hotkeys": {
+        "sort_inventory": {
+            "main": {
+                "keys": "BUTTON_3"
+            }
+        }
+    }
+}

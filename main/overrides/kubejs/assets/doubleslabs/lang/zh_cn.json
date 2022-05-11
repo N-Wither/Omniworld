@@ -1,0 +1,17 @@
+{
+  "itemGroup.verticalslabs": "竖直台阶",
+  "item.vertical_slab.prefix": "竖直%s",
+  "item.vertical_slab.tooltip": "此台阶来自 ",
+  "doubleslabs.keycategory": "双重台阶",
+  "doubleslabs.key.toggleVerticalSlabPlacement": "开启/关闭竖直台阶放置",
+  "doubleslabs.configgui.slabBlacklist": "水平台阶黑名单",
+  "doubleslabs.configgui.uvlockModels": "UV锁定模型",
+  "doubleslabs.configgui.verticalSlabBlacklist": "竖直台阶黑名单",
+  "doubleslabs.configgui.replaceSameSlab": "替换相同的水平台阶",
+  "doubleslabs.configgui.disableVerticalSlabPlacement": "禁用竖直台阶放置",
+  "doubleslabs.configgui.verticalSlabCraftingBlacklist": "竖直台阶合成黑名单",
+  "doubleslabs.configgui.lazyVerticalSlabModels": "“懒惰的”竖直台阶模型",
+  "doubleslabs.configgui.slabCullBlacklist": "台阶剔除黑名单",
+  "doubleslabs.configgui.useDoubleSlabModelBlacklist": "双重台阶模型黑名单",
+  "doubleslabs.configgui.verticalSlabPlacementMethod": "竖直台阶放置方式"
+}

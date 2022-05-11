@@ -1,0 +1,51 @@
+{
+    "name": "Ores",
+    "icon": "omniworldessentials:azurium_ingot",
+    "category": "mods",
+    "pages": [
+        {
+            "type": "text",
+            "text": "There are some special ores in this world."
+        },
+        {
+            "type": "spotlight",
+            "item": "omniworldessentials:azurium_ore",
+            "text": "Y:0-32$(br)Dimension: Overworld"
+        },
+        {
+            "type": "spotlight",
+            "item": "omniworldessentials:anemonium_ore",
+            "text": "Y:72~255$(br)Dimension: Overworld"
+        },
+        {
+            "type": "spotlight",
+            "item": "omniworldessentials:pyronium_ore",
+            "text": "Y:1-127$(br)Dimension: Nether"
+        },
+        {
+            "type": "spotlight",
+            "item": "omniworldessentials:cryonium_ore",
+            "text": "Y:0-64$(br)Dimension: Overworld$(br)Biome: Icy Biomes"
+        },
+        {
+            "type": "spotlight",
+            "item": "omniworldessentials:hydronium_ore",
+            "text": "Y:0-48$(br)Dimension: Overworld$(br)Biome: Ocean Biomes"
+        },
+        {
+            "type": "spotlight",
+            "item": "omniworldessentials:electronium_ore",
+            "text": "Y:8-127$(br)Dimension: The End"
+        },
+        {
+            "type": "spotlight",
+            "item": "omniworldessentials:dendronium_ore",
+            "text": "Y:0-64$(br)Dimension: Overworld"
+        },
+        {
+            "type": "spotlight",
+            "item": "omniworldessentials:geonium_ore",
+            "text": "Y:0-64$(br)Dimension: Overworld$(br)Biomes: Extreme Hills, Desert & Mesa"
+        }
+    ]
+}

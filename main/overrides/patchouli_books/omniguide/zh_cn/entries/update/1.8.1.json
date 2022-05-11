@@ -1,0 +1,15 @@
+{
+    "name":"1.8.1 2021/11/04",
+    "icon":"touhou_little_maid:power_point",
+    "category":"update",
+    "pages":[
+        {
+            "type": "text",
+            "text": "添加了车万女仆（Touhou Little Maid）模组；$(br)添加了 FTB Money 模组（商店还在建设中），为一些任务添加了金钱奖励；$(br)增加了大量任务，细化了分类；$(br)增加了经验矿石的生成率；$(br)在这本书里添加了有关通用机械的条目。"
+        },
+        {
+            "type": "text",
+            "text": "移除了 Building Wands 模组，替换为 Construction Wand 和 Building Gadgets 模组；$(br)移除了 Trashslot 模组，因为你可以在物品栏屏幕左上角找到 FTB 的垃圾桶。$(br)添加了 Better Nether 和 Better End 模组；$(br)添加了更多匠魂材料。"
+        }
+    ]
+}

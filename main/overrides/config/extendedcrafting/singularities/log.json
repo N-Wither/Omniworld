@@ -1,0 +1,10 @@
+{
+    "name": "原木",
+    "colors": [
+      "947240","947270"
+    ],
+    "ingredient": {
+      "tag": "minecraft:logs"
+    },
+    "inUltimateSingularity": true
+}

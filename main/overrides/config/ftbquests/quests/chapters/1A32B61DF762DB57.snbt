@@ -1,0 +1,256 @@
+{
+	id: "1A32B61DF762DB57"
+	group: "2A7154534D7EBF5F"
+	order_index: 2
+	filename: "1A32B61DF762DB57"
+	title: "蔚蓝天空"
+	icon: {
+		id: "blue_skies:zeal_lighter"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -5.0d
+			y: 0.0d
+			shape: "octagon"
+			subtitle: "古老遗物"
+			description: [
+				"找到守门人买一个。那里也会有一个传送门框架。"
+				""
+				"找不到？使用探险家指南针，搜索 gatekeeper 即可。"
+			]
+			id: "42CF7332DAB87C5E"
+			tasks: [{
+				id: "0D9EB0CAA198AB44"
+				type: "item"
+				item: {
+					id: "blue_skies:zeal_lighter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7A8C1C2A0824C2F5"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "53F366C6796EE0B1"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "永昼之地"
+			icon: "blue_skies:everbright_portal"
+			x: -2.0d
+			y: -1.5d
+			subtitle: "永恒白昼雪原"
+			description: ["通往这里的传送门由绿松石砖构成。"]
+			dependencies: ["42CF7332DAB87C5E"]
+			id: "3137C5BD9AB167A0"
+			tasks: [{
+				id: "49FED282B53BACEE"
+				type: "dimension"
+				dimension: "blue_skies:everbright"
+			}]
+			rewards: [
+				{
+					id: "36B36C9F5C1F3B95"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "6C432BBFFE7153F5"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "恒晓之地"
+			icon: "blue_skies:everdawn_portal"
+			x: -2.0d
+			y: 1.5d
+			shape: "circle"
+			subtitle: "悠久黎明之泽"
+			description: ["通往这里的传送门由明月石砖构成。"]
+			dependencies: ["42CF7332DAB87C5E"]
+			id: "1CEF8643C8560502"
+			tasks: [{
+				id: "1045DDE2A701E1C6"
+				type: "dimension"
+				dimension: "blue_skies:everdawn"
+			}]
+			rewards: [
+				{
+					id: "1B48E42B6DB7C77D"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "66E9FC79A58A0B48"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "召唤师"
+			x: 1.0d
+			y: -3.0d
+			subtitle: "傀儡专家"
+			description: [
+				"找到惑乱高塔，击败召唤师。"
+				""
+				"惑乱钥匙可以在守门人那里购买。"
+			]
+			dependencies: ["3137C5BD9AB167A0"]
+			id: "26EED328BF3D2016"
+			tasks: [{
+				id: "67400064331EA264"
+				type: "item"
+				item: {
+					id: "blue_skies:loot_bag_summoner"
+					Count: 1b
+					tag: {
+						LootTable: "blue_skies:loot_bags/summoner/common"
+						Rarity: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3C3EFC9777D1AD43"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "5B63C70E93544AD0"
+					type: "xp"
+					xp: 200
+				}
+			]
+		}
+		{
+			title: "星荧粉碎者"
+			x: 1.0d
+			y: -0.5d
+			subtitle: "一棵大树"
+			description: [
+				"找到自然城堡，击败星荧粉碎者。"
+				""
+				"自然钥匙可以在守门人那里购买。"
+			]
+			dependencies: ["3137C5BD9AB167A0"]
+			id: "6F9DF0938DF35EC7"
+			tasks: [{
+				id: "6FD1CEE8D82BA0E8"
+				type: "item"
+				item: {
+					id: "blue_skies:loot_bag_starlit_crusher"
+					Count: 1b
+					tag: {
+						LootTable: "blue_skies:loot_bags/starlit_crusher/common"
+						Rarity: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "42184D9825ECF3B7"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "15B37C16BC318EA9"
+					type: "xp"
+					xp: 200
+				}
+			]
+		}
+		{
+			title: "炼金师"
+			x: 1.0d
+			y: 0.5d
+			subtitle: "化学家？"
+			description: [
+				"找到惑乱高塔，击败炼金师。"
+				""
+				"惑乱钥匙可以在守门人那里购买。"
+			]
+			dependencies: ["1CEF8643C8560502"]
+			id: "7BD7B7B3D97AF121"
+			tasks: [{
+				id: "339F70BA47CEB2B9"
+				type: "item"
+				item: {
+					id: "blue_skies:loot_bag_alchemist"
+					Count: 1b
+					tag: {
+						LootTable: "blue_skies:loot_bags/alchemist/common"
+						Rarity: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "60CC061F6F0B573B"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "011E9FC5008B37C3"
+					type: "xp"
+					xp: 200
+				}
+			]
+		}
+		{
+			title: "幽咽蛛王"
+			x: 1.0d
+			y: 3.0d
+			subtitle: "超大蜘蛛"
+			description: [
+				"找到猛毒地牢，击败幽咽蛛王。"
+				""
+				"猛毒钥匙可以在守门人那里购买。"
+			]
+			dependencies: ["1CEF8643C8560502"]
+			id: "17D698709500B0F6"
+			tasks: [{
+				id: "12DC7CE49A4A23DB"
+				type: "item"
+				item: {
+					id: "blue_skies:loot_bag_arachnarch"
+					Count: 1b
+					tag: {
+						LootTable: "blue_skies:loot_bags/arachnarch/common"
+						Rarity: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "59ECB8632236BD74"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "1F82C68912B4BEA3"
+					type: "xp"
+					xp: 200
+				}
+			]
+		}
+	]
+}

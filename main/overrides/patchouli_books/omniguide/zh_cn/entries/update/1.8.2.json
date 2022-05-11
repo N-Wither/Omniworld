@@ -1,0 +1,11 @@
+{
+    "name":"1.8.2 2021/11/16",
+    "icon":"drinkbeer:empty_beer_mug",
+    "category":"update",
+    "pages":[
+        {
+            "type": "text",
+            "text": "添加了一些啤酒，可以喝。 $(br)升级了 BetterEnd Forge 模组。 $(br)移除了 Performant ，改用 Magnesium，Sulfuric，和 RoadRunner。优化了帧数和性能占用。$(br)现在不同类型的模组物品的提示框颜色不同。"
+        }
+    ]
+}

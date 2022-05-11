@@ -1,0 +1,10 @@
+
+#所有的配置选项都与核心玩法有关
+[gameplay]
+	#minecolonies.config.enablecitizenvoices.comment [默认: true]
+	enablecitizenvoices = true
+	#默认情况下，当在一个建筑附近放置其它建筑时，已经放置的建筑会显示它们等级 5 时候的预览，并且会有蓝色的轮廓线包围着。设置为 false 以关闭此功能。 [默认: true]
+	neighborbuildingrendering = true
+	#When true, the colony borders shown when holding the build tool will be in the colony's team color. When false, the colony you're inside will be white and any other colony will be red. [默认: true]
+	colonyteamborders = true
+

@@ -1,0 +1,8 @@
+{
+	chapter_groups: [
+		{ id: "08F56361546409AB", title: "商店" }
+		{ id: "34DA8A5C88ADFCAB", title: "科技系列" }
+		{ id: "154749F0008514C8", title: "魔法系列" }
+		{ id: "2A7154534D7EBF5F", title: "维度探索" }
+	]
+}

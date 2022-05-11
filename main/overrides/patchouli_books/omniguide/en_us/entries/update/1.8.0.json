@@ -1,0 +1,23 @@
+{
+    "name":"1.8.0 2021/10/17",
+    "icon":"draconicevolution:draconium_ingot",
+    "category":"update",
+    "pages":[
+        {
+            "type":"text",
+            "text":"Added Draconic Evolution mod; $(br)Added Botany Pots Tiers mod;$(br)Added Item Collectors mod; $(br)Added Project EX mod; $(br)Replaced FastFurnace with FastFurnace Minus Replacement; $(br)Replaced Inventory Sorter and Inventory Essentials with Inventory Profiles Next;"
+        },
+        {
+            "type":"text",
+            "text":"Replaced Coloured Tooltips with Legendary Tooltips; $(br)Replaced Structures Compass with Explorers Compass; $(br)Removed ChocolateFix, because Forge has the same function; $(br)Removed KleeSlabs because Double Slabs has the same function;"
+        },
+        {
+            "type":"text",
+            "text":"Removed the recipes of Darkmatter & Redmatter Solar Panel; $(br)Added tags for Marble from Astral Sorcery & Quark, you can now convert them using chisels from Chisel mod; $(br)Unified (almost) all outputs with items from Emendatus Enigmatica."
+        },
+        {
+            "type":"text",
+            "text":"Added quests for Astral Sorcery."
+        }
+    ]
+}

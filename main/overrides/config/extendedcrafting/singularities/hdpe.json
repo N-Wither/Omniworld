@@ -1,0 +1,10 @@
+{
+    "name": "高密度聚乙烯",
+    "colors": [
+      "f0f1ea","b2b0a6"
+    ],
+    "ingredient": {
+      "item": "mekanism:hdpe_sheet"
+    },
+    "inUltimateSingularity": true
+}

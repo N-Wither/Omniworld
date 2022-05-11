@@ -1,0 +1,283 @@
+{
+	id: "0328ED75D884451D"
+	group: "08F56361546409AB"
+	order_index: 1
+	filename: "0328ED75D884451D"
+	title: "特殊品商店"
+	icon: { id: "thermal:silver_coin", Count: 64b }
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "传送门三件套"
+			icon: {
+				id: "blue_skies:zeal_lighter"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			disable_toast: true
+			x: -3.0d
+			y: -1.5d
+			id: "2A339BDD50B8F015"
+			tasks: [{
+				id: "28BB1E901A85EA70"
+				type: "item"
+				item: "thermal:silver_coin"
+				count: 128L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "75CFA6254967165E"
+					type: "item"
+					auto: "enabled"
+					item: {
+						id: "blue_skies:zeal_lighter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4F3B4DC8B7BED627"
+					type: "item"
+					auto: "enabled"
+					item: "blue_skies:lunar_stonebrick"
+					count: 14
+				}
+				{
+					id: "3B0D02191A371ED5"
+					type: "item"
+					auto: "enabled"
+					item: "blue_skies:turquoise_stonebrick"
+					count: 14
+				}
+			]
+		}
+		{
+			title: "AE起步礼包"
+			icon: "appliedenergistics2:calculation_processor_press"
+			disable_toast: true
+			x: -0.5d
+			y: -1.5d
+			id: "350D6CE48E3AD47C"
+			tasks: [{
+				id: "2FFE62C6C17CF75E"
+				type: "item"
+				item: "thermal:silver_coin"
+				count: 20L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "710315EA61317CCE"
+					type: "item"
+					auto: "enabled"
+					item: "appliedenergistics2:sky_stone_block"
+					count: 16
+				}
+				{
+					id: "3C0A4E189C1A6B53"
+					type: "item"
+					auto: "enabled"
+					item: "appliedenergistics2:calculation_processor_press"
+				}
+				{
+					id: "2200938CB9F99F0E"
+					type: "item"
+					auto: "enabled"
+					item: "appliedenergistics2:engineering_processor_press"
+				}
+				{
+					id: "6A3B625F66C09ACF"
+					type: "item"
+					auto: "enabled"
+					item: "appliedenergistics2:logic_processor_press"
+				}
+				{
+					id: "453BB3C9DBDC2D6E"
+					type: "item"
+					auto: "enabled"
+					item: "appliedenergistics2:silicon_press"
+				}
+			]
+		}
+		{
+			title: "热力三人组"
+			icon: "thermal:blizz_spawn_egg"
+			disable_toast: true
+			x: 2.0d
+			y: -1.5d
+			id: "761B5EFAD4D30A06"
+			tasks: [{
+				id: "34C32EFBB59AF9FB"
+				type: "item"
+				item: "thermal:silver_coin"
+				count: 24L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "29AF775EB5C205AA"
+					type: "item"
+					auto: "enabled"
+					item: "thermal:basalz_spawn_egg"
+				}
+				{
+					id: "3B9F32BAC6F6BF9C"
+					type: "item"
+					auto: "enabled"
+					item: "thermal:blitz_spawn_egg"
+				}
+				{
+					id: "6307537BCBB668EC"
+					type: "item"
+					auto: "enabled"
+					item: "thermal:blizz_spawn_egg"
+				}
+				{
+					id: "5297F1859F1E9BF1"
+					type: "custom"
+					title: "重置任务"
+					icon: "thermal:machine_cycle_augment"
+					tags: ["repeatable"]
+					auto: "enabled"
+				}
+			]
+		}
+		{
+			title: "单抽出奇迹"
+			icon: "thermal:silver_coin"
+			disable_toast: true
+			x: -1.5d
+			y: -3.5d
+			id: "5DC10BCCA0B1D8F2"
+			tasks: [{
+				id: "62C4444B954F5D94"
+				type: "item"
+				item: "thermal:silver_coin"
+				count: 16L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "2B0FB667016F23F3"
+					type: "random"
+					auto: "enabled"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "76F1A78890321DF3"
+					type: "custom"
+					title: "重置任务"
+					icon: "thermal:machine_cycle_augment"
+					tags: ["repeatable"]
+					auto: "enabled"
+				}
+			]
+		}
+		{
+			title: "十连抽！"
+			disable_toast: true
+			x: 0.5d
+			y: -3.5d
+			id: "1EEA0C7D20525E8A"
+			tasks: [
+				{
+					id: "63AD24332796FB45"
+					type: "item"
+					item: "thermal:silver_coin"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "2A586469F7CCABE8"
+					type: "item"
+					item: "thermal:silver_coin"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "668FC61186B55868"
+					type: "item"
+					item: "thermal:silver_coin"
+					count: 22L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "411D035D1A8F3C32"
+					type: "random"
+					auto: "enabled"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "08442E09A0817343"
+					type: "random"
+					auto: "enabled"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "7E8B0FF1C417D0E7"
+					type: "random"
+					auto: "enabled"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "7F2D2672A1FF3503"
+					type: "random"
+					auto: "enabled"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "314DF0AF5A850319"
+					type: "random"
+					auto: "enabled"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "4C05CD6CC310990C"
+					type: "random"
+					auto: "enabled"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "156A7212E17DC74B"
+					type: "random"
+					auto: "enabled"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "150FCB47EB1FC501"
+					type: "random"
+					auto: "enabled"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "4ED6B7899613E17D"
+					type: "random"
+					auto: "enabled"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "4E0015AF82A796BA"
+					type: "random"
+					auto: "enabled"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "328821522EF9C95B"
+					type: "custom"
+					title: "重置任务"
+					icon: "thermal:machine_cycle_augment"
+					tags: ["repeatable"]
+					auto: "enabled"
+				}
+			]
+		}
+	]
+}

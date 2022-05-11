@@ -1,0 +1,995 @@
+{
+    "name": "Alex's Mobs",
+    "icon": "alexsmobs:tab_icon",
+    "category": "mods",
+    "pages": [
+        {
+            "type": "entity",
+            "entity": "alexsmobs:grizzly_bear"
+        },
+        {
+            "type": "text",
+            "text": "The Grizzly Bear is a large, omnivorous mammal found in forest biomes. It can often be found with one or two bear cubs, which follow their parent. Any unprepared traveller or hunter should keep their distance from a Grizzly Bear, as although they are neutral at a distance, they become hostile when approached."
+        },
+        {
+            "type": "text",
+            "text": " Grizzlies are well known for raiding any beehive with honey, tearing it open and feasting on the honeycombs inside. If a Grizzly Bear has been recently sated with honey, it can be approached safely. It is believed that feeding a Grizzly Bear salmon after it has eaten honey could result in gaining the beast's trust,"
+        },
+        {
+            "type": "text",
+            "text": " although few survive any close encounters with these bears. Those that do claim that they can be used as war mounts. $(br2)Occasionally, Grizzly Bears may shed some of their hair. This hair, when combined with a Strength Potion, can be used to brew a Knockback Resistance potion. $(br2)In snowy weather, the bear's pelt can become coated in snow."
+        },
+        {
+            "type": "text",
+            "text": " This can be removed with a shovel. Alternatively, one can cover a bear in snow by placing a snow layer on it. This snow will melt if the bear is in water, rain, or a hot biome."
+        },
+        {
+            "type": "entity",
+            "entity": "alexsmobs:roadrunner"
+        },
+        {
+            "type": "text",
+            "text": "The Roadrunner is a medium sized bird that can be found running across deserts and badlands. It is extremely quick and nimble for its size. Roadrunners often come into conflict with Rattlesnakes, other desert denizens, their natural prey."
+        },
+        {
+            "type": "crafting",
+            "recipe": "alexsmobs:roadrunner_boots",
+            "text": "The bird's feathers are highly sought after due to a belief that they can be used to create boots that allow their wearer to run fast on sand."
+        },
+        {
+            "type": "entity",
+            "entity": "alexsmobs:bone_serpent"
+        },
+        {
+            "type": "text",
+            "text": "The Bone Serpent is a giant, snake-like undead creature that dwells in the deep lava lakes of the Nether. It can occasionally be seen jumping out of the lava only to disappear into it again shortly after. The bone serpent is not only hostile to explorers, as it is also the mortal enemy of Wither Skeletons."
+        },
+        {
+            "type": "text",
+            "text": "Whenever the Bone Serpent targets a creature, it leaps out of the lava and attempts to crush its prey underneath it. $(br2)If slain, the Bone serpent explodes into piles of its bones, yet it can also drop one of its teeth. When brewed with a bottle of lava, a Potion of Lava Vision can be created, which allows one to see through lava as if it were water."
+        },
+        {
+            "type": "entity",
+            "entity": "alexsmobs:gazelle"
+        },
+        {
+            "type": "text",
+            "text": "The Gazelle is a small mammal endemic to the savannas of the Overworld. A dainty creature, the Gazelle is quite timid, and can be observed foraging in large herds. When one gazelle is attacked, all members of their group will attempt to flee from danger, running extremely quickly from any perceived threat."
+        },
+        {
+            "type": "text",
+            "text": "Gazelles occasionally drop their rare horns when slain. These horns can be brewed with a Speed II potion to create the uncommon Speed III Potion. They can also drop mutton."
+        },
+        {
+            "type": "entity",
+            "entity": "alexsmobs:crocodile"
+        },
+        {
+            "type": "text",
+            "text": "The Crocodile is a massive reptile that spawns in rivers and swamps rarely throughout the overworld. This beast lunges towards its prey, grabbing and then pulling them underwater, where it proceeds to deal a devastating death roll. This lunge attack can be blocked to temporarily stun the crocodile. It is naturally hostile towards man and beast alike."
+        },
+        {
+            "type":"text",
+            "text": "Although hostile, Crocodiles can be bred with Rotten Flesh. After breeding, crocodiles will come ashore to lay their eggs. If these eggs are damaged, any crocodile parents will become aggressive. After some time, crocodile eggs will hatch, and the baby crocodile can imprint on the nearest player."
+        },
+        {
+            "type":"text",
+            "text":"It will defend the area of its birth from monsters. Interacting with it can also make it stay still and bask. $(br2)Crocodile Scutes are dropped when the creatures becomes an adult or on death. These scutes can be used to create a protective chestplate that increases the wearer's swim speed. They can also be used to make a copy of this book."
+        },
+        {
+            "type":"crafting",
+            "recipe":"alexsmobs:crocodile_chestplate",
+            "recipe2":"alexsmobs:animal_dictionary"
+        },
+        {
+            "type":"entity",
+            "entity": "alexsmobs:fly"
+        },
+        {
+            "type":"text",
+            "text": "Flies are small, annoying insects common in the overworld. Naturally attracted to dead and dying things, they can be found chasing and biting zombies nearly to death. Flies can be breed with rotten flesh, and on death have a possibility to drop maggots."
+        },
+        {
+            "type":"text",
+            "text": "Fly Maggots can be used to breed other creatures, like Roadrunners and Capuchin Monkeys, and, in a pinch, used as a light snack. $(br2)If a fly happens to find itself in the nether, the diminutive little creature will transform into the monstrous Crimson Mosquito."
+        },
+        {
+            "type":"entity",
+            "entity": "alexsmobs:hummingbird"
+        },
+        {
+            "type":"text",
+            "text":"Hummingbirds are the smallest birds known to exist, yet that doesn't stop them from flying fast. These little birds can be found in jungles, flower forests and sunflower biomes. The one thing that can calm these critters - flowers. Hummingbirds are intense pollinators of crops and flowers, and are even better at it than bees. They can be bred with flowers."
+        },
+        {
+            "type":"crafting",
+            "recipe":"alexsmobs:hummingbird_feeder",
+            "text": "Hummingbird feeders can be crafted and filled with both Water Bottles and Sugar in order to keep hummingbirds in a small area - and boost the effects of their pollination."
+        },
+        {
+            "type":"entity",
+            "entity":"alexsmobs:orca"
+        },
+        {
+            "type":"text",
+            "text":"The Orca is a large, dolphin-like cetacean found in the cold oceans of the Overworld. It can be often seen bobbing up and down out of the water, and launching attacks on the native polar bear populations. They also kill schools of fish by slapping them with their massive tails. Unlike their dolphin cousins,"
+        },
+        {
+            "type":"text",
+            "text":"these whales are not so friendly - hurting one of them could make the entire pod attack you. $(br2)Swimming with a pod of orcas can grant one the Orca's Might effect. This effect grants increased attack speed. Orca often use their native strength against Drowned and Guardians."
+        },
+        {
+            "type":"entity",
+            "entity":"alexsmobs:sunbird"
+        },
+        {
+            "type":"text",
+            "text":"The Sunbird is a mythical crane that can be found soaring above the tallest mountains. Completely passive, the sunbird can grant its blessing to any player that can reach it. If blessed by a Sunbird, one can find it easier to fly with an elytra, and can calmly float up and down at an accelerated speed, just as the Sunbirds do."
+        },
+        {
+            "type":"text",
+            "text":"However, if the Sunbird is attacked, a curse will be allied, causing the attacker to fall swiftly and often fatally to the ground. $(br2)Being holy creatures, Sunbirds cause the unholy undead to instantly ignite into flames when nearby, just as if they were under the powerful sun itself."
+        },
+        {
+            "type":"text",
+            "text":"Sunbirds can not be injured by any sort of flame, heat or lava, due to them naturally being incarnations of flame themselves."
+        },
+        {
+            "type":"entity",
+            "entity":"alexsmobs:gorilla"
+        },
+        {
+            "type":"text",
+            "text":"The Gorilla is a massive ape found in groups in Jungles. Gorillas are peaceful protectors of the Jungle, but that doesn't make them defenseless. Gorillas can deal massive damage if provoked. Each group of gorillas has one leader, the Silverback, who commands his troop through the jungle. "
+        },
+        {
+            "type":"text",
+            "text":"They are two to three times as strong as any other gorilla, and can often be seen pounding their chest with anxious. Baby gorillas can often be found on the backs of their parents as they forage. $(br2)Gorillas can become more trustful and friendly if given bananas. Bananas can be obtained by breaking jungle leaves."
+        },
+        {
+            "type":"text",
+            "text":"If given enough bananas, gorillas can be commanded to sit or wander, and will automatically come to the defense of their new friend."
+        },
+        {
+            "type":"entity",
+            "entity":"alexsmobs:crimson_mosquito"
+        },
+        {
+            "type":"text",
+            "text":"The Crimson Mosquito is a hideous, mutant flying insect found in the Crimson Forests of the Nether. This voracious beast will seek out almost any warm-blooded animal as a snack, including people. It first lunges at its prey, and latches on, sucking them dry."
+        },
+        {
+            "type":"text",
+            "text":"Once it has had its fill, it will begin to fly and use its prey's blood against it - spitting it back at the target. $(br2)If slain while inflated with blood, the Crimson Mosquito can drop a Blood Sac. It also can drop its proboscis. Both of these materials can be used to craft the Blood Sprayer, "
+        },
+        {
+            "type":"text",
+            "text":"a unique weapon that uses Mosquito Spit to deal area of effect damage. The Blood Sprayer uses Blood Sacs as ammunition. $(br2)If an overworld, garden variety fly happens to find itself in the nether, it can transform into a Crimson Mosquito."
+        },
+        {
+            "type":"crafting",
+            "recipe":"alexsmobs:blood_sprayer"
+        },
+        {
+            "type":"entity",
+            "entity":"alexsmobs:rattlesnake"
+        },
+        {
+            "type":"text",
+            "text":"The Rattlesnake is a medium sized reptile found in deserts and badlands. Most of the time, the rattlesnake is heard, not seen, since it produces a loud rattle warning sound when a potential predator is nearby. If one gets close enough to a rattlesnake while it is rattling, the creature will become hostile and use its poisonous bite to defend itself. "
+        },
+        {
+            "type":"text",
+            "text":"Rattlesnakes are the sworn enemy of Roadrunners, their most common predator. Rattlesnakes can be bred with any type of meat. $(br2)If a rattlesnake is slain, it has a chance to drop its rattle. These rattles can be brewed with Potions of Poison in order to create a foul, poisonous essence. Brewing this essence with a Cave Centipede Leg can result in the coveted poison resistance potion."
+        },
+        {
+            "type":"entity",
+            "entity":"alexsmobs:endergrade"
+        },
+        {
+            "type":"text",
+            "text":"The Endergrade is the long lost cousin of the microscopic Tardigrade, or Moss piglet. These creatures must have been transported to the End dimension many millennia ago, as they have become gigantic due to the lack of predators in their home dimension."
+        },
+        {
+            "type":"text",
+            "text":"Here they can be found in Chorus forests, gently floating through the air and eating the plentiful chorus fruit. Like Overworld pigs, Endergrades can be saddled and subsequently ridden. However, one can only control a ridden endergrade if they are holding a Chorus on a Stick."
+        },
+        {
+            "type":"text",
+            "text":"Endergrades can be bred with Chorus Fruit, which can also be used to lure them down from the heights that they often live at. They can be useful for evading shulker attacks and reaching distant heights, even though they are a very slow mount."
+        },
+        {
+            "type":"entity",
+            "entity":"alexsmobs:hammerhead_shark"
+        },
+        {
+            "type":"text",
+            "text":"Hammerhead Sharks are large, cartilaginous fish well known for their predatory habits, that live in warmer waters. Hammerheads will target any creature that is beneath half health, being scavangers. They also love tropical fish and squids."
+        },
+        {
+            "type":"text",
+            "text":"When seeking out food, Hammerhead Sharks circle their prey beforehand, to scope out an ideal attack angle. Occassionally, when attacking prey, the Hammerhead may loose one of its many teeth. These teeth can be used to create arrows that can travel better underwater and deal extra damage to aquatic creatures."
+        },
+        {
+            "type":"crafting",
+            "recipe":"alexsmobs:shark_tooth_arrow"
+        },
+        {
+            "type":"entity",
+            "entity":"alexsmobs:lobster"
+        },
+        {
+            "type":"text",
+            "text":"Lobsters are small, aquatic crustaceans that can be found underwater in beach biomes. If attacked, lobsters can pinch any aggressive mob nearby, but will not pursue or chase them. Although most commonly red, lobsters can also come in other, rarer colors. If slain, Lobsters occasionally drop their delicious tails, which can be cooked. They can also be bucketed like any species of fish."
+        },
+        {
+            "type":"entity",
+            "entity":"alexsmobs:komodo_dragon"
+        },
+        {
+            "type":"text",
+            "text":"Komodo Dragons are the largest lizards in the world, often found in remote badlands biomes. These big lizards see man and beast as food alike, and attack almost anything. They are also cannibalistic, and will attack any other weakened Komodo Dragon, especially baby Komodos. These lizards have a terribly poisonous bite which they use to bring their prey down to size."
+        },
+        {
+            "type":"text",
+            "text":"Komodo Dragons have a fondness for Rotten Flesh, and will eat entire stacks of them out of players. If they are fed multiple entire stacks of Rotten Flesh, they can become tamed to a player. Tamed Komodos are just as savage as wild Komodos, yet they can be used a formidable mount that is surprisingly quick."
+        },
+        {
+            "type":"text",
+            "text":"Komodo Dragons can also occasionally drip their noxious saliva. If brewed with a Poison Resistance potion, it can extend the duration. This item can be bottled, and then brewed with a Cave Centipede leg to create an alternative to Poisonous Essence in a pinch as well. Three Komodo Dragon Spit can also be used to create a slimeball."
+        },
+        {
+            "type":"entity",
+            "entity":"alexsmobs:capuchin_monkey"
+        },
+        {
+            "type":"text",
+            "text":"Capuchin Monkeys are small primates native to Jungles. Like other primates, they have a fondness for bananas, which can be fed to them to tame them. Tame Capuchins are more sophisticated than other tamed creatures, like wolves, being able to follow, stay and wander, along with being able to use both ranged and melee attacks."
+        },
+        {
+            "type":"text",
+            "text":"They can also be made to ride their owner's shoulder, which they can also attack from, throwing stones at targets.$(br2)Capuchins can be fed a variety of other items. Feeding them eggs can be used to heal them, and they can be bred with maggots, one of their favorite foods. "
+        },
+        {
+            "type":"text",
+            "text":"Occassionally, they can drop a banana peel when eating a banana. These banana peels can be used to create a unique dish dubbed \"Sopa De Macaco\", which chefs describe as \"Uma Delicia\". $(br2)Rarely, an artifact known as an Ancient Dart can be found in chests in Jungle Temples. Giving these darts to Capuchin Monkeys gives them an upgraded ranged attack with piercing."
+        },
+        {
+            "type":"crafting",
+            "recipe":"alexsmobs:sopa_de_macaco"
+        },
+        {
+            "type":"entity",
+            "entity":"alexsmobs:centipede_head"
+        },
+        {
+            "type":"text",
+            "text":"The Cave Centipede is a rare, subterranean arthropod that can be found deep in caves. It is hostile towards anyone who would find themselves in its domain. Although slow, this cumbersome and giant arthropod can deal a dangerous amount of damage and has a poisonous bite."
+        },
+        {
+            "type":"text",
+            "text":"When slain, they have a chance to drop one or more of their legs. These legs can be used to craft a pair of leggings that grants its wearer the ability to climb walls, along with increased defense. They can also be brewed with a Poisonous Essence or a Bottle of Komodo Dragon Spit in order to create a Potion of Poison Resistance. This enables its user not to suffer the effects of poison."
+        },
+        {
+            "type":"entity",
+            "entity":"alexsmobs:warped_toad"
+        },
+        {
+            "type":"text",
+            "text":"The Warped Toad is a giant, rare amphibian native to the Warped Forests of the Nether. This neutral mutant frog is covered in glowing shroomlight fungus, which has a chance to drop when it dies. Although at home hopping along in the forests, it is also a skilled swimmer in both lava and water."
+        },
+        {
+            "type":"text",
+            "text":"Warped Toads favorite prey are Flies and Crimson Mosquitoes, which they will shoot their tongue out at extremely fast speeds to catch. Because these mosquitoes are rare in their native Warped Forests, these toads will do anything for Crimson Mosquito Larva - which can be crafted with a Maggot and a Crimson Mosquito Proboscis."
+        },
+        {
+            "type":"text",
+            "text":"Multiple larvae can be used to tame the Warped Toad, which can then be made to wander, stay or follow. The toad will defend its tamer when wandering or following, and can be a useful defense against the giant insects that roam the nether. These Toads can be healed with maggots, and bred with the aforementioned mosquito larva."
+        },
+        {
+            "type":"entity",
+            "entity":"alexsmobs:moose"
+        },
+        {
+            "type":"text",
+            "text":"Moose are giant, herbivorous mammals that dwell in snowy tundras and snowy taigas. These are no timid herbivores, however. If attacked, they can use their massive set of antlers to deal dangerous levels of damage. Moose can often be found jostling other moose, antler to antler, for dominance. Every seven to ten days, moose have a chance to drop one of their rare, giant antlers."
+        },
+        {
+            "type":"text",
+            "text":"It is said that two of these antlers can be used to create a headdress that can give the wearer special knockback abilities. It takes moose three to five days to regrow their horns. Moose are good parents, and will naturally defend their young from any predators, including wolves. Moose can be bred with multiple dandelions, their favorite food."
+        },
+        {
+            "type":"text",
+            "text":"In snowy weather, the moose's pelt can become coated in snow. This can be removed with a shovel. Alternatively, one can cover a moose in snow by placing a snow layer on it. This snow will melt if the moose is in water, rain, or a hot biome."
+        },
+        {
+            "type":"entity",
+            "entity":"alexsmobs:mimicube"
+        },
+        {
+            "type":"text",
+            "text":"Mimicubes are relatives of the slimes of the Overworld and the Magma Cubes of the Nether. These monsters can often be found guarding end cities. Unlike their slimy cousins, these gelatinous creatures possess a more powerful magic than almost any other known beast."
+        },
+        {
+            "type":"text",
+            "text":"When attacked, Mimicubes will attempt to mimic the weapons and armor of their attacker. This can mean that anyone wearing a helmet and brandishing a sword can find themselves being attacked by a Mimicube with the exact same equipment.In this way, the Mimicube can learn to use a shield, sword, bow, crossbow, trident, food and more."
+        },
+        {
+            "type":"text",
+            "text":"Care should be taken when dealing with Mimicubes, as using a powerful shield or sword against one can result in a foe that is difficult to defeat. When slain, Mimicubes can drop some of their magical gel, called Mimicream. One can harness the natural shape-shifting magic of the mimicream by using eight mimicream and any damageable item in the crafting grid. "
+        },
+        {
+            "type":"text",
+            "text":"With a few limitations, this can effectively create a mimiced, copied tool or equipment, with almost all the enchantments of the original. Of course, it is duplicated with zero durability, and must be repaired. This mimicking ability of the cream has resulted in it being widely sought after."
+        },
+        {
+            "type":"entity",
+            "entity":"alexsmobs:raccoon"
+        },
+        {
+            "type":"text",
+            "text":"Raccoons are small mammals native to plains and forests. Although neutral, they will beg for any food if seeing it held. They can often be identified at night due to their glowing eyes. Although it can be tempting to feed these cute animals, often times there is little benefit."
+        },
+        {
+            "type":"text",
+            "text":"The Raccoon is a known thief that often steals food out of chests and barrels, and, despite its adorable appearance, can be remarkably aggressive. One curiosity of the Raccoon is its \"washing\" behavior. When given food near water, a Raccoon will wash the food item under water, then eat it."
+        },
+        {
+            "type":"text",
+            "text":"Raccoons can only be tamed if given a chicken's Egg near water, where they can wash the egg as they see fit. Tamed Raccoons can be made to sit, follow and wander. They can be bred with bread. Tamed Raccoons can be given a carpet to wear as a bandana, which can be removed with shears. Occasionally, Raccoons can steal items from the inventories of villagers."
+        },
+        {
+            "type":"text",
+            "text":"When slain, Raccoons have a chance to drop their tails. These tails can be used to make the Frontiersman's Cap, which grants a speed bonus when sneaking."
+        },
+        {
+            "type":"crafting",
+            "recipe":"alexsmobs:frontier_cap"
+        },
+        {
+            "type":"entity",
+            "entity":"alexsmobs:blobfish"
+        },
+        {
+            "type":"text",
+            "text":"Blobfish are gelatinous fish found within the deepest oceans. Although naturally grey and compressed, the Blobfish becomes a pink pile of sludge if under less than 10 blocks of water pressure. When slain, four blobfish and a bottle can be used to craft fish oil, which when doused, can allow limited levitation in water or rain."
+        },
+        {
+            "type":"text",
+            "text":"They can also be bucketed like any other fish. Interacting with a blobfish with a slimeball can allow it to survive on land, usually for display purposes, since the creature is quite the curiosity."
+        },
+        {
+            "type":"entity",
+            "entity":"alexsmobs:seal"
+        },
+        {
+            "type":"text",
+            "text":"Seals are mostly aquatic mammals that can be found on the beaches and icebergs of the Overworld. These apparently lazy creatures often bask and sleep on any sand or ice they can find. When not resting on land, the seal is a extremely adept swimmer, capable of swimming rings around most other aquatic species, except for their ultimate predator: the Orca."
+        },
+        {
+            "type":"text",
+            "text":"If one seal is attacked, the entire pod will try and flee into the water, where they are more agile. Feeding a basking seal on land three fish will initiate a primitive form of \"trade\" between a person and the seal: in exchange for the three fish, the seal will scrounge the seabed for an item to return."
+        },
+        {
+            "type":"text",
+            "text":"Although this item is often worthless junk like kelp or sand, sometimes it can be much rarer items, like shark teeth, scutes or nautilus shells. Seals can be bred with Lobster Tails."
+        },
+        {
+            "type":"entity",
+            "entity":"alexsmobs:cockroach"
+        },
+        {
+            "type":"text",
+            "text":"Cockroaches are foul insects found underground, away from the sunlight. These giant bugs avoid light, as it makes them vulnerable to predators. They can often be seen scattering away from placed torches. Cockroaches are prolific breeders, and often produce Ootheca, which are egg cases filled with multiple roach nymphs."
+        },
+        {
+            "type":"text",
+            "text":"Although naturally skittish around people, cockroaches can be fed bread or sugar to make them more comfortable. Cockroaches are considered a nuisance as they eat any dropped food item, making it dangerous to leave food unguarded in caves. Covering a Cockroach in Mimicream from a Mimicube can result in a roach with a very interesting color scheme. "
+        },
+        {
+            "type":"text",
+            "text":"It is also said they have a fondness for Maracas. $(br2)Cockroaches are the natural prey of Cave Centipedes, which will seek them out from far away. When injured gravely, it is possible for a roach to lose its head, yet it seems they are fully capable of functioning in this beheaded form."
+        },
+        {
+            "type":"text",
+            "text":"On death, cockroaches have a chance to drop Cockroach Wing Fragments. Nine of these can be used to create a full Cockroach Wing, which in turn can be used to brew a rare potion of Bug Pheromones. These pheromones will allow one to go undetected near any hostile arthropod, but not completely invisible. Cockroaches can be bred with sugar."
+        },
+        {
+            "type":"entity",
+            "entity":"alexsmobs:shoebill"
+        },
+        {
+            "type":"text",
+            "text":"Shoebills are strange, stork-like birds found in swamps. These intimidating looking birds are actually surprisingly timid, and will take wing when attacked. They are often seen shaking their large, strange beaks. When left alone, Shoebills can often be seen fishing, catching their favorite food. Often times, Shoebills produce bycatch that are useless to them, but not to everyone."
+        },
+        {
+            "type":"text",
+            "text":"Shoebills can be fed Crocodile Eggs to increase the \"lure\" effect on their catches, and fed Blobfish to increase the \"luck\" of their catches. Shoebills are so naturally timid that they cannot be bred by people. Asides from fish, Shoebills will also attack baby Crocodiles and Turtles, which are also part of their diet."
+        },
+        {
+            "type":"entity",
+            "entity":"alexsmobs:elephant"
+        },
+        {
+            "type":"text",
+            "text":"Elephants are giant land mammals that can be found roaming savannas in great herds. In most Elephant herds, there are three kinds of elephant: calves, tusked and non-tusked. Their are usually one or two tusked elephants in a herd, and they are significantly stronger than other elephants. They also have a special, devastating charge attack."
+        },
+        {
+            "type":"text",
+            "text":"Elephants are defensive of their herds, and most depend on these tusked individuals to be the most protective. Elephants can attack in a multitude of ways other than charging, including using their massive trunks to toss enemies, or rearing up and stomping their opponent. "
+        },
+        {
+            "type":"text",
+            "text":"These mammals can often be seen standing up and tearing leaves off of trees, in hopes of obtaining a somewhat rare treat known as the Acacia Blossom. These blossoms drop rarely from acacia trees, and can be fed to elephants to tame them."
+        },
+        {
+            "type":"text",
+            "text":"Wild tusked elephants cannot be tamed, but babies and non-tusked elephants can. A tame, tusked elephant can be obtained only by taming it as a calf. $(br2)Tamed elephants can be ridden by interacting with them. If a chest is used on an elephant, it can gain a rather large inventory stored on its back, which can be accessed by sneaking."
+        },
+        {
+            "type":"text",
+            "text":"Any carpet can also be used on an elephant to decorate it. Both the chest and carpet can be removed using shears. Tamed, tusked elephants can be made to charge by feeding them wheat while riding them. This charge attack speeds up the elephant and deals a large amount of damage to any creature in the elephant's path. Elephants need a resting period after charging."
+        },
+        {
+            "type":"text",
+            "text":"Elephants can be bred with Acacia Blossoms once tamed. Occasionally, Wandering Traders in warm biomes can be found on top of trader elephants. These elephants are chested and have some loot from the trader's travels that can be accessed."
+        },
+        {
+            "type":"entity",
+            "entity":"alexsmobs:soul_vulture"
+        },
+        {
+            "type":"text",
+            "text":"Soul Vultures are the withered remains of long dead birds that haunt the Nether's Soul Sand Valleys. These undead birds can be seen circling the countless giant skeletons that litter the landscape. "
+        },
+        {
+            "type":"text",
+            "text":"If approached, Soul Vultures will launch a health-stealing assault on any explorer, where they can sap health up to a maximum of five times from their prey. If slain afterwards, they may have a chance to drop their soul-infused heart."
+        },
+        {
+            "type":"text",
+            "text":"The Soul Heart can be used to brew a potion of Soulsteal, which gives the drinker the same health-sapping powers as the bird. $(br2)Like their wither skeleton counterparts, the Soul Vultures are natural enemies of Piglins. They are also frequent prey for the Nether's Bone Serpents."
+        },
+        {
+            "type":"entity",
+            "entity":"alexsmobs:snow_leopard"
+        },
+        {
+            "type":"text",
+            "text":"Snow Leopards are big cats that can be found in snowy, mountainous areas. These cats, although voracious hunters, are not aggressive towards humans. They can often be spotted sitting or sleeping on snowy peaks. They will, however, be found stalking livestock, especially the sheep that are their favorite prey. "
+        },
+        {
+            "type":"text",
+            "text":"Snow Leopards will arch their back and sneak up behind their prey, before dealing a devastating leap attack. These big cats can also use their claws to attack in close combat. Snow Leopards are such proficient predators that their kills often yield extra drops, as if the creature had a high looting level."
+        },
+        {
+            "type":"text",
+            "text":"Although Snow Leopards cannot be tamed, they can be bred with Moose Ribs, meat from a creature they could only ever dream of hunting. These big cats are no pushovers, and will defend themselves or their offspring from any attacks."
+        },
+        {
+            "type":"entity",
+            "entity":"alexsmobs:spectre"
+        },
+        {
+            "type":"text",
+            "text":"A Spectre is the distant relative of the Overworld's Phantom, and can only be found in the great void between the islands of the end. These spectral beings cannot be attacked by any normal means, except for magical damage like potions."
+        },
+        {
+            "type":"text",
+            "text":"However, there should be no need to attack them, since Spectres are completely passive, unlike their Phantom cousins. Spectres usually take no interest in worldly matters, but they do find special interest in Soul Hearts, and will follow any player holding one. If one can lure a Spectre close enough, they can use a Lead to attach themselves to the beast."
+        },
+        {
+            "type":"text",
+            "text":" When attached via a lead, one will find themselves pulled along by the Spectre. The ghostly creature then becomes a quick and easy way to navigate the end, as being pulled by a Spectre across the void is an easy way to find new end islands to explore. $(br2)To detach from the Spectre, simply sneak or interact again with the lead."
+        },
+        {
+            "type":"entity",
+            "entity":"alexsmobs:crow"
+        },
+        {
+            "type":"text",
+            "text":"Crows are noisy birds found in forests and plains. These creatures are considered pests since they can often be found encircling fields and damaging crop growth. A simple carved pumpkin is enough to scare away any crows from a small field. These birds will usually scatter and take to the skies whenever closely approached. "
+        },
+        {
+            "type":"text",
+            "text":"Crows will pick up any food item they can fit in their beaks and devour it. $(br2) Despite their broody appearance, Crows can actually be tamed by tossing them some Pumpkin Seeds. Tamed crows are extremely useful creatures with a variety of different uses. They can be made to sit, wander, follow or gather items."
+        },
+        {
+            "type":"text",
+            "text":"Any tamed crow sitting on a hay block will slowly regain health. They will also fly around this hay block later, when set to gather items. When a crow picks up an item when set to gather items, it will look for a container, like a chest or furnace, with an item frame on it matching the held item."
+        },
+        {
+            "type":"text",
+            "text":"If the item in the frame is the same as the one held in the crow's beak, it will deposit it from that side into the container. hen set to follow, crows will fly around their owner, and after a while, attempt to sit on their shoulders."
+        },
+        {
+            "type":"text",
+            "text":"Crows can be removed from the shoulders by sneaking. When Crows defend their owner, they peck their attacker, dealing low enough damage not to make the monster aggressive. However, crows deal extra damage towards undead targets."
+        },
+        {
+            "type":"entity",
+            "entity":"alexsmobs:alligator_snapping_turtle"
+        },
+        {
+            "type":"text",
+            "text":"The Alligator Snapping Turtle is a massive, semi-aquatic reptile found in swamps throughout the overworld. Unlike its passive Sea Turtle cousins, the Alligator Snapping Turtle is a fiesty beast that attacks anything that steps near its sharp, beaked mouth. "
+        },
+        {
+            "type":"text",
+            "text":"ble to bite and move surprisingly fast for a turtle, it is best to leave these creatures alone when encountered. Alligator Snapping Turtles rarely move, and it is common for moss growth to build up on their shells over several days underwater."
+        },
+        {
+            "type":"text",
+            "text":"If mossy, they can be sheared for a chance to drop a Spiked Scute. These can be used to upgrade the Sea Turtle shell helmet. The Spiked Turtle Shell helmet has built in knockback resistance and allows players to breathe underwater for 15 extra seconds. It also can knock back melee attacks occasionally. Alligator Snapping Turtles can be bred with raw cod."
+        },
+        {
+            "type":"entity",
+            "entity":"alexsmobs:mungus"
+        },
+        {
+            "type":"text",
+            "text":"Mungi are strange, fungal creatures found in the Mushroom Fields. These odd creatures are relatives of the Guardian and Strider, and are visually similar to them. Unlike their Guardian anscestors, Mungi are completely passive. Occassionally, they can be seen with a mushroom growing out of the mycelium coat that covers them."
+        },
+        {
+            "type":"text",
+            "text":"If fed more of the same mushroom, more mushrooms will take root on the Mungus. With one or more mushrooms, Mungi will fire a beam similar to a Guardian's at nearby mushrooms of the same type. They will use this to grow more of that type of mushroom, and if the mushroom is over mycelium it may become a giant mushroom. "
+        },
+        {
+            "type":"text",
+            "text":"This will exaust the Mungus and lower the amount of mushrooms on it. If slain with five mushrooms on their back, the Mungus will erupt with a violent explosion, and convert the local area into the biome pertaining to their fungus: For red and brown mushrooms, the Mushroom Fields; and For crimson and warped fungus, the Crimson and Warped forests respectively."
+        },
+        {
+            "type":"text",
+            "text":"The conversion of a biome can be undone by feeding a Mungus a poisonous potato. Mungi can be bred with Mushroom Stew."
+        },
+        {
+            "type":"entity",
+            "entity":"alexsmobs:mantis_shrimp"
+        },
+        {
+            "type":"text",
+            "text":"Mantis Shrimp are giant crustaceans found in the reefs of the Warm Oceans. These giant shrimp are equipped with two powerful fists, which can move fast enough to burn their prey. These fists can also move fast enough to launch enemies back and break through blocks. Although neutral, it would not be wise to anger them."
+        },
+        {
+            "type":"text",
+            "text":"The Mantis Shrimp is clever predator of tropical fish, squid, guardians, and above all else, shulkers, their favorite delicacy.$(br2) Mantis Shrimp can be tamed by feeding them 10 to 30 tropical fish. If a mantis shrimp is out of water for more than 5 minutes, it will begin to dry out."
+        },
+        {
+            "type":"text",
+            "text":"This can be prevented by giving tame Mantis Shrimp water buckets when sneaking, so they can live out of the water indefinitely. Tamed mantis shrimp can be made to follow, sit, wander and break blocks. When sneak-interacted with while holding a block, one can give this block to the Mantis Shrimp. "
+        },
+        {
+            "type":"text",
+            "text":"The shrimp will then seek out and break any blocks matching the one held in its fist, if ordered to do so. Mantis Shrimp can be healed with any kind of fish when injured, and can be bred with Lobster Tails."
+        },
+        {
+            "type":"entity",
+            "entity":"alexsmobs:guster"
+        },
+        {
+            "type":"text",
+            "text":"Gusters are vengeful desert spirits that only manifest during storms in deserts. These creatures are inherently hostile, and will seek to throw their targets high up into the air, or shoot a stream of sand at them. Gusters can also lift up any dropped item and toss it, making gathering monster drops difficult."
+        },
+        {
+            "type":"text",
+            "text":"Gusters are formed out of local sands, and if in an area with soul sand or red sand, they will appearance will take the colors of these sediments. Although powerful, Gusters are not very fortified creatures. However, their almost ethereal presence makes them more resistant to projectile attacks than most monsters."
+        },
+        {
+            "type":"text",
+            "text":"When slain, Gusters will drop sand, and occasionally one of their eyes. These eyes can be used to craft a Gustmaker, a block that, when powered with redstone, releases a small gust storm. This little gust can push creatures and items around. The Eye can also be used to create a Pocket of Sand, which can be used as a weapon."
+        },
+        {
+            "type":"crafting",
+            "recipe":"alexsmobs:pocket_sand",
+            "recipe2":"alexsmobs:gustmaker"
+        },
+        {
+            "type":"entity",
+            "entity":"alexsmobs:warped_mosco"
+        },
+        {
+            "type":"text",
+            "text":"The Warped Mosco is an extremely dangerous and powerful mutation of the Crimson Mosquito. When a Crimson Mosquito sucks blood of a strange fungal creature, especially one covered in Warped Fungus, it will begin to mutate into this beast."
+        },
+        {
+            "type":"text",
+            "text":"Once the transformation is complete, the Mosco will be enraged and attack any nearby creature it sees as food, using its massive body as a weapon. Its attacks include an arial body slam, punching, smashing and sucking the blood of its prey to regenerate health."
+        },
+        {
+            "type":"text",
+            "text":"If slain, however unlikely, the Warped Mosco drops Warped Muscle and Hemolymph Sacs. These materials, when combined with others, can be used to create the Hemolymph Blaster, an upgraded version of the Crimson Mosquito's Blood Sprayer."
+        },
+        {
+            "type":"crafting",
+            "recipe":"alexsmobs:hemolymph_blaster"
+        },
+        {
+            "type":"entity",
+            "entity":"alexsmobs:straddler"
+        },
+        {
+            "type":"text",
+            "text":"Straddlers are giant relatives of the common Strider of the nether. Unlike the Strider, Straddlers can only be found in the Basalt Deltas. They are much hardier than their cousins as well, capable on land and in water, as well as in lava. However, Straddlers are also aggressive."
+        },
+        {
+            "type":"text",
+            "text":"Any explorer that gets too close is considered to be an intruder and is immediately attacked. The Straddler uses its long, netted hair to launch Stradpoles at their targets, which can deal a decent amount of damage. If slain, Straddlers will drop Basalt and rarely Straddlite. This mineral is uncommon, and can be used to craft a Straddleboard."
+        },
+        {
+            "type":"text",
+            "text":"Straddleboards are dyable boards that float in lava, yet sink in water. They can be used to cross the great lava oceans of the nether with ease. However, unlike the relatively safe Strider, the Straddleboard is prone to snapping and tumbling, resulting in a riskier yet faster voyage."
+        },
+        {
+            "type":"crafting",
+            "recipe":"alexsmobs:straddleboard",
+            "text":"If someone using a Straddleboard hits a ceiling or a wall too hard, they may find themselves sinking into a lava-y grave."
+        },
+        {
+            "type":"entity",
+            "entity":"alexsmobs:stradpole"
+        },
+        {
+            "type":"text",
+            "text":"Stradpoles are the immature larva of the Straddler. They can be found in the shallow lava pools of the Basalt Delta, and are launched by their parents at any possible threat. Using a bucket of lava, one can transport a Stradpole to and fro and ensure that it does not eventually dissapear. "
+        },
+        {
+            "type":"text",
+            "text":"Feeding a Stradpole a Crimson Mosquito Larva, their favorite prey, has a chance to grow the Stradpole into its hostile adult form. Stradpoles are equally at home in water as they are in lava, and make a strange yet exotic addition to any aquarium."
+        },
+        {
+            "type":"entity",
+            "entity":"alexsmobs:emu"
+        },
+        {
+            "type":"text",
+            "text":"The Emu is a large, flightless bird found in Badlands and Savannas of the Overworld. Although its appearance is slightly comical, the Emu is not a bird to be trifled with. Legend says that these creatures once won a great war against a technologically advanced nation, simply due to their uncanny ability to dodge projectiles, great numbers and speed."
+        },
+        {
+            "type":"text",
+            "text":"When attacked, Emu will initially panic and flee, but some Emu from the flock will return to attack. They use their large claws to rip and tear at prey. Emus dislike bows, and for this reason they sometimes attack skeletons. They can be breed with Wheat, and there are a few color patterns that may appear through breeding."
+        },
+        {
+            "type":"text",
+            "text":"Emus can occasionally lay one of their large blue eggs, which can be cooked to create a savory treat. On death, they may drop some of their feathers, that can be used to create a special set of leggings that can allow the wearer to dodge some projectiles, just like the emu. The feather can be used to make a banner pattern."
+        },
+        {
+            "type":"entity",
+            "entity":"alexsmobs:platypus"
+        },
+        {
+            "type":"text",
+            "text":"The Platypus is a creature that looks like a combonation of several other animals, but is completely unique in its own right. It can be encountered rarely in river biomes in the overworld. This strange mammal has poisonous spines on its feet, that it can use to inflict poison effects onto any attacker."
+        },
+        {
+            "type":"text",
+            "text":"The Platypus' weak sense of smell, hearing and eyesight have lead it to rely on electricity to hunt and navigate. Due to this, the platypus is naturally attracted to redstone when held. If fed redstone, the platypus will recharge its electric sensitivity, and will look for some maggots in nearby clay blocks."
+        },
+        {
+            "type":"text",
+            "text":"When looking for food, the Platypus will dig up several clay balls and maggots, which can then be collected. If fed an entire redstone block, the amount of items dug up will be greatly increased. Like other small aquatic creatures, the Platypus can be transported in a Bucket of Water. It can be bred with Lobster Tails, its favorite food."
+        },
+        {
+            "type":"entity",
+            "entity":"alexsmobs:dropbear"
+        },
+        {
+            "type":"text",
+            "text":"The Dropbear is a hostile, demonic-looking marsupial native to the Nether Wastes. This creature can often be found hanging upside down from the Nether's ceiling, waiting for unsuspecting prey to walk beneath it. When prey is below, the Dropbear will leap from its position and try and crush its target beneath it. "
+        },
+        {
+            "type":"text",
+            "text":"After it has landed, it will use its huge jaws and sharp claws to attack. If successful in dispatching its prey, the drop bear can leap back up to the Nether's ceiling. If slain, the Dropbear will surrender a Dropbear Claw, which, in a pinch, can be used to create Flint and Steel without the need of an Iron Ingot. "
+        },
+        {
+            "type":"text",
+            "text":"It can also be used to brew a potion of Clinging, which will allow the drinker to stand and walk on ceilings, just as the Dropbear does."
+        },
+        {
+            "type":"entity",
+            "entity":"alexsmobs:tasmanian_devil"
+        },
+        {
+            "type":"text",
+            "text":"Tasmanian Devils are small, diminutive marsupials rarely found in temperate forest biomes. These creatures can be identified by their black and white coats and strange growls. They can often be seen sitting or basking when in groups. When attacking their favorite prey of rabbits or chickens, all nearby Tasmanian Devils will join in on the hunt."
+        },
+        {
+            "type":"text",
+            "text":"These creatures, despite their size, will defend themselves from any attackers. If fed their favorite food of Rotten Flesh, the Tasmanian Devil will unleash a howl that can scare away all nearby monsters for a short time. These angry little creatures cannot be tamed, but they can be bred with any meat."
+        },
+        {
+            "type":"entity",
+            "entity":"alexsmobs:kangaroo"
+        },
+        {
+            "type":"text",
+            "text":"Kangaroos are large, neutral marsupials native to Savannas and Badlands. These creatures have unique locomotion: They move only by hopping. They can sometimes be seen with a joey in their pouch. Despite their prehistoric appearance, kangaroos are strict herbivores that love to feed on grass."
+        },
+        {
+            "type":"text",
+            "text":"They are not pushovers, however. If attacked, the Kangaroo can punch or kick with both its feet to deal devastating attacks. When slain, they can drop some of their meat, which can be cooked and made into a delicious Kangaroo Burger. They also can drop some of their hide, which can be crafted into leather, or a unique banner pattern."
+        },
+        {
+            "type":"text",
+            "text":"Kangaroo are tameable with ten to fifteen carrots. When tamed, one can command them stay, follow or wander by interacting with them, and access the Kangaroo's pouch inventory by sneaking. If there is a melee weapon placed in the pouch, the Kangaroo will use this whenever it attacks."
+        },
+        {
+            "type":"text",
+            "text":"Adult Kangaroo can also equip any helmet or chestplate placed in their pouch, and can eat any non-meat foods placed in their pouch when injured to regain health. Kangaroos can be bred with a Dead Bush or some Grass."
+        },
+        {
+            "type":"entity",
+            "entity":"alexsmobs:cachalot_whale"
+        },
+        {
+            "type":"text",
+            "text":"The Cachalot Whale is a massive, neutral mammal found in lukewarm, cold, and deep oceans, where it can be seen hunting its favorite prey - squid. They do this by sending out a sound to echolocate their prey, which bounces back to the whale when it hits the squid in order for them to confirm its location."
+        },
+        {
+            "type":"text",
+            "text":"The whale then proceeds to speed up and open its mouth full of sharp teeth to ram into the prey. Occasionally, the whale may drop one of these long teeth in the process. These whales are capable of breaking ice when they move, but if charging they can break boats and other kinds of wood. Rarely, all-white whales can be found, which are much stronger than other whales."
+        },
+        {
+            "type":"text",
+            "text":"The Cachalot Whale may seem like a giant, but it still is threatened by a few forces of nature. Orca whales love to eat young Cachalots, and their mothers will try to fiercely defend them from harm. During powerful thunderstorms, Cachalot Whales may spawn washed up on beaches. "
+        },
+        {
+            "type":"text",
+            "text":"They are helpless in this form, and if pushed back into the water without being hurt, may decide to reward their saviors. The reward for this task is in the form of Ambergris, a valuable byproduct of the whale's stomach that is coughed up. Ambergris can be traded to fishermen villagers for a great deal of emeralds, or can be used to craft an Echolocator."
+        },
+        {
+            "type":"text",
+            "text":"It can also be used as a powerful fuel that can smelt 64 items. $(br2)The Echolocator can be used to reveal nearby caves. Once a cave has been found it will release a sound wave in the direction of the cave. One should be conservative with this tool since it has limited number of uses."
+        },
+        {
+            "type":"text",
+            "text":"If crafted with 4 ender pearls, one can make an Endolocator, which can reveal the location of the End Portal when near a stronghold."
+        },
+        {
+            "type":"crafting",
+            "recipe":"alexsmobs:echolocator",
+            "recipe2":"alexsmobs:endolocator"
+        },
+        {
+            "type":"entity",
+            "entity":"alexsmobs:leafcutter_ant"
+        },
+        {
+            "type":"text",
+            "text":"Leafcutter Ants are diminutive little insects that can often be seen tearing leaves from trees in jungle biomes. They form massive colonies of up to twenty ants. There are two forms of Leafcutter ant - workers, who harvest leaves and can be seen outside the anthill, and queens, which can only be summoned by stomping on an anthill."
+        },
+        {
+            "type":"text",
+            "text":"Queens are much larger and stronger than a worker, and there is usually only one per colony. With a queen present in an anthill, there is a chance for every 5 leaves harvested to create another worker ant, while the hill has less than 10 ants."
+        },
+        {
+            "type":"text",
+            "text":"Without a queen, Anthills are unable to repopulate. These colonies are much larger than they appear - under the mound there is a network of Leafcutter Ant Chambers, large blocks which are used by the ants to convert their leaves into fungi. These chamber blocks will convert to dirt if under sunlight, however they can spread to adjacent dirt blocks when harvested."
+        },
+        {
+            "type":"text",
+            "text":"This fungi is called Gongylidia, and it is the only things the ants are capable of farming and eating. Apart from its uses to the ants, it can also be eaten, although it may not have much nutritional value, it has a great deal of saturation."
+        },
+        {
+            "type":"text",
+            "text":"Gongylidia can be obtained by interacting with a fungal-covered chamber block underground, but beware: Unless there is a Shroomlight nearby, the ants of the colony will become hostile."
+        },
+        {
+            "type":"text",
+            "text":"The fungi can be fed to ants to heal them, and to the queen in order to bolster the number of ants in the colony. Gongylidia can also be fed to an ant to pacify all the ants in the nearby area. If a chamber block is broken, there is a rare chance that it may drop a Leafcutter Ant Pupa, which can be used on dirt or grass to create a new colony."
+        },
+        {
+            "type":"entity",
+            "entity":"alexsmobs:enderiophage"
+        },
+        {
+            "type":"text",
+            "text":"The Enderiophage is a monstrous biochemical automaton uncommonly found in the End Midlands. This unnatural creature seems to have been created with one purpose in mind - eliminating the End's native Endergrades. However, due to their sparse population, it is unlikely their creators were successful in their Endeavor."
+        },
+        {
+            "type":"text",
+            "text":"The Enderiophage's attack depends on it inflicting an effect known as the Ender Flu on its prey. Although it lasts ten minutes, by the time the effect passes the host will erupt with new, smaller phages, and promptly die from the massive damage. This effect can be removed by consuming chorus fruit or milk. Other inflicted creatures can also be given the fruit to be healed."
+        },
+        {
+            "type":"text",
+            "text":"The Enderiophage, although neutral to most, is also hostile towards Endermen. After inflicting its prey with Ender Flu, the Eye of Ender inside the phage will shatter, leaving them to seek out the sight of an Endermen."
+        },
+        {
+            "type":"text",
+            "text":"To restore this ability, it will latch onto an Enderman and afflict it with blindness, while it tries to sneak off with its eye regained. A Enderiophage is unable to attack without an eye. $(br2)On destruction, the Enderiophage can drop a unique block called the Capsid. "
+        },
+        {
+            "type":"text",
+            "text":"This capsid can hold up to an entire stack of items inside of it, and when another capsid or inventory is placed above it, the item will float up. In this manner, the capsid can be used to transport items upwards. "
+        },
+        {
+            "type":"text",
+            "text":"The Capsid can also be crafted with iron nuggets and endstone in order to create an Enderiophage Rocket, which can be used in place of the Firework Rocket while flying with the Elytra. "
+        },
+        {
+            "type":"text",
+            "text":"If an Eye of Ender is placed on a Capsid above a vertical End Rod, it will transform into an Enderiophage! If not constructed in this fashion, any naturally existing Enderiophage appear to be made out of materials common to their present dimension. Perhaps that is how these beings came to be..."
+        },
+        {
+            "type":"entity",
+            "entity":"alexsmobs:bald_eagle"
+        },
+        {
+            "type":"text",
+            "text":"Bald Eagles are large, neutral raptors found in wooded mountain biomes. They are frequent visitors to nearby lakes, where they will attempt to dive and grab salmon out of the water. They are also fond of attacking rabbits in the same way. When attacking larger creatures, the Bald Eagle will prefer to circle, slash with its talons, and repeat."
+        },
+        {
+            "type":"text",
+            "text":"Due to their love of fish, Bald Eagles can be lured and tamed with Fish Oil. A tamed bald eagle can be commanded to stay, follow and wander, like many other beasts, but they can also be used for falconry. To start with falconry, one needs to craft the Falconry Glove. "
+        },
+        {
+            "type":"text",
+            "text":"When held either in the main or off-hand, this glove can be used to pick up eagles and hold them in hand. To launch an eagle from the hand, simply punch. If launched while staring at a mob, the eagle will fly to this mob, attack, and, if it survives, return to the hand. If no mob is selected the eagle will simply jump off the glove."
+        },
+        {
+            "type":"text",
+            "text":"To improve upon one's falconry skill, a Falconry Hood can be crafted. The hood can be placed on an eagle, and an eagle with a hood will follow the direct command of its owner when launched from a glove. This means the eagle can be effectively piloted by its owner."
+        },
+        {
+            "type":"text",
+            "text":"If the eagle flies further than 150 blocks from its owner, it will attempt to return. To stop controlling the eagle, the owner can also sneak. The hood can be removed from the eagle with shears. $(br2) Eagles are often injured by their prey when hunting. A tamed eagle can be healed with any fish. Bald Eagles can be bred with rotten flesh."
+        },
+        {
+            "type":"crafting",
+            "recipe":"alexsmobs:falconry_glove",
+            "recipe2":"alexsmobs:falconry_hood"
+        },
+        {
+            "type":"entity",
+            "entity":"alexsmobs:tiger"
+        },
+        {
+            "type":"text",
+            "text":"Tigers are big cats that can be found inside and around Bamboo Jungles. They are naturally weary of outsiders and will attack if approached. A tiger is an excellent hunter, and is extremely strong, capable of leaping from many blocks away to crush its prey, and also capable of slashing with its claws."
+        },
+        {
+            "type":"text",
+            "text":"They are also masters of stealth, as they often are capable of becoming nearly invisible when stalking prey from far away. They are also extremely fast. To top it all off, they are so terrifying that their prey are literally frozen in fear for a few seconds when the tiger makes its appearance and intent known."
+        },
+        {
+            "type":"text",
+            "text":"Despite their strength and fearsome appearance, these creatures are far from monsters. By feeding them primarily chicken or porkchops, their favorite foods, or other fresh meats, one can obtain the Tiger's Blessing, an effect that will allow one to approach a tiger without being mauled."
+        },
+        {
+            "type":"text",
+            "text":"This effect will also result in tigers coming to your aide if attacked. However, it only lasts a few minutes, meaning that one must continue to feed a tiger to keep it neutral. The effect will also be lost if a tiger is attacked."
+        },
+        {
+            "type":"text",
+            "text":"Tigers are very defensive parents. Despite their mostly carnivorous diet, they can be bred with Acacia Blossoms. Occasionally when breeding tigers, there is a chance for the kitten to be a rare white tiger."
+        },
+        {
+            "type":"entity",
+            "entity":"alexsmobs:tarantula_hawk"
+        },
+        {
+            "type":"text",
+            "text":"Despite its name, the Tarantula Hawk is neither a spider nor a bird. They are giant, parasitoid wasps that are often found buzzing above desert biomes. Although a terrifying sight, they have little interest in most creatures, and are neutral."
+        },
+        {
+            "type":"text",
+            "text":"Tarantula Hawks get their name from their favorite prey: they love to attack spiders. They can often be seen swooping in to sting spiders, only to fly around and come back once the prey has been completely immobilized by their sting. They will proceed to drag the spider away and bury it underground."
+        },
+        {
+            "type":"text",
+            "text":"When attacking, the Tarantula Hawk can inflict the Debilitating Sting effect, which paralyses arthropods and damages non-arthropods until they are at half their usual health. Tarantula Hawks can be difficult to fight, since they have a very erratic flight pattern and sting frequently."
+        },
+        {
+            "type":"text",
+            "text":"Tarantula Hawks can be tamed by feeding them 15-25 Spider Eyes. They can prove to be a formidable defense against many monsters, and their sting is extremely beneficial when fighting spiders or other arthropods. Two tame tarantula hawks can be bred by feeding them Fermented Spider Eyes."
+        },
+        {
+            "type":"text",
+            "text":"Once bred, the wasps will seek out spiders to paralyze - only this time, a baby Tarantula Hawk grub will emerge from where the spider is buried, after some time. Tame Tarantula Hawks can be healed with flowers. Tarantula Hawks bred in the nether will have a yellow-orange color pattern."
+        },
+        {
+            "type":"text",
+            "text":"If a Tarantula Hawk is slain, it can drop a Tattered Tarantula Hawk wing. Nine of these can be used to create a Tarantula Hawk Wing, which when two are crafted with an Elytra can render the Tarantula Hawk Elytra. This upgrade has 3 additional armor points, more durability, and is enchantable. Tattered wings can also be used to create a unique banner pattern."
+        },
+        {
+            "type":"entity",
+            "entity":"alexsmobs:void_worm"
+        },
+        {
+            "type":"text",
+            "text":"The Void Worm is an ancient creature that naturally dwells in the void beneath the end. It is thought that these worms are some sort of interdimensional parasite, do to their inate ability to tunnel through reality."
+        },
+        {
+            "type":"text",
+            "text":"This boss can be baited out of the void by tossing a Mysterious Worm into the End's void. One can obtain one of these worms by placing a Crimson Mosquito Larva inside an Enderiophage's Capsid."
+        },
+        {
+            "type":"text",
+            "text":"The Void Worm is equipped with multiple devastating attacks. Firstly, it can launch up to four homing crystals from its mouth at a time, which seek out any nearby prey and deal great damage. Then, the worm will attempt to directly bite whatever gets in its way. Finally, the worm can tear a portal open out of nothing to reach any hidden prey."
+        },
+        {
+            "type":"text",
+            "text":"When attempting to slay this beast, one must make sure to only deal significant damage to the head. If a body segment is severely damaged, it will stop glowing, and if destroyed the entire worm will split in two. These split worms will have half the health and move a bit slower, but they still deal a great amount of damage. If one is not careful, they may end up absolutely swamped with worms."
+        },
+        {
+            "type":"text",
+            "text":"When slain, the worm drops both an eye and two of it's mandibles. The mandibles can be put together to make a beak, a trophy that when activated with redstone bites any mob in its jaws. The eye can be used with the mandibles and some netherite to create a magical pickaxe: the Dimensional Carver."
+        },
+        {
+            "type":"text",
+            "text":"Unlike other pickaxes, the Dimensional Carver is not used to break through blocks, but rather through reality itself. By using the tool anywhere, one can tear open a portal back to their spawn. On the other side, a temporary return portal will also be opened, for only a minute. One should make sure not to overuse this tool, since it only has 20 uses."
+        },
+        {
+            "type":"entity",
+            "entity":"alexsmobs:frilled_shark"
+        },
+        {
+            "type":"text",
+            "text":"Frilled Sharks are lethargic living fossils found in deep oceans. These neutral sharks spend most of their time hunting for blobfish and squid, their favorite prey. When pursuing squid, Frilled Sharks take advantage of the low-light levels of the deep sea and the squid's natural instincts by luring them in using its very reflective teeth."
+        },
+        {
+            "type":"text",
+            "text":"After landing some prey in its jaws, the shark will use its special serrated teeth to deal damage along with the Exsanguination effect, which quickly drains health. Occasionally, these teeth can be shed when attacking a squid."
+        },
+        {
+            "type":"text",
+            "text":"If one obtains some Serrated Shark Teeth, they can use them, along with some other aquatic items, to create the Shield of the Deep. This Shield is a bit more durable than normal, but it also deals the Exsanguination effect when blocking nearby attacks."
+        },
+        {
+            "type":"text",
+            "text":"Frilled Sharks can be transported by placing them in a Bucket of Water. If a Frilled Shark is in less than 10 blocks of water pressure, it will be discolored and even slower than normal."
+        },
+        {
+            "type":"entity",
+            "entity":"alexsmobs:mimic_octopus"
+        },
+        {
+            "type":"text",
+            "text":"The Mimic Octopus is a curious, passive cephalopod found in warm oceans. Prey to many other animals, the Mimic Octopus relies on its rapid regeneration and its ability to change shape and color to survive."
+        },
+        {
+            "type":"text",
+            "text":"The octopus can change color to match any block it decides to, and is known to mimic Pufferfish, Creepers and Guardians if any are nearby. When mimicking a block, the creature is almost invisible to any predators."
+        },
+        {
+            "type":"text",
+            "text":"Mimic Octopi can be tamed by a player by feeding them five to eight Lobster tails, but only when they are not actively camouflaged. Although naturally passive, tamed Mimics will attempt to scare any would-be attackers of their owners by changing form, often into a monster."
+        },
+        {
+            "type":"text",
+            "text":"Once tamed, the Octopus can follow its owner onto land, but one must note that they can dry out in this toxic environment. A slimeball can be applied every few days in order to nullify this. By interacting with a tame Mimic Octopus with an ink sac, one can toggle whether or not it should randomly change form."
+        },
+        {
+            "type":"text",
+            "text":"By using a Prismarine shard on an octopus, it can remember and take the form of a Guardian. The same is true for Pufferfish and Creeper drops. None of these 'reminders' consume the item."
+        },
+        {
+            "type":"text",
+            "text":"Like other tamable creatures, these octopi can be commanded to sit, wander or follow. If one applies five to eight mimicream to a Mimic Octopus, it can learn to not only mimic the shape of creatures, but their abilities in combat."
+        },
+        {
+            "type":"text",
+            "text":"These octopi can shoot beams as Guardians, stab with poison spikes as Pufferfish, and explode as Creepers.$(br2)Tamed Mimic Octopi can be bucketed, and bred with tropical fish. One should make sure not to keep any Mimic Octopi near any sharks or Mantis Shrimps, their natural predators."
+        },
+        {
+            "type":"entity",
+            "entity":"alexsmobs:seagull"
+        },
+        {
+            "type":"text",
+            "text":"Seagulls are medium-sized birds often found on beaches. These birds are noteworthy for their ability to steal any food items, whether they are held in hand or in the hotbar. They will also pick up and eat any food item that is on the ground. Seagulls can only steal items every one to three minutes, so although an annoyance, they are far from a threat."
+        },
+        {
+            "type":"text",
+            "text":"Seagulls are not just an annoying bird, however. If one has a map leading to buried treasure in their off hand, they can toss a Lobster Tail onto the ground. The seagull that eats this will reward its feeder by sitting directly above the buried treasure."
+        },
+        {
+            "type":"text",
+            "text":"This can greatly help in the effort of locating treasure once one is close enough to the 'X' on the map. Seagulls can also be bred with raw cod."
+        },
+        {
+            "type":"text",
+            "text":"N Wither, frustrated QAQ",
+            "title":"Translation"
+        }
+    ]
+}

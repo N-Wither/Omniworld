@@ -1,0 +1,33 @@
+
+[Energy_Capacity]
+	#Range: 0 ~ 9000000000000000000
+	starterCap = 0
+	#Range: 0 ~ 9000000000000000000
+	basicCap = 0
+	#Range: 0 ~ 9000000000000000000
+	hardenedCap = 0
+	#Range: 0 ~ 9000000000000000000
+	blazingCap = 0
+	#Range: 0 ~ 9000000000000000000
+	nioticCap = 0
+	#Range: 0 ~ 9000000000000000000
+	spiritedCap = 0
+	#Range: 0 ~ 9000000000000000000
+	nitroCap = 0
+
+[Energy_Transfer]
+	#Range: 0 ~ 9000000000000000000
+	starterTransfer = 2000
+	#Range: 0 ~ 9000000000000000000
+	basicTransfer = 10000
+	#Range: 0 ~ 9000000000000000000
+	hardenedTransfer = 50000
+	#Range: 0 ~ 9000000000000000000
+	blazingTransfer = 240000
+	#Range: 0 ~ 9000000000000000000
+	nioticTransfer = 1000000
+	#Range: 0 ~ 9000000000000000000
+	spiritedTransfer = 4000000
+	#Range: 0 ~ 9000000000000000000
+	nitroTransfer = 100000000000
+

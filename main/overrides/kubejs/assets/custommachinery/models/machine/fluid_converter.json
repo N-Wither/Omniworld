@@ -1,0 +1,9 @@
+{
+    "parent": "minecraft:block/orientable_with_bottom",
+    "textures": {
+      "top": "custommachinery:block/fluid_converter_side",
+      "bottom":"custommachinery:block/fluid_converter_side",
+      "front": "custommachinery:block/fluid_converter_front",
+      "side": "custommachinery:block/fluid_converter_side"
+    }
+}

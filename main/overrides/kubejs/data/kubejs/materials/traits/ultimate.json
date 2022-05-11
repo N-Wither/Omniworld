@@ -1,0 +1,12 @@
+{
+    "default": [
+      {
+        "name": "tdelight:vengeful",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:enhanced",
+        "level": 2
+      }
+    ]
+  }

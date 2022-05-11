@@ -1,0 +1,11 @@
+{
+    "name":"1.8.3 2021/11/28",
+    "icon":"rslargepatterns:large_pattern",
+    "category":"update",
+    "pages":[
+        {
+            "type": "text",
+            "text": "添加了RS大样板；$(br)添加了制作三明治的模组；$(br)匠魂材料现在支持Draconic Evolution；$(br)植物盆现在支持更多作物；$(br)被遮挡的实体现在不会被渲染；$(br)当附近的容器满时，迷你刷怪场会停止工作；$(br)禁用了一些功能重复的附魔。"
+        }
+    ]
+}

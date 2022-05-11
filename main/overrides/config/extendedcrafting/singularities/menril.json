@@ -1,0 +1,10 @@
+{
+    "name": "门瑞欧",
+    "colors": [
+      "3cbad5","0f3e47"
+    ],
+    "ingredient": {
+      "item": "integrateddynamics:crystalized_menril_chunk"
+    },
+    "inUltimateSingularity": true
+}

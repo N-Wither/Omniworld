@@ -1,0 +1,11 @@
+{
+    "name":"1.9.0 2022/02/22",
+    "icon":"projectex:final_star_shard",
+    "category":"update",
+    "pages":[
+        {
+            "type": "text",
+            "text": "lazy"
+        }
+    ]
+}

@@ -1,0 +1,792 @@
+{
+	id: "70E72F54092706CD"
+	group: ""
+	order_index: 2
+	filename: "70E72F54092706CD"
+	title: "还是种田适合老子"
+	icon: {
+		id: "minecraft:iron_hoe"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "4DEDC3E430465BD6"
+			tasks: [{
+				id: "28EE3208E04DCB93"
+				type: "item"
+				item: "neapolitan:strawberries"
+			}]
+			rewards: [{
+				id: "0F6C32B83C96B9E3"
+				type: "item"
+				item: "neapolitan:strawberry_pips"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			description: ["在高度不少于120的环境下种植草莓。"]
+			dependencies: ["4DEDC3E430465BD6"]
+			id: "3644CBBF3777914C"
+			tasks: [{
+				id: "72D0A2AAF99D7082"
+				type: "item"
+				item: "neapolitan:white_strawberries"
+			}]
+			rewards: [{
+				id: "3F1FAE4EA26EE994"
+				type: "item"
+				item: "neapolitan:white_strawberries"
+				count: 2
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			id: "69BE151DB28ECAEE"
+			tasks: [{
+				id: "57C30776AD0952EF"
+				type: "item"
+				item: "neapolitan:vanilla_pods"
+			}]
+			rewards: [{
+				id: "58E86020B8828001"
+				type: "item"
+				item: "neapolitan:vanilla_pods"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			id: "5C40C16C5B0ADCCD"
+			tasks: [{
+				id: "61D7F8B71720DCB3"
+				type: "item"
+				item: "atmospheric:passionfruit"
+			}]
+			rewards: [{
+				id: "42BB38E987AC8A0B"
+				type: "item"
+				item: "atmospheric:passion_vine"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			description: ["在沙子或沙砾上面种植香蕉叶，在雨天能用骨粉催熟。"]
+			id: "1469065F13A110F6"
+			tasks: [{
+				id: "35A89C6A919A7161"
+				type: "item"
+				item: "neapolitan:banana"
+			}]
+			rewards: [{
+				id: "208DA6E13BEC1A84"
+				type: "item"
+				item: "neapolitan:banana_frond"
+			}]
+		}
+		{
+			title: "红豆"
+			x: 4.0d
+			y: 1.5d
+			id: "293CDA7C00D90B94"
+			tasks: [{
+				id: "4F7BF6478E51852F"
+				type: "item"
+				item: "neapolitan:adzuki_beans"
+			}]
+			rewards: [{
+				id: "5820CD7E88C10666"
+				type: "item"
+				item: "neapolitan:adzuki_beans"
+			}]
+		}
+		{
+			title: "薄荷"
+			x: 6.0d
+			y: 0.0d
+			id: "78A9DD7C3E949A53"
+			tasks: [{
+				id: "13ACCEECDFD35B73"
+				type: "item"
+				item: "neapolitan:mint_sprout"
+			}]
+			rewards: [{
+				id: "6532F6DB7705BC8C"
+				type: "item"
+				item: "neapolitan:mint_sprout"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			id: "705F1DEFED889C06"
+			tasks: [{
+				id: "2AA50CB6B31EEA7E"
+				type: "item"
+				item: "atmospheric:aloe_leaves"
+			}]
+			rewards: [{
+				id: "39505DBF17C1C319"
+				type: "item"
+				item: "atmospheric:aloe_kernels"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			id: "3DE77C99E56E5B3B"
+			tasks: [{
+				id: "03A7DBDE9D9945A3"
+				type: "item"
+				item: "atmospheric:yucca_fruit"
+			}]
+			rewards: [{
+				id: "3CDE14518DC8AB86"
+				type: "item"
+				item: "atmospheric:yucca_sapling"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			id: "2055A0D19AC8471D"
+			tasks: [{
+				id: "5467842DD1329082"
+				type: "item"
+				item: "farmersdelight:cabbage"
+			}]
+			rewards: [{
+				id: "7B60E1A6DED88E32"
+				type: "item"
+				item: "farmersdelight:cabbage_seeds"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.0d
+			id: "05029004A8DE6E00"
+			tasks: [{
+				id: "5CC0984EAA6305B6"
+				type: "item"
+				title: "番茄"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:vegetables/tomato"
+					}
+				}
+			}]
+			rewards: [{
+				id: "77ED3777DF5AD1C5"
+				type: "item"
+				item: "farmersdelight:tomato_seeds"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 3.0d
+			id: "7B743782DFCDFF3A"
+			tasks: [{
+				id: "46A81B54E8CB8CAC"
+				type: "item"
+				item: "simplefarming:corn"
+			}]
+			rewards: [{
+				id: "2A1A29F4A09284C3"
+				type: "item"
+				item: "simplefarming:corn_seeds"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			id: "24FC729592CDDEB0"
+			tasks: [{
+				id: "6115EF2311455495"
+				type: "item"
+				title: "洋葱"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:vegetables/onion"
+					}
+				}
+			}]
+			rewards: [{
+				id: "46234F8942B4E272"
+				type: "item"
+				item: "farmersdelight:onion"
+			}]
+		}
+		{
+			title: "稻米"
+			x: 2.0d
+			y: 4.5d
+			id: "085D9DA26F89499C"
+			tasks: [{
+				id: "721D3B612EEB8B7D"
+				type: "item"
+				title: "Any #forge:crops/rice"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:crops/rice"
+					}
+				}
+			}]
+			rewards: [{
+				id: "750453D3A425C6AE"
+				type: "item"
+				item: "farmersdelight:rice"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			id: "213C7B1F143D1B41"
+			tasks: [{
+				id: "3154767D5B7B7ED8"
+				type: "item"
+				item: "simplefarming:blackberries"
+			}]
+			rewards: [{
+				id: "436BF67949D35D05"
+				type: "item"
+				item: "simplefarming:blackberry_bush"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 6.0d
+			id: "2330241E4B6F5BCF"
+			tasks: [{
+				id: "4A67CE96799932F1"
+				type: "item"
+				item: "simplefarming:blueberries"
+			}]
+			rewards: [{
+				id: "3E6B538A408B06DD"
+				type: "item"
+				item: "simplefarming:blueberry_bush"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 6.0d
+			id: "00438F2AE72A84CE"
+			tasks: [{
+				id: "525F7C4B21E91EB3"
+				type: "item"
+				item: "simplefarming:raspberries"
+			}]
+			rewards: [{
+				id: "302DE85D2FE7323F"
+				type: "item"
+				item: "simplefarming:raspberry_bush"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 6.0d
+			id: "46707E97598B119D"
+			tasks: [{
+				id: "059E733D9BA94ECD"
+				type: "item"
+				item: "simplefarming:strawberries"
+			}]
+			rewards: [{
+				id: "7295B515107646F4"
+				type: "item"
+				item: "simplefarming:strawberry_bush"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.5d
+			id: "16EF30009735CB1F"
+			tasks: [{
+				id: "5B9C69B80590AEB4"
+				type: "item"
+				item: "minecraft:carrot"
+			}]
+			rewards: [{
+				id: "5BFB3CD6F103E625"
+				type: "item"
+				item: "minecraft:carrot"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 4.5d
+			id: "36E0D54FE868DDFE"
+			tasks: [{
+				id: "17B1A6027CA15096"
+				type: "item"
+				item: "minecraft:potato"
+			}]
+			rewards: [{
+				id: "54CCA738317EC91D"
+				type: "item"
+				item: "minecraft:potato"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			id: "7F7AB3AF5BF60DD4"
+			tasks: [{
+				id: "444E4C131F8384A2"
+				type: "item"
+				item: "minecraft:apple"
+			}]
+			rewards: [{
+				id: "0322911A4F3D8FC6"
+				type: "item"
+				item: "simplefarming:apple_sapling"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.5d
+			id: "688BE27E119F6D0B"
+			tasks: [{
+				id: "4429D0A67A22CD2F"
+				type: "item"
+				item: "simplefarming:pear"
+			}]
+			rewards: [{
+				id: "4D769072D9230D7C"
+				type: "item"
+				item: "simplefarming:pear_sapling"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 3.0d
+			id: "1B2760B301876745"
+			tasks: [{
+				id: "678CCED280C1109E"
+				type: "item"
+				title: "樱桃"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:fruits/cherries"
+					}
+				}
+			}]
+			rewards: [{
+				id: "03BEC1C4216ED9A4"
+				type: "item"
+				item: "simplefarming:cherry_sapling"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 0.0d
+			id: "1F3ABBA0C23969DA"
+			tasks: [{
+				id: "77EA53BA6D37231A"
+				type: "item"
+				item: "simplefarming:apricot"
+			}]
+			rewards: [{
+				id: "7FD1482B9A8841CB"
+				type: "item"
+				item: "simplefarming:apricot_sapling"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 1.5d
+			id: "165B96E83C66E327"
+			tasks: [{
+				id: "4453D7E9FD58B17B"
+				type: "item"
+				item: "simplefarming:mango"
+			}]
+			rewards: [{
+				id: "3F1416E9893F5512"
+				type: "item"
+				item: "simplefarming:mango"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 3.0d
+			id: "216A49FDACC830E7"
+			tasks: [{
+				id: "52FDDF7B5E04F40D"
+				type: "item"
+				item: "simplefarming:olives"
+			}]
+			rewards: [{
+				id: "734D14D7AA65D46C"
+				type: "item"
+				item: "simplefarming:olive_sapling"
+			}]
+		}
+		{
+			title: "神秘农业"
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "mysticalagriculture:guide"
+				}
+			}
+			x: -2.0d
+			y: -2.0d
+			shape: "octagon"
+			description: ["种植（几乎）所有资源。"]
+			id: "0D5B108876BB97B7"
+			tasks: [
+				{
+					id: "1C53F21DCC8027E3"
+					type: "item"
+					item: "mysticalagriculture:prosperity_shard"
+				}
+				{
+					id: "5BAA3D4BD8D72385"
+					type: "item"
+					item: "mysticalagriculture:inferium_essence"
+				}
+			]
+			rewards: [
+				{
+					id: "272A33100EAC25FF"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+				{
+					id: "47D4CE7918BE4D57"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "农贸市场"
+			x: -2.0d
+			y: 0.0d
+			shape: "octagon"
+			description: ["所有货品仅需1个绿宝石！"]
+			id: "48261EA6D3946E4E"
+			tasks: [{
+				id: "3CA1CA1EB908C85A"
+				type: "item"
+				item: "farmingforblockheads:market"
+			}]
+			rewards: [{
+				id: "6278B31C7B3E79C0"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			description: ["用于合成更高级的精华。"]
+			dependencies: ["0D5B108876BB97B7"]
+			id: "171DD307B7389E1B"
+			tasks: [{
+				id: "31769DFC708F333B"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:infusion_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00D3C634CA682376"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "632A335FC025FBDB"
+					type: "item"
+					item: "mysticalagriculture:inferium_essence"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			description: ["我知道你想要这个，尤其是你用RS做自动合成的时候。"]
+			dependencies: ["171DD307B7389E1B"]
+			id: "1CAFEBBD3DD2BACC"
+			tasks: [{
+				id: "4E6975E842A7D891"
+				type: "item"
+				item: "mysticalagriculture:master_infusion_crystal"
+			}]
+			rewards: [
+				{
+					id: "21FFAD53AC8A860D"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "3261C28CCDDF2AA9"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			dependencies: ["171DD307B7389E1B"]
+			id: "1DFC33E4978A8B15"
+			tasks: [{
+				id: "639623E3F9189BA3"
+				type: "item"
+				item: "mysticalagriculture:prudentium_essence"
+			}]
+			rewards: [
+				{
+					id: "66FC2AD944DA80CF"
+					type: "item"
+					item: "mysticalagriculture:prudentium_essence"
+				}
+				{
+					id: "41FDD0931354D9A9"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			dependencies: ["1DFC33E4978A8B15"]
+			id: "5ED0573387472FF7"
+			tasks: [{
+				id: "4D5CBA016A6B3E7B"
+				type: "item"
+				item: "mysticalagriculture:tertium_essence"
+			}]
+			rewards: [
+				{
+					id: "2DA9BAF7E13A5E9B"
+					type: "item"
+					item: "mysticalagriculture:tertium_essence"
+				}
+				{
+					id: "3376CEEE082C7F57"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -2.0d
+			dependencies: ["5ED0573387472FF7"]
+			id: "398B34E470ABE32B"
+			tasks: [{
+				id: "2AA13F7DE389DBFD"
+				type: "item"
+				item: "mysticalagriculture:imperium_essence"
+			}]
+			rewards: [
+				{
+					id: "5E8D5ACEAF9E77EB"
+					type: "item"
+					item: "mysticalagriculture:imperium_essence"
+				}
+				{
+					id: "0CAFC348214A3ECD"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: -2.0d
+			dependencies: ["398B34E470ABE32B"]
+			id: "07FCB8260957E559"
+			tasks: [{
+				id: "0CB92B98F3DB2BFA"
+				type: "item"
+				item: "mysticalagriculture:supremium_essence"
+			}]
+			rewards: [
+				{
+					id: "7CF69C3E4117D708"
+					type: "item"
+					item: "mysticalagriculture:supremium_essence"
+				}
+				{
+					id: "4A26F8A9ACD9238D"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: -2.0d
+			subtitle: "我要种出一切！"
+			dependencies: ["07FCB8260957E559"]
+			id: "5B9DD3D38B38B028"
+			tasks: [{
+				id: "64483290365ABDE9"
+				type: "item"
+				item: "mysticalagradditions:insanium_essence"
+			}]
+			rewards: [
+				{
+					id: "5F99CCE903926293"
+					type: "item"
+					item: "mysticalagradditions:insanium_essence"
+				}
+				{
+					id: "59BBE08835F76A5C"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 1.5d
+			shape: "octagon"
+			subtitle: "种田何需土地！"
+			description: ["要耗电的。"]
+			id: "6290471F4A07D509"
+			tasks: [{
+				id: "242076E439474FFC"
+				type: "item"
+				item: "ftb-power-pots:power_pot_mk4"
+			}]
+			rewards: [
+				{
+					id: "2877EF9363F71D70"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "602A12989CA21734"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 3.0d
+			shape: "octagon"
+			subtitle: "万物皆可三明治！"
+			description: ["制作三明治，想想可以往面包里面夹什么。"]
+			id: "76D04A3699517DEB"
+			tasks: [{
+				id: "3E3034AFAFDCD798"
+				type: "item"
+				item: "culinaryconstruct:culinary_station"
+			}]
+			rewards: [{
+				id: "34BCAD1D08BEE7E9"
+				type: "item"
+				item: {
+					id: "culinaryconstruct:sandwich"
+					Count: 1b
+					tag: {
+						SolidsSize: 6
+						Size: 5
+						Saturation: 0.8237037f
+						Quality: 4
+						Ingredients: {
+							Items: [
+								{
+									Slot: 0b
+									id: "minecraft:honey_bottle"
+									Count: 1b
+								}
+								{
+									Slot: 1b
+									id: "minecraft:cooked_porkchop"
+									Count: 1b
+								}
+								{
+									Slot: 2b
+									id: "minecraft:melon_slice"
+									Count: 1b
+								}
+								{
+									Slot: 3b
+									id: "minecraft:potato"
+									Count: 1b
+								}
+								{
+									Slot: 4b
+									id: "minecraft:bread"
+									Count: 1b
+								}
+							]
+						}
+						Solids: {
+							Items: [
+								{
+									Slot: 0b
+									id: "minecraft:honey_bottle"
+									Count: 1b
+								}
+								{
+									Slot: 1b
+									id: "minecraft:cooked_porkchop"
+									Count: 1b
+								}
+								{
+									Slot: 2b
+									id: "minecraft:melon_slice"
+									Count: 1b
+								}
+								{
+									Slot: 3b
+									id: "minecraft:potato"
+									Count: 1b
+								}
+								{
+									Slot: 4b
+									id: "minecraft:bread"
+									Count: 1b
+								}
+								{
+									Slot: 5b
+									id: "minecraft:bread"
+									Count: 1b
+								}
+							]
+						}
+						Base: {
+							id: "minecraft:bread"
+							Count: 1b
+						}
+						Food: 9
+					}
+				}
+				count: 3
+			}]
+		}
+	]
+}

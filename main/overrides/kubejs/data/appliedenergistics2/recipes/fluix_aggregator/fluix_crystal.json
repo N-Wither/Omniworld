@@ -1,0 +1,25 @@
+{
+  "type": "lazierae2:fluix_aggregator",
+  "processing_time": 80,
+  "output": {
+    "item": "appliedenergistics2:fluix_crystal",
+    "count": 2
+  },
+  "inputs": [
+    {
+      "input": {
+        "tag": "forge:gems/quartz"
+      }
+    },
+    {
+      "input": {
+        "tag": "forge:dusts/redstone"
+      }
+    },
+    {
+      "input": {
+        "item": "appliedenergistics2:charged_certus_quartz_crystal"
+      }
+    }
+  ]
+}

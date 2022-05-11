@@ -1,0 +1,756 @@
+[
+  {
+    "name": "minecraft:cobblestone",
+    "weight": 99,
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:coal_ore",
+    "weight": 8,
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:iron_ore",
+    "weight": 9,
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:gold_ore",
+    "weight": 3,
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:diamond_ore",
+    "weight": 2,
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:lapis_ore",
+    "weight": 3,
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:redstone_ore",
+    "weight": 4,
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:emerald_ore",
+    "weight": 2,
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:quartz_ore",
+    "weight": 3,
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:copper_ore",
+    "weight": 5,
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:aluminum_ore",
+    "weight": 3,
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:silver_ore",
+    "weight": 3,
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:lead_ore",
+    "weight": 3,
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:nickel_ore",
+    "weight": 5,
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:uranium_ore",
+    "weight": 3,
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:osmium_ore",
+    "weight": 4,
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:tin_ore",
+    "weight": 4,
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:zinc_ore",
+    "weight": 4,
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:cobalt_ore",
+    "weight": 2,
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:fluorite_ore",
+    "weight": 3,
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:bitumen_ore",
+    "weight": 2,
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:apatite_ore",
+    "weight": 3,
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:sulfur_ore",
+    "weight": 2,
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:potassium_nitrate_ore",
+    "weight": 3,
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:arcane_ore",
+    "weight": 2,
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:ruby_ore",
+    "weight": 1,
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:sapphire_ore",
+    "weight": 1,
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:dimensional_ore",
+    "weight": 1,
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "natureminerals:uvarovite_ore",
+    "weight": 1,
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "natureminerals:kunzite_ore",
+    "weight": 1,
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "natureminerals:stibnite_ore",
+    "weight": 1,
+    "dimensions": [
+      "minecraft:the_nether"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "natureminerals:astrite_ore",
+    "weight": 1,
+    "dimensions": [
+      "minecraft:the_end"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "powah:uraninite_ore",
+    "weight": 2,
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "draconicevolution:overworld_draconium_ore",
+    "weight": 2,
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "appliedenergistics2:quartz_ore",
+    "weight": 3,
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "appliedenergistics2:charged_quartz_ore",
+    "weight": 2,
+    "dimensions": [
+      "minecraft:overworld"
+    ],
+    "biomes": []
+  },
+
+  {
+    "name": "minecraft:netherrack",
+    "weight": 99,
+    "dimensions": [
+      "minecraft:the_nether"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:coal_netherrack_ore",
+    "weight": 8,
+    "dimensions": [
+      "minecraft:the_nether"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:iron_netherrack_ore",
+    "weight": 9,
+    "dimensions": [
+      "minecraft:the_nether"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:gold_netherrack_ore",
+    "weight": 3,
+    "dimensions": [
+      "minecraft:the_nether"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:diamond_netherrack_ore",
+    "weight": 2,
+    "dimensions": [
+      "minecraft:the_nether"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:lapis_netherrack_ore",
+    "weight": 3,
+    "dimensions": [
+      "minecraft:the_nether"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:redstone_netherrack_ore",
+    "weight": 4,
+    "dimensions": [
+      "minecraft:the_nether"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:emerald_netherrack_ore",
+    "weight": 2,
+    "dimensions": [
+      "minecraft:the_nether"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:quartz_netherrack_ore",
+    "weight": 3,
+    "dimensions": [
+      "minecraft:the_nether"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:copper_netherrack_ore",
+    "weight": 5,
+    "dimensions": [
+      "minecraft:the_nether"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:aluminum_netherrack_ore",
+    "weight": 3,
+    "dimensions": [
+      "minecraft:the_nether"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:silver_netherrack_ore",
+    "weight": 3,
+    "dimensions": [
+      "minecraft:the_nether"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:lead_netherrack_ore",
+    "weight": 3,
+    "dimensions": [
+      "minecraft:the_nether"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:nickel_netherrack_ore",
+    "weight": 5,
+    "dimensions": [
+      "minecraft:the_nether"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:uranium_netherrack_ore",
+    "weight": 3,
+    "dimensions": [
+      "minecraft:the_nether"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:osmium_netherrack_ore",
+    "weight": 4,
+    "dimensions": [
+      "minecraft:the_nether"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:tin_netherrack_ore",
+    "weight": 4,
+    "dimensions": [
+      "minecraft:the_nether"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:zinc_netherrack_ore",
+    "weight": 4,
+    "dimensions": [
+      "minecraft:the_nether"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:cobalt_netherrack_ore",
+    "weight": 2,
+    "dimensions": [
+      "minecraft:the_nether"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:fluorite_netherrack_ore",
+    "weight": 3,
+    "dimensions": [
+      "minecraft:the_nether"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:bitumen_netherrack_ore",
+    "weight": 2,
+    "dimensions": [
+      "minecraft:the_nether"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:apatite_netherrack_ore",
+    "weight": 3,
+    "dimensions": [
+      "minecraft:the_nether"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:sulfur_netherrack_ore",
+    "weight": 2,
+    "dimensions": [
+      "minecraft:the_nether"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:potassium_nitrate_netherrack_ore",
+    "weight": 3,
+    "dimensions": [
+      "minecraft:the_nether"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:arcane_netherrack_ore",
+    "weight": 2,
+    "dimensions": [
+      "minecraft:the_nether"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:ruby_netherrack_ore",
+    "weight": 1,
+    "dimensions": [
+      "minecraft:the_nether"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:sapphire_netherrack_ore",
+    "weight": 1,
+    "dimensions": [
+      "minecraft:the_nether"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:dimensional_netherrack_ore",
+    "weight": 1,
+    "dimensions": [
+      "minecraft:the_nether"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "draconicevolution:nether_draconium_ore",
+    "weight": 2,
+    "dimensions": [
+      "minecraft:the_nether"
+    ],
+    "biomes": []
+  },
+
+  {
+    "name": "minecraft:end_stone",
+    "weight": 99,
+    "dimensions": [
+      "minecraft:the_end"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:coal_end_stone_ore",
+    "weight": 8,
+    "dimensions": [
+      "minecraft:the_end"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:iron_end_stone_ore",
+    "weight": 9,
+    "dimensions": [
+      "minecraft:the_end"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:gold_end_stone_ore",
+    "weight": 3,
+    "dimensions": [
+      "minecraft:the_end"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:diamond_end_stone_ore",
+    "weight": 2,
+    "dimensions": [
+      "minecraft:the_end"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:lapis_end_stone_ore",
+    "weight": 3,
+    "dimensions": [
+      "minecraft:the_end"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:redstone_end_stone_ore",
+    "weight": 4,
+    "dimensions": [
+      "minecraft:the_end"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:emerald_end_stone_ore",
+    "weight": 2,
+    "dimensions": [
+      "minecraft:the_end"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:quartz_end_stone_ore",
+    "weight": 3,
+    "dimensions": [
+      "minecraft:the_end"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:copper_end_stone_ore",
+    "weight": 5,
+    "dimensions": [
+      "minecraft:the_end"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:aluminum_end_stone_ore",
+    "weight": 3,
+    "dimensions": [
+      "minecraft:the_end"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:silver_end_stone_ore",
+    "weight": 3,
+    "dimensions": [
+      "minecraft:the_end"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:lead_end_stone_ore",
+    "weight": 3,
+    "dimensions": [
+      "minecraft:the_end"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:nickel_end_stone_ore",
+    "weight": 5,
+    "dimensions": [
+      "minecraft:the_end"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:uranium_end_stone_ore",
+    "weight": 3,
+    "dimensions": [
+      "minecraft:the_end"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:osmium_end_stone_ore",
+    "weight": 4,
+    "dimensions": [
+      "minecraft:the_end"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:tin_end_stone_ore",
+    "weight": 4,
+    "dimensions": [
+      "minecraft:the_end"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:zinc_end_stone_ore",
+    "weight": 4,
+    "dimensions": [
+      "minecraft:the_end"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:cobalt_end_stone_ore",
+    "weight": 2,
+    "dimensions": [
+      "minecraft:the_end"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:fluorite_end_stone_ore",
+    "weight": 3,
+    "dimensions": [
+      "minecraft:the_end"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:bitumen_end_stone_ore",
+    "weight": 2,
+    "dimensions": [
+      "minecraft:the_end"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:apatite_end_stone_ore",
+    "weight": 3,
+    "dimensions": [
+      "minecraft:the_end"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:sulfur_end_stone_ore",
+    "weight": 2,
+    "dimensions": [
+      "minecraft:the_end"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:potassium_nitrate_end_stone_ore",
+    "weight": 3,
+    "dimensions": [
+      "minecraft:the_end"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:arcane_end_stone_ore",
+    "weight": 2,
+    "dimensions": [
+      "minecraft:the_end"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:ruby_end_stone_ore",
+    "weight": 1,
+    "dimensions": [
+      "minecraft:the_end"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:sapphire_end_stone_ore",
+    "weight": 1,
+    "dimensions": [
+      "minecraft:the_end"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "emendatusenigmatica:dimensional_end_stone_ore",
+    "weight": 1,
+    "dimensions": [
+      "minecraft:the_end"
+    ],
+    "biomes": []
+  },
+  {
+    "name": "draconicevolution:end_draconium_ore",
+    "weight": 4,
+    "dimensions": [
+      "minecraft:the_end"
+    ],
+    "biomes": []
+  }
+]

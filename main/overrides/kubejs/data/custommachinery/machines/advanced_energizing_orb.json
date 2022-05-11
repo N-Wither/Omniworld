@@ -1,0 +1,141 @@
+{
+    "components": [
+        {
+            "capacity": 20000000,
+            "maxInput": 200000,
+            "type": "custommachinery:energy"
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "input1",
+            "mode": "input"
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "input2",
+            "mode": "input"
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "input3",
+            "mode": "input"
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "input4",
+            "mode": "input"
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "input5",
+            "mode": "input"
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "input6",
+            "mode": "input"
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "output",
+            "mode": "output"
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "rod",
+            "mode": "input",
+            "variant": "custommachinery:upgrade"
+        }
+    ],
+    "name": {"text": "高级充能台"},
+    "appearance": {
+        "errored": {},
+        "running": {
+            "block": "custommachinery:machine/advanced_energizing_orb"
+        },
+        "idle": {
+            "block": "custommachinery:machine/advanced_energizing_orb"
+        },
+        "paused": {}
+    },
+    "gui":[
+        {
+            "type": "custommachinery:texture",
+            "x": 0,
+            "y": 0,
+            "texture": "custommachinery:textures/gui/base_background.png"
+        },
+        {
+            "type": "custommachinery:text",
+            "x": 6,
+            "y": 6,
+            "text": "高级充能台",
+            "color":14540253
+        },
+        {
+            "type":"custommachinery:energy",
+            "x":60,
+            "y":16,
+            "width":16,
+            "height":60
+        },
+        {
+            "type":"custommachinery:slot",
+            "x":88,
+            "y":16,
+            "id":"input1"
+        },
+        {
+            "type":"custommachinery:slot",
+            "x":106,
+            "y":16,
+            "id":"input2"
+        },
+        {
+            "type":"custommachinery:slot",
+            "x":124,
+            "y":16,
+            "id":"input3"
+        },
+        {
+            "type":"custommachinery:slot",
+            "x":88,
+            "y":34,
+            "id":"input4"
+        },
+        {
+            "type":"custommachinery:slot",
+            "x":106,
+            "y":34,
+            "id":"input5"
+        },
+        {
+            "type":"custommachinery:slot",
+            "x":124,
+            "y":34,
+            "id":"input6"
+        },
+        {
+            "type":"custommachinery:player_inventory",
+            "x":48,
+            "y":82
+        },
+        {
+            "type": "custommachinery:progress",
+            "x": 145,
+            "y": 21
+        },
+        {
+            "type":"custommachinery:slot",
+            "x":145,
+            "y":40,
+            "id":"rod"
+        },
+        {
+            "type":"custommachinery:slot",
+            "x":170,
+            "y":22,
+            "id":"output"
+        }
+    ]
+}

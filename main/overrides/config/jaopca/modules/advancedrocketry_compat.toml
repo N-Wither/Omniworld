@@ -1,0 +1,13 @@
+
+[general]
+	#The material blacklist of this module.
+	materialBlacklist = []
+
+[recipes]
+	#The materials that should not have lathe recipes added.
+	toStickMaterialBlacklist = []
+	#The materials that should not have rolling machine to plate recipes added.
+	toPlateMaterialBlacklist = []
+	#The materials that should not have rolling machine to sheet recipes added.
+	toSheetMaterialBlacklist = []
+

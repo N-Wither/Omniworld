@@ -1,0 +1,10 @@
+{
+    "name": "塑料",
+    "colors": [
+      "b2b2b2","676767"
+    ],
+    "ingredient": {
+      "item": "industrialforegoing:plastic"
+    },
+    "inUltimateSingularity": true
+}

@@ -1,0 +1,27 @@
+{
+    "type": "savageandravage:skeleton_villager",
+    "name": "entity.savageandravage.skeleton_villager",
+    "name_color": "0xa6a6a9",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 80,
+    "input": {
+      "item": "hostilenetworks:empty_prediction"
+    },
+    "base_drop": {
+      "item": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "hostile_neural_compat.trivia.skeleton_villager",
+    "fabricator_drops": [
+      {
+        "item": "minecraft:arrow",
+        "count": 2
+      },
+      {
+        "item": "minecraft:bone",
+        "count": 5
+      }
+    ]
+}

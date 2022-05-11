@@ -1,0 +1,11 @@
+{
+    "name":"Quests",
+    "icon":"ftbquests:book",
+    "category":"101",
+    "pages":[
+        {
+            "type":"text",
+            "text":"    FInd the \"quest\" icon at the topleft corner. Quests will help you make progress and you can get rewards."
+        }
+    ]
+}

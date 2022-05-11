@@ -1,0 +1,438 @@
+{
+	id: "3E07BFAB66E3070D"
+	group: "34DA8A5C88ADFCAB"
+	order_index: 8
+	filename: "3E07BFAB66E3070D"
+	title: "龙之进化"
+	icon: "draconicevolution:awakened_draconium_block"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -5.5d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "比钻石好！"
+			description: ["来做点牛x的东西吧！"]
+			id: "1072E88CD433E11B"
+			tasks: [{
+				id: "6F985B0116CD2D73"
+				type: "item"
+				item: "draconicevolution:draconium_ingot"
+			}]
+			rewards: [
+				{
+					id: "5EFD4702DCC26A93"
+					type: "item"
+					item: "draconicevolution:draconium_ingot"
+					count: 4
+				}
+				{
+					id: "0A88C558AC0F63D1"
+					type: "xp"
+					xp: 200
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			subtitle: "有一点贵"
+			dependencies: ["1072E88CD433E11B"]
+			id: "6A1366E369923132"
+			tasks: [{
+				id: "57ADC55C29B946F0"
+				type: "item"
+				item: "draconicevolution:draconium_core"
+			}]
+			rewards: [
+				{
+					id: "52E000C308DD2D9B"
+					type: "item"
+					item: "draconicevolution:draconium_core"
+				}
+				{
+					id: "61ED51F9C12E0927"
+					type: "xp"
+					xp: 200
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			subtitle: "还是热乎的!"
+			description: ["击败末影龙获得龙之心。"]
+			dependencies: ["6A1366E369923132"]
+			id: "5802E0DFCEE2B949"
+			tasks: [{
+				id: "2F28F37DA1D3610D"
+				type: "item"
+				item: "draconicevolution:dragon_heart"
+			}]
+			rewards: [
+				{
+					id: "3210774C20088899"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "238E51248C522371"
+					type: "item"
+					item: "draconicevolution:draconium_dust"
+					count: 32
+				}
+			]
+		}
+		{
+			title: "聚合合成"
+			x: 0.5d
+			y: 0.0d
+			subtitle: "就嗯融！"
+			description: [
+				"注入装置应当朝向聚合核心，距离在1到16个方块，对具体方向没有要求。"
+				"只有注入装置需要接线。"
+			]
+			dependencies: ["5802E0DFCEE2B949"]
+			id: "2FEC1A0AC99148AB"
+			tasks: [
+				{
+					id: "2AD105F33DCD7AE7"
+					type: "item"
+					item: "draconicevolution:crafting_core"
+				}
+				{
+					id: "5682C19F52B0A0AD"
+					type: "item"
+					item: "draconicevolution:basic_crafting_injector"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "7A9AF5A82A4B9D8B"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "6194CC4D4AC3C0BF"
+					type: "item"
+					item: "draconicevolution:basic_crafting_injector"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			subtitle: "变得更强了！"
+			description: ["更高级的材料。"]
+			dependencies: ["1F7015F66BEE8ADF"]
+			id: "4FF0324F2472303A"
+			tasks: [{
+				id: "18E1126BB323DD4A"
+				type: "item"
+				item: "draconicevolution:awakened_draconium_block"
+			}]
+			rewards: [{
+				id: "5D4888BE850A3EEF"
+				type: "item"
+				item: "draconicevolution:awakened_draconium_ingot"
+				count: 4
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			shape: "circle"
+			subtitle: "很有点贵"
+			dependencies: ["6A1366E369923132"]
+			id: "7DF759DEEB7BC5FE"
+			tasks: [{
+				id: "586527D9D684DFB5"
+				type: "item"
+				item: "draconicevolution:wyvern_core"
+			}]
+			rewards: [
+				{
+					id: "2CD92C2182129E61"
+					type: "item"
+					item: "draconicevolution:wyvern_core"
+				}
+				{
+					id: "3A8910673E435DD8"
+					type: "xp"
+					xp: 200
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -1.5d
+			subtitle: "保护！"
+			description: ["龙之进化里的工具都需要模块来工作。你可以按Shift+C打开模块配置界面。"]
+			dependencies: ["1F7015F66BEE8ADF"]
+			id: "05330781A34135F0"
+			tasks: [{
+				id: "378EA79C8DF6F800"
+				type: "item"
+				item: {
+					id: "draconicevolution:wyvern_chestpiece"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									1999492597
+									-296860488
+									-1411123338
+									668510999
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "376CE7F8B0EC7B12"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "2750C4584B54C1B9"
+					type: "item"
+					item: "draconicevolution:module_core"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			subtitle: "融得更快！"
+			dependencies: ["2FEC1A0AC99148AB"]
+			id: "1F7015F66BEE8ADF"
+			tasks: [{
+				id: "6EA7753C5E515367"
+				type: "item"
+				item: "draconicevolution:wyvern_crafting_injector"
+			}]
+			rewards: [
+				{
+					id: "6800DCBD610EAB74"
+					type: "item"
+					item: "draconicevolution:wyvern_crafting_injector"
+				}
+				{
+					id: "23FB1F320253ECFF"
+					type: "xp"
+					xp: 200
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -1.5d
+			subtitle: "更多保护！"
+			description: ["更大的模块网格，支持飞龙模块。"]
+			dependencies: ["05330781A34135F0"]
+			id: "706470F95751E4CA"
+			tasks: [{
+				id: "24956023103CADBD"
+				type: "item"
+				item: {
+					id: "draconicevolution:draconic_chestpiece"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									1343246150
+									-1755427485
+									-1497186176
+									2097950511
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "24158066096316D2"
+					type: "item"
+					item: "draconicevolution:draconic_energy_core"
+				}
+				{
+					id: "302AAB768BBDF3DF"
+					type: "xp"
+					xp: 400
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 0.0d
+			subtitle: "难得之物！"
+			description: [
+				"混沌守卫位于末地坐标为10000的倍数的区域，作为这个游戏目前最强大的BOSS，你必须做好充足准备。"
+				"新版的混沌守卫的攻击方式和1.12版本的有很大不同，请查阅Omniworld指导手册中的相关部分了解击败它的方法。"
+				""
+				"小提示：MekaSuit搭配吸入净化单元可以极大地提高你面对混沌守卫的生存能力。"
+			]
+			dependencies: ["4FF0324F2472303A"]
+			id: "7BDCE811B1D82421"
+			tasks: [{
+				id: "38DC777C39490A32"
+				type: "item"
+				item: "draconicevolution:chaos_shard"
+			}]
+			rewards: [
+				{
+					id: "5AE3623ACB1020D6"
+					type: "item"
+					item: "draconicevolution:chaos_shard"
+					count: 6
+				}
+				{
+					id: "0DD1E5C713F791A5"
+					type: "xp"
+					xp: 1000
+				}
+			]
+		}
+		{
+			title: "神龙反应堆"
+			x: 8.5d
+			y: 1.5d
+			subtitle: "小心爆炸！"
+			description: ["神龙反应堆是一种强大而危险的发电设备。"]
+			dependencies: ["7BDCE811B1D82421"]
+			id: "455A63F4F63719BD"
+			tasks: [
+				{
+					id: "7E9F152D044A00B2"
+					type: "item"
+					item: "draconicevolution:reactor_core"
+				}
+				{
+					id: "2932D05A94256A9E"
+					type: "item"
+					item: "draconicevolution:reactor_stabilizer"
+					count: 4L
+				}
+				{
+					id: "790431BA3FAF7E73"
+					type: "item"
+					item: "draconicevolution:reactor_injector"
+				}
+			]
+			rewards: [
+				{
+					id: "641BD7C5282E3B99"
+					type: "xp"
+					xp: 400
+				}
+				{
+					id: "7180C2994D0B43B2"
+					type: "item"
+					item: "draconicevolution:awakened_draconium_ingot"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			subtitle: "你能装满它吗？"
+			description: ["最高级的能量核心可以存储2^63-1FE，内置搭建指导，如果你的物品栏有足够的材料，可以一键搭建。"]
+			dependencies: ["7DF759DEEB7BC5FE"]
+			id: "6B7EA3DBE3AB894F"
+			tasks: [
+				{
+					id: "797746DF4CD951A3"
+					type: "item"
+					item: "draconicevolution:energy_core"
+				}
+				{
+					id: "2141E535A377540F"
+					type: "item"
+					item: "draconicevolution:energy_core_stabilizer"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "56C4C4C12154A999"
+					type: "item"
+					item: "draconicevolution:basic_io_crystal"
+				}
+				{
+					id: "5FBD8FF3020E935F"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: 0.0d
+			subtitle: "非常的贵！"
+			dependencies: ["7BDCE811B1D82421"]
+			id: "7D037C5E07C77C10"
+			tasks: [{
+				id: "4B2ECB327963D5E3"
+				type: "item"
+				item: "draconicevolution:chaotic_core"
+			}]
+			rewards: [
+				{
+					id: "08A31CC5EED7A861"
+					type: "item"
+					item: "draconicevolution:chaotic_core"
+				}
+				{
+					id: "6BFD3988A68ED30C"
+					type: "xp"
+					xp: 400
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			subtitle: "为我所用!"
+			description: ["对着刷怪笼使用龙芯来把它变成稳定刷怪笼，可以使用龙芯、飞龙核心、觉醒核心和混沌核心进行升级。"]
+			dependencies: ["6A1366E369923132"]
+			id: "389DC50D3D977379"
+			tasks: [{
+				id: "72E534B1CD34C7A7"
+				type: "item"
+				item: "draconicevolution:stabilized_spawner"
+			}]
+			rewards: [
+				{
+					id: "2494267C35A4770A"
+					type: "item"
+					item: "draconicevolution:draconium_core"
+				}
+				{
+					id: "03C99BBC7BBA24BA"
+					type: "xp"
+					xp: 200
+				}
+			]
+		}
+	]
+}

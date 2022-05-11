@@ -1,0 +1,17 @@
+{
+    "item.wands.stone_wand": "石手杖",
+    "item.wands.iron_wand": "铁手杖",
+    "item.wands.diamond_wand": "钻石手杖",
+    "item.wands.netherite_wand": "下界合金手杖",
+    "item.wands.creative_wand": "创造模式手杖",
+    "item.wands.palette": "调色盘",
+    "item.wands.random": "随机",
+    "item.wands.round_robin": "按顺序",
+    "key.wands.wand_mode": "模式",
+    "key.wands.wand_orientation": "方向",
+    "key.wands.wand_invert": "反转",
+    "key.wands.wand_palette_mode": "旋转/调色盘模式",
+    "key.wands.wand_fill_circle": "圆形填充",
+    "key.wands.wand_undo": "撤销",
+    "itemGroup.wands.wands_tab": "建筑手杖"
+  }

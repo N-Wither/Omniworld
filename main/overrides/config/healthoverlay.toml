@@ -1,0 +1,12 @@
+
+#All the values are written as a Hexadecimal number in the '#RRGGBB' format
+["Heart colors"]
+	#Colors for every 10 hearts (not counting the default red)
+	heartColors = ["#F06E14", "#F5DC23", "#2DB928", "#1EAFBE", "#7346E1", "#FA7DEB", "#EB375A", "#FF8278", "#AAFFFA", "#EBEBFF"]
+	#Two alternating colors when poisoned
+	poisonColors = ["#739B00", "#96CD00"]
+	#Two alternating colors when withered
+	witherColors = ["#0F0F0F", "#2D2D2D"]
+	#Colors for every 10 absorption hearts (not counting the default yellow)
+	absorptionColors = ["#E1FA9B", "#A0FFAF", "#AAFFFA", "#AACDFF", "#D7B4FF", "#FAA5FF", "#FFB4B4", "#FFAA7D", "#D7F0FF", "#EBFFFA"]
+

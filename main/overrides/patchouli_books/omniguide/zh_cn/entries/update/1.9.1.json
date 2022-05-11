@@ -1,0 +1,11 @@
+{
+    "name":"1.9.0 2022/03/15",
+    "icon":"boss_tools:rocket_t1",
+    "category":"update",
+    "pages":[
+        {
+            "type": "text",
+            "text": "$(l:https://www.mcbbs.net/thread-1192082-1-1.html)这里$()"
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "name": "奇点",
+    "colors": [
+      "355bfc","27008b"
+    ],
+    "ingredient": {
+      "item": "appliedenergistics2:singularity"
+    },
+    "inUltimateSingularity": true
+}

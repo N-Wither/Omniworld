@@ -1,0 +1,161 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.IngameMenuScreen
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=398306%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=374306%
+  orientation = mid-left
+  x = 111
+  action = movebutton
+  y = 6
+}
+
+customization {
+  identifier = %id=374306%
+  action = setbuttondescription
+  description = 机械动力
+}
+
+customization {
+  identifier = %id=398282%
+  orientation = mid-left
+  x = 1
+  action = movebutton
+  y = -57
+}
+
+customization {
+  identifier = %id=398282%
+  width = 130
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=504330%
+  orientation = mid-left
+  x = 1
+  action = movebutton
+  y = 48
+}
+
+customization {
+  identifier = %id=504330%
+  width = 130
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=398258%
+  orientation = mid-left
+  x = 1
+  action = movebutton
+  y = -78
+}
+
+customization {
+  identifier = %id=398258%
+  width = 130
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=398354%
+  orientation = mid-left
+  x = 1
+  action = movebutton
+  y = 69
+}
+
+customization {
+  identifier = %id=398354%
+  width = 130
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=504306%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=398330%
+  orientation = mid-left
+  x = 1
+  action = movebutton
+  y = 6
+}
+
+customization {
+  identifier = %id=398330%
+  width = 109
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=504282%
+  orientation = mid-left
+  x = 1
+  action = movebutton
+  y = -36
+}
+
+customization {
+  identifier = %id=504282%
+  width = 130
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  orientation = mid-left
+  restartbackgroundanimations = true
+  buttonaction = opengui
+  description = 修改后的Mod配置通常需要重启游戏或者使用/reload命令后生效
+  label = Mods
+  loopbackgroundanimations = true
+  x = 1
+  width = 130
+  actionid = a3b46678-4cba-4bb4-9dcc-6d839078cf7d1626537165698
+  action = addbutton
+  y = 27
+  value = net.minecraftforge.fml.client.gui.screen.ModListScreen
+  height = 20
+}
+
+customization {
+  orientation = mid-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  label = 报告问题
+  loopbackgroundanimations = true
+  hoverlabel = 在主菜单可以找到QQ群号
+  x = 1
+  width = 130
+  actionid = 4ff934ce-754a-484e-9b2f-1c6113c56d4d1634385486725
+  action = addbutton
+  y = -15
+  value = 
+  height = 20
+}
+

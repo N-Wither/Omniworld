@@ -1,0 +1,72 @@
+{
+    "name":"阿图姆",
+    "icon":"atum:scarab",
+    "category":"mods",
+    "pages":[
+        {
+            "type":"text",
+            "text":"    这是一个冒险模组，你要在一个无尽的沙漠里探险。"
+        },
+        {
+            "type":"text",
+            "text":"    要前往阿图姆，首先你需要一个圣金甲虫，然后需要搭建一个传送门框架。把圣金甲虫丢进去，传送门就会出现了。",
+            "title":"传送门"
+        },
+        {
+            "type":"crafting",
+            "recipe":"atum:scarab",
+            "text":"珠光宝气！"
+        },
+        {
+            "type":"multiblock",
+            "multiblock": {
+                "pattern": [
+                    [ "S   S", "     ", "     ", "     ", "S   S" ],
+                    [ "S   S", "     ", "     ", "     ", "S   S" ], 
+                    [ "SSSSS", "SWWWS", "SW0WS", "SWWWS", "SSSSS" ], 
+                    [ "SSSSS", "SSSSS", "SSSSS", "SSSSS", "SSSSS" ]
+                ],
+                "mapping": {
+                    "S": "minecraft:sandstone",
+                    "W": "minecraft:water",
+                    "0": "minecraft:water"
+                },
+                "symmetrical": true
+            },
+            "name":"传送门框架",
+            "text":"中间要灌满水。"
+        },
+        {
+            "type":"text",
+            "title":"沙漠里的敌人",
+            "text":"    这里并不是什么祥和之地，很容易就能遇见这些充满恶意的家伙。"
+        },
+        {
+            "type":"entity",
+            "entity":"atum:brigand"
+        },
+        {
+            "type":"entity",
+            "entity":"atum:sergeant"
+        },
+        {
+            "type":"text",
+            "title":"金字塔",
+            "text":"    金字塔是获得本模组中宝藏的最佳方式，在小地图上很容易发现它们。$(br)$(br)    金字塔的入口经常被埋在沙子里，而且需要奈布火把才能打开金字塔的结界。"
+        },
+        {
+            "type":"crafting",
+            "recipe":"atum:nebu_torch",
+            "text":"    打开沉睡之门"
+        },
+        {
+            "type":"text",
+            "text":"    进入金字塔之后，你要穿过一个充满陷阱的迷宫，好在这些陷阱可以用镐右键关闭。$(br)$(br)    之后你要来到地下二层的法老墓室，你也需要奈布火把才能打开法老的棺椁。"
+        },
+        {
+            "type":"entity",
+            "entity":"atum:pharaoh",
+            "text":"    打败他，然后搜刮他的棺材！"
+        }
+    ]
+}

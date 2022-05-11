@@ -1,0 +1,10 @@
+{
+    "name": "高定向热解石墨",
+    "colors": [
+      "3c3c3c","171717"
+    ],
+    "ingredient": {
+      "item": "immersiveengineering:ingot_hop_graphite"
+    },
+    "inUltimateSingularity": true
+}

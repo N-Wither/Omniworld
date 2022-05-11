@@ -1,0 +1,25 @@
+{
+    "name":"Guidebooks",
+    "icon":"akashictome:tome",
+    "category":"101",
+    "pages":[
+        {
+            "type":"text",
+            "text":"    You should have seen the two books in your inventory, and you're reading this one. Another one, the Akashic Tome has included all guidebooks in this modpack(except this one) "
+        },
+        {
+            "type":"text",
+            "text":"    Now put this book and the Akashic Tome in the crafting grid to include this book in the tome. You can also put incomplete tome in crafting grid to get a full tome."
+        },
+        {
+            "type":"text",
+            "text":"    Right-click to choose a book, left-click to rest to cancel morphing, press SHIFT+Q to remove a book."  
+        },
+        {
+            "type":"crafting",
+            "recipe":"akashictome:tome",
+            "recipe2":"kubejs:omniworld_guidebook"
+        }
+    ]
+
+}

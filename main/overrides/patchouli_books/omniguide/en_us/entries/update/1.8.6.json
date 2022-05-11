@@ -1,0 +1,11 @@
+{
+    "name":"1.8.6 2022/01/17",
+    "icon":"sereneseasons:season_sensor",
+    "category":"update",
+    "pages":[
+        {
+            "type": "text",
+            "text": "lazy"
+        }
+    ]
+}

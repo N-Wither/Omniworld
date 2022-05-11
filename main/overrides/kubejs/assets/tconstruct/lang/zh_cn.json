@@ -1,0 +1,42 @@
+{
+
+    "material.tconstruct.livingrock": "活石",
+    "material.tconstruct.livingwood": "活木",
+    "material.tconstruct.treated_wood": "防腐木",
+
+
+    "material.tconstruct.andesite_alloy": "安山合金",
+    "material.tconstruct.manasteel": "魔力钢",
+    "material.tconstruct.tin": "锡",
+    "material.tconstruct.zinc": "锌",
+
+
+    "material.tconstruct.blazing_crystal": "烈焰水晶",
+    "material.tconstruct.elementium": "源质钢",
+    "material.tconstruct.energized_steel": "充能钢",
+    "material.tconstruct.signalum": "信素",
+    "material.tconstruct.terrasteel": "泰拉钢",
+    "material.tconstruct.azurium": "碧蓝",
+    "material.tconstruct.draconium": "龙",
+    "material.tconstruct.anemonium": "轻风",
+    "material.tconstruct.geonium": "岩晶",
+    "material.tconstruct.pyronium": "红炎",
+    "material.tconstruct.cryonium": "霜结",
+    "material.tconstruct.hydronium": "水华",
+    "material.tconstruct.electronium": "奔雷",
+    "material.tconstruct.dendronium": "草荧",
+
+
+    "material.tconstruct.alfsteel": "精灵钢",
+    "material.tconstruct.enderium": "末影",
+    "material.tconstruct.gaia_spirit": "盖亚魂",
+    "material.tconstruct.lumium": "流明",
+    "material.tconstruct.niotic_crystal": "钻石水晶",
+    "material.tconstruct.nitro_crystal": "下界水晶",
+    "material.tconstruct.spirited_crystal": "富生水晶",
+    "material.tconstruct.crystal_matrix": "水晶矩阵",
+    "material.tconstruct.bedrock": "基岩",
+    "material.tconstruct.insanium": "究极精华",
+    "material.tconstruct.draconium_awakened": "觉醒龙",
+    "material.omniworldessentials.ultimate": "终极"
+}

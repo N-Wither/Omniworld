@@ -1,0 +1,10 @@
+{
+    "name": "烈焰蛋糕",
+    "colors": [
+      "ec8b35","ca4527"
+    ],
+    "ingredient": {
+      "item": "create:blaze_cake"
+    },
+    "inUltimateSingularity": true
+}

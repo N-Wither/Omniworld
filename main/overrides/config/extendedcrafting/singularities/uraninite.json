@@ -1,0 +1,10 @@
+{
+    "name": "晶质铀",
+    "colors": [
+      "00d111","005f07"
+    ],
+    "ingredient": {
+      "item": "powah:uraninite"
+    },
+    "inUltimateSingularity": true
+}

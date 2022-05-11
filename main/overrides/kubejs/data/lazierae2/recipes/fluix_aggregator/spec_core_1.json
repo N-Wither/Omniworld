@@ -1,0 +1,24 @@
+{
+  "type": "lazierae2:fluix_aggregator",
+  "processing_time": 80,
+  "output": {
+    "item": "lazierae2:spec_core_1"
+  },
+  "inputs": [
+    {
+      "input": {
+        "item": "appliedenergistics2:sky_dust"
+      }
+    },
+    {
+      "input": {
+        "item": "appliedenergistics2:matter_ball"
+      }
+    },
+    {
+      "input": {
+        "item": "lazierae2:carb_fluix_dust"
+      }
+    }
+  ]
+}

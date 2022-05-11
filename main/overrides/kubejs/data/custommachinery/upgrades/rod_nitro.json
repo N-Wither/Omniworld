@@ -1,0 +1,12 @@
+{
+    "item": "powah:energizing_rod_nitro",
+    "machines": ["custommachinery:advanced_energizing_orb"],
+    "modifiers": [
+        {
+	    "requirement": "custommachinery:speed",
+	    "mode": "input",
+	    "operation": "multiplication",
+	    "modifier": 0.01
+	}
+    ]
+}

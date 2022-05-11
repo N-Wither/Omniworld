@@ -1,0 +1,12 @@
+{
+    "name": "Darkness_Yami",
+    "icon": "minecraft:player_head{SkullOwner:'Darkness_Yami'}",
+    "category": "sponsor",
+    "pages": [
+        {
+            "type":"spotlight",
+            "item":"minecraft:player_head{SkullOwner:'Darkness_Yami'}",
+            "text":""
+        }
+    ]
+}

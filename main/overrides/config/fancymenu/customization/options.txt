@@ -1,0 +1,177 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.OptionsScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=505154%
+  orientation = mid-left
+  x = 152
+  action = movebutton
+  y = -84
+}
+
+customization {
+  identifier = %id=505154%
+  width = 129
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=345280%
+  orientation = mid-left
+  x = 1
+  action = movebutton
+  y = 21
+}
+
+customization {
+  identifier = %id=345280%
+  action = setbuttondescription
+  description = 更改后需要重新加载...不更改也可能需要
+}
+
+customization {
+  identifier = %id=345154%
+  orientation = mid-left
+  x = 1
+  action = movebutton
+  y = -84
+}
+
+customization {
+  identifier = %id=345154%
+  action = setbuttondescription
+  description = 数值越大，视角越大
+}
+
+customization {
+  identifier = %id=505280%
+  orientation = mid-left
+  x = 152
+  action = movebutton
+  y = 21
+}
+
+customization {
+  identifier = %id=400334%
+  orientation = mid-left
+  x = 1
+  action = movebutton
+  y = -105
+}
+
+customization {
+  identifier = %id=400334%
+  width = 150
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400334%
+  action = setbuttonlabel
+  value = <<返回
+}
+
+customization {
+  identifier = %id=345256%
+  orientation = mid-left
+  x = 1
+  action = movebutton
+  y = 0
+}
+
+customization {
+  identifier = %id=345256%
+  action = setbuttondescription
+  description = 更改后需要重新加载...不更改也可能需要
+}
+
+customization {
+  identifier = %id=505256%
+  orientation = mid-left
+  x = 152
+  action = movebutton
+  y = 0
+}
+
+customization {
+  identifier = %id=345232%
+  orientation = mid-left
+  x = 1
+  action = movebutton
+  y = -21
+}
+
+customization {
+  identifier = %id=345232%
+  action = setbuttonlabel
+  value = 视频设置...
+}
+
+customization {
+  identifier = %id=345232%
+  action = setbuttondescription
+  description = 点击此按钮可能导致崩溃，如果出现这种情况，请手动编辑位于游戏安装目录的options.txt或者安装Optifine。
+}
+
+customization {
+  identifier = %id=505232%
+  orientation = mid-left
+  x = 152
+  action = movebutton
+  y = -21
+}
+
+customization {
+  identifier = %id=345181%
+  orientation = mid-left
+  x = 1
+  action = movebutton
+  y = -63
+}
+
+customization {
+  identifier = %id=505181%
+  orientation = mid-left
+  x = 152
+  action = movebutton
+  y = -63
+}
+
+customization {
+  identifier = %id=345208%
+  orientation = mid-left
+  x = 1
+  action = movebutton
+  y = -42
+}
+
+customization {
+  identifier = %id=505208%
+  orientation = mid-left
+  x = 152
+  action = movebutton
+  y = -42
+}
+
+customization {
+  identifier = %id=635154%
+  orientation = mid-left
+  x = 282
+  action = movebutton
+  y = -84
+}
+

@@ -1,0 +1,10 @@
+{
+    "name": "红石充能",
+    "colors": [
+      "f8ebaa","f4de6a"
+    ],
+    "ingredient": {
+      "item": "redstone_arsenal:flux_ingot"
+    },
+    "inUltimateSingularity": true
+}

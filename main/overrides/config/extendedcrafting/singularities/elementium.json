@@ -1,0 +1,10 @@
+{
+    "name": "源质钢",
+    "colors": [
+      "f395c9","b90066"
+    ],
+    "ingredient": {
+      "item": "botania:elementium_ingot"
+    },
+    "inUltimateSingularity": true
+}

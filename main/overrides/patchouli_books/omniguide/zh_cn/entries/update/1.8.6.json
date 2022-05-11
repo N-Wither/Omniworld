@@ -1,0 +1,23 @@
+{
+    "name":"1.8.6 2022/01/17",
+    "icon":"sereneseasons:season_sensor",
+    "category":"update",
+    "pages":[
+        {
+            "type": "text",
+            "text": "添加的模组：$(li)PackagedAuto $(li)Corpse $(li)Serene Seasons $(li)Framed Compacting Drawers $(li)Metal Barrels $(li)Tesseract $(li)Not Enough Crashes $(li)Enhanced Celestials"
+        },
+        {
+            "type":"text",
+            "text":"替换的模组：$(li)Block Carpentry > Framed Blocks $(br2)移除的模组：$(li)Drink Beer $(br2)其他改动：$(li)更新了一些GUI $(li)修复了一些物品的EMC值 $(li)修复了任务中的一些错误 $(li)调整了量子采石场的产物 $(li)更改了一些配方"
+        },
+        {
+            "type":"text",
+            "text":"$(li)提高了柴油发电机(Immersive Engineering)的发电量(4096 -> 131072) $(li)调整了PipeZ管道的数值"
+        },
+        {
+            "type":"text",
+            "text":"添加的模组：$(li)Chipped $(br2)其他变动： $(li)移除了强盗的数据模型 $(li)修复了面包不增加谷物的bug $(li)修复了能用蛋制作线的bug $(li)（大概）修复了蘑菇村庄的卡顿问题"
+        }
+    ]
+}

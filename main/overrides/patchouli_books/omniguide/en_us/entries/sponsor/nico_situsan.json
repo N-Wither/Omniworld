@@ -1,0 +1,12 @@
+{
+    "name": "Nico_situsan",
+    "icon": "minecraft:player_head{SkullOwner:'Nico_situsan'}",
+    "category": "sponsor",
+    "pages": [
+        {
+            "type":"spotlight",
+            "item":"minecraft:player_head{SkullOwner:'Nico_situsan'}",
+            "text":""
+        }
+    ]
+}

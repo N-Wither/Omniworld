@@ -1,0 +1,51 @@
+{
+    "name": "矿石",
+    "icon": "omniworldessentials:azurium_ingot",
+    "category": "mods",
+    "pages": [
+        {
+            "type": "text",
+            "text": "加入了一些前所未见的新矿石！"
+        },
+        {
+            "type": "spotlight",
+            "item": "omniworldessentials:azurium_ore",
+            "text": "Y:0-32$(br)维度：主世界"
+        },
+        {
+            "type": "spotlight",
+            "item": "omniworldessentials:anemonium_ore",
+            "text": "Y:72~255$(br)维度：主世界"
+        },
+        {
+            "type": "spotlight",
+            "item": "omniworldessentials:pyronium_ore",
+            "text": "Y:1-127$(br)维度：下界"
+        },
+        {
+            "type": "spotlight",
+            "item": "omniworldessentials:cryonium_ore",
+            "text": "Y:0-64$(br)维度：主世界$(br)群系：会下雪的群系"
+        },
+        {
+            "type": "spotlight",
+            "item": "omniworldessentials:hydronium_ore",
+            "text": "Y:0-48$(br)维度：主世界$(br)群系：海洋"
+        },
+        {
+            "type": "spotlight",
+            "item": "omniworldessentials:electronium_ore",
+            "text": "Y:8-127$(br)维度：末地"
+        },
+        {
+            "type": "spotlight",
+            "item": "omniworldessentials:dendronium_ore",
+            "text": "Y:0-64$(br)维度：主世界$(br)群系：森林和沼泽"
+        },
+        {
+            "type": "spotlight",
+            "item": "omniworldessentials:geonium_ore",
+            "text": "Y:0-64$(br)维度：主世界$(br)群系：高山、沙漠和恶地"
+        }
+    ]
+}

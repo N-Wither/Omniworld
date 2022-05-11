@@ -1,0 +1,11 @@
+{
+    "name":"1.8.3 2021/11/xx",
+    "icon":"rslargepatterns:large_pattern",
+    "category":"update",
+    "pages":[
+        {
+            "type": "text",
+            "text": "lazy"
+        }
+    ]
+}

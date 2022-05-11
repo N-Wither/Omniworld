@@ -1,0 +1,25 @@
+{  
+  "condition": {
+    "values": [
+      {
+        "prop": "force_integration_materials",
+        "type": "tconstruct:config"
+      },
+      {
+        "modid": "betternether",
+        "type": "forge:mod_loaded"
+      }
+    ],
+    "type": "forge:or"
+  },
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/single_use/gem"
+  },
+  "fluid": {
+    "name": "bettercompat:molten_ruby",
+    "amount": 144
+  },
+  "result": "emendatusenigmatica:ruby_gem",
+  "cooling_time": 85
+}

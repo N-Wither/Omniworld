@@ -1,0 +1,72 @@
+{
+    "name":"Atum",
+    "icon":"atum:scarab",
+    "category":"mods",
+    "pages":[
+        {
+            "type":"text",
+            "text":"    This is an adventure mod, which features an infinite desert."
+        },
+        {
+            "type":"text",
+            "text":"    If you wanna enter Atum, you need a scarab and a portal frame. Throw the scarab in the frame, the portal will show up.",
+            "title":"Portal"
+        },
+        {
+            "type":"crafting",
+            "recipe":"atum:scarab",
+            "text":"Shiny!"
+        },
+        {
+            "type":"multiblock",
+            "multiblock": {
+                "pattern": [
+                    [ "S   S", "     ", "     ", "     ", "S   S" ],
+                    [ "S   S", "     ", "     ", "     ", "S   S" ], 
+                    [ "SSSSS", "SWWWS", "SW0WS", "SWWWS", "SSSSS" ], 
+                    [ "SSSSS", "SSSSS", "SSSSS", "SSSSS", "SSSSS" ]
+                ],
+                "mapping": {
+                    "S": "minecraft:sandstone",
+                    "W": "minecraft:water",
+                    "0": "minecraft:water"
+                },
+                "symmetrical": true
+            },
+            "name":"Portal Frame",
+            "text":"Fill it with water."
+        },
+        {
+            "type":"text",
+            "title":"Desert Enemies",
+            "text":"    Atum is an dangerous world, you will meet these hostile guys often."
+        },
+        {
+            "type":"entity",
+            "entity":"atum:brigand"
+        },
+        {
+            "type":"entity",
+            "entity":"atum:sergeant"
+        },
+        {
+            "type":"text",
+            "title":"Pyramid",
+            "text":"    Exploring pyramids is the best way to obtain treasures in this mod. You can easily find them on the minimap.$(br)$(br)    The doors of pyramids are usually buried in sands, and you need Nebu Torches to open the Quandary."
+        },
+        {
+            "type":"crafting",
+            "recipe":"atum:nebu_torch",
+            "text":"    Open the doors in slumber."
+        },
+        {
+            "type":"text",
+            "text":"    If you have entered a pyramid, you nedd to go thru a maze with many traps, but you can turn them off with a pickaxe.$(br)$(br)    Then you need to enter the Pharaoh's Tombroom, Nebu Toeches are also needed to open the sarcophahgus."
+        },
+        {
+            "type":"entity",
+            "entity":"atum:pharaoh",
+            "text":"    Kill him and get his relics!"
+        }
+    ]
+}

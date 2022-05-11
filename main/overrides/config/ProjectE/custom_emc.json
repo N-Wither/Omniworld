@@ -1,0 +1,200 @@
+{
+  "entries": [
+    {
+      "item": "minecraft:diamond_helmet",
+      "emc": 40960
+    },
+    {
+      "item": "minecraft:gold_nugget",
+      "emc": 227
+    },
+    {
+      "item": "minecraft:iron_helmet{AS_Amulet_Holder:[I;651898310,1877823240,-1470822202,2139981564],Damage:0}",
+      "emc": 1280
+    },
+    {
+      "item": "minecraft:stone",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:iron_helmet",
+      "emc": 1280
+    },
+    {
+      "item": "minecraft:air",
+      "emc": 5120
+    },
+    {
+      "item": "minecraft:netherite_helmet",
+      "emc": 91108
+    },
+    {
+      "item": "minecraft:chainmail_helmet",
+      "emc": 396
+    },
+    {
+      "item": "#minecraft:sand",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:golden_helmet",
+      "emc": 10240
+    },
+    {
+      "item": "#forge:glass/colorless",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:green_dye",
+      "emc": 4
+    },
+    {
+      "item": "astralsorcery:starmetal_ingot",
+      "emc": 512
+    },
+    {
+      "item": "emendatusenigmatica:obsidian_dust",
+      "emc": 16
+    },
+    {
+      "item": "#forge:ingots/cobalt",
+      "emc": 512
+    },
+    {
+      "item": "emendatusenigmatica:cinnabar_gem",
+      "emc": 256
+    },
+    {
+      "item": "emendatusenigmatica:arcane_gem",
+      "emc": 1024
+    },
+    {
+      "item": "emendatusenigmatica:apatite_gem",
+      "emc": 256
+    },
+    {
+      "item": "minecraft:nether_brick",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:experience_bottle",
+      "emc": 8192
+    },
+    {
+      "item": "natureminerals:astrite_ingot",
+      "emc": 16000
+    },
+    {
+      "item": "natureminerals:stibnite_ingot",
+      "emc": 12000
+    },
+    {
+      "item": "natureminerals:kunzite_ingot",
+      "emc": 8000
+    },
+    {
+      "item": "natureminerals:uvarovite_ingot",
+      "emc": 6000
+    },
+    {
+      "item": "minecraft:wither_skeleton_skull",
+      "emc": 46420
+    },
+    {
+      "item": "#forge:gems/amber",
+      "emc": 1024
+    },
+    {
+      "item": "minecraft:charcoal",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:clay",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:clay_ball",
+      "emc": 4
+    },
+    {
+      "item": "powah:dielectric_paste",
+      "emc": 48
+    },
+    {
+      "item": "mysticalagradditions:insanium_essence",
+      "emc": 32768
+    },
+    {
+      "item": "minecraft:redstone_block",
+      "emc": 576
+    },
+    {
+      "item": "minecraft:gold_block",
+      "emc": 18432
+    },
+    {
+      "item": "fluxnetworks:flux_dust",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:dragon_head",
+      "emc": 65536
+    },
+    {
+      "item": "minecraft:grass_block",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:paper",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:book",
+      "emc": 126
+    },
+    {
+      "item": "projecte:philosophers_stone",
+      "emc": 463044
+    },
+    {
+      "item": "emendatusenigmatica:dimensional_gem",
+      "emc": 8192
+    },
+    {
+      "item": "rftoolsbase:dimensionalshard",
+      "emc": 8192
+    },
+    {
+      "item": "minecraft:bread",
+      "emc": 72
+    },
+    {
+      "item": "projecte:low_covalence_dust",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:furnace",
+      "emc": 8
+    },
+    {
+      "item": "projecte:alchemical_chest",
+      "emc": 8987
+    },
+    {
+      "item": "appliedenergistics2:charged_certus_quartz_crystal",
+      "emc": 256
+    },
+    {
+      "item": "appliedenergistics2:fluix_crystal",
+      "emc": 288
+    },
+    {
+      "item": "#forge:stone",
+      "emc": 1
+    },
+    {
+      "item": "#forge:cobblestone",
+      "emc": 1
+    }
+  ]
+}

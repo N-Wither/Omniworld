@@ -1,0 +1,81 @@
+{
+    "name":"Supplementaries",
+    "icon":"supplementaries:globe",
+    "category":"smalltips",
+    "pages":[
+        {
+            "type":"text",
+            "text":"Supplementaries is a mod for decorating and utilities, it adds a lot beautiful and useful things.$(br)    Enter \"@supplementaries\" in JEI searching box to see all items in this mod."
+        },
+        {
+            "type":"crafting",
+            "recipe":"supplementaries:hanging_sign_oak",
+            "text":"Any wood can be used to craft this, R-click with any item to set the icon, R-click with empty hands to enter texts."
+        },
+        {
+            "type":"crafting",
+            "recipe":"supplementaries:sign_post_oak",
+            "text":"Any wood can be used to craft this, can be put on the sides of fences. Use a lodestone compass to set its deriction."
+        },
+        {
+            "type":"crafting",
+            "recipe":"minecraft:lantern",
+            "text":"Lanterns can be placed on sides of blocks and fences, lanterns in Skinned Lanterns are supported."
+        },
+        {
+            "type":"crafting",
+            "recipe":"supplementaries:planter",
+            "text":"Grow plats without watering."
+        },
+        {
+            "type":"crafting",
+            "recipe":"supplementaries:pedestal",
+            "text":"Exhibit items, also a pillar."
+        },
+        {
+            "type":"crafting",
+            "recipe":"supplementaries:notice_board",
+            "text":"You can put books, maps and banner patterns in it."
+        },
+        {
+            "type":"spotlight",
+            "item":"supplementaries:safe",
+            "text":"Should be used with keys, binded safes need keys with the same name."
+        },
+        {
+            "type":"crafting",
+            "recipe":"supplementaries:cage",
+            "text":"R-click to capture small mobs."
+        },
+        {
+            "type":"crafting",
+            "recipe":"supplementaries:crank",
+            "text":"Output exact redstone signals. SHIFT+R-click to reverse the rotation."
+        },
+        {
+            "type":"crafting",
+            "recipe":"supplementaries:turn_table",
+            "text":"When powered, rotate the facing block/entity. Stronger signal, faster speed."
+        },
+        {
+            "type":"crafting",
+            "recipe":"supplementaries:hourglass",
+            "text":"Can be filled with any sand/dust. Different dusts have different duration, can be reversed by Turn Table."
+        },
+        {
+            "type":"spotlight",
+            "item":"supplementaries:rope_arrow",
+            "text":"When hit a block's bottom, it will release a rope."
+        },
+        {
+            "type":"crafting",
+            "recipe":"supplementaries:pulley",
+            "text":"Put in ropes or chains, control the rotation with crank, when the end of ropes/chains hit the bottom, reverse the rotation to drag the block up."
+        },
+        {
+            "type":"crafting",
+            "recipe":"supplementaries:faucet",
+            "text":"Output the fluids in the jar/cauldron."
+        }
+    ]
+}

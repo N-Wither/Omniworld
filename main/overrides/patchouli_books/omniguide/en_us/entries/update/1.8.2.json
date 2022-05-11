@@ -1,0 +1,11 @@
+{
+    "name":"1.8.2 2021/11/xx",
+    "icon":"drinkbeer:empty_beer_mug",
+    "category":"update",
+    "pages":[
+        {
+            "type": "text",
+            "text": "Added Touhou Little Maid mod; $(br)Added FTB Money mod (Shop is WIP); $(br)Increased the generate rate of Xpertrified Ore"
+        }
+    ]
+}

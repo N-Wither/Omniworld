@@ -1,0 +1,652 @@
+{
+	id: "00180CFEAFBB293F"
+	group: "34DA8A5C88ADFCAB"
+	order_index: 0
+	filename: "00180CFEAFBB293F"
+	title: "机械动力"
+	icon: "create:wrench"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -5.5d
+			y: -0.5d
+			shape: "gear"
+			subtitle: "铁和石头"
+			description: [
+				"本模组的基础材料，建议多做一些。"
+				" "
+				"本模组的一些物品可以长按 W 键查看用法。"
+			]
+			id: "226EDB46A015CCA8"
+			tasks: [{
+				id: "7168009366ECB298"
+				type: "item"
+				item: "create:andesite_alloy"
+			}]
+			rewards: [
+				{
+					id: "16B5E59BBD870C14"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "384EE4428CCA85DD"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -0.5d
+			subtitle: "可以旋转"
+			description: ["传递动力。"]
+			dependencies: ["226EDB46A015CCA8"]
+			id: "541CE62F5AB8830F"
+			tasks: [{
+				id: "2277E8CD2221CFDC"
+				type: "item"
+				item: "create:cogwheel"
+			}]
+			rewards: [
+				{
+					id: "2ED71E0621920C9A"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "30109F52FAD633C0"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -2.5d
+			subtitle: "更大更强！"
+			description: ["当对角放置齿轮和大齿轮，并给其中一个提供动力时，小齿轮的转速将是大的2倍。"]
+			dependencies: ["541CE62F5AB8830F"]
+			id: "41FDCBD1F4C7DE9C"
+			tasks: [{
+				id: "767999F50DCF5D80"
+				type: "item"
+				item: "create:large_cogwheel"
+			}]
+			rewards: [
+				{
+					id: "5841120F1ED51AB5"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "629E527027E1EC3C"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "风车"
+			x: -3.5d
+			y: -2.5d
+			subtitle: "没有风也能转！"
+			description: ["风车的转速和应力量只与风帆的数量有关。虽然性价比很高，但是对性能的消耗也很大。"]
+			dependencies: ["226EDB46A015CCA8"]
+			id: "1D3CFA8C81EB597E"
+			tasks: [
+				{
+					id: "39F9665A9D3A74FE"
+					type: "item"
+					item: "create:windmill_bearing"
+				}
+				{
+					id: "33B6FA2A5AB985F4"
+					type: "item"
+					item: "create:white_sail"
+				}
+			]
+			rewards: [{
+				id: "5E11338CFC8E93A4"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			subtitle: "快速拆除！"
+			description: ["可以旋转方块，也可以SHIFT + 右键快速拆除组件。"]
+			dependencies: ["3AFEC53759060927"]
+			id: "1F0BF8B6404FB2D6"
+			tasks: [{
+				id: "7D901DDED2F5E629"
+				type: "item"
+				item: "create:wrench"
+			}]
+			rewards: [{
+				id: "23535620B8C355E9"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -0.5d
+			subtitle: "砸扁它！"
+			dependencies: ["541CE62F5AB8830F"]
+			id: "3AFEC53759060927"
+			tasks: [{
+				id: "5713E777467CFB0A"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+			rewards: [
+				{
+					id: "48CE64E892B8E890"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "743DE12BDCFB5DF3"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 1.5d
+			subtitle: "量化统计"
+			description: ["让你查看组件的转速和消耗。"]
+			dependencies: ["3AFEC53759060927"]
+			id: "0DC500A20E4CC28E"
+			tasks: [{
+				id: "0CAC62AE516E3702"
+				type: "item"
+				item: "create:goggles"
+			}]
+			rewards: [{
+				id: "4900FE47C2FB8A41"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			subtitle: "机械混合！"
+			dependencies: ["3AFEC53759060927"]
+			id: "10D2A7768C519545"
+			tasks: [
+				{
+					id: "658057C8F1D65BCB"
+					type: "item"
+					item: "create:mechanical_mixer"
+				}
+				{
+					id: "5D4F51414792DCA6"
+					type: "item"
+					item: "create:basin"
+				}
+			]
+			rewards: [
+				{
+					id: "4DE0AACEF5B11EEB"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "1B0FE956AF1B2F2C"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 1.5d
+			subtitle: "流水线"
+			id: "40B7F47A2598CE3E"
+			tasks: [{
+				id: "672329C4BD7E6544"
+				type: "item"
+				item: "create:belt_connector"
+			}]
+			rewards: [{
+				id: "0E3C8C1F683A53D0"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -0.5d
+			subtitle: "亮闪闪！"
+			description: [
+				"不会真有人用加热搅拌制作黄铜吧，不会吧？"
+				" "
+				"不过你的燃烧室和搅拌器在以后还是有用的。"
+			]
+			dependencies: [
+				"10D2A7768C519545"
+				"39E057395A045917"
+			]
+			id: "24CF0E2711410684"
+			tasks: [{
+				id: "40EF3B175836B44B"
+				type: "item"
+				item: "emendatusenigmatica:brass_ingot"
+			}]
+			rewards: [
+				{
+					id: "4995C361AAC86886"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "7A15A01C66BC8593"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -2.5d
+			subtitle: "这是剥削！"
+			description: ["手持空的燃烧室对烈焰人或者它的刷怪笼右键把它装进来。"]
+			id: "39E057395A045917"
+			tasks: [{
+				id: "17077D2291257695"
+				type: "item"
+				item: "create:blaze_burner"
+			}]
+			rewards: [{
+				id: "411022847A5EA0CF"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			subtitle: "复古风格"
+			description: ["虽然它没有多少实际作用，但是真的很酷！"]
+			dependencies: ["24CF0E2711410684"]
+			id: "324A4CF994F2B0E7"
+			tasks: [{
+				id: "039BE1E15A7BACA2"
+				type: "item"
+				item: "create:nixie_tube"
+			}]
+			rewards: [{
+				id: "12D3C645F9D5F83F"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.5d
+			subtitle: "神奇的手！"
+			description: ["它可以代替你的手做很多事情。"]
+			dependencies: ["24CF0E2711410684"]
+			id: "6E81196604413FEA"
+			tasks: [{
+				id: "02DBAC3613310D95"
+				type: "item"
+				item: "create:deployer"
+			}]
+			rewards: [{
+				id: "27B6C38889DA864A"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -0.5d
+			subtitle: "自动合成"
+			description: ["除了能自动合成，也可以是一个更大的合成表。"]
+			dependencies: ["24CF0E2711410684"]
+			id: "2A54D1CB5379B130"
+			tasks: [{
+				id: "34D7666757B957A3"
+				type: "item"
+				item: "create:mechanical_crafter"
+			}]
+			rewards: [
+				{
+					id: "7617D7028066BEDF"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "0A2F41F57D2E4B5D"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: -4.5d
+			subtitle: "更神奇的手！"
+			description: ["短距离内在各种容器之间转移物品的神器，只需提供动力！"]
+			dependencies: ["0BDD066486F1FDD1"]
+			id: "32DBCDEB037637DE"
+			tasks: [{
+				id: "7A473D2E108DFDF1"
+				type: "item"
+				item: "create:mechanical_arm"
+			}]
+			rewards: [{
+				id: "747DAD5E1E5C361D"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 6.5d
+			y: -4.5d
+			subtitle: "集成机械机构"
+			description: ["需要使用机械手进行序列装配获得。"]
+			dependencies: ["6E81196604413FEA"]
+			id: "0BDD066486F1FDD1"
+			tasks: [{
+				id: "15648F77158619C6"
+				type: "item"
+				item: "create:precision_mechanism"
+			}]
+			rewards: [{
+				id: "04024F8765173F1F"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 6.5d
+			y: -0.5d
+			subtitle: "危险的玩具"
+			description: ["粉碎物品，别自己跳进去了。"]
+			dependencies: ["2A54D1CB5379B130"]
+			id: "31697FABAA477803"
+			tasks: [{
+				id: "66C94E3C4A788129"
+				type: "item"
+				item: "create:crushing_wheel"
+			}]
+			rewards: [
+				{
+					id: "0CCB55C2490404AB"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "38B5AD834B059CB9"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: -0.5d
+			subtitle: "不能给人吃"
+			description: ["是给你的奴隶烈焰人吃的。"]
+			dependencies: ["31697FABAA477803"]
+			id: "7CC4F1DB710D7D39"
+			tasks: [{
+				id: "5D2F2CCECF32B9E8"
+				type: "item"
+				item: "create:blaze_cake"
+			}]
+			rewards: [
+				{
+					id: "5429FAF26A2DE23A"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "214131966607B816"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: -0.5d
+			subtitle: "感觉不够鲜艳..."
+			dependencies: ["7CC4F1DB710D7D39"]
+			id: "578EB66F1EFD60F8"
+			tasks: [{
+				id: "5180425AAE10E9AF"
+				type: "item"
+				item: {
+					id: "create:chromatic_compound"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "09131EC09AE76AC3"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "451E9C565254E757"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 1.5d
+			subtitle: "动能转化为电能！"
+			description: ["通过旋转力产生电力，效率是惊人的100%。"]
+			dependencies: ["2A54D1CB5379B130"]
+			id: "1A483FAC417E8592"
+			tasks: [{
+				id: "0B17D3656A43EFA6"
+				type: "item"
+				item: "createaddition:alternator"
+			}]
+			rewards: [{
+				id: "25B4BBFC88A846B2"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			title: "飞轮引擎"
+			x: 6.5d
+			y: -2.5d
+			subtitle: "更多动力!"
+			description: ["你可能已经感受到风车给你的电脑带来的卡顿了，现在改用熔炉与飞轮吧！"]
+			dependencies: ["2A54D1CB5379B130"]
+			id: "0A67ACAADEB3B660"
+			tasks: [
+				{
+					id: "68A2C8DACFBF6A61"
+					type: "item"
+					item: "create:flywheel"
+				}
+				{
+					id: "1963453FDC6EA3E0"
+					type: "item"
+					item: "create:furnace_engine"
+				}
+			]
+			rewards: [{
+				id: "392C066CC5005AEF"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 8.5d
+			y: -3.0d
+			subtitle: "本该有的!"
+			description: ["凭什么只有在烧东西的时候才能输出动力，燃料没有要烧制的东西就不能燃烧了吗？当然不！所以有了这个。"]
+			dependencies: ["0A67ACAADEB3B660"]
+			id: "236771584CE52DDF"
+			tasks: [{
+				id: "3424DC3C7E8138E0"
+				type: "item"
+				item: "createaddition:furnace_burner"
+			}]
+			rewards: [{
+				id: "6CD3BD5724C0DB58"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 8.5d
+			y: -2.0d
+			subtitle: "液态燃料"
+			description: ["燃料肯定不一定要是固体的，烧油吧！"]
+			dependencies: ["0A67ACAADEB3B660"]
+			id: "07C4C0EEE87AD5CB"
+			tasks: [{
+				id: "4768C603115E0A4F"
+				type: "item"
+				item: "createaddition:crude_burner"
+			}]
+			rewards: [{
+				id: "5C9985D5C6CABF22"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 12.5d
+			y: -1.5d
+			subtitle: "黑乎乎！"
+			description: [
+				"将异彩化合物丢进虚空。"
+				" "
+				"很遗憾它目前没有什么作用。"
+			]
+			dependencies: ["578EB66F1EFD60F8"]
+			id: "46992404B431DE4E"
+			tasks: [{
+				id: "1C4F97821DB031CE"
+				type: "item"
+				item: "create:shadow_steel"
+			}]
+			rewards: [{
+				id: "67BDBF50D57C4CCC"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 12.5d
+			y: -0.5d
+			subtitle: "发光的！"
+			description: ["将异彩化合物放置在光源附近（例如火把、萤石和信标）。"]
+			dependencies: ["578EB66F1EFD60F8"]
+			id: "36C0BF19A5617CDE"
+			tasks: [{
+				id: "37F0B346C5E3D79A"
+				type: "item"
+				item: "create:refined_radiance"
+			}]
+			rewards: [{
+				id: "3117FF342F971C5B"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 12.5d
+			y: 0.5d
+			subtitle: "麻麻的！"
+			description: ["将异彩化合物放在特斯拉线圈下面一段时间。"]
+			dependencies: ["578EB66F1EFD60F8"]
+			id: "6DCAA72BDFA07715"
+			tasks: [
+				{
+					id: "053EFF20345CE22F"
+					type: "item"
+					item: "createaddition:overcharged_alloy"
+				}
+				{
+					id: "17B09B6283E5F3E1"
+					type: "item"
+					item: "createaddition:tesla_coil"
+				}
+			]
+			rewards: [{
+				id: "17CCDBF076E5A1EC"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 14.5d
+			y: -0.5d
+			subtitle: "建筑几何学！"
+			description: ["当你放置方块时，以它为中心对称的另一边也会放置方块。"]
+			dependencies: ["36C0BF19A5617CDE"]
+			id: "7533D350FD68FB71"
+			tasks: [{
+				id: "380B1CF639F616DC"
+				type: "item"
+				item: "create:wand_of_symmetry"
+			}]
+			rewards: [{
+				id: "7CEB647B725AD7AE"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 14.5d
+			y: 0.5d
+			subtitle: "电击锤子！"
+			dependencies: ["6DCAA72BDFA07715"]
+			id: "4F55874AD42E4B45"
+			tasks: [{
+				id: "02481A085F0FB4B5"
+				type: "item"
+				item: {
+					id: "createaddition:overcharged_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "38C291FFA1B3533F"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 8.5d
+			y: 1.5d
+			subtitle: "电能转化为动能！"
+			description: ["消耗 FE 产生旋转动能。"]
+			dependencies: ["1A483FAC417E8592"]
+			id: "5D4C80F1702229EF"
+			tasks: [{
+				id: "524BE3C6693E0A78"
+				type: "item"
+				item: "createaddition:electric_motor"
+			}]
+			rewards: [{
+				id: "33596F3129B917E2"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+	]
+}

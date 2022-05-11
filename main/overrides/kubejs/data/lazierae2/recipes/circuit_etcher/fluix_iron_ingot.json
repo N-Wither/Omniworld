@@ -1,0 +1,24 @@
+{
+  "type": "lazierae2:circuit_etcher",
+  "processing_time": 120,
+  "output": {
+    "item": "lazierae2:fluix_iron_ingot"
+  },
+  "inputs": [
+    {
+      "input": {
+        "tag": "forge:dusts/carbonic_fluix"
+      }
+    },
+    {
+      "input": {
+        "tag": "forge:ingots/iron"
+      }
+    },
+    {
+      "input": {
+        "item": "appliedenergistics2:sky_dust"
+      }
+    }
+  ]
+}

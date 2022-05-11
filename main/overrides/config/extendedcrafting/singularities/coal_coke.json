@@ -1,0 +1,10 @@
+{
+    "name": "焦煤",
+    "colors": [
+      "455761","181f25"
+    ],
+    "ingredient": {
+      "item": "emendatusenigmatica:coke_gem"
+    },
+    "inUltimateSingularity": true
+}

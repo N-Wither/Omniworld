@@ -1,0 +1,49 @@
+
+[Energy_Capacity]
+	#Range: 0 ~ 9000000000000000000
+	starterCap = 100000
+	#Range: 0 ~ 9000000000000000000
+	basicCap = 1000000
+	#Range: 0 ~ 9000000000000000000
+	hardenedCap = 3000000
+	#Range: 0 ~ 9000000000000000000
+	blazingCap = 5000000
+	#Range: 0 ~ 9000000000000000000
+	nioticCap = 10000000
+	#Range: 0 ~ 9000000000000000000
+	spiritedCap = 15000000
+	#Range: 0 ~ 9000000000000000000
+	nitroCap = 40000000
+
+[Energy_Transfer]
+	#Range: 0 ~ 9000000000000000000
+	starterTransfer = 3000
+	#Range: 0 ~ 9000000000000000000
+	basicTransfer = 15000
+	#Range: 0 ~ 9000000000000000000
+	hardenedTransfer = 48000
+	#Range: 0 ~ 9000000000000000000
+	blazingTransfer = 120000
+	#Range: 0 ~ 9000000000000000000
+	nioticTransfer = 300000
+	#Range: 0 ~ 9000000000000000000
+	spiritedTransfer = 600000
+	#Range: 0 ~ 9000000000000000000
+	nitroTransfer = 180000000
+
+[Charging_Speed]
+	#Range: 0 ~ 9000000000000000000
+	starterChargingSpeed = 3000
+	#Range: 0 ~ 9000000000000000000
+	basicChargingSpeed = 15000
+	#Range: 0 ~ 9000000000000000000
+	hardenedChargingSpeed = 48000
+	#Range: 0 ~ 9000000000000000000
+	blazingChargingSpeed = 120000
+	#Range: 0 ~ 9000000000000000000
+	nioticChargingSpeed = 300000
+	#Range: 0 ~ 9000000000000000000
+	spiritedChargingSpeed = 600000
+	#Range: 0 ~ 9000000000000000000
+	nitroChargingSpeed = 180000000
+

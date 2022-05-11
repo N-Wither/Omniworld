@@ -1,0 +1,6 @@
+{
+	"variants" : {
+		"mysticalworld:textures/entity/rudolph.png" : "sprite:rudolph",
+		"default" : "sprite:deer.png"
+	}
+}

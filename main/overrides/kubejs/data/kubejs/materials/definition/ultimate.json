@@ -1,0 +1,9 @@
+{
+    "craftable": false,
+    "tier": 4,
+    "sortOrder": 0,
+    "textColor": "#ff4884",
+    "hidden": false,
+    "fluid": "kubejs:molten_ultimate",
+    "fluidPerUnit": 144
+}

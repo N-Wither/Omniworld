@@ -1,0 +1,28 @@
+{
+    "type": "forge:conditional",
+    "recipes": [{
+      "conditions":
+      [{
+        "type": "forge:mod_loaded",
+        "modid": "atum"
+      }],
+  
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "XXX",
+          "XXX",
+          "XXX"
+        ],
+        "key": {
+          "X": {
+            "item": "kubejs:sandy_prediction"
+          }
+        },
+        "result": {
+          "item": "atum:sand",
+          "count": 9
+        }
+      }
+  }]}
+  

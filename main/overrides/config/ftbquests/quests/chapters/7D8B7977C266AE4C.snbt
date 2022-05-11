@@ -1,0 +1,538 @@
+{
+	id: "7D8B7977C266AE4C"
+	group: "34DA8A5C88ADFCAB"
+	order_index: 4
+	filename: "7D8B7977C266AE4C"
+	title: "应用能源"
+	icon: "appliedenergistics2:fluix_crystal"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.5d
+			y: 0.0d
+			subtitle: "频道处理"
+			description: [
+				"ME控制器的一个面可以为你的网络添加32个频道，你可以把多个控制器放在一起来增加容量。"
+				""
+				"频道在AE2里是一个很重要的概念，通常每一个机器都会占用一个频道。如果你的网络中的频道少于8个，那么控制器不是必要的，但我仍然推荐你做一个，因为AE2系列的机器都不能直接连接FE线缆供电，而控制器可以直接输入FE并转化为AE能量分配给所有的设备。"
+			]
+			dependencies: ["5E9272C83A2E72E2"]
+			id: "1D27CAB8DB836EAF"
+			tasks: [{
+				id: "4147CF0053C27F9D"
+				type: "item"
+				item: "appliedenergistics2:controller"
+			}]
+			rewards: [
+				{
+					id: "0520BA495D8BD2A7"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "53FEBE6482CFAB19"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 0.0d
+			subtitle: "微电子工业"
+			description: [
+				"陨石偶尔可以在主世界找到，它的中心有一个陨石箱子，里面会随机出现压印模板。"
+				""
+				"如果你找不到陨石的话，也可以在商店买。"
+			]
+			id: "7993002FB533D521"
+			tasks: [
+				{
+					id: "0A949DC575398F02"
+					type: "item"
+					item: "appliedenergistics2:inscriber"
+				}
+				{
+					id: "02BF86DD7283D930"
+					type: "item"
+					item: "appliedenergistics2:calculation_processor_press"
+				}
+				{
+					id: "626B8CB8C3A3A110"
+					type: "item"
+					item: "appliedenergistics2:logic_processor_press"
+				}
+				{
+					id: "0720E1B19B257479"
+					type: "item"
+					item: "appliedenergistics2:engineering_processor_press"
+				}
+				{
+					id: "69499DDDF513BA33"
+					type: "item"
+					item: "appliedenergistics2:silicon_press"
+				}
+			]
+			rewards: [
+				{
+					id: "709B05CF7BF297F4"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "1E7FFC1988010656"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "处理器"
+			x: -4.5d
+			y: 0.0d
+			subtitle: "我光刻机呢？"
+			dependencies: ["7993002FB533D521"]
+			id: "5E9272C83A2E72E2"
+			tasks: [
+				{
+					id: "2EA7BA7B824022A3"
+					type: "item"
+					item: "appliedenergistics2:logic_processor"
+				}
+				{
+					id: "67970103D3E6984E"
+					type: "item"
+					item: "appliedenergistics2:calculation_processor"
+				}
+				{
+					id: "060566156F8D0E70"
+					type: "item"
+					item: "appliedenergistics2:engineering_processor"
+				}
+			]
+			rewards: [
+				{
+					id: "683D55DA2A9B9495"
+					type: "custom"
+				}
+				{
+					id: "388A7980CE2C88BE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "17F1D4B4CB6EE0B7"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			subtitle: "高级工作台"
+			description: ["浏览并取用网络中的内容。"]
+			dependencies: ["35125D1F3AACF46B"]
+			id: "4BA97F2A8456F717"
+			tasks: [{
+				id: "58B69B4F68AF6402"
+				type: "item"
+				item: "appliedenergistics2:crafting_terminal"
+			}]
+			rewards: [
+				{
+					id: "772175EAC4AC494E"
+					type: "item"
+					item: "appliedenergistics2:terminal"
+				}
+				{
+					id: "647CF1A01E8C8622"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -1.5d
+			subtitle: "接线"
+			description: ["最基础的线缆，传输8个频道。"]
+			dependencies: ["1D27CAB8DB836EAF"]
+			id: "22D9FB35E2954A97"
+			tasks: [{
+				id: "1708690ECA6755DB"
+				type: "item"
+				item: "appliedenergistics2:fluix_glass_cable"
+			}]
+			rewards: [
+				{
+					id: "20918487D50BC7FF"
+					type: "item"
+					item: "appliedenergistics2:fluix_glass_cable"
+					count: 16
+				}
+				{
+					id: "112007ABF203FCE1"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			subtitle: "可视化"
+			description: ["相比于普通的包层线缆，智能线缆可以方便地向你显示频道占用情况。"]
+			dependencies: ["22D9FB35E2954A97"]
+			id: "535C81AAAB16B253"
+			tasks: [{
+				id: "532CA3B3DAA83C8A"
+				type: "item"
+				item: "appliedenergistics2:fluix_smart_cable"
+			}]
+			rewards: [
+				{
+					id: "59A19ACA047D0106"
+					type: "item"
+					item: "appliedenergistics2:fluix_smart_cable"
+					count: 16
+				}
+				{
+					id: "7B55DFD733E87E8A"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			subtitle: "更粗！"
+			description: ["致密线缆可以传输32个频道。"]
+			dependencies: ["535C81AAAB16B253"]
+			id: "39BF63C38E9EC6B0"
+			tasks: [{
+				id: "16FA5CCD9A55B6F9"
+				type: "item"
+				item: "appliedenergistics2:fluix_smart_dense_cable"
+			}]
+			rewards: [
+				{
+					id: "0D4210B3C131BBD1"
+					type: "item"
+					item: "appliedenergistics2:fluix_smart_dense_cable"
+					count: 16
+				}
+				{
+					id: "702BD45036898C11"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			subtitle: "硬盘架"
+			description: ["放存储元件的地方。"]
+			dependencies: ["619D32348D31BD98"]
+			id: "35125D1F3AACF46B"
+			tasks: [{
+				id: "40C48CFBD0BACC25"
+				type: "item"
+				item: "appliedenergistics2:drive"
+			}]
+			rewards: [
+				{
+					id: "410FAF90846EDFD7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0B277DF52C554E8E"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 3.0d
+			subtitle: "外部存储"
+			description: ["如果你还没有做存储元件的话，你可以使用存储总线连接箱子之类的东西为你的网络添加存储容量。"]
+			dependencies: ["4C1B4BD234E5804A"]
+			id: "538F6A34B104E4E5"
+			tasks: [{
+				id: "1F53DC9C711ED945"
+				type: "item"
+				item: "appliedenergistics2:storage_bus"
+			}]
+			rewards: [{
+				id: "0E949CD9025B81C3"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.5d
+			subtitle: "输入"
+			description: ["通过ME接口可以向AE网络中输入物品，同时也可以储存自动合成用的样板。"]
+			dependencies: ["5E9272C83A2E72E2"]
+			id: "4C1B4BD234E5804A"
+			tasks: [{
+				id: "5D775093D0E6D79C"
+				type: "item"
+				item: "appliedenergistics2:interface"
+			}]
+			rewards: [{
+				id: "59F8371F9F8B8DB6"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 0.0d
+			subtitle: "存储核心"
+			description: ["用于制作存储元件，你也可以进一步升级成容量更大的版本。"]
+			dependencies: ["1D27CAB8DB836EAF"]
+			id: "619D32348D31BD98"
+			tasks: [{
+				id: "4CD8CDF48556BD9F"
+				type: "item"
+				item: "appliedenergistics2:1k_cell_component"
+			}]
+			rewards: [
+				{
+					id: "5A3C010A39E1CA2B"
+					type: "item"
+					item: "appliedenergistics2:1k_cell_component"
+				}
+				{
+					id: "5AC24C7A5048ECB4"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "自动合成初步"
+			x: 5.5d
+			y: 1.5d
+			subtitle: "网络进阶"
+			description: [
+				"是的，这些都是必要的，不过不用担心，我们先介绍一下各个设备的作用。"
+				""
+				"分子装配室其实就是一个自动合成台；物品接口用于和分子装配室或者其他机器（比如熔炉）互动并存储样板；合成存储器相当于合成过程中的内存，它应当和其他合成存储器/并行处理单元/合成监控器共同组成一个长方体或正方体，此时它们的纹理会变化，这样你就组装好了一个合成处理器结构。合成存储器的总容量越大，你能够同时合成的东西就越多；并行处理单元可以让整个合成处理器结构同时进行更多合成，合成监控器用于查看合成状况，不过你也可以在终端右上角查看合成进度。"
+				""
+				"篇幅所限，请到下面的任务里面继续查看。"
+			]
+			dependencies: ["4BA97F2A8456F717"]
+			id: "6B57B4C103FE8273"
+			tasks: [
+				{
+					id: "5DB1D17728730AE7"
+					type: "item"
+					item: "appliedenergistics2:molecular_assembler"
+				}
+				{
+					id: "1F5F9BDCD11CA5C5"
+					type: "item"
+					item: "appliedenergistics2:4k_crafting_storage"
+				}
+				{
+					id: "65A07125BB23D1B5"
+					type: "item"
+					item: "appliedenergistics2:crafting_accelerator"
+				}
+				{
+					id: "77DF1C793074E99B"
+					type: "item"
+					item: "appliedenergistics2:pattern_terminal"
+				}
+				{
+					id: "4F9A074621C880C1"
+					type: "item"
+					item: "appliedenergistics2:blank_pattern"
+				}
+			]
+			rewards: [
+				{
+					id: "39FBBADA24C6D845"
+					type: "item"
+					item: "appliedenergistics2:blank_pattern"
+					count: 4
+				}
+				{
+					id: "202106B900F93EE0"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "自动合成初步 Pt.2"
+			x: 5.5d
+			y: 2.5d
+			description: [
+				"样板在样板终端中编写，用于存储合成表，应被放置在物品接口。在编写样板的时候，你可以开启“物品替换”，这样拥有相同标签的物品（比如不同种类的木板）可以被用于同一个合成表。"
+				""
+				"样板可以手动放置在物品接口，但更好的方式是通过接口终端放置样板。"
+				""
+				"当你组装好一个合成处理器结构，放下分子装配室、物品接口和样板之后，你就可以在终端里面看到样板对应的物品了，如果这种物品已经存在，你也可以对着它按下鼠标中键合成更多。在选择合成数量之后，就可以开始合成了。"
+			]
+			dependencies: ["6B57B4C103FE8273"]
+			id: "7A82EBF11D4ABD73"
+			tasks: [{
+				id: "06A381CF07F3CED8"
+				type: "checkmark"
+				title: "继续阅读下面的介绍"
+			}]
+		}
+		{
+			title: "无线访问"
+			x: 5.5d
+			y: 0.0d
+			subtitle: "移动互联网时代！"
+			description: [
+				"不会真的有人用普通的无线终端而不是无线合成终端吧？"
+				""
+				"要将无线终端与你的网络绑定，你需要把它放置在安全终端界面右上角的格子里面，之后它会跑到下面的格子来，这样就成功地绑定了，只要你还在无线访问点的信号范围内，你就可以在无线终端取用物品！"
+			]
+			dependencies: ["4BA97F2A8456F717"]
+			id: "7D4BFE746E892338"
+			tasks: [
+				{
+					id: "094682C55B04977A"
+					type: "item"
+					item: {
+						id: "ae2wtlib:wireless_crafting_terminal"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "18A2AB62858FF33D"
+					type: "item"
+					item: "appliedenergistics2:security_station"
+				}
+				{
+					id: "3EA66D90525A0F28"
+					type: "item"
+					item: "appliedenergistics2:wireless_access_point"
+				}
+			]
+			rewards: [
+				{
+					id: "40B51CDBCC2E875A"
+					type: "item"
+					item: "appliedenergistics2:wireless_booster"
+					count: 4
+				}
+				{
+					id: "2EEB9468FCEBF150"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -1.5d
+			subtitle: "无限制上网！"
+			description: ["把这个安装在你的无线终端里面，让你在任何地方都可以访问网络。和1.12的无限增幅卡不同，现在它不会消耗了，但是你的无线终端的耗电速度会大幅增加。"]
+			dependencies: ["7D4BFE746E892338"]
+			id: "3165638453EA0E54"
+			tasks: [{
+				id: "5D03DCF7E64A0294"
+				type: "item"
+				item: "ae2wtlib:infinity_booster_card"
+			}]
+			rewards: [{
+				id: "4E4E8AE4B68F66CB"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			subtitle: "压缩"
+			description: ["可以作为物品或流体垃圾桶，但主要的作用还是用来制作物质球或者奇点。只要点击输出格右边的按钮就可以改变模式。"]
+			dependencies: ["619D32348D31BD98"]
+			id: "515201359E525373"
+			tasks: [{
+				id: "3866CDF755489228"
+				type: "item"
+				item: "appliedenergistics2:condenser"
+			}]
+			rewards: [{
+				id: "4799D9E7BD6D9E24"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			title: "远程连接"
+			x: 3.5d
+			y: 3.0d
+			subtitle: "无需布线"
+			description: ["使用8个量子环围绕量子链接仓，再在另一个地方重复此操作，两边的链接仓放入一对量子缠绕态奇点，这样就做好了无线网络连接。"]
+			dependencies: ["515201359E525373"]
+			id: "5AEFD0303A3D6702"
+			tasks: [
+				{
+					id: "79C1635B2D98AAD4"
+					type: "item"
+					item: "appliedenergistics2:quantum_entangled_singularity"
+					count: 2L
+				}
+				{
+					id: "5A5EE87A42D325FF"
+					type: "item"
+					item: "appliedenergistics2:quantum_ring"
+					count: 16L
+				}
+				{
+					id: "2F7223C038EAC7AE"
+					type: "item"
+					item: "appliedenergistics2:quantum_link"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "49F581781D98B88A"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			title: "打包合成"
+			x: 7.5d
+			y: 1.5d
+			subtitle: "更多！更多！"
+			description: ["想要自动化超过9种材料的配方？"]
+			dependencies: ["6B57B4C103FE8273"]
+			id: "7B4BF8ADD7123340"
+			tasks: [
+				{
+					id: "2E01BC9D9418C394"
+					type: "item"
+					item: "packagedauto:encoder"
+				}
+				{
+					id: "620B8A9AD8002AD7"
+					type: "item"
+					item: "packagedauto:recipe_holder"
+				}
+			]
+			rewards: [{
+				id: "09B84BAE6FCFB1AD"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+	]
+}

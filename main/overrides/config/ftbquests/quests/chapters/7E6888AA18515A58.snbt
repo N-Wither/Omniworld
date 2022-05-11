@@ -1,0 +1,916 @@
+{
+	id: "7E6888AA18515A58"
+	group: "34DA8A5C88ADFCAB"
+	order_index: 5
+	filename: "7E6888AA18515A58"
+	title: "工业先锋"
+	icon: "industrialforegoing:machine_frame_advanced"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -5.0d
+			y: 0.5d
+			shape: "gear"
+			subtitle: "又是机器框架"
+			description: ["这还算好做的。"]
+			id: "77CD291CDF207CF0"
+			tasks: [{
+				id: "01F7ED83C2F45BFA"
+				type: "item"
+				item: "industrialforegoing:machine_frame_pity"
+			}]
+			rewards: [
+				{
+					id: "201D4883AA8CAF1F"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "063C0782D66AB7C9"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 0.5d
+			subtitle: "提取树脂"
+			description: ["在它的工作面前放一块原木，它就能从中提取胶乳，有电时运行得更快。"]
+			dependencies: ["77CD291CDF207CF0"]
+			id: "5854A1264E602B8F"
+			tasks: [{
+				id: "1F6E06E0F7ECC11C"
+				type: "item"
+				item: "industrialforegoing:fluid_extractor"
+			}]
+			rewards: [
+				{
+					id: "2531CAB9560BC2A4"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "64EFC7B20385D898"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 0.5d
+			subtitle: "纯天然的！"
+			description: ["将胶乳加工成塑料吧！"]
+			dependencies: [
+				"5F34902E1F576D3B"
+				"5854A1264E602B8F"
+			]
+			id: "70CC33D2169631C5"
+			tasks: [{
+				id: "2A1268E449E2F213"
+				type: "item"
+				item: "industrialforegoing:plastic"
+			}]
+			rewards: [
+				{
+					id: "26F581C9FCE02787"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "574CACD7FAA2C20D"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -1.5d
+			subtitle: "烘干橡胶"
+			dependencies: ["77CD291CDF207CF0"]
+			id: "5F34902E1F576D3B"
+			tasks: [{
+				id: "5D5BC1E5151F0522"
+				type: "item"
+				item: "industrialforegoing:latex_processing_unit"
+			}]
+			rewards: [
+				{
+					id: "1AB6E39B02E72402"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "4BFA96F3A44349C0"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 0.5d
+			subtitle: "溶解成型"
+			description: ["要制作更高级的机器，你需要这个。"]
+			dependencies: ["70CC33D2169631C5"]
+			id: "326B89B978E79BE0"
+			tasks: [{
+				id: "5B997C13AB75AF8C"
+				type: "item"
+				item: "industrialforegoing:dissolution_chamber"
+			}]
+			rewards: [
+				{
+					id: "4E01707D6520FFE1"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "06F8F2CE9044C028"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			subtitle: "上吧皮卡丘！"
+			description: ["用来捕捉生物。"]
+			dependencies: ["70CC33D2169631C5"]
+			id: "0A5351140D5FDBB5"
+			tasks: [{
+				id: "509D9B12FB0CCA03"
+				type: "item"
+				item: "industrialforegoing:mob_imprisonment_tool"
+			}]
+			rewards: [{
+				id: "5CD1BF69FEEFECD2"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.5d
+			subtitle: "这次是铁的！"
+			description: ["制作中级机器框架。"]
+			dependencies: ["326B89B978E79BE0"]
+			id: "27517152B945AC53"
+			tasks: [{
+				id: "6412E6B07D740FBE"
+				type: "item"
+				item: "industrialforegoing:machine_frame_simple"
+			}]
+			rewards: [{
+				id: "2979E0B1A77022B1"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 2.5d
+			shape: "square"
+			description: ["自动收获工作区域内的动物资源，比如羊毛。"]
+			hide_dependency_lines: true
+			dependencies: ["77CD291CDF207CF0"]
+			id: "0C91377DAD066A63"
+			tasks: [{
+				id: "36536A523D04B689"
+				type: "item"
+				item: "industrialforegoing:animal_rancher"
+			}]
+			rewards: [{
+				id: "3D0572BAE6342E4F"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.5d
+			shape: "square"
+			description: [
+				"工作范围是它上面第二层以它为中心的8个方块，GUI内的8个彩色格子对应工作面上的8种颜色所指的方向，你可以放置不同的种子或树苗。"
+				"它的工作面会被实体方块阻挡，但不会被水影响。"
+			]
+			hide_dependency_lines: true
+			dependencies: ["77CD291CDF207CF0"]
+			id: "6C76668BAACA65FC"
+			tasks: [{
+				id: "60B9A63AF7BB69AC"
+				type: "item"
+				item: "industrialforegoing:plant_sower"
+			}]
+			rewards: [{
+				id: "2CDDB8EDCDDD80C9"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.5d
+			shape: "square"
+			description: ["消耗水繁殖蘑菇。"]
+			hide_dependency_lines: true
+			dependencies: ["77CD291CDF207CF0"]
+			id: "45ECD3A95545A54C"
+			tasks: [{
+				id: "3E603FC7E3BED575"
+				type: "item"
+				item: "industrialforegoing:spores_recreator"
+			}]
+			rewards: [{
+				id: "2F2A34909B56C7A9"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 4.0d
+			shape: "square"
+			description: ["根据工作范围内的动物数量生产污水。"]
+			hide_dependency_lines: true
+			dependencies: ["77CD291CDF207CF0"]
+			id: "0A31B609ACA68D24"
+			tasks: [{
+				id: "64DE9DC704A2051C"
+				type: "item"
+				item: "industrialforegoing:sewer"
+			}]
+			rewards: [{
+				id: "539FFEDF3676E185"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.5d
+			shape: "square"
+			description: ["繁殖工作范围内的动物。"]
+			hide_dependency_lines: true
+			dependencies: ["77CD291CDF207CF0"]
+			id: "6689C7681910EFC4"
+			tasks: [{
+				id: "3E5711893CC55F80"
+				type: "item"
+				item: "industrialforegoing:animal_feeder"
+			}]
+			rewards: [{
+				id: "4431578E569F1372"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			shape: "square"
+			description: [
+				"秒杀工作范围内的生物，产生肉汤和粉红黏液。"
+				" "
+				"不要与屠宰机混淆。"
+			]
+			hide_dependency_lines: true
+			dependencies: ["77CD291CDF207CF0"]
+			id: "722FCB45A60FE0EC"
+			tasks: [{
+				id: "7A4B53F2CBEBECD4"
+				type: "item"
+				item: "industrialforegoing:mob_slaughter_factory"
+			}]
+			rewards: [{
+				id: "6A559300B8B46397"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 4.0d
+			shape: "square"
+			description: ["消耗水和某些物品生产生物燃油。"]
+			hide_dependency_lines: true
+			dependencies: ["77CD291CDF207CF0"]
+			id: "753FC1CC0BBC01CE"
+			tasks: [{
+				id: "7C822F1C4689685A"
+				type: "item"
+				item: "industrialforegoing:bioreactor"
+			}]
+			rewards: [{
+				id: "162E2047EF7FCCB8"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 4.0d
+			shape: "square"
+			description: ["收获作物，产生污泥。"]
+			hide_dependency_lines: true
+			dependencies: ["77CD291CDF207CF0"]
+			id: "3C133C68409C7A37"
+			tasks: [{
+				id: "056CD173CB94726B"
+				type: "item"
+				item: "industrialforegoing:plant_gatherer"
+			}]
+			rewards: [{
+				id: "144A66154CD40FAB"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 4.0d
+			shape: "square"
+			description: ["消耗污泥生产泥土、沙子、沙砾。"]
+			dependencies: ["3C133C68409C7A37"]
+			id: "1C6C6FBF10229AC3"
+			tasks: [{
+				id: "786AC8B028E205DD"
+				type: "item"
+				item: "industrialforegoing:sludge_refiner"
+			}]
+			rewards: [{
+				id: "09A7D8D3199544F1"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.0d
+			shape: "square"
+			description: ["消耗污水生产肥料。"]
+			dependencies: ["0A31B609ACA68D24"]
+			id: "72348499BA18BC8A"
+			tasks: [{
+				id: "23630AE9036DEF65"
+				type: "item"
+				item: "industrialforegoing:sewage_composter"
+			}]
+			rewards: [{
+				id: "0CD37377C5ACFA24"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.5d
+			shape: "square"
+			description: ["和热力系列的蓄水器作用相同，但可以通电来加速工作。"]
+			hide_dependency_lines: true
+			dependencies: ["77CD291CDF207CF0"]
+			id: "043AF391C7420DA2"
+			tasks: [{
+				id: "3782ADEA651F661B"
+				type: "item"
+				item: "industrialforegoing:water_condensator"
+			}]
+			rewards: [{
+				id: "085FB6B01046E5A5"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 4.0d
+			shape: "square"
+			description: ["将幼年动物移动到它后面。"]
+			hide_dependency_lines: true
+			dependencies: ["77CD291CDF207CF0"]
+			id: "28AE24886DE18726"
+			tasks: [{
+				id: "7B72ABD22FBA0315"
+				type: "item"
+				item: "industrialforegoing:animal_baby_separator"
+			}]
+			rewards: [{
+				id: "7E7BC76DA1B36610"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.5d
+			subtitle: "越来越复杂了"
+			description: ["获得高级机器框架。"]
+			dependencies: ["27517152B945AC53"]
+			id: "42493B00502D2841"
+			tasks: [{
+				id: "5B1095B6D4D6D72D"
+				type: "item"
+				item: "industrialforegoing:machine_frame_advanced"
+			}]
+			rewards: [{
+				id: "6B7F55C1B9AA4840"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 0.5d
+			description: ["要获得以太气体，你需要在凋灵的上面放置流体镭射钻。建议搭配冷冻室使用，它可以让凋灵无法移动，也可以给凋灵补充血量。"]
+			dependencies: ["1A565A3670529807"]
+			id: "058B942157161EBD"
+			tasks: [{
+				id: "0A827106E1D49C0A"
+				type: "item"
+				item: "industrialforegoing:machine_frame_supreme"
+			}]
+			rewards: [{
+				id: "028595B3B0E46F2C"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.5d
+			shape: "diamond"
+			description: ["探测到生物时发出红石信号。"]
+			hide_dependency_lines: true
+			dependencies: ["27517152B945AC53"]
+			id: "121E861A82AD5CAD"
+			tasks: [{
+				id: "3D25D19D700B62D4"
+				type: "item"
+				item: "industrialforegoing:mob_detector"
+			}]
+			rewards: [{
+				id: "64FCB529A1654600"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.5d
+			shape: "diamond"
+			description: ["消耗肥料催熟作物。"]
+			hide_dependency_lines: true
+			dependencies: ["27517152B945AC53"]
+			id: "6383E1BAB3054C12"
+			tasks: [{
+				id: "3D65541187C14A38"
+				type: "item"
+				item: "industrialforegoing:plant_fertilizer"
+			}]
+			rewards: [{
+				id: "55736AB02810237C"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 2.5d
+			shape: "diamond"
+			description: ["使用水和以太气体催熟并收获种植在它上面的作物。"]
+			hide_dependency_lines: true
+			dependencies: ["27517152B945AC53"]
+			id: "70FF0B9D7971EDA7"
+			tasks: [{
+				id: "52BE75F43BC02B26"
+				type: "item"
+				item: "industrialforegoing:hydroponic_bed"
+			}]
+			rewards: [{
+				id: "55966830B6595380"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 4.0d
+			shape: "diamond"
+			description: ["对矿物肉汤进行发酵，可以选择消耗更多时间和催化剂获得更多产量。"]
+			dependencies: ["547FA1A1ED8AB62C"]
+			id: "6076F533DB5AFC8C"
+			tasks: [{
+				id: "7439C78F681CB0DC"
+				type: "item"
+				item: "industrialforegoing:fermentation_station"
+			}]
+			rewards: [{
+				id: "6E5394EE85B6B6ED"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 4.0d
+			shape: "pentagon"
+			description: ["使用肉汤和矿石生产矿物肉汤。"]
+			hide_dependency_lines: true
+			dependencies: ["42493B00502D2841"]
+			id: "547FA1A1ED8AB62C"
+			tasks: [{
+				id: "2E6A916C43672F54"
+				type: "item"
+				item: "industrialforegoing:washing_factory"
+			}]
+			rewards: [{
+				id: "1D04B1D70D626CCA"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.5d
+			description: [
+				"镭射钻基座放在中央，周围放置镭射钻对准基座的侧面，这样基座里就可以生产矿石了。"
+				" "
+				"你可以使用不同颜色的透镜增加某种矿物的生成概率。"
+			]
+			dependencies: ["42493B00502D2841"]
+			id: "1A565A3670529807"
+			tasks: [
+				{
+					id: "10B2783801D1C690"
+					type: "item"
+					item: "industrialforegoing:laser_drill"
+				}
+				{
+					id: "4236856F90E0F14C"
+					type: "item"
+					item: "industrialforegoing:ore_laser_base"
+				}
+			]
+			rewards: [{
+				id: "31B7C667E7997B1A"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 4.0d
+			shape: "pentagon"
+			description: ["将发酵过的矿物肉汤加工成矿物粉。"]
+			dependencies: ["6076F533DB5AFC8C"]
+			id: "618995C62AFB538B"
+			tasks: [{
+				id: "3919E263620FB065"
+				type: "item"
+				item: "industrialforegoing:fluid_sieving_machine"
+			}]
+			rewards: [{
+				id: "5845DB0D74D30309"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 5.5d
+			shape: "pentagon"
+			description: ["提取附魔。"]
+			hide_dependency_lines: true
+			dependencies: ["42493B00502D2841"]
+			id: "552A26E5590D04E7"
+			tasks: [{
+				id: "3A8079D317F12DC0"
+				type: "item"
+				item: "industrialforegoing:enchantment_extractor"
+			}]
+			rewards: [{
+				id: "3D7C219D2AC52E12"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 5.5d
+			shape: "pentagon"
+			description: ["消耗水和熔岩生产并加工石头。"]
+			hide_dependency_lines: true
+			dependencies: ["42493B00502D2841"]
+			id: "4EB7D28AAF133E81"
+			tasks: [{
+				id: "6798A7F4E2118DAE"
+				type: "item"
+				item: "industrialforegoing:material_stonework_factory"
+			}]
+			rewards: [{
+				id: "4F4727B038FAC3F9"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 5.5d
+			shape: "pentagon"
+			description: [
+				"杀死怪物并获取战利品，产生精华液。"
+				" "
+				"不要与屠宰场混淆。"
+			]
+			hide_dependency_lines: true
+			dependencies: ["42493B00502D2841"]
+			id: "3A22963B7F46C7E3"
+			tasks: [{
+				id: "6A49C86BDC99A16D"
+				type: "item"
+				item: "industrialforegoing:mob_crusher"
+			}]
+			rewards: [{
+				id: "25D7A39BDB4418D8"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 5.5d
+			shape: "pentagon"
+			description: ["消耗精华液生产大师球中生物的产物。"]
+			hide_dependency_lines: true
+			dependencies: ["42493B00502D2841"]
+			id: "124BEB98251A4F12"
+			tasks: [{
+				id: "49D8A1DB11D24593"
+				type: "item"
+				item: "industrialforegoing:mob_duplicator"
+			}]
+			rewards: [{
+				id: "745A6E9A66A5400D"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 5.5d
+			shape: "hexagon"
+			description: ["消耗灵魂沙和头颅自动产生凋灵。"]
+			hide_dependency_lines: true
+			dependencies: ["058B942157161EBD"]
+			id: "1988B5369487899B"
+			tasks: [{
+				id: "203C66FA32F0C439"
+				type: "item"
+				item: "industrialforegoing:wither_builder"
+			}]
+			rewards: [{
+				id: "232E7BA196354596"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 5.5d
+			shape: "hexagon"
+			description: ["管理你的黑洞存储单元。"]
+			hide_dependency_lines: true
+			dependencies: ["058B942157161EBD"]
+			id: "11E60CACE455FB3C"
+			tasks: [{
+				id: "1A53860ECB2CDF93"
+				type: "item"
+				item: "industrialforegoing:black_hole_controller"
+			}]
+			rewards: [{
+				id: "62590EE36B475115"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 5.5d
+			shape: "octagon"
+			subtitle: "海王神器！"
+			description: ["SHIFT + 右键打开配置界面。"]
+			hide_dependency_lines: true
+			dependencies: ["326B89B978E79BE0"]
+			id: "6BC0BF0BF9A4B26B"
+			tasks: [{
+				id: "2D0B5A672B2592E8"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_trident"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Riptide: 0
+						Channeling: 0b
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+						Special: 0b
+						Selected: "POOR"
+						Loyalty: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "002A2E6D0E41294A"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 5.5d
+			shape: "octagon"
+			subtitle: "突破天际！"
+			description: ["SHIFT + 右键打开配置界面。"]
+			hide_dependency_lines: true
+			dependencies: ["326B89B978E79BE0"]
+			id: "4DEFAFBA4B7CC442"
+			tasks: [{
+				id: "7B4AD7B25AD70717"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_drill"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Special: 0b
+						Selected: "POOR"
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "67F0DC409E87E6F1"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 5.5d
+			shape: "octagon"
+			subtitle: "马桶搋子!"
+			description: [
+				"发射马桶搋子，把击中的东西拉到面前。"
+				" "
+				"SHIFT + 右键打开配置界面。"
+			]
+			hide_dependency_lines: true
+			dependencies: ["326B89B978E79BE0"]
+			id: "2ECB18468B8A911B"
+			tasks: [{
+				id: "35FBFD85E2E531CB"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_launcher"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+						Special: 0b
+						Selected: "POOR"
+						Plunger: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7B549E96ADBB7215"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 5.5d
+			shape: "octagon"
+			subtitle: "我的大宝贝！"
+			description: [
+				"产生爆炸，等级越高，可选择的爆炸范围越大。启动30秒后爆炸。"
+				" "
+				"SHIFT + 右键打开配置界面。"
+			]
+			hide_dependency_lines: true
+			dependencies: ["326B89B978E79BE0"]
+			id: "4C78D98658FD46F8"
+			tasks: [{
+				id: "221A372645F3F352"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_nuke"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Special: 0b
+						Selected: "POOR"
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2AE6454D98339DD6"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 4.0d
+			shape: "octagon"
+			subtitle: "树木末日！"
+			description: ["SHIFT + 右键打开配置界面。"]
+			hide_dependency_lines: true
+			dependencies: ["326B89B978E79BE0"]
+			id: "2AD11FBDAF4DA557"
+			tasks: [{
+				id: "7F85FC596B3AAB6C"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_saw"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Special: 0b
+						Selected: "POOR"
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "583332053CABC859"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 2.5d
+			shape: "octagon"
+			subtitle: "裂地猛击！"
+			description: [
+				"可以直接用来砸人，也可以右键地面释放冲击波。"
+				" "
+				"SHIFT + 右键打开配置界面。"
+			]
+			hide_dependency_lines: true
+			dependencies: ["326B89B978E79BE0"]
+			id: "207443176DFA808E"
+			tasks: [{
+				id: "4A383C092300C5B9"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_hammer"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+						Special: 0b
+						Selected: "POOR"
+						Beheading: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4A0EB0A0E49EBBC5"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+	]
+}

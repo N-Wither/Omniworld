@@ -1,0 +1,12 @@
+{
+    "name": "旺柴",
+    "icon": "minecraft:player_head",
+    "category": "sponsor",
+    "pages": [
+        {
+            "type":"spotlight",
+            "item":"minecraft:player_head",
+            "text":""
+        }
+    ]
+}

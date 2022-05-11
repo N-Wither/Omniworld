@@ -1,0 +1,9 @@
+
+["Perfect Placement"]
+	Enabled = true
+	"Only use Perfect Placement in Creative Mode" = false
+
+["Stretch Building"]
+	Enabled = true
+	"Maximum Range" = 8
+

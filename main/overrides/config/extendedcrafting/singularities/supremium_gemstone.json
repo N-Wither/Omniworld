@@ -1,0 +1,10 @@
+{
+    "name": "终极精华宝石",
+    "colors": [
+      "ca0000","6f0000"
+    ],
+    "ingredient": {
+      "item": "mysticalagriculture:supremium_gemstone"
+    },
+    "inUltimateSingularity": true
+}

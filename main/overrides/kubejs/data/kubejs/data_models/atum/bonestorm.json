@@ -1,0 +1,25 @@
+{
+  
+    "type": "atum:bonestorm",
+    "name": "entity.atum.bonestorm",
+    "name_color": "0x89775f",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 80,
+    "input": {
+      "item": "hostilenetworks:empty_prediction"
+    },
+    "base_drop": {
+      "item": "kubejs:sandy_prediction"
+    },
+    "trivia": "hostile_neural_compat.trivia.bonestorm",
+    "fabricator_drops": [
+      {
+        "item": "atum:dusty_bone",
+        "count": 10
+      }
+    ]
+  
+}

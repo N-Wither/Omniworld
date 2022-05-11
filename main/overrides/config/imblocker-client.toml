@@ -1,0 +1,17 @@
+
+#Client only settings
+[client]
+	#We want to check if any TextWidgetField comes to life after several ticks.
+	#How many ticks should we check?
+	#Larger number means more precise and more error-tolerant, but less efficiency.
+	#Better be rounded to an exact multiple of `checkInterval`
+	#Range: > 1
+	checkDelayTime = 10
+	#Checking Every tick is not efficient, how about check once every several tick?
+	#Range: > 1
+	checkInterval = 2
+	#Matched screens would disable your IME
+	screenBlacklist = []
+	#Matched screens would enable your IME
+	screenWhitelist = ["net.minecraft.client.gui.screen.EditBookScreen", "net.minecraft.client.gui.screen.EditSignScreen"]
+

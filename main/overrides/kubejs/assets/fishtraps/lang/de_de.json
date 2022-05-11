@@ -1,0 +1,7 @@
+{
+    "block.fishtraps.wooden_fish_trap": "Holz Fischfalle",
+    "block.fishtraps.iron_fish_trap": "Eisen Fischfalle",
+    "block.fishtraps.diamond_fish_trap": "Diamand Fischfalle",
+    "itemGroup.fishtraps.fishtraps": "Fischfallen",
+    "item.fishtraps.fish_trap_bait": "Fischköder"
+}

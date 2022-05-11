@@ -1,0 +1,728 @@
+{
+	id: "146173D46D88BECB"
+	group: "34DA8A5C88ADFCAB"
+	order_index: 2
+	filename: "146173D46D88BECB"
+	title: "热力系列"
+	icon: "thermal:rf_coil"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -7.0d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "科技模组需要它！"
+			description: ["用来制作机器。"]
+			id: "23CCB93B10CF66F6"
+			tasks: [{
+				id: "02B34A620069E2D6"
+				type: "item"
+				item: "thermal:machine_frame"
+			}]
+			rewards: [
+				{
+					id: "4294DC59C0C39891"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "4AEF1803BB8D213A"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 0.0d
+			subtitle: "好事多磨"
+			description: ["可以把各种东西磨成粉。"]
+			dependencies: ["23CCB93B10CF66F6"]
+			id: "01E52B17F045FFED"
+			tasks: [{
+				id: "33781AD5C0C2D90A"
+				type: "item"
+				item: "thermal:machine_pulverizer"
+			}]
+			rewards: [
+				{
+					id: "5337E9E78E3BCCDA"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "1237EB6DB2A8D8EF"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 2.0d
+			subtitle: "普通的发电机"
+			description: ["使用可燃物发电。"]
+			id: "0B691FBC9952A9F0"
+			tasks: [{
+				id: "664A4BF6D56BC2F1"
+				type: "item"
+				item: "thermal:dynamo_stirling"
+			}]
+			rewards: [
+				{
+					id: "2294863872441ECC"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "4B254F0CDA53013D"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 2.0d
+			subtitle: "液体发电"
+			description: ["燃烧可燃流体发电。"]
+			id: "14173C39DD06914B"
+			tasks: [{
+				id: "7F8E226FE65CD3AE"
+				type: "item"
+				item: "thermal:dynamo_compression"
+			}]
+			rewards: [
+				{
+					id: "7E06EC5C027E723B"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "16565EAAF4D02B5F"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 2.0d
+			subtitle: "熔岩发电"
+			description: ["消耗熔岩发电。"]
+			id: "49128BD3F5C26669"
+			tasks: [{
+				id: "21FD69391AD87FE9"
+				type: "item"
+				item: "thermal:dynamo_magmatic"
+			}]
+			rewards: [
+				{
+					id: "70E53AD11BB5E033"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "3416D4A086509A73"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			subtitle: "烧钱发电"
+			description: ["消耗金属币发电。"]
+			id: "6BB74F70ADE20856"
+			tasks: [{
+				id: "0A15DA9EA1F2B9C8"
+				type: "item"
+				item: "thermal:dynamo_numismatic"
+			}]
+			rewards: [
+				{
+					id: "2F645A5C065D1E63"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "1F1F963D5DFB016C"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			subtitle: "珠光宝气"
+			description: ["消耗宝石发电。"]
+			id: "729E9E5B2A1DB9D7"
+			tasks: [{
+				id: "2E98B4425C0125EB"
+				type: "item"
+				item: "thermal:dynamo_lapidary"
+			}]
+			rewards: [
+				{
+					id: "6A327F1E696A1BA9"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "6CE72A5C91E16898"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			subtitle: "高级合金炉"
+			description: [
+				"可以用来制作三元合金！"
+				" "
+				"也可以用来熔炼一些需要高温的金属。"
+			]
+			dependencies: ["01E52B17F045FFED"]
+			id: "4BC1565F5BA7EFEE"
+			tasks: [{
+				id: "45BC8614EF100C46"
+				type: "item"
+				item: "thermal:machine_smelter"
+			}]
+			rewards: [
+				{
+					id: "2A92E06BAD55363B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2A675E4E4E7157F3"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -2.0d
+			subtitle: "电热熔炉"
+			description: ["在熔炉里面能做的，在这里也能做。"]
+			hide_dependency_lines: true
+			dependencies: ["23CCB93B10CF66F6"]
+			id: "64C518B7031BDE66"
+			tasks: [{
+				id: "7E75A82C4CD9F12C"
+				type: "item"
+				item: "thermal:machine_furnace"
+			}]
+			rewards: [
+				{
+					id: "4B3F14C95EAE2E1B"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "3C8633C2079D132A"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -2.0d
+			subtitle: "更多木板"
+			description: ["在这里，一块原木可以生产6块木板，附带锯末。"]
+			hide_dependency_lines: true
+			dependencies: ["23CCB93B10CF66F6"]
+			id: "49DB7B4CFE1A4A44"
+			tasks: [{
+				id: "3BCAB14D16FB5490"
+				type: "item"
+				item: "thermal:machine_sawmill"
+			}]
+			rewards: [
+				{
+					id: "4B72E32125A59194"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "435C30573B9F9D46"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -2.0d
+			subtitle: "迷你农场"
+			description: ["使用电和水培育作物，加装循环处理升级可以实现自动化。"]
+			hide_dependency_lines: true
+			dependencies: ["23CCB93B10CF66F6"]
+			id: "3D91B33AFE1BAFD4"
+			tasks: [{
+				id: "04FA8C3B8040EBD4"
+				type: "item"
+				item: "thermal:machine_insolator"
+			}]
+			rewards: [
+				{
+					id: "100A5641ACADD41C"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "2C2C3DD31DA2E94C"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			subtitle: "转啊转"
+			description: ["从植物和其他东西中提取资源，也可以分离合金粉末。"]
+			hide_dependency_lines: true
+			dependencies: ["23CCB93B10CF66F6"]
+			id: "17E5C95227EA5D5A"
+			tasks: [{
+				id: "79650B3232E8272F"
+				type: "item"
+				item: "thermal:machine_centrifuge"
+			}]
+			rewards: [
+				{
+					id: "3036B3F379B7A269"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "08CC2A9516757129"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			subtitle: "嘭，啪！"
+			description: ["将金属加工成各种形状。也可以打包或解包物品。"]
+			hide_dependency_lines: true
+			dependencies: ["23CCB93B10CF66F6"]
+			id: "30972221921AF3F3"
+			tasks: [{
+				id: "4CCD596E397F82B4"
+				type: "item"
+				item: "thermal:machine_press"
+			}]
+			rewards: [
+				{
+					id: "51E7CCFBCA8DFF9C"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "17B3005135D60FA6"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			subtitle: "熔化！"
+			description: ["将物品融化为流体。"]
+			hide_dependency_lines: true
+			dependencies: ["23CCB93B10CF66F6"]
+			id: "2BD6C43DBDE8C8A8"
+			tasks: [{
+				id: "0296A59485B95F33"
+				type: "item"
+				item: "thermal:machine_crucible"
+			}]
+			rewards: [
+				{
+					id: "79CF34519D47399C"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "4960D03A5D7659C5"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			subtitle: "凝结！"
+			description: ["和熔岩炉作用相反。"]
+			hide_dependency_lines: true
+			dependencies: ["23CCB93B10CF66F6"]
+			id: "68CABEE7A8336755"
+			tasks: [{
+				id: "416CC6510D08B25A"
+				type: "item"
+				item: "thermal:machine_chiller"
+			}]
+			rewards: [
+				{
+					id: "4C84C00AF201B37C"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "70767104E3750E7F"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			subtitle: "微型化工厂"
+			description: ["可以用来精炼石油和其他的流体。"]
+			hide_dependency_lines: true
+			dependencies: ["23CCB93B10CF66F6"]
+			id: "7EFB58AB5ACA3417"
+			tasks: [{
+				id: "4A54B8592F200384"
+				type: "item"
+				item: "thermal:machine_refinery"
+			}]
+			rewards: [
+				{
+					id: "66E527929DC42753"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "53219FF788B9D936"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -2.0d
+			subtitle: "加热分解"
+			description: ["将物品加热分解为相应的产物。"]
+			hide_dependency_lines: true
+			dependencies: ["23CCB93B10CF66F6"]
+			id: "544D846AE12C044A"
+			tasks: [{
+				id: "62D9210977CC9A1B"
+				type: "item"
+				item: "thermal:machine_pyrolyzer"
+			}]
+			rewards: [
+				{
+					id: "1706EB9D747B3CB8"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "72CA9941EB264336"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			subtitle: "装到桶里"
+			description: ["灌装流体。"]
+			hide_dependency_lines: true
+			dependencies: ["23CCB93B10CF66F6"]
+			id: "1C765B423CC99E59"
+			tasks: [{
+				id: "672BE5FF924C6D47"
+				type: "item"
+				item: "thermal:machine_bottler"
+			}]
+			rewards: [
+				{
+					id: "32B8F52F6434AEFB"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "431A004CAAC20296"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -2.0d
+			subtitle: "自动炼药"
+			description: ["酿造药水。"]
+			hide_dependency_lines: true
+			dependencies: ["23CCB93B10CF66F6"]
+			id: "6BDB427D65EF7378"
+			tasks: [{
+				id: "1BA4D1AB416E0300"
+				type: "item"
+				item: "thermal:machine_brewer"
+			}]
+			rewards: [
+				{
+					id: "4700B7283F8B7E4F"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "458B7E68452342D7"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 0.0d
+			subtitle: "自动合成"
+			description: ["设定好配方，提供材料，通上电，就能自动合成。"]
+			hide_dependency_lines: true
+			dependencies: ["23CCB93B10CF66F6"]
+			id: "49FD0B1A0A97DAB0"
+			tasks: [{
+				id: "79EA456A935D0A08"
+				type: "item"
+				item: "thermal:machine_crafter"
+			}]
+			rewards: [
+				{
+					id: "1BC1F19FD024B33E"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "0EDD6D4B711976E9"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			description: [
+				"将机器的各项属性提高到2倍。"
+				"带下划线的数值意味着最终数值取最高而不是叠加。"
+			]
+			id: "2EDCAF6B98CF104F"
+			tasks: [{
+				id: "15786DFB26ACC1CE"
+				type: "item"
+				item: "thermal:upgrade_augment_1"
+			}]
+			rewards: [{
+				id: "564680305E1D14DB"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.0d
+			description: ["将机器的各项属性提高到3倍。"]
+			dependencies: ["2EDCAF6B98CF104F"]
+			id: "7C2C1ED27E56393D"
+			tasks: [{
+				id: "1651CEF44E7C9A6A"
+				type: "item"
+				item: "thermal:upgrade_augment_2"
+			}]
+			rewards: [{
+				id: "00468FD66741F4D8"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 2.0d
+			description: ["将机器的各项属性提高到4倍。"]
+			dependencies: ["7C2C1ED27E56393D"]
+			id: "082B9C7B52D1030A"
+			tasks: [{
+				id: "06D544CF4C895C14"
+				type: "item"
+				item: "thermal:upgrade_augment_3"
+			}]
+			rewards: [{
+				id: "4F0940428359AAB5"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 4.0d
+			subtitle: "不能造东西"
+			description: ["在这里给你的热力工具加装升级和充能。"]
+			id: "39FF6D882B955F6C"
+			tasks: [{
+				id: "41C0374DB8E4E581"
+				type: "item"
+				item: "thermal:tinker_bench"
+			}]
+			rewards: [{
+				id: "69830FEA8ADA099D"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.0d
+			subtitle: "镐子和铲子"
+			id: "1295B2A48E6F7FEC"
+			tasks: [{
+				id: "2E03C86F0CEB69AB"
+				type: "item"
+				item: {
+					id: "thermal:flux_drill"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "6C5D67DEA66E73E2"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.0d
+			subtitle: "砍木头用"
+			id: "751BB45FC22A5F47"
+			tasks: [{
+				id: "2E3D700EC6133D14"
+				type: "item"
+				item: {
+					id: "thermal:flux_saw"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "25B87CDC013F699D"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.0d
+			subtitle: "充电宝"
+			id: "2ED7EBA6251B4E6B"
+			tasks: [{
+				id: "64F9F46F1C652DA6"
+				type: "item"
+				item: {
+					id: "thermal:flux_capacitor"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "7CABF2C488D338AE"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 4.0d
+			subtitle: "吸引物品"
+			id: "265BD7ED382DEFFA"
+			tasks: [{
+				id: "754D773534DD6382"
+				type: "item"
+				item: {
+					id: "thermal:flux_magnet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "0B8F6EABAB4391F6"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 4.0d
+			subtitle: "便携流体储存"
+			description: ["大桶终于回归1.16！这是一种方便的流体容器，可以在工匠工作台中加装升级!"]
+			id: "7F39308A27E831A9"
+			tasks: [{
+				id: "081BE9BE6589BE70"
+				type: "item"
+				item: {
+					id: "thermal:fluid_reservoir"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "611EEBE98296CEA1"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -7.0d
+			y: 4.0d
+			subtitle: "饕餮之宴"
+			description: ["消耗食物发电。"]
+			id: "49DC52F6F8B49F56"
+			tasks: [{
+				id: "5F33D9853C2C1B3E"
+				type: "item"
+				item: "thermal:dynamo_gourmand"
+			}]
+			rewards: [{
+				id: "0925D459B75AA5A6"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 4.0d
+			subtitle: "无用附魔的去处"
+			description: ["消耗附魔书发电。"]
+			id: "7F7A662581D58B34"
+			tasks: [{
+				id: "01D926FE0953E020"
+				type: "item"
+				item: "thermal:dynamo_disenchantment"
+			}]
+			rewards: [{
+				id: "6E79A51325CA4B29"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+	]
+}

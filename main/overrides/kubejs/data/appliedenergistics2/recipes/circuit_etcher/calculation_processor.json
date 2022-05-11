@@ -1,0 +1,24 @@
+{
+  "type": "lazierae2:circuit_etcher",
+  "processing_time": 120,
+  "output": {
+    "item": "appliedenergistics2:calculation_processor"
+  },
+  "inputs": [
+    {
+      "input": {
+        "item": "appliedenergistics2:purified_certus_quartz_crystal"
+      }
+    },
+    {
+      "input": {
+        "tag": "forge:dusts/redstone"
+      }
+    },
+    {
+      "input": {
+        "item": "emendatusenigmatica:silicon_gem"
+      }
+    }
+  ]
+}

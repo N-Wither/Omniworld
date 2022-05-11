@@ -1,0 +1,56 @@
+#
+#List of fluids used in the Magmator.
+#fluid registry name = heat per 100 mb eg: ["minecraft:lava=10000", "examplemod:fluid=1000"]
+#Min = 1, max = 900000000
+magmaticFluids = ["minecraft:lava=10000"]
+#Enable this to allow other mods to add their fluids. [default:true]
+magmaticFluidsAPI = true
+
+[Energy_Capacity]
+	#Range: 0 ~ 9000000000000000000
+	starterCap = 10000
+	#Range: 0 ~ 9000000000000000000
+	basicCap = 100000
+	#Range: 0 ~ 9000000000000000000
+	hardenedCap = 500000
+	#Range: 0 ~ 9000000000000000000
+	blazingCap = 900000
+	#Range: 0 ~ 9000000000000000000
+	nioticCap = 2000000
+	#Range: 0 ~ 9000000000000000000
+	spiritedCap = 5000000
+	#Range: 0 ~ 9000000000000000000
+	nitroCap = 10000000
+
+[Energy_Transfer]
+	#Range: 0 ~ 9000000000000000000
+	starterTransfer = 200
+	#Range: 0 ~ 9000000000000000000
+	basicTransfer = 400
+	#Range: 0 ~ 9000000000000000000
+	hardenedTransfer = 800
+	#Range: 0 ~ 9000000000000000000
+	blazingTransfer = 1600
+	#Range: 0 ~ 9000000000000000000
+	nioticTransfer = 6000
+	#Range: 0 ~ 9000000000000000000
+	spiritedTransfer = 10000
+	#Range: 0 ~ 9000000000000000000
+	nitroTransfer = 20000
+
+[Energy_Generation]
+	#Range: 0 ~ 9000000000000000000
+	starterGeneration = 50
+	#Range: 0 ~ 9000000000000000000
+	basicGeneration = 250
+	#Range: 0 ~ 9000000000000000000
+	hardenedGeneration = 900
+	#Range: 0 ~ 9000000000000000000
+	blazingGeneration = 2000
+	#Range: 0 ~ 9000000000000000000
+	nioticGeneration = 4000
+	#Range: 0 ~ 9000000000000000000
+	spiritedGeneration = 8000
+	#Range: 0 ~ 9000000000000000000
+	nitroGeneration = 15000
+

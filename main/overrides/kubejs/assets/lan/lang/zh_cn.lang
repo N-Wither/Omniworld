@@ -1,0 +1,9 @@
+
+selectWorld.onlineMode=正版验证：
+selectWorld.allowPvP=允许PvP：
+selectWorld.port=端口：
+selectWorld.motd=房间名：
+selectWorld.maxPlayers=最大玩家数量：
+commands.lan:publish.info=LAN info: Online(%s), PvP(%s), Port(%,d), MOTD(%s), Max Players(%,d)
+lan.portforward.error=UPnP failed on %s. See console for more info.
+lan.portforward.done=UPnP port forwarding complete, have fun!

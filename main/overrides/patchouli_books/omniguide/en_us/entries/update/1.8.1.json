@@ -1,0 +1,11 @@
+{
+    "name":"1.8.1 2021/10/xx",
+    "icon":"touhou_little_maid:power_point",
+    "category":"update",
+    "pages":[
+        {
+            "type": "text",
+            "text": "Added Touhou Little Maid mod; $(br)Added FTB Money mod (Shop is WIP); $(br)Increased the generate rate of Xpertrified Ore"
+        }
+    ]
+}

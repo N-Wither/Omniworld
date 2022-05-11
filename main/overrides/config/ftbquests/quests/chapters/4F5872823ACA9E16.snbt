@@ -1,0 +1,989 @@
+{
+	id: "4F5872823ACA9E16"
+	group: ""
+	order_index: 4
+	filename: "4F5872823ACA9E16"
+	title: "挑战"
+	icon: {
+		id: "forbidden_arcanus:draco_arcanus_sword"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "僵尸猎人"
+			x: -1.5d
+			y: -1.0d
+			id: "19C5EF3868B5015A"
+			tasks: [{
+				id: "0CDD1B54F176A68C"
+				type: "kill"
+				title: "杀死 100*僵尸"
+				entity: "minecraft:zombie"
+				value: 100L
+			}]
+			rewards: [{
+				id: "4B1E1193C875C88F"
+				type: "xp"
+				xp: 500
+			}]
+		}
+		{
+			title: "僵尸杀手"
+			x: 0.5d
+			y: -1.0d
+			dependencies: ["19C5EF3868B5015A"]
+			id: "619FE5F47E4968D4"
+			tasks: [{
+				id: "1F000F0650477D2E"
+				type: "kill"
+				entity: "minecraft:zombie"
+				value: 200L
+			}]
+			rewards: [{
+				id: "77807DAE3F7ADBA8"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.0d
+			dependencies: ["619FE5F47E4968D4"]
+			id: "52192E38E23CC08B"
+			tasks: [{
+				id: "3006519C7F103DE2"
+				type: "kill"
+				title: "僵尸克星"
+				entity: "minecraft:zombie"
+				value: 500L
+			}]
+			rewards: [
+				{
+					id: "5C9933DC5D193FE0"
+					type: "item"
+					item: "cyclic:heart"
+				}
+				{
+					id: "1DE5FDB125B84371"
+					type: "xp"
+					xp: 2000
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -1.0d
+			shape: "diamond"
+			dependencies: ["52192E38E23CC08B"]
+			size: 1.5d
+			id: "4CDBD0797C402FFF"
+			tasks: [{
+				id: "53B4FB14D32B4EE1"
+				type: "kill"
+				title: "僵尸末日"
+				entity: "minecraft:zombie"
+				value: 1000L
+			}]
+			rewards: [
+				{
+					id: "48E4C59315F83921"
+					type: "item"
+					item: "cyclic:heart"
+					count: 2
+				}
+				{
+					id: "6D664568F4575428"
+					type: "xp"
+					xp: 5000
+				}
+				{
+					id: "59DA663EE162829C"
+					type: "item"
+					item: "minecraft:zombie_head"
+				}
+			]
+		}
+		{
+			title: "骷髅猎人"
+			x: -1.5d
+			y: 0.5d
+			id: "36376D5C7F7B1681"
+			tasks: [{
+				id: "656A024D9989D6D1"
+				type: "kill"
+				entity: "minecraft:skeleton"
+				value: 100L
+			}]
+			rewards: [{
+				id: "5713ED86E99D63D2"
+				type: "xp"
+				xp: 500
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.5d
+			dependencies: ["36376D5C7F7B1681"]
+			id: "528C62B9FA23D988"
+			tasks: [{
+				id: "39692E4EA30230D2"
+				type: "kill"
+				title: "骷髅杀手"
+				entity: "minecraft:skeleton"
+				value: 200L
+			}]
+			rewards: [{
+				id: "75063B1ED538E28B"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.5d
+			dependencies: ["528C62B9FA23D988"]
+			id: "0EAA0E52C383C289"
+			tasks: [{
+				id: "5B64C08069C42210"
+				type: "kill"
+				title: "骷髅克星"
+				entity: "minecraft:skeleton"
+				value: 500L
+			}]
+			rewards: [
+				{
+					id: "298BE1FBC2092D24"
+					type: "xp"
+					xp: 2000
+				}
+				{
+					id: "69EE2F297D52E876"
+					type: "item"
+					item: "cyclic:heart"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 0.5d
+			shape: "diamond"
+			dependencies: ["0EAA0E52C383C289"]
+			size: 1.5d
+			id: "4C8C5719235E769B"
+			tasks: [{
+				id: "136EE4DD7F97F7B1"
+				type: "kill"
+				title: "骷髅粉碎者"
+				entity: "minecraft:skeleton"
+				value: 1000L
+			}]
+			rewards: [
+				{
+					id: "206948ABDCBBBC90"
+					type: "xp"
+					xp: 5000
+				}
+				{
+					id: "49E8F5041037DB54"
+					type: "item"
+					item: "cyclic:heart"
+					count: 2
+				}
+				{
+					id: "3E2CD78520841AE4"
+					type: "item"
+					item: "minecraft:skeleton_skull"
+				}
+			]
+		}
+		{
+			title: "踩死"
+			x: -1.5d
+			y: 2.0d
+			id: "05983E37EC18665E"
+			tasks: [{
+				id: "07B3259B9EB24430"
+				type: "kill"
+				title: "kill 100*蜘蛛"
+				entity: "minecraft:spider"
+				value: 100L
+			}]
+			rewards: [{
+				id: "16E6521BE9FDA57F"
+				type: "xp"
+				xp: 500
+			}]
+		}
+		{
+			title: "用拖鞋拍死"
+			x: 0.5d
+			y: 2.0d
+			dependencies: ["05983E37EC18665E"]
+			id: "52040E07175316F3"
+			tasks: [{
+				id: "76E4D866FCD99828"
+				type: "kill"
+				entity: "minecraft:spider"
+				value: 200L
+			}]
+			rewards: [{
+				id: "0FB03D4EE9C80D87"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			title: "用车子压死"
+			x: 2.5d
+			y: 2.0d
+			dependencies: ["52040E07175316F3"]
+			id: "52C9C3B29A448D58"
+			tasks: [{
+				id: "334007AF043C513B"
+				type: "kill"
+				entity: "minecraft:spider"
+				value: 500L
+			}]
+			rewards: [
+				{
+					id: "208120709286AEC1"
+					type: "xp"
+					xp: 2000
+				}
+				{
+					id: "6529178F278BA682"
+					type: "item"
+					item: "cyclic:heart"
+				}
+			]
+		}
+		{
+			title: "用压路机碾死"
+			x: 4.5d
+			y: 2.0d
+			shape: "diamond"
+			dependencies: ["52C9C3B29A448D58"]
+			size: 1.5d
+			id: "182CDCBF2F5D5A1F"
+			tasks: [{
+				id: "019A53AABE441220"
+				type: "kill"
+				entity: "minecraft:spider"
+				value: 1000L
+			}]
+			rewards: [
+				{
+					id: "39C03D1CC9C93FF6"
+					type: "xp"
+					xp: 5000
+				}
+				{
+					id: "1F98F066DA7825E8"
+					type: "item"
+					item: "cyclic:heart"
+					count: 2
+				}
+				{
+					id: "7117CF0D4356089A"
+					type: "item"
+					item: "tconstruct:spider_head"
+				}
+			]
+		}
+		{
+			title: "龙的复仇"
+			icon: "minecraft:dragon_head"
+			x: 7.0d
+			y: -1.0d
+			shape: "octagon"
+			id: "173A1B619B0F7D8A"
+			tasks: [{
+				id: "7E4A032C0AF9CA78"
+				type: "kill"
+				entity: "minecraft:ender_dragon"
+				value: 2L
+			}]
+			rewards: [
+				{
+					id: "0D1A09F543678D00"
+					type: "item"
+					item: "forbidden_arcanus:dragon_scale"
+					count: 5
+				}
+				{
+					id: "541A4B62931E9AA3"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "59E8582B3D8DA762"
+					type: "item"
+					item: "cyclic:heart"
+				}
+			]
+		}
+		{
+			title: "没完没了了！"
+			icon: "minecraft:dragon_head"
+			x: 9.0d
+			y: -1.0d
+			shape: "octagon"
+			dependencies: ["173A1B619B0F7D8A"]
+			id: "4BEAFEF1BF63BAAC"
+			tasks: [{
+				id: "7BEC5DBBCEF42936"
+				type: "kill"
+				entity: "minecraft:ender_dragon"
+				value: 10L
+			}]
+			rewards: [
+				{
+					id: "2292AEC7017C5A6D"
+					type: "item"
+					item: "minecraft:dragon_head"
+				}
+				{
+					id: "2B07005853FFC7AD"
+					type: "item"
+					item: "forbidden_arcanus:dragon_scale"
+					count: 10
+				}
+				{
+					id: "1A881AB550D9583E"
+					type: "item"
+					item: "cyclic:heart"
+				}
+				{
+					id: "0C1E3F3AE32A967F"
+					type: "xp"
+					xp: 3000
+				}
+			]
+		}
+		{
+			title: "差不多得了！"
+			icon: "minecraft:dragon_head"
+			x: 11.0d
+			y: -1.0d
+			shape: "gear"
+			dependencies: ["4BEAFEF1BF63BAAC"]
+			size: 1.5d
+			id: "6CD9B680EF1C9D21"
+			tasks: [{
+				id: "6A8D2574A2729031"
+				type: "kill"
+				entity: "minecraft:ender_dragon"
+				value: 50L
+			}]
+			rewards: [
+				{
+					id: "677EB33CB4760401"
+					type: "item"
+					item: "tconstruct:dragon_scale"
+					count: 20
+				}
+				{
+					id: "2EF0AFB5EFDE070F"
+					type: "item"
+					item: "cyclic:heart"
+					count: 2
+				}
+				{
+					id: "0703A3CD507A1109"
+					type: "xp"
+					xp: 50000
+				}
+			]
+		}
+		{
+			title: "凋灵的复仇"
+			icon: "minecraft:nether_star"
+			x: 7.0d
+			y: 0.5d
+			shape: "octagon"
+			id: "1A14D34D9C93F707"
+			tasks: [{
+				id: "396A4C719B4962DF"
+				type: "kill"
+				entity: "minecraft:wither"
+				value: 2L
+			}]
+			rewards: [
+				{
+					id: "2D3AD50562DFF3A0"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "1786290938CEA474"
+					type: "item"
+					item: "cyclic:heart"
+				}
+				{
+					id: "6C87057CEF1FC62A"
+					type: "item"
+					item: "minecraft:nether_star"
+				}
+			]
+		}
+		{
+			title: "复仇大失败"
+			icon: "minecraft:nether_star"
+			x: 9.0d
+			y: 0.5d
+			shape: "octagon"
+			dependencies: ["1A14D34D9C93F707"]
+			id: "309405BD59824E2E"
+			tasks: [{
+				id: "257292AE7DE3A632"
+				type: "kill"
+				entity: "minecraft:wither"
+				value: 10L
+			}]
+			rewards: [
+				{
+					id: "1C066DFA7640D715"
+					type: "item"
+					item: "cyclic:heart"
+				}
+				{
+					id: "781758336965A304"
+					type: "item"
+					item: "minecraft:nether_star"
+				}
+				{
+					id: "19A9FB2B73674C19"
+					type: "xp"
+					xp: 8000
+				}
+			]
+		}
+		{
+			title: "给点面子吧！"
+			icon: "minecraft:nether_star"
+			x: 11.0d
+			y: 0.5d
+			shape: "gear"
+			dependencies: ["309405BD59824E2E"]
+			size: 1.5d
+			id: "557DBC36FE14FC11"
+			tasks: [{
+				id: "721E208325E8892A"
+				type: "kill"
+				entity: "minecraft:wither"
+				value: 50L
+			}]
+			rewards: [
+				{
+					id: "3F14D22AA3DF4EB7"
+					type: "item"
+					item: "cyclic:heart"
+					count: 2
+				}
+				{
+					id: "5BA0F6109412B0A5"
+					type: "item"
+					item: "minecraft:nether_star"
+					count: 2
+				}
+				{
+					id: "11D6AEDBB5515D64"
+					type: "xp"
+					xp: 50000
+				}
+				{
+					id: "156AFDFDF51CCA5C"
+					type: "item"
+					item: {
+						id: "tconstruct:pickaxe"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:attack_speed": 1.2f
+								"tconstruct:mining_speed": 12.0f
+								"tconstruct:attack_damage": 3.1f
+								"tconstruct:harvest_level": 4.0f
+								"tconstruct:durability": 1430.0f
+							}
+							RepairCost: 0
+							tic_broken: 0b
+							tic_modifiers: [
+								{
+									name: "tconstruct:unbreakable"
+									level: 1s
+								}
+								{
+									name: "tconstruct:piercing"
+									level: 1s
+								}
+								{
+									name: "materialis:voiding"
+									level: 1s
+								}
+								{
+									name: "tconstruct:momentum"
+									level: 1s
+								}
+							]
+							HideFlags: 3
+							display: {
+								Lore: ["{\"color\":\"aqua\",\"text\":\"挖得快，还没有烦人的满地掉落物，谁不喜欢呢？\"}"]
+								Name: "{\"text\":\"挖掘者之友\"}"
+							}
+							tic_materials: [
+								"materialis:shadow_steel"
+								"tconstruct:hepatizon"
+								"tconstruct:bedrock"
+							]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 3
+								"tconstruct:haste": 360
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 3.5d
+			id: "49C77C24BE7E6540"
+			tasks: [{
+				id: "074704AC69FE2F13"
+				type: "kill"
+				title: "不准爆炸"
+				entity: "minecraft:creeper"
+				value: 100L
+			}]
+			rewards: [{
+				id: "0CB9C95267576641"
+				type: "xp"
+				xp: 500
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.5d
+			dependencies: ["49C77C24BE7E6540"]
+			id: "10418B7974503E0A"
+			tasks: [{
+				id: "271F9770A26917EB"
+				type: "kill"
+				title: "禁止明火"
+				entity: "minecraft:creeper"
+				value: 200L
+			}]
+			rewards: [{
+				id: "75D99DEBDB046249"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.5d
+			dependencies: ["10418B7974503E0A"]
+			id: "7E5DD16350C11077"
+			tasks: [{
+				id: "7C5361BD58C2EDEB"
+				type: "kill"
+				title: "禁止火源"
+				entity: "minecraft:creeper"
+				value: 500L
+			}]
+			rewards: [
+				{
+					id: "2B4C58A59845E29E"
+					type: "xp"
+					xp: 2000
+				}
+				{
+					id: "1718B86829E151F6"
+					type: "item"
+					item: "cyclic:heart"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 3.5d
+			shape: "diamond"
+			dependencies: ["7E5DD16350C11077"]
+			size: 1.5d
+			id: "7F3676254A1DB426"
+			tasks: [{
+				id: "1935600D9EA0566D"
+				type: "kill"
+				title: "安全第一"
+				entity: "minecraft:creeper"
+				value: 1000L
+			}]
+			rewards: [
+				{
+					id: "18EC02B064DEB171"
+					type: "xp"
+					xp: 5000
+				}
+				{
+					id: "5F47F88666100299"
+					type: "item"
+					item: "cyclic:heart"
+					count: 2
+				}
+				{
+					id: "031A825D0CC6658B"
+					type: "item"
+					item: "minecraft:creeper_head"
+				}
+			]
+		}
+		{
+			x: 13.5d
+			y: -1.0d
+			shape: "pentagon"
+			description: ["现在是游戏后期，你应该不想再为了各种资源而奔波了，隆重介绍：等价交换！"]
+			id: "188C71EF8B27AE85"
+			tasks: [{
+				id: "728B1C3761420C40"
+				type: "item"
+				item: {
+					id: "projecte:philosophers_stone"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7FFF1748DDF0EFBA"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "0AE6DB922BC17B88"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+			]
+		}
+		{
+			x: 15.5d
+			y: -1.0d
+			shape: "pentagon"
+			description: ["制作转化桌，将各种物品转换成EMC。"]
+			dependencies: ["188C71EF8B27AE85"]
+			id: "1FD275C593510EBB"
+			tasks: [{
+				id: "0402431136148E68"
+				type: "item"
+				item: "projecte:transmutation_table"
+			}]
+			rewards: [
+				{
+					id: "3EF425B85C87F70A"
+					type: "xp"
+					xp: 2000
+				}
+				{
+					id: "71D2B4FEC7DC7B60"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "6F745448ED999DA7"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+			]
+		}
+		{
+			x: 17.5d
+			y: -1.0d
+			shape: "pentagon"
+			description: ["随时随地进行转换！"]
+			dependencies: ["1FD275C593510EBB"]
+			size: 1.5d
+			id: "216BD092AF68FF67"
+			tasks: [{
+				id: "23ED948BEB98084B"
+				type: "item"
+				item: "projecte:transmutation_tablet"
+			}]
+			rewards: [
+				{
+					id: "22BD74B6B54F97C8"
+					type: "xp"
+					xp: 5000
+				}
+				{
+					id: "3432CFF05DE1AD4D"
+					type: "item"
+					item: "chancecubes:compact_giant_chance_cube"
+					count: 2
+				}
+				{
+					id: "3B2BD7A653185ADA"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+			]
+		}
+		{
+			title: "你是有多少东西要装？"
+			x: 13.5d
+			y: 0.5d
+			shape: "hexagon"
+			description: ["获得无限存储磁盘。"]
+			id: "511CE403BDFE4B97"
+			tasks: [{
+				id: "06D096E95878F64E"
+				type: "item"
+				item: "extradisks:infinite_storage_disk"
+			}]
+			rewards: [
+				{
+					id: "78C22BA68AB4ADEB"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "0A223443711DA8E1"
+					type: "item"
+					item: "extradisks:262144k_storage_disk"
+				}
+				{
+					id: "5391A0274E996BCE"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+			]
+		}
+		{
+			title: "经验丰富"
+			x: 15.5d
+			y: 0.5d
+			shape: "hexagon"
+			id: "2F6C01E506D81E12"
+			tasks: [{
+				id: "0E0F544CD7005766"
+				type: "xp"
+				value: 100L
+				points: false
+			}]
+			rewards: [{
+				id: "717BA57AFBB72851"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			title: "水贴之王"
+			x: 17.5d
+			y: 0.5d
+			shape: "hexagon"
+			dependencies: ["2F6C01E506D81E12"]
+			id: "08F46FA8FA7ED154"
+			tasks: [{
+				id: "055FF8ED3B798162"
+				type: "xp"
+				value: 256L
+				points: false
+			}]
+			rewards: [{
+				id: "50539C36996C87A4"
+				type: "item"
+				item: "chancecubes:compact_giant_chance_cube"
+				count: 10
+			}]
+		}
+		{
+			title: "超级武器"
+			x: 13.5d
+			y: 2.0d
+			shape: "hexagon"
+			description: ["获得鬼哭，它能突破附魔等级限制。"]
+			id: "1A8786E5D576AB9B"
+			tasks: [{
+				id: "34019AADCD361A9F"
+				type: "item"
+				item: "miniutilities:kikoku"
+			}]
+			rewards: [
+				{
+					id: "72E9FD16FB27D4B5"
+					type: "xp"
+					xp: 2000
+				}
+				{
+					id: "1AC53C54CDBEDF71"
+					type: "item"
+					item: "minecraft:nether_star"
+				}
+				{
+					id: "03AA070451C8E7F1"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+			]
+		}
+		{
+			title: "无中生矿"
+			x: 15.5d
+			y: 2.0d
+			shape: "hexagon"
+			description: ["制作一个量子采石场，它能消耗能量凭空产生矿石。"]
+			id: "329A9D2A51E4960A"
+			tasks: [{
+				id: "6B908B974BE0076C"
+				type: "item"
+				item: "miniutilities:quantum_quarry"
+			}]
+			rewards: [
+				{
+					id: "3B52F535261E347B"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "254BC28EC1BDAE27"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+			]
+		}
+		{
+			title: "献祭之刃"
+			x: 17.5d
+			y: 2.0d
+			shape: "hexagon"
+			description: ["使用这把剑击杀任何骷髅必定获得一个头颅。"]
+			id: "7B4C484030368244"
+			tasks: [{
+				id: "54ED4402EAD9FDA9"
+				type: "item"
+				item: {
+					id: "wstweaks:blaze_blade"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1659E54BD5BF3315"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "26B1CAFE66041F15"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+			]
+		}
+		{
+			x: 13.5d
+			y: 3.5d
+			shape: "hexagon"
+			description: ["获得安卡护符，可以让你免疫中毒、凋零、失明、挖掘疲劳、虚弱、缓慢、漂浮、饥饿和反胃。"]
+			id: "094A5D71A2954F24"
+			tasks: [{
+				id: "1A700D5923B7620D"
+				type: "item"
+				item: "bountifulbaubles:ankh_charm"
+			}]
+			rewards: [
+				{
+					id: "75F3D61993FBB25B"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "4D4184ECB7D14B4F"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "0106DDC655C32712"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 3.0d
+			shape: "gear"
+			description: [
+				"在不知道多长时间的努力后，你终于做出了这个东西。它可以带给你无限的物品。"
+				"恭喜你毕业了！"
+			]
+			size: 2.0d
+			id: "43E1D98F34372B23"
+			tasks: [{
+				id: "6891CF60625F0C7B"
+				type: "item"
+				item: "storagedrawers:creative_vending_upgrade"
+			}]
+			rewards: [
+				{
+					id: "5840DF295BD3CE01"
+					type: "xp"
+					xp: 99999999
+				}
+				{
+					id: "146FC3BF8F00F0B0"
+					type: "item"
+					item: "minecraft:nether_star"
+					count: 64
+				}
+				{
+					id: "2A56A8AFF66580F0"
+					type: "item"
+					item: "minecraft:dragon_head"
+					count: 64
+				}
+				{
+					id: "75C472510F69D3A5"
+					type: "item"
+					item: "projectex:final_power_flower"
+				}
+			]
+		}
+		{
+			x: 15.5d
+			y: 3.5d
+			shape: "hexagon"
+			description: ["非常厉害的金属！！"]
+			id: "7125C67F936DF559"
+			tasks: [{
+				id: "1039CDADBDFE7F0C"
+				type: "item"
+				item: "extendedcrafting:the_ultimate_ingot"
+			}]
+			rewards: [
+				{
+					id: "0A31940E18E7B68E"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "06D99476B3AC6603"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+			]
+		}
+	]
+}

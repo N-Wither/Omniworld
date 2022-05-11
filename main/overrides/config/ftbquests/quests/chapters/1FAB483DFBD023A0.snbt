@@ -1,0 +1,350 @@
+{
+	id: "1FAB483DFBD023A0"
+	group: "2A7154534D7EBF5F"
+	order_index: 0
+	filename: "1FAB483DFBD023A0"
+	title: "暮色森林"
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "暮色森林"
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			x: -4.0d
+			y: 0.0d
+			shape: "octagon"
+			subtitle: "永恒黄昏之地"
+			description: ["在被花（农作物也可以）包围（四个角也是）的水池（最小2*2，形状不限）中丢一颗钻石，进入暮色森林。"]
+			id: "41F913DE229866D3"
+			tasks: [{
+				id: "259699A85E8607D2"
+				type: "dimension"
+				dimension: "twilightforest:twilightforest"
+			}]
+			rewards: [{
+				id: "675C762BCAB277BE"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			subtitle: "寻找目的地"
+			description: ["在森林里搜集材料，制作魔法地图。你在上面可以看到一些图标，这些就是你要去的地方。"]
+			dependencies: ["41F913DE229866D3"]
+			id: "393CA41672921467"
+			tasks: [{
+				id: "2E1B4F48D1E287FA"
+				type: "item"
+				item: "twilightforest:magic_map_empty"
+			}]
+			rewards: [{
+				id: "1F0E6F6AC288D6F3"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			title: "娜迦"
+			icon: "twilightforest:naga_courtyard_miniature_structure"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "好大的蛇！"
+			description: ["找到娜迦庭院，然后杀掉它。"]
+			dependencies: ["393CA41672921467"]
+			id: "193EF825E13D48A5"
+			tasks: [{
+				id: "6C569C6CD3F16BDD"
+				type: "item"
+				item: "twilightforest:naga_trophy"
+			}]
+			rewards: [
+				{
+					id: "652C6D2EBDF390E9"
+					type: "item"
+					item: "twilightforest:naga_scale"
+					count: 4
+				}
+				{
+					id: "2AB975B5178ED035"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "巫妖王的陨落"
+			icon: "twilightforest:lich_tower_miniature_structure"
+			x: 2.0d
+			y: 0.0d
+			subtitle: "污妖王"
+			description: ["击败巫妖，现在你可以前往沼泽、雪地和黑森林了。"]
+			dependencies: ["193EF825E13D48A5"]
+			id: "50763EE45F686238"
+			tasks: [{
+				id: "32E2A23D53237CEA"
+				type: "item"
+				item: "twilightforest:lich_trophy"
+			}]
+			rewards: [
+				{
+					id: "6168855EB040ABA5"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "0A4E08EFF4484884"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "米诺菇"
+			icon: "twilightforest:minoshroom_trophy"
+			x: 4.0d
+			y: -2.0d
+			subtitle: "牛头人 biss！"
+			description: ["在迷宫里击败米诺菇。"]
+			dependencies: ["50763EE45F686238"]
+			id: "084C332625F27100"
+			tasks: [{
+				id: "3D17F76D933295AA"
+				type: "item"
+				item: "twilightforest:minoshroom_trophy"
+			}]
+			rewards: [
+				{
+					id: "69AA70BCA7B6B693"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "368BF3035A875965"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "幻影骑士"
+			icon: "twilightforest:knight_phantom_trophy"
+			x: 4.0d
+			y: 0.0d
+			shape: "circle"
+			subtitle: "给我躺好！"
+			description: ["在要塞里击败幻影骑士。"]
+			dependencies: ["50763EE45F686238"]
+			id: "237E653B24E1C118"
+			tasks: [{
+				id: "123EAC05AE086854"
+				type: "item"
+				item: "twilightforest:knight_phantom_trophy"
+			}]
+			rewards: [
+				{
+					id: "5B26DB0A08259338"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "0AA8C24B43A05B4A"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "雪怪首领"
+			icon: "twilightforest:alpha_fur"
+			x: 4.0d
+			y: 2.0d
+			subtitle: "哭也没用！"
+			description: ["在冰洞里击败雪怪首领。"]
+			dependencies: ["50763EE45F686238"]
+			id: "709272CCDDEA1BA8"
+			tasks: [{
+				id: "3C3C63C8A3206C24"
+				type: "kill"
+				entity: "twilightforest:yeti_alpha"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "217942104E804DC6"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "188AD31160C72131"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "谜题羊"
+			x: 2.0d
+			y: -2.0d
+			subtitle: "它是怎么变长的？"
+			description: ["在魔法森林找到谜题羊，并给予它16种颜色的羊毛。"]
+			id: "4DE42373204260D9"
+			tasks: [{
+				id: "4655C1C39F097583"
+				type: "item"
+				item: "twilightforest:quest_ram_trophy"
+			}]
+			rewards: [{
+				id: "53DF8C2B256C8539"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			title: "九头蛇"
+			icon: "twilightforest:hydra_trophy"
+			x: 6.0d
+			y: -2.0d
+			subtitle: "这是蛇？"
+			description: ["在火焰沼泽击败九头蛇。"]
+			dependencies: ["084C332625F27100"]
+			id: "1B938A15F28695A1"
+			tasks: [{
+				id: "45A4325A46441EFF"
+				type: "item"
+				item: "twilightforest:hydra_trophy"
+			}]
+			rewards: [
+				{
+					id: "2388730C156D42BD"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "0E20910417EF5031"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "暮色恶魂"
+			icon: "twilightforest:ur_ghast_trophy"
+			x: 6.0d
+			y: 0.0d
+			subtitle: "怨气极重"
+			description: ["在高塔顶端击败暮色恶魂。"]
+			dependencies: ["237E653B24E1C118"]
+			id: "520072748914DEA4"
+			tasks: [{
+				id: "5BDD91E9C5306717"
+				type: "item"
+				item: "twilightforest:ur_ghast_trophy"
+			}]
+			rewards: [
+				{
+					id: "49E7242029F0EB9C"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "2E30C88A841D5C8D"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "冰雪女王"
+			icon: "twilightforest:snow_queen_trophy"
+			x: 6.0d
+			y: 2.0d
+			subtitle: "Let it go~"
+			description: ["在极光宫殿击败冰雪女王。"]
+			dependencies: ["709272CCDDEA1BA8"]
+			id: "5CA697F141A94E09"
+			tasks: [{
+				id: "7BE2C0460F993E82"
+				type: "item"
+				item: "twilightforest:snow_queen_trophy"
+			}]
+			rewards: [
+				{
+					id: "78142DC74062C347"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "23D233B0097E2F3F"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "爬到云上"
+			x: 8.0d
+			y: 0.0d
+			subtitle: "怎么跟我长得一模一样？"
+			description: ["在云上击败巨人。"]
+			dependencies: [
+				"1B938A15F28695A1"
+				"520072748914DEA4"
+				"5CA697F141A94E09"
+			]
+			id: "1613D985A231A394"
+			tasks: [
+				{
+					id: "11638A27F229CF24"
+					type: "kill"
+					entity: "twilightforest:giant_miner"
+					value: 1L
+				}
+				{
+					id: "5087F740C2620B53"
+					type: "kill"
+					entity: "twilightforest:armored_giant"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "4636E7A3C1F8B7D4"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "4A14F196BFE4221B"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 0.0d
+			subtitle: "没有灯神"
+			description: ["在云之岛的地下深处挖开巨型黑曜石，找到余烬之灯。"]
+			dependencies: ["1613D985A231A394"]
+			id: "6BFD973241CD41F6"
+			tasks: [{
+				id: "4D02C5C9A22B769A"
+				type: "item"
+				item: {
+					id: "twilightforest:lamp_of_cinders"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3FF19E5D875B88B2"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+	]
+}

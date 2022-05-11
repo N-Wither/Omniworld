@@ -1,0 +1,44 @@
+{
+    "org.cyclops.integrateddynamics.client.gui.container.ContainerScreenPartReader": {
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": 170
+            }
+        }
+    },
+    "org.cyclops.integrateddynamics.client.gui.container.ContainerScreenPartWriter": {
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": 169
+            }
+        }
+    },
+    "tfar.ae2wt.wirelesscraftingterminal.WirelessCraftingTerminalScreen": {
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": -10
+            }
+        }
+    },
+    "appeng.client.gui.me.items.CraftingTermScreen": {
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": -13
+            }
+        }
+    },
+    "appeng.client.gui.me.items.ItemTerminalScreen": {
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": -13
+            }
+        }
+    },
+    "appeng.client.gui.me.items.PatternTermScreen": {
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": -14
+            }
+        }
+    }
+}

@@ -1,0 +1,402 @@
+{
+	id: "040550FBA45977FC"
+	group: "154749F0008514C8"
+	order_index: 1
+	filename: "040550FBA45977FC"
+	title: "星辉魔法"
+	icon: "astralsorcery:wand"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "准备工作"
+			x: -7.0d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "两种石头"
+			description: ["大理石请多弄一些！不同模组的大理石可以用 Chisel 的凿子转换！"]
+			id: "10D69C7F5CD0F0ED"
+			tasks: [
+				{
+					id: "60568C2F3F2F931A"
+					type: "item"
+					item: "astralsorcery:aquamarine"
+				}
+				{
+					id: "4A87C963C4AFCD9A"
+					type: "item"
+					item: "astralsorcery:marble_raw"
+				}
+			]
+			rewards: [{
+				id: "14DDD915D27D3584"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			subtitle: "不能施法"
+			description: ["作用相当于科技模组的扳手..."]
+			dependencies: ["10D69C7F5CD0F0ED"]
+			id: "09FDCE77B6CDD452"
+			tasks: [{
+				id: "7ED4DFF2CBF4591D"
+				type: "item"
+				item: "astralsorcery:wand"
+			}]
+			rewards: [
+				{
+					id: "54B03F47B5AAD92A"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "63BCC05A80F00572"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			subtitle: "好看的工作台"
+			description: [
+				"在露天的浮动水晶下方放置一个工作台，看它发生什么变化！"
+				" "
+				"浮动水晶所在的神殿可以在雪原或高山找到。"
+			]
+			dependencies: ["09FDCE77B6CDD452"]
+			id: "58F5F6DDDE1B8995"
+			tasks: [{
+				id: "6901877846B64E57"
+				type: "item"
+				item: "astralsorcery:altar_discovery"
+			}]
+			rewards: [
+				{
+					id: "776CFD6453885D38"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "7886C4EBEB8C3360"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 0.0d
+			subtitle: "闪亮而坚硬！"
+			description: [
+				"在地下找到并挖掘水晶石矿石。"
+				""
+				"比起书里告诉你的使用共振星杖寻找水晶石，不如使用数字型采矿机。"
+			]
+			dependencies: ["58F5F6DDDE1B8995"]
+			id: "124D99433C227EA9"
+			tasks: [{
+				id: "087BD8A61176D9FD"
+				type: "item"
+				item: {
+					id: "astralsorcery:rock_crystal"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "45A3A037307FD821"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "1B000DC477B003F3"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			subtitle: "汇聚星辰！"
+			description: ["在有星能的地方放置聚星缸，再往里面放一枚海蓝宝石或水晶石，这样就可以收集星能液。"]
+			dependencies: ["124D99433C227EA9"]
+			id: "68214B0CE6FC57D3"
+			tasks: [{
+				id: "331B716583AF0AE6"
+				type: "item"
+				item: "astralsorcery:well"
+			}]
+			rewards: [
+				{
+					id: "11BAE23444BFA349"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "578E16D3A3FE5454"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			subtitle: "大的祭坛"
+			description: [
+				"为了使用这个，你需要按照书里的指示建造一个大理石结构。最好在比较高的地方建造。"
+				""
+				"建造的时候建议预留更大的空间便于以后的升级，否则各种转移设备有你好受的。"
+			]
+			dependencies: ["68214B0CE6FC57D3"]
+			id: "024D93796288EFB0"
+			tasks: [{
+				id: "674F2A0B29F0B64A"
+				type: "item"
+				item: "astralsorcery:altar_attunement"
+			}]
+			rewards: [
+				{
+					id: "32D652DEB3CDA4EC"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "0D1D19F68C55B98A"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 2.0d
+			subtitle: "寻找星星"
+			description: [
+				"除了在高海拔地区发展你的星辉大业，你也可以使用这个寻找星能较强的区域。"
+				" "
+				"在晚上拿着它到处走走，被蓝色云雾覆盖的地方就是星能较强的地方。"
+			]
+			dependencies: ["68214B0CE6FC57D3"]
+			id: "2A261C1530F20531"
+			tasks: [{
+				id: "3EEFBFCD182EEBED"
+				type: "item"
+				item: {
+					id: "astralsorcery:resonator"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							upgrades: [0]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2616C5B19DF0CF39"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 5.5d
+			y: -2.0d
+			subtitle: "另一种选择！"
+			description: ["显然搬家是一件很麻烦的事情，你也可以通过使用这个来给你的星辉设备提供更多的星能。"]
+			dependencies: ["68214B0CE6FC57D3"]
+			id: "2A3F34991A5C02BD"
+			tasks: [{
+				id: "47E4A20490B6B318"
+				type: "item"
+				item: "astralsorcery:spectral_relay"
+			}]
+			rewards: [{
+				id: "717278FF5172F609"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			subtitle: "好大！"
+			description: ["我之前说过建议预留更大的位置，你看现在有用了吧！"]
+			dependencies: ["024D93796288EFB0"]
+			id: "17AFE64438ACE6E7"
+			tasks: [{
+				id: "22D2CBE3A38FBBF8"
+				type: "item"
+				item: "astralsorcery:altar_constellation"
+			}]
+			rewards: [
+				{
+					id: "12218010DCEB5EF5"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "6CCC0DAA0BBB9213"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: 0.0d
+			subtitle: "超大！"
+			description: ["这就是最高级的祭坛了。"]
+			dependencies: ["17AFE64438ACE6E7"]
+			id: "721BC1E4330E6C2C"
+			tasks: [{
+				id: "714F3C562C4996A2"
+				type: "item"
+				item: "astralsorcery:altar_radiance"
+			}]
+			rewards: [
+				{
+					id: "54541A29AC45025D"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "38D3405C982377D4"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: 2.0d
+			subtitle: "类似于炼金术？"
+			description: ["使用星能液转化物品。"]
+			dependencies: ["17AFE64438ACE6E7"]
+			id: "34EC4C222AFA331C"
+			tasks: [{
+				id: "34AB712734870792"
+				type: "item"
+				item: "astralsorcery:infuser"
+			}]
+			rewards: [{
+				id: "68E4346161C9853A"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 8.0d
+			y: -2.0d
+			subtitle: "汇聚与转化"
+			description: [
+				"使用连接器连接聚能水晶和铁矿石，获得星辉矿石。"
+				""
+				"注意：这里只能使用原版的铁矿石。"
+			]
+			dependencies: ["024D93796288EFB0"]
+			id: "029D7A5E6FACEECD"
+			tasks: [
+				{
+					id: "6B57E4AC9BB60C84"
+					type: "item"
+					item: "astralsorcery:starmetal_ore"
+				}
+				{
+					id: "5B188424DE2979AA"
+					type: "item"
+					item: "astralsorcery:linking_tool"
+				}
+			]
+			rewards: [{
+				id: "4FB502A0BA744404"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 10.5d
+			y: -2.0d
+			subtitle: "湛蓝而晶莹"
+			description: [
+				"使用切削工具切割星辉锭获得星尘。"
+				" "
+				"你也可以通过各种矿物处理机器获得 JAOPCA 的 Starmetal 粉，在物品栏里会自动转化成星尘。"
+			]
+			dependencies: ["029D7A5E6FACEECD"]
+			id: "3679EC082C761797"
+			tasks: [{
+				id: "2647ACE666AA2C40"
+				type: "item"
+				item: "astralsorcery:stardust"
+			}]
+			rewards: [{
+				id: "4C469DE1DF83C76B"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.0d
+			subtitle: "看得更远！"
+			description: ["帮你在夜空中寻找星座，在此之前你需要获得对应星座的星图。"]
+			dependencies: ["58F5F6DDDE1B8995"]
+			id: "4CC5A741068A8EDD"
+			tasks: [{
+				id: "50FE5DB349F00D00"
+				type: "item"
+				item: "astralsorcery:hand_telescope"
+			}]
+			rewards: [{
+				id: "4B05349290E2499B"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			subtitle: "看得更清楚！"
+			description: ["你在高处寒风中颤抖的手显然不利于你观测那些黯淡的星座，一个脚架就能很好地解决这个问题。"]
+			dependencies: ["4CC5A741068A8EDD"]
+			id: "6A221D762C24E0B9"
+			tasks: [{
+				id: "0EB6E31B0E1D75B6"
+				type: "item"
+				item: "astralsorcery:telescope"
+			}]
+			rewards: [{
+				id: "625AC99264F90401"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 4.0d
+			subtitle: "看得更舒适！"
+			description: ["一直弯腰站着让你的腰肌劳损，现在你可以坐着看星星了。"]
+			dependencies: ["6A221D762C24E0B9"]
+			id: "1416D2E5F0A5F595"
+			tasks: [{
+				id: "27C7906DFF4C255A"
+				type: "item"
+				item: "astralsorcery:observatory"
+			}]
+			rewards: [{
+				id: "3CB9E373FD14D4FA"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+	]
+}

@@ -1,0 +1,36 @@
+
+[music]
+	#Cave detection search range
+	#Range: > -2147483648
+	searchRange = 5
+	#Cave detection darkness cap
+	#Range: > -2147483648
+	darknessCap = 8
+	#Cave detection darkness percent
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	darknessPercent = 0.3
+	#Cave detection stone percent
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	stonePercent = 0.15
+	#Mineshaft Detection range
+	#Range: > -2147483648
+	pseudoMineshaftSearchRange = 2
+	#Mineshaft Detection percent
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	pseudoMineshaftPercent = 0.1
+	#Play cold music?
+	coldMusic = true
+	#Play hot music?
+	hotMusic = true
+	#Play daytime music?
+	niceMusic = true
+	#Play nighttime music?
+	downMusic = true
+	#Dynamic pitch?
+	dynamicPitch = true
+	#Divide delays of length instead?
+	#Range: -9223372036854775808 ~ 9223372036854775807
+	dynamicPitchAnchor = 18000
+	#Dynamic pitch faster?
+	dynamicPitchFaster = false
+

@@ -1,0 +1,25 @@
+{
+  "condition": {
+    "values": [
+      {
+        "prop": "force_integration_materials",
+        "type": "tconstruct:config"
+      },
+      {
+        "modid": "mythicbotany",
+        "type": "forge:mod_loaded"
+      }
+    ],
+    "type": "forge:or"
+  },
+  "type": "tconstruct:ore_melting",
+  "ingredient": {
+    "item": "mythicbotany:elementium_ore"
+  },
+  "result": {
+    "fluid": "materialis:molten_elementium",
+    "amount": 144
+  },
+  "temperature": 1000,
+  "time": 100
+}

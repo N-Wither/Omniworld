@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "default": "model:0"
+  },
+  "modelConfigs": [
+    {
+      "baseScale": 2.0,
+      "rotationY": 0,
+      "rotationX": 0,
+      "rotationZ": 0,
+      "offsetX": 0,
+      "offsetY": 0,
+      "modelMainPartFieldAliases": [
+        "quek.undergarden.client.model.SploogieModel;mouth"
+      ],
+      "renderingFullModel": false,
+      "modelPartsRotationReset": true,
+      "layersAllowed": true
+    }
+  ]
+}

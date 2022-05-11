@@ -1,0 +1,14 @@
+{
+    "chaos_shard":{
+        "chance": "30",
+        "item": [
+            {
+                "item": {
+                    "id": "draconicevolution:medium_chaos_frag",
+                    "count": 1
+                },
+                "delay": 0
+            }
+        ]
+    }
+}

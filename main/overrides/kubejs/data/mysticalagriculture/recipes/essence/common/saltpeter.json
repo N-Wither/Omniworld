@@ -1,0 +1,23 @@
+{
+  "type": "cucumber:shaped_no_mirror",
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:saltpeter"
+    }
+  ],
+  "pattern": [
+    "EEE",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "E": {
+      "item": "mysticalagriculture:saltpeter_essence"
+    }
+  },
+  "result": {
+    "item": "emendatusenigmatica:potassium_nitrate_dust",
+    "count": 8
+  }
+}

@@ -1,0 +1,8 @@
+[
+    {
+      "mob": "oddwatermobs:anglerfish",
+      "onjoin": true,
+      "result": "deny"
+    }
+  ]
+  

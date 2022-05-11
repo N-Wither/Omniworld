@@ -1,0 +1,431 @@
+{
+	id: "395C20C15B03B6AA"
+	group: "154749F0008514C8"
+	order_index: 0
+	filename: "395C20C15B03B6AA"
+	title: "植物魔法"
+	icon: {
+		id: "botania:cosmetic_botanist_emblem"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -6.0d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "混合培养！"
+			description: [
+				"这是你制作各种奇特花朵的地方。"
+				""
+				"§b我知道这个模组的作者说这是科技模组，但是照这种定义，所有的魔法模组都是科技模组了。"
+			]
+			id: "3711F3727C6EDBA0"
+			tasks: [{
+				id: "24787AA3283D3396"
+				type: "item"
+				item: "botania:apothecary_default"
+			}]
+			rewards: [
+				{
+					id: "6B1ED4CAA45F2493"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "7488147C09E5EAEF"
+					type: "item"
+					item: {
+						id: "botania:twig_wand"
+						Count: 1b
+						tag: {
+							color1: 3
+							color2: 3
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			subtitle: "净化！"
+			description: ["白雏菊可以把原木和圆石活化。"]
+			dependencies: ["3711F3727C6EDBA0"]
+			id: "724E785BD3BD59AA"
+			tasks: [{
+				id: "031624571C33CE38"
+				type: "item"
+				item: "botania:pure_daisy"
+			}]
+			rewards: [{
+				id: "553A1770E868C4F1"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			subtitle: "传输魔力"
+			dependencies: ["724E785BD3BD59AA"]
+			id: "572FBB0160065C7E"
+			tasks: [{
+				id: "09839B9914D65FA2"
+				type: "item"
+				item: "botania:mana_spreader"
+			}]
+			rewards: [{
+				id: "5B72B3B2844ABD1B"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -2.0d
+			subtitle: "烧！"
+			description: ["消耗固体燃料产生魔力。大概是最适合新手的产能花。"]
+			dependencies: ["3711F3727C6EDBA0"]
+			id: "4D4ABF73F26EB7A7"
+			tasks: [{
+				id: "2908E9FB9011AFC0"
+				type: "item"
+				item: "botania:endoflame"
+			}]
+			rewards: [{
+				id: "1B224A1D7DBB49BC"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			subtitle: "想不出副标题了，开摆！"
+			description: ["制作符文的地方，右键放置物品，使用魔力发射器提供魔力。"]
+			dependencies: ["4368BE106BBD9C7B"]
+			id: "6EA7E57DD13B7BF8"
+			tasks: [{
+				id: "14E43DBA2D6660A9"
+				type: "item"
+				item: "botania:runic_altar"
+			}]
+			rewards: [
+				{
+					id: "3C08A39E01894C55"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "2FA52752C446A5E3"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			subtitle: "装魔力的"
+			description: ["可以容纳1,000,000点魔力。"]
+			dependencies: ["572FBB0160065C7E"]
+			id: "4368BE106BBD9C7B"
+			tasks: [{
+				id: "41D579366225499F"
+				type: "item"
+				item: "botania:mana_pool"
+			}]
+			rewards: [
+				{
+					id: "4E7320983B8518B4"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "7F72ED379BA12D3B"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			subtitle: "便携式魔力池"
+			description: ["可以容纳500,000点魔力。"]
+			dependencies: ["4368BE106BBD9C7B"]
+			id: "56985B3C3CBCF5C0"
+			tasks: [{
+				id: "0563CB480BEECF19"
+				type: "item"
+				item: {
+					id: "botania:mana_tablet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "729A1730AE63F7CF"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			subtitle: "快速传输"
+			description: ["用于在魔力容器和使用魔力的方块之间传递魔力，显然不能完全代替魔力发射器。"]
+			dependencies: ["4368BE106BBD9C7B"]
+			id: "26A8D48FAE396240"
+			tasks: [{
+				id: "4F9FE26A93961058"
+				type: "item"
+				item: "botania:spark"
+			}]
+			rewards: [{
+				id: "075B1E38E22F593F"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			title: "泰拉钢"
+			x: 4.0d
+			y: 0.0d
+			description: ["懒得写描述了，开摆！"]
+			dependencies: ["6EA7E57DD13B7BF8"]
+			id: "5D9DED59A7007B5F"
+			tasks: [
+				{
+					id: "19ACA4F356A1F239"
+					type: "item"
+					item: "botania:terra_plate"
+				}
+				{
+					id: "346BFD0BD0222414"
+					type: "item"
+					item: "botania:terrasteel_ingot"
+				}
+			]
+			rewards: [
+				{
+					id: "4DA542D0E1221916"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "3302954B2EAE8ECF"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 2.0d
+			description: ["喝下这个来使用符文仪式。"]
+			dependencies: ["5D9DED59A7007B5F"]
+			id: "4D8C9E8CC8428A43"
+			tasks: [{
+				id: "49FE77BB96D8D403"
+				type: "item"
+				item: "mythicbotany:gjallar_horn_full"
+			}]
+			rewards: [{
+				id: "69108EA068BD115C"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			title: "精灵门"
+			x: 6.0d
+			y: 0.0d
+			description: ["建造精灵门，方法请查阅植物魔法辞典。"]
+			dependencies: ["5D9DED59A7007B5F"]
+			id: "5B03AC7D519E0C17"
+			tasks: [
+				{
+					id: "1F1762AA31A9F412"
+					type: "item"
+					item: "botania:alfheim_portal"
+				}
+				{
+					id: "3E89C14138C49558"
+					type: "item"
+					item: "botania:livingwood"
+					count: 8L
+				}
+				{
+					id: "168DFEEE28162E7E"
+					type: "item"
+					item: "botania:glimmering_livingwood"
+					count: 3L
+				}
+				{
+					id: "179D7F903CBB228B"
+					type: "item"
+					item: "botania:natura_pylon"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "645A69FA4EA2FEB8"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "6A31BD7AD90718C4"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "精灵钢"
+			x: 8.0d
+			y: 0.0d
+			description: ["需要消耗2个魔力池的魔力。"]
+			dependencies: ["5B03AC7D519E0C17"]
+			id: "7321EA61DEFCA454"
+			tasks: [
+				{
+					id: "67A835C42D487FD5"
+					type: "item"
+					item: "mythicbotany:alfsteel_ingot"
+				}
+				{
+					id: "67C43E871556896A"
+					type: "item"
+					item: "mythicbotany:mana_infuser"
+				}
+			]
+			rewards: [
+				{
+					id: "0C0A7B4534B4B698"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "59FD04CF53EA2FEB"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "大战盖亚"
+			x: 10.0d
+			y: 0.0d
+			description: [
+				"搞出盖亚仪式，然后打死盖亚守护者。"
+				" "
+				"怎么和我长得一模一样？"
+			]
+			dependencies: ["7321EA61DEFCA454"]
+			id: "41054B476C42839C"
+			tasks: [
+				{
+					id: "2F10F1A730EF8BBE"
+					type: "item"
+					item: "botania:gaia_pylon"
+					count: 2L
+				}
+				{
+					id: "505CF29B4D5B32EA"
+					type: "item"
+					item: "botania:life_essence"
+				}
+			]
+			rewards: [
+				{
+					id: "2549DAB8742F9C22"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "6DE5C5CA8D87149B"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "第二次大战盖亚"
+			x: 12.0d
+			y: 0.0d
+			description: ["还是原来的地方，打死盖亚守护者II。"]
+			dependencies: ["41054B476C42839C"]
+			id: "3E27B2DC4368A363"
+			tasks: [{
+				id: "005326DB90A617F4"
+				type: "item"
+				item: {
+					id: "botania:dice"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "6DCB0B64B5309F94"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "449F264162E11D33"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 2.0d
+			description: ["喝下之后你就可以进入精灵门了。"]
+			dependencies: [
+				"4D8C9E8CC8428A43"
+				"7321EA61DEFCA454"
+			]
+			id: "114B8B908AB442EB"
+			tasks: [
+				{
+					id: "700661014F3B996F"
+					type: "item"
+					item: "mythicbotany:kvasir_mead"
+				}
+				{
+					id: "402FFCAEDC28271A"
+					type: "dimension"
+					dimension: "mythicbotany:alfheim"
+				}
+			]
+			rewards: [{
+				id: "0FD6BDFB37DE5068"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 4.0d
+			subtitle: "复仇者联盟是吧？"
+			dependencies: ["4D8C9E8CC8428A43"]
+			id: "1C9C498D130E0A0F"
+			tasks: [{
+				id: "2C3A37006B541384"
+				type: "item"
+				item: "mythicbotany:mjoellnir"
+			}]
+			rewards: [{
+				id: "7D8BCE545CFFAAA6"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+	]
+}

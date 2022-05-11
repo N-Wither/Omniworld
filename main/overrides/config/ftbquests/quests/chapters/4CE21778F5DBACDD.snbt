@@ -1,0 +1,506 @@
+{
+	id: "4CE21778F5DBACDD"
+	group: "154749F0008514C8"
+	order_index: 2
+	filename: "4CE21778F5DBACDD"
+	title: "血魔法"
+	icon: "bloodmagic:altar"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -6.0d
+			y: 0.5d
+			shape: "hexagon"
+			subtitle: "稍微忍忍"
+			description: [
+				"显然这是一个有关血液的模组，那么血液最方便的来源就是...你自己。"
+				""
+				"祭坛可以存储 10,000 LP。"
+			]
+			id: "6AC802B91DCC980B"
+			tasks: [
+				{
+					id: "45D1B46538856CA5"
+					type: "item"
+					item: "bloodmagic:altar"
+				}
+				{
+					id: "2C40F4AD1F0F8905"
+					type: "item"
+					item: {
+						id: "bloodmagic:sacrificialdagger"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "5CBD9066F0EABA60"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "34B5BCC1BDA5E8A6"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -1.0d
+			subtitle: "这次不是自己"
+			description: [
+				"把灵魂投网扔向怪物，当它们发出白色粒子时杀死它们获得恶魔意志。"
+				""
+				"如果没有粒子出现就多扔几次。"
+			]
+			dependencies: ["6AC802B91DCC980B"]
+			id: "6564EDE750574628"
+			tasks: [
+				{
+					id: "2D2DFB4EA41E7BF9"
+					type: "item"
+					item: {
+						id: "bloodmagic:basemonstersoul"
+						Count: 1b
+						tag: {
+							souls: 5.0d
+						}
+					}
+				}
+				{
+					id: "593B9BF6A4E927F7"
+					type: "item"
+					item: "bloodmagic:soulsnare"
+				}
+			]
+			rewards: [{
+				id: "2E06A3AEEC162BEF"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.5d
+			subtitle: "血液灌注！"
+			description: ["需求量挺大的，我劝你多做！"]
+			dependencies: ["6AC802B91DCC980B"]
+			id: "35D1500A599361FF"
+			tasks: [{
+				id: "765595C1825F3472"
+				type: "item"
+				item: "bloodmagic:blankslate"
+			}]
+			rewards: [
+				{
+					id: "0DC0F083E9CCE5A4"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "2D391029D7813261"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 2.0d
+			subtitle: "相当于充电宝"
+			description: ["用来储存 LP。"]
+			dependencies: ["6AC802B91DCC980B"]
+			id: "166BC5976FD39349"
+			tasks: [{
+				id: "182AB11EAB379EA3"
+				type: "item"
+				item: "bloodmagic:weakbloodorb"
+			}]
+			rewards: [{
+				id: "39DEDC16E720367A"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			subtitle: "魔法工作台"
+			description: ["本模组的重要物品，很多东西需要在这里制作。"]
+			dependencies: ["35D1500A599361FF"]
+			id: "2E608AB1C5379DBE"
+			tasks: [{
+				id: "622E03E1AEE4B0CB"
+				type: "item"
+				item: "bloodmagic:alchemytable"
+			}]
+			rewards: [{
+				id: "229E511B0C7AA6B2"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			title: "2级祭坛"
+			icon: "bloodmagic:altar"
+			x: -1.0d
+			y: 0.5d
+			subtitle: "获得升级!"
+			description: ["跟星辉魔法那边一样，多留点空间。"]
+			dependencies: ["35D1500A599361FF"]
+			id: "26CAFA5CC28EA9CB"
+			tasks: [{
+				id: "0EEC091C1DC0266B"
+				type: "item"
+				item: "bloodmagic:blankrune"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "745F92864C3AD972"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "64865247BB9588E4"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -1.0d
+			subtitle: "停止伤害自己!"
+			description: ["现在你可以割别人来生产 LP 了。"]
+			dependencies: ["26CAFA5CC28EA9CB"]
+			id: "0742A0229ABE2307"
+			tasks: [{
+				id: "624C4254B4EF5F13"
+				type: "item"
+				item: "bloodmagic:daggerofsacrifice"
+			}]
+			rewards: [{
+				id: "687380CF0556A5BE"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			dependencies: ["35D1500A599361FF"]
+			id: "13E1D60614861334"
+			tasks: [{
+				id: "7830506273059699"
+				type: "item"
+				item: "bloodmagic:reinforcedslate"
+			}]
+			rewards: [{
+				id: "69A6A17C963FC7C0"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.5d
+			dependencies: ["166BC5976FD39349"]
+			id: "742209303CAB632C"
+			tasks: [{
+				id: "61EB59E1A1DC5735"
+				type: "item"
+				item: "bloodmagic:apprenticebloodorb"
+			}]
+			rewards: [{
+				id: "717C8617ACCC4977"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			title: "3级祭坛"
+			icon: "bloodmagic:altar"
+			x: 1.5d
+			y: 0.5d
+			description: ["依靠不同的符文搭配，创造不同属性的祭坛。"]
+			dependencies: ["26CAFA5CC28EA9CB"]
+			id: "02C1F1068634FC94"
+			tasks: [
+				{
+					id: "58DE78E7D5F249C3"
+					type: "item"
+					item: "bloodmagic:blankrune"
+					count: 20L
+				}
+				{
+					id: "2AFDA5FB1B8293F8"
+					type: "item"
+					item: "minecraft:stone_bricks"
+					count: 8L
+				}
+				{
+					id: "2EE2F45C0E25CF19"
+					type: "item"
+					item: "minecraft:glowstone"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "063AA92E8BF8936D"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "0F8B7C1DDA0A0DB4"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "4级祭坛"
+			icon: "bloodmagic:altar"
+			x: 9.0d
+			y: 0.5d
+			description: ["目前最高级的祭坛。"]
+			dependencies: ["54302741C88300AF"]
+			id: "40F70001B6451809"
+			tasks: [
+				{
+					id: "7476C2BA307D5BDC"
+					type: "item"
+					item: "bloodmagic:blankrune"
+					count: 28L
+				}
+				{
+					id: "3F5D42E6D4C2967D"
+					type: "item"
+					item: "minecraft:stone_bricks"
+					count: 12L
+				}
+				{
+					id: "2BB42C9BE5A47B7B"
+					type: "item"
+					item: "bloodmagic:largebloodstonebrick"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "6742650A978D5E26"
+					type: "random"
+					table_id: 5332197433974249914L
+				}
+				{
+					id: "44AA38480BBE40CC"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -4.0d
+			subtitle: "另一种充电宝"
+			description: ["储存恶魔意志。可以升级。"]
+			dependencies: ["11B01305CC4B6153"]
+			id: "2FF6A0539B1F320C"
+			tasks: [{
+				id: "44D284A7314F4AED"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulgempetty"
+					Count: 1b
+					tag: {
+						souls: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "1B204A563FAB97C0"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.5d
+			dependencies: ["742209303CAB632C"]
+			id: "0C2D2CF77C3D8AC3"
+			tasks: [{
+				id: "5D7C3C11D09DFF59"
+				type: "item"
+				item: "bloodmagic:magicianbloodorb"
+			}]
+			rewards: [{
+				id: "303F195C9DE279A2"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.5d
+			dependencies: ["0C2D2CF77C3D8AC3"]
+			id: "640C74DFACF853AC"
+			tasks: [{
+				id: "21DDF38AC065341E"
+				type: "item"
+				item: "bloodmagic:masterbloodorb"
+			}]
+			rewards: [{
+				id: "72AF301A9699FE37"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.5d
+			dependencies: ["35D1500A599361FF"]
+			id: "11B01305CC4B6153"
+			tasks: [{
+				id: "44ED84714570848D"
+				type: "item"
+				item: "bloodmagic:soulforge"
+			}]
+			rewards: [{
+				id: "613565BF8166A431"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.5d
+			dependencies: ["13E1D60614861334"]
+			id: "6FF2232732200BFC"
+			tasks: [{
+				id: "1C217ECB3695112F"
+				type: "item"
+				item: "bloodmagic:infusedslate"
+			}]
+			rewards: [{
+				id: "63824104330C2023"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.5d
+			dependencies: ["6FF2232732200BFC"]
+			id: "10A70CD5B2D6E08D"
+			tasks: [{
+				id: "7B9674B3FE78F5C2"
+				type: "item"
+				item: "bloodmagic:demonslate"
+			}]
+			rewards: [{
+				id: "00F648D98980740D"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			subtitle: "某种强化！"
+			description: ["每个增加 2,000 LP 容量。"]
+			dependencies: ["6FF2232732200BFC"]
+			id: "4CFD107F9F416077"
+			tasks: [{
+				id: "479B9FF8B6D47178"
+				type: "item"
+				item: "bloodmagic:altarcapacityrune"
+			}]
+			rewards: [{
+				id: "66AA1BE0D3587A95"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.0d
+			subtitle: "抹在地上"
+			description: ["制作炼金矩阵。"]
+			dependencies: ["2E608AB1C5379DBE"]
+			id: "3AD1D2C531A810B7"
+			tasks: [{
+				id: "441257DE2794F745"
+				type: "item"
+				item: {
+					id: "bloodmagic:arcaneashes"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "599BCCD76A72F06E"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.0d
+			description: ["处理矿物。"]
+			dependencies: ["6FF2232732200BFC"]
+			id: "771F97927E7F3362"
+			tasks: [{
+				id: "33256FF91FE3A391"
+				type: "item"
+				item: "bloodmagic:alchemicalreactionchamber"
+			}]
+			rewards: [{
+				id: "09F80F51B20EB4D9"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			title: "恶魔领域"
+			x: 4.0d
+			y: 0.5d
+			description: ["进行隐域之缘仪式，进入恶魔领域。"]
+			dependencies: ["02C1F1068634FC94"]
+			id: "3BB42AF2987124A8"
+			tasks: [{
+				id: "6C70939B486C8449"
+				type: "dimension"
+				dimension: "bloodmagic:dungeon"
+			}]
+			rewards: [{
+				id: "3A401394093C8CD6"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.5d
+			description: ["获得饱满血命果来制作你的第一个气血碎片。"]
+			dependencies: ["3BB42AF2987124A8"]
+			id: "54302741C88300AF"
+			tasks: [{
+				id: "28B248823EADCDB1"
+				type: "item"
+				item: "bloodmagic:strong_tau"
+			}]
+			rewards: [{
+				id: "5614272B092AE405"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+	]
+}

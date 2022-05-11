@@ -1,0 +1,53 @@
+onEvent('recipes', event => {
+    event.custom(
+        {
+            "type":"mekanism:infusion_conversion",
+            "input":{
+                "ingredient":[{"tag":"forge:dusts/coal_coke"},{"tag":"forge:coal_coke"}]
+            },
+            "output":{
+                "infuse_type":"mekanism:carbon",
+                "amount":20
+            }
+        }
+    ).id('kubejs:infusion_conversion/carbon/from_coke')
+
+    event.custom(
+        {
+            "type":"mekanism:infusion_conversion",
+            "input":{
+                "ingredient":{"tag":"forge:storage_blocks/coal_coke"}
+            },
+            "output":{
+                "infuse_type":"mekanism:carbon",
+                "amount":180
+            }
+        }
+    ).id('kubejs:infusion_conversion/carbon/from_coke_block')
+
+    event.custom(
+        {
+            "type":"mekanism:infusion_conversion",
+            "input":{
+                "ingredient":[{"tag":"forge:dusts/coal"},{"item":"minecraft:coal"}]
+            },
+            "output":{
+                "infuse_type":"mekanism:carbon",
+                "amount":5
+            }
+        }
+    ).id('kubejs:infusion_conversion/carbon/from_coal')
+
+    event.custom(
+        {
+            "type":"mekanism:infusion_conversion",
+            "input":{
+                "ingredient":{"tag":"forge:storage_blocks/coal"}
+            },
+            "output":{
+                "infuse_type":"mekanism:carbon",
+                "amount":45
+            }
+        }
+    ).id('kubejs:infusion_conversion/carbon/from_coal_block')
+})

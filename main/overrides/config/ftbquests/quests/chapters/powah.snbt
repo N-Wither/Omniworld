@@ -1,0 +1,784 @@
+{
+	id: "1466E7FC5E49FE62"
+	group: "34DA8A5C88ADFCAB"
+	order_index: 9
+	filename: "powah"
+	title: "用爱发电！"
+	icon: "powah:energy_cell_basic"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "绝缘覆层"
+			x: -1.5d
+			y: 0.0d
+			shape: "gear"
+			description: ["这是重要的材料，务必多做一些！"]
+			id: "1F1E6282F0374765"
+			tasks: [{
+				id: "431EB33B1F291FED"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 16L
+			}]
+			rewards: [{
+				id: "0E3FE3C438105D85"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 64
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.0d
+			dependencies: ["1F1E6282F0374765"]
+			id: "6935E28D01DFE5AF"
+			tasks: [{
+				id: "0E1581F47FDBD586"
+				type: "item"
+				item: "powah:furnator_starter"
+			}]
+			rewards: [{
+				id: "7698F5796A620939"
+				type: "item"
+				item: "powah:capacitor_basic"
+				count: 4
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			dependencies: ["1F1E6282F0374765"]
+			id: "3D72CFDE41DB8402"
+			tasks: [{
+				id: "08BC8B59ED5DCC86"
+				type: "item"
+				item: "powah:capacitor_basic"
+			}]
+			rewards: [{
+				id: "29A2EC701CFDE62E"
+				type: "item"
+				item: "powah:capacitor_basic"
+				count: 4
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			dependencies: ["3D72CFDE41DB8402"]
+			id: "05A41592C6F538D5"
+			tasks: [{
+				id: "3CE3E0C998C5F820"
+				type: "item"
+				item: "powah:capacitor_basic_tiny"
+			}]
+			rewards: [{
+				id: "4484AEF5C2DD21FB"
+				type: "item"
+				item: "powah:capacitor_basic_tiny"
+				count: 4
+			}]
+		}
+		{
+			x: 0.5d
+			y: -3.0d
+			dependencies: ["1F1E6282F0374765"]
+			id: "4F6125ABC4623FD9"
+			tasks: [{
+				id: "72E47AFE5E41A04D"
+				type: "item"
+				item: "powah:energy_cable_basic"
+			}]
+			rewards: [{
+				id: "457CAA9785032942"
+				type: "item"
+				item: "powah:energy_cable_basic"
+				count: 16
+			}]
+		}
+		{
+			title: "能量单元"
+			x: -1.5d
+			y: -3.0d
+			description: ["用来存储能量。"]
+			dependencies: [
+				"1F1E6282F0374765"
+				"05A41592C6F538D5"
+			]
+			id: "6D4B2707F9FCC52C"
+			tasks: [{
+				id: "41EFD0F247C427CA"
+				type: "item"
+				item: "powah:energy_cell_basic"
+			}]
+			rewards: [{
+				id: "0C7B9ECB00C11105"
+				type: "item"
+				item: "powah:capacitor_basic"
+				count: 2
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.5d
+			dependencies: ["1F1E6282F0374765"]
+			id: "703ACDAAA3F44AC2"
+			tasks: [{
+				id: "4D9219CF5C030580"
+				type: "item"
+				item: "powah:magmator_starter"
+			}]
+			rewards: [{
+				id: "32BFD8BB7E7CCCAE"
+				type: "item"
+				item: "powah:capacitor_basic"
+				count: 2
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.0d
+			description: ["下方放置岩浆块，熔岩或烈焰晶体块供热，内部填充水来发电。"]
+			dependencies: ["1F1E6282F0374765"]
+			id: "7C6C1D3777F9E856"
+			tasks: [{
+				id: "37BF5F6C2DF715B3"
+				type: "item"
+				item: "powah:thermo_generator_starter"
+			}]
+			rewards: [{
+				id: "37311F9E02D64F40"
+				type: "item"
+				item: "powah:capacitor_basic_large"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 4.5d
+			description: ["36个反应堆方块会自动组成反应堆。用红石提高发电速度，用煤炭提升燃料利用率，需要固态冷却剂和冷却水。"]
+			dependencies: [
+				"1F1E6282F0374765"
+				"212BBDBCC39AC0C6"
+			]
+			id: "316E6E959452B738"
+			tasks: [{
+				id: "2546A104515E4671"
+				type: "item"
+				item: "powah:reactor_starter"
+			}]
+			rewards: [{
+				id: "6DA1964229C2CE0D"
+				type: "item"
+				item: "powah:capacitor_basic_large"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.5d
+			id: "212BBDBCC39AC0C6"
+			tasks: [{
+				id: "489CCE8C1585EC40"
+				type: "item"
+				item: "powah:uraninite"
+			}]
+			rewards: [{
+				id: "6F66E0BC340FCCC5"
+				type: "item"
+				item: "powah:uraninite"
+				count: 4
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			dependencies: ["05A41592C6F538D5"]
+			id: "5A8E1A40B8566DB1"
+			tasks: [{
+				id: "11D23099438A6990"
+				type: "item"
+				item: "powah:capacitor_basic_large"
+			}]
+			rewards: [{
+				id: "5D0C012A5FE06E3E"
+				type: "item"
+				item: "powah:capacitor_basic_large"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -3.0d
+			description: ["消耗一般的燃料发电。"]
+			id: "375340D7FB1CB286"
+			tasks: [{
+				id: "0D70ED4654A56127"
+				type: "item"
+				item: "industrialforegoing:mycelial_furnace"
+			}]
+			rewards: [{
+				id: "020A3FFED6CC0143"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			x: 5.5d
+			y: -2.0d
+			description: ["消耗粘液球发电。"]
+			id: "4DD5F71988CA71A3"
+			tasks: [{
+				id: "62493C1C811A1339"
+				type: "item"
+				item: "industrialforegoing:mycelial_slimey"
+			}]
+			rewards: [{
+				id: "4A74796F335F4B9B"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.0d
+			description: ["消耗食物发电。"]
+			id: "0B627BE5021EEDD8"
+			tasks: [{
+				id: "2C572803844DB3CE"
+				type: "item"
+				item: "industrialforegoing:mycelial_culinary"
+			}]
+			rewards: [{
+				id: "55865B27F740AD45"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			description: ["消耗药水发电。"]
+			id: "32BC7FB458598D21"
+			tasks: [{
+				id: "4F549BD6D1FC7402"
+				type: "item"
+				item: "industrialforegoing:mycelial_potion"
+			}]
+			rewards: [{
+				id: "498131B32E3AED29"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.0d
+			description: ["消耗附魔书发电。"]
+			id: "1EC22242115C6A17"
+			tasks: [{
+				id: "1361E654F834D559"
+				type: "item"
+				item: "industrialforegoing:mycelial_disenchantment"
+			}]
+			rewards: [{
+				id: "329207C6FB7E8913"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			x: 5.5d
+			y: 2.0d
+			description: ["消耗末影珍珠和末影之眼发电。"]
+			id: "2F660C0E4066F2A4"
+			tasks: [{
+				id: "656F51A787C354F6"
+				type: "item"
+				item: "industrialforegoing:mycelial_ender"
+			}]
+			rewards: [{
+				id: "49BE044664243C60"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			x: 10.5d
+			y: -3.0d
+			description: ["消耗火药和TNT发电。"]
+			id: "75CCFEB42EEDAE69"
+			tasks: [{
+				id: "3FCC864D27756918"
+				type: "item"
+				item: "industrialforegoing:mycelial_explosive"
+			}]
+			rewards: [{
+				id: "3CCC6775AE36B14A"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			x: 10.5d
+			y: -2.0d
+			description: ["消耗冰雪发电。"]
+			id: "0A5BF454371EC599"
+			tasks: [{
+				id: "04CD3C6AC5131584"
+				type: "item"
+				item: "industrialforegoing:mycelial_frosty"
+			}]
+			rewards: [{
+				id: "6B876C9CAD37D19D"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			x: 10.5d
+			y: -1.0d
+			description: ["消耗龙息发电。"]
+			id: "39551C520DE37D93"
+			tasks: [{
+				id: "318AB79BBAE5B10F"
+				type: "item"
+				item: "industrialforegoing:mycelial_halitosis"
+			}]
+			rewards: [{
+				id: "113DA6E17399668A"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			x: 10.5d
+			y: 0.0d
+			description: ["消耗熔岩发电。"]
+			id: "4936A1AC07E61795"
+			tasks: [{
+				id: "222A15CACD26E12E"
+				type: "item"
+				item: "industrialforegoing:mycelial_magma"
+			}]
+			rewards: [{
+				id: "79CF4A55CE37DA9E"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			x: 10.5d
+			y: 1.0d
+			description: [
+				"消耗粉色的东西发电。"
+				"也许做一个刷粉色地毯机是个不错的办法。"
+			]
+			id: "0A7A04E34007D1AE"
+			tasks: [{
+				id: "6F49B7F5A12A21DF"
+				type: "item"
+				item: "industrialforegoing:mycelial_pink"
+			}]
+			rewards: [{
+				id: "2572F6540AF2C03B"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			x: 10.5d
+			y: 2.0d
+			description: [
+				""
+				"消耗下界之星发电。"
+				"这个模组里的凋灵生成机和屠宰场搭配可以高效杀凋。"
+			]
+			id: "5CF66FE94BAB252E"
+			tasks: [{
+				id: "2977C6B871545A00"
+				type: "item"
+				item: "industrialforegoing:mycelial_netherstar"
+			}]
+			rewards: [{
+				id: "3053C189F42360F1"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			x: 5.5d
+			y: 3.0d
+			description: ["消耗腐肉、骨头和凋零骷髅头发电。"]
+			id: "6D20F2EB6D46768D"
+			tasks: [{
+				id: "4A585C3BE8CBF992"
+				type: "item"
+				item: "industrialforegoing:mycelial_death"
+			}]
+			rewards: [{
+				id: "19D126FC79A55F4A"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			x: 5.5d
+			y: 4.0d
+			description: ["消耗烟花火箭发电。"]
+			id: "42C9DB064312F58C"
+			tasks: [{
+				id: "16D94B51CFBB4B45"
+				type: "item"
+				item: "industrialforegoing:mycelial_rocket"
+			}]
+			rewards: [{
+				id: "185DCD3600EED8AE"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			x: 10.5d
+			y: 3.0d
+			description: ["消耗下界的某些植物发电。"]
+			id: "427CA754933624EF"
+			tasks: [{
+				id: "19B4A6711B37C941"
+				type: "item"
+				item: "industrialforegoing:mycelial_crimed"
+			}]
+			rewards: [{
+				id: "5D56C149AF5FD01E"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			x: 10.5d
+			y: 4.0d
+			description: ["消耗锭和肉汤发电。"]
+			id: "44C0C919EB4C1AFA"
+			tasks: [{
+				id: "7802CB3D7FF9E187"
+				type: "item"
+				item: "industrialforegoing:mycelial_meatallurgic"
+			}]
+			rewards: [{
+				id: "236FF4FD62B4F41B"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.5d
+			shape: "hexagon"
+			subtitle: "彩虹发电机！"
+			description: ["当所有的菌丝网络发电机同时处于工作状态时，反应堆会以25,000,000FE/t的速率产生能量，确保你的能量网络支持这么快的传输速率。"]
+			dependencies: [
+				"375340D7FB1CB286"
+				"4DD5F71988CA71A3"
+				"0B627BE5021EEDD8"
+				"32BC7FB458598D21"
+				"1EC22242115C6A17"
+				"2F660C0E4066F2A4"
+				"6D20F2EB6D46768D"
+				"42C9DB064312F58C"
+				"75CCFEB42EEDAE69"
+				"0A5BF454371EC599"
+				"39551C520DE37D93"
+				"4936A1AC07E61795"
+				"0A7A04E34007D1AE"
+				"5CF66FE94BAB252E"
+				"427CA754933624EF"
+				"44C0C919EB4C1AFA"
+			]
+			size: 1.5d
+			id: "5B7F9B9F18CFE6A3"
+			tasks: [{
+				id: "4311C0F988FCB273"
+				type: "item"
+				item: "industrialforegoing:mycelial_reactor"
+			}]
+			rewards: [
+				{
+					id: "65DFCE8E8B684C39"
+					type: "xp"
+					xp: 5000
+				}
+				{
+					id: "7ACAACF12684602B"
+					type: "item"
+					item: "industrialforegoing:infinity_charger"
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 6.0d
+			description: ["只需要放在太阳底下，就能源源不断地发电！"]
+			id: "569A18BE3CC7BBDA"
+			tasks: [{
+				id: "44E54E31052EDE19"
+				type: "item"
+				item: "solarflux:sp_1"
+			}]
+			rewards: [
+				{
+					id: "6E24BCFA3347A3B2"
+					type: "item"
+					item: "solarflux:sp_1"
+				}
+				{
+					id: "53311468966D3217"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 6.0d
+			description: ["获得太阳能电池板II。"]
+			dependencies: ["569A18BE3CC7BBDA"]
+			id: "616CF2CA5971C778"
+			tasks: [{
+				id: "31E46F28D37C244F"
+				type: "item"
+				item: "solarflux:sp_2"
+			}]
+			rewards: [
+				{
+					id: "5B428B3A74505FAB"
+					type: "item"
+					item: "solarflux:sp_2"
+				}
+				{
+					id: "3D0BD9EC98228B85"
+					type: "xp"
+					xp: 200
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 6.0d
+			description: ["获得太阳能电池板III。"]
+			dependencies: ["616CF2CA5971C778"]
+			id: "75DA145095CDF5E7"
+			tasks: [{
+				id: "1780E24CBB86F041"
+				type: "item"
+				item: "solarflux:sp_3"
+			}]
+			rewards: [
+				{
+					id: "501371031D574C21"
+					type: "item"
+					item: "solarflux:sp_3"
+				}
+				{
+					id: "7B264621222C3520"
+					type: "xp"
+					xp: 300
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 6.0d
+			description: ["获得太阳能电池板IV。"]
+			dependencies: ["75DA145095CDF5E7"]
+			id: "79F052BCA8D2D642"
+			tasks: [{
+				id: "3D3C1C3A72A8BFF3"
+				type: "item"
+				item: "solarflux:sp_4"
+			}]
+			rewards: [
+				{
+					id: "341E90BA84D49BAA"
+					type: "item"
+					item: "solarflux:sp_4"
+				}
+				{
+					id: "4AD05911F3F2AA37"
+					type: "xp"
+					xp: 400
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 6.0d
+			description: ["获得太阳能电池板V。"]
+			dependencies: ["79F052BCA8D2D642"]
+			id: "5E86E769822E38D4"
+			tasks: [{
+				id: "20FD7E130DA7C278"
+				type: "item"
+				item: "solarflux:sp_5"
+			}]
+			rewards: [
+				{
+					id: "22BD3D19BFC462F2"
+					type: "item"
+					item: "solarflux:sp_5"
+				}
+				{
+					id: "0DEE4C410C0C9A86"
+					type: "xp"
+					xp: 500
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 6.0d
+			description: ["获得太阳能电池板VI。"]
+			dependencies: ["5E86E769822E38D4"]
+			id: "6D2639F83E547365"
+			tasks: [{
+				id: "241BB521ADE46A6E"
+				type: "item"
+				item: "solarflux:sp_6"
+			}]
+			rewards: [
+				{
+					id: "48F752F45B0E35A3"
+					type: "item"
+					item: "solarflux:sp_6"
+				}
+				{
+					id: "4C752BCA7E612226"
+					type: "xp"
+					xp: 600
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 6.0d
+			description: ["获得太阳能电池板VII。"]
+			dependencies: ["6D2639F83E547365"]
+			id: "576321AC33EEC12B"
+			tasks: [{
+				id: "6ABA359187882EB5"
+				type: "item"
+				item: "solarflux:sp_7"
+			}]
+			rewards: [
+				{
+					id: "152E641974B4C783"
+					type: "item"
+					item: "solarflux:sp_7"
+				}
+				{
+					id: "5A9417720FDA1C5A"
+					type: "xp"
+					xp: 700
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 6.0d
+			description: [
+				"获得太阳能电池板VIII。"
+				"发电量似乎奇怪了起来..."
+			]
+			dependencies: ["576321AC33EEC12B"]
+			id: "19C436161F5207A7"
+			tasks: [{
+				id: "5E68451B43656AA6"
+				type: "item"
+				item: "solarflux:sp_8"
+			}]
+			rewards: [
+				{
+					id: "6AB66572AE034638"
+					type: "item"
+					item: "solarflux:sp_8"
+				}
+				{
+					id: "730BF94182B3383C"
+					type: "xp"
+					xp: 800
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: 6.0d
+			description: ["获得飞龙太阳能板。"]
+			dependencies: ["19C436161F5207A7"]
+			id: "51873AA32E4D7CFA"
+			tasks: [{
+				id: "067F85EB84989C9F"
+				type: "item"
+				item: "solarflux:sp_de.wyvern"
+			}]
+			rewards: [
+				{
+					id: "71AED03BC1F8914A"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "5A27962DD8B08086"
+					type: "item"
+					item: "solarflux:sp_de.wyvern"
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: 6.0d
+			description: ["获得神龙太阳能板。"]
+			dependencies: ["51873AA32E4D7CFA"]
+			id: "2F9A103CA07F4A75"
+			tasks: [{
+				id: "6825542020297F8B"
+				type: "item"
+				item: "solarflux:sp_de.draconic"
+			}]
+			rewards: [
+				{
+					id: "3BAB43AD07B1A772"
+					type: "xp"
+					xp: 2000
+				}
+				{
+					id: "6D9E52CBDB811407"
+					type: "item"
+					item: "solarflux:sp_de.draconic"
+				}
+			]
+		}
+		{
+			x: 12.5d
+			y: 6.0d
+			description: [
+				"获得混沌太阳能板。"
+				"现在应该不再缺电了！"
+			]
+			dependencies: ["2F9A103CA07F4A75"]
+			id: "547015A44FDE2913"
+			tasks: [{
+				id: "545FEF475AE6224B"
+				type: "item"
+				item: "solarflux:sp_de.chaotic"
+			}]
+			rewards: [
+				{
+					id: "34B0230F092C9AC7"
+					type: "xp"
+					xp: 3000
+				}
+				{
+					id: "4FA90C3AD738FA26"
+					type: "item"
+					item: "solarflux:sp_de.chaotic"
+				}
+			]
+		}
+	]
+}

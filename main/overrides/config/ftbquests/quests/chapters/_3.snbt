@@ -1,0 +1,524 @@
+{
+	id: "212E48930BA45062"
+	group: "34DA8A5C88ADFCAB"
+	order_index: 10
+	filename: "_3"
+	title: "科技杂项"
+	icon: "integrateddynamics:variable"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 2.0d
+			y: 1.0d
+			description: [
+				"很多模组里面都有扳手，这个工具能够把这些扳手集合起来。"
+				"把它和其他模组的扳手合成，当面向相应模组的方块时，工具会自动变化。它也支持其他工具，比如锤子甚至是森林法杖。"
+			]
+			id: "5F17CD09F027B9BB"
+			tasks: [{
+				id: "5A5844FDA46410D9"
+				type: "item"
+				item: "morphtool:tool"
+			}]
+			rewards: [{
+				id: "5F80BAFC579110F1"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "动态联合"
+			icon: "integrateddynamics:on_the_dynamics_of_integration"
+			x: 2.0d
+			y: 2.5d
+			shape: "gear"
+			description: ["动态联合是一个强大的自动化解决方案。"]
+			size: 1.2d
+			id: "1C20DFA1F5FD0814"
+			tasks: [{
+				id: "7B958ADD948CDFE2"
+				type: "checkmark"
+				title: "确认"
+			}]
+			rewards: [{
+				id: "7D9991121EA24431"
+				type: "item"
+				item: "integrateddynamics:menril_sapling"
+			}]
+		}
+		{
+			title: "树脂生产"
+			x: 3.5d
+			y: 2.5d
+			description: ["在上面跳一跳，挤压树脂。"]
+			dependencies: ["1C20DFA1F5FD0814"]
+			id: "3405A088CA6E0271"
+			tasks: [
+				{
+					id: "1142BA60A3AEC896"
+					type: "item"
+					item: "integrateddynamics:squeezer"
+				}
+				{
+					id: "40E55FFDBCCC09D9"
+					type: "item"
+					item: "integrateddynamics:drying_basin"
+				}
+			]
+			rewards: [
+				{
+					id: "513178F55E4BA3A5"
+					type: "item"
+					item: "integrateddynamics:menril_log"
+					count: 2
+				}
+				{
+					id: "16CB5823461C3575"
+					type: "xp"
+					xp: 200
+				}
+			]
+		}
+		{
+			title: "电动化！"
+			x: 5.0d
+			y: 1.0d
+			description: ["电动就是比手动好！"]
+			dependencies: ["3405A088CA6E0271"]
+			id: "0545191954C5F0BF"
+			tasks: [
+				{
+					id: "4CD8F6DDD25EF4AE"
+					type: "item"
+					item: "integrateddynamics:mechanical_squeezer"
+				}
+				{
+					id: "08F84D647F7BCC29"
+					type: "item"
+					item: "integrateddynamics:mechanical_drying_basin"
+				}
+			]
+			rewards: [{
+				id: "7EC72008FD50CD2C"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.5d
+			description: ["用来为各种功能提供所需的数据。"]
+			dependencies: ["3405A088CA6E0271"]
+			id: "0D58A3E443E7CD8F"
+			tasks: [{
+				id: "082762F5E981EDB0"
+				type: "item"
+				item: "integrateddynamics:variable"
+			}]
+			rewards: [{
+				id: "1C77E540EBB32A64"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			x: 6.5d
+			y: 2.5d
+			description: ["无限制地传输任何东西！"]
+			dependencies: ["0D58A3E443E7CD8F"]
+			id: "64A183FE59C87112"
+			tasks: [{
+				id: "0DFD54439205224C"
+				type: "item"
+				item: "integrateddynamics:cable"
+			}]
+			rewards: [
+				{
+					id: "6531CA840C70BFE9"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "291FEC3782BEFBA5"
+					type: "item"
+					item: "integrateddynamics:cable"
+					count: 10
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 2.5d
+			description: ["浏览网络中存储的物品、流体和能量。"]
+			dependencies: ["64A183FE59C87112"]
+			id: "6EAECCD1926AE418"
+			tasks: [{
+				id: "6DBAB053BB78F8D6"
+				type: "item"
+				item: "integratedterminals:part_terminal_storage"
+			}]
+			rewards: [{
+				id: "02878DCBB4FF1FB4"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.0d
+			description: ["制作出来的时候，两个连接器就处于绑定状态。"]
+			dependencies: ["64A183FE59C87112"]
+			id: "0DB3B9C6E847457A"
+			tasks: [{
+				id: "346A612668796D0B"
+				type: "item"
+				item: "integrateddynamics:part_connector_omni_directional"
+			}]
+			rewards: [{
+				id: "73B8997D2A6F7D6D"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			title: "通量网络"
+			x: 2.0d
+			y: 4.5d
+			shape: "gear"
+			description: ["压缩一些红石，然后开始搭建你的能量网络吧！"]
+			size: 1.2d
+			id: "1C1C651C33809AF0"
+			tasks: [{
+				id: "388D1612911CE2E6"
+				type: "item"
+				item: "fluxnetworks:flux_dust"
+			}]
+			rewards: [{
+				id: "2507B6C455046973"
+				type: "item"
+				item: "fluxnetworks:flux_dust"
+				count: 3
+			}]
+		}
+		{
+			title: "输入输出"
+			x: 5.0d
+			y: 4.5d
+			description: ["顾名思义的东西。"]
+			dependencies: ["1C1C651C33809AF0"]
+			id: "4559CD796373ACEA"
+			tasks: [
+				{
+					id: "5FD00E0E72CCA769"
+					type: "item"
+					item: "fluxnetworks:flux_plug"
+				}
+				{
+					id: "4FDC4727E9E6B419"
+					type: "item"
+					item: "fluxnetworks:flux_point"
+				}
+			]
+			rewards: [{
+				id: "037B82186CB2A016"
+				type: "xp"
+				xp: 300
+			}]
+		}
+		{
+			x: 8.0d
+			y: 4.5d
+			description: ["管理你的能量网络。"]
+			dependencies: ["4559CD796373ACEA"]
+			id: "136129C6483F828B"
+			tasks: [{
+				id: "719E8B64716CD373"
+				type: "item"
+				item: "fluxnetworks:flux_configurator"
+			}]
+			rewards: [{
+				id: "2920A3019DFEF434"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			title: "压缩空间"
+			x: 10.5d
+			y: 2.5d
+			shape: "gear"
+			description: [
+				"制作一个传送器来进入压缩空间。"
+				"目前的压缩空间机械还不能与外界交互，接口目前没有功能。"
+			]
+			size: 1.2d
+			id: "7BF718FFF70C71E2"
+			tasks: [{
+				id: "01602B63DE14BDA1"
+				type: "item"
+				item: "compactmachines:personal_shrinking_device"
+			}]
+			rewards: [{
+				id: "13E53DC70F4A981C"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			x: 11.5d
+			y: 1.0d
+			subtitle: "3x3"
+			description: ["使用传送器右键进入，对墙壁或地板右键退出，shift+右键设定你进来的时候的位置。"]
+			dependencies: ["7BF718FFF70C71E2"]
+			id: "720ECE6265E56FB9"
+			tasks: [{
+				id: "1DBA15BBAB2BEDF9"
+				type: "item"
+				item: "compactmachines:machine_tiny"
+			}]
+			rewards: [{
+				id: "7008A5AF3CDE506E"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			x: 12.5d
+			y: 2.5d
+			subtitle: "5x5"
+			dependencies: ["720ECE6265E56FB9"]
+			id: "54998380836D3E49"
+			tasks: [{
+				id: "4CBFF96D3FC31C71"
+				type: "item"
+				item: "compactmachines:machine_small"
+			}]
+			rewards: [{
+				id: "6E4BC44FC467AC59"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			x: 13.5d
+			y: 1.0d
+			subtitle: "7x7"
+			dependencies: ["54998380836D3E49"]
+			id: "3ED0DB33569DAC61"
+			tasks: [{
+				id: "1BBBF2E22E86D2CF"
+				type: "item"
+				item: "compactmachines:machine_normal"
+			}]
+			rewards: [{
+				id: "75E96CACCAF73AAD"
+				type: "xp"
+				xp: 300
+			}]
+		}
+		{
+			x: 14.5d
+			y: 2.5d
+			subtitle: "9x9"
+			dependencies: ["3ED0DB33569DAC61"]
+			id: "02864296A7C29771"
+			tasks: [{
+				id: "15A50442C34FA8DE"
+				type: "item"
+				item: "compactmachines:machine_large"
+			}]
+			rewards: [{
+				id: "071341565DB7FF05"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			x: 15.5d
+			y: 1.0d
+			subtitle: "11x11"
+			dependencies: ["02864296A7C29771"]
+			id: "7326C78984D1462E"
+			tasks: [{
+				id: "51D7E327426DEC14"
+				type: "item"
+				item: "compactmachines:machine_giant"
+			}]
+			rewards: [{
+				id: "2DBAA74206212EA6"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			x: 16.5d
+			y: 2.5d
+			subtitle: "13x13"
+			dependencies: ["7326C78984D1462E"]
+			id: "3C8B716065A89B71"
+			tasks: [{
+				id: "79C343D823B6B86C"
+				type: "item"
+				item: "compactmachines:machine_maximum"
+			}]
+			rewards: [{
+				id: "523D553B00A9D741"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			x: 14.5d
+			y: 4.5d
+			subtitle: "算算看！"
+			description: ["被各种套娃合成搞得晕头转向了是吧？做个计算器帮你算一下！"]
+			id: "7991E19F7FDABD53"
+			tasks: [{
+				id: "4956D46531052528"
+				type: "item"
+				item: "jecalculation:item_calculator_craft"
+			}]
+			rewards: [{
+				id: "49A6F9681C933F04"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			title: "XNet"
+			x: 16.5d
+			y: 4.5d
+			description: [
+				"XNet是一个方便的自动化模组，允许你通过一根线缆传输能量，物品，流体和气体，你需要连接器来将你的机器并入网络，通过控制器创建频道并管理你的机器，不同颜色的线缆不会互相连接。"
+				""
+				"由于模组是硬编码的，所以需要一定的英文水平。"
+			]
+			id: "4EE72B91AEF9CBA3"
+			tasks: [
+				{
+					id: "224DC8EE9716EB62"
+					type: "item"
+					item: "xnet:controller"
+				}
+				{
+					id: "5BF1DD9319EDC2ED"
+					type: "item"
+					item: "xnet:connector_blue"
+				}
+			]
+			rewards: [{
+				id: "1CA37CADA1540786"
+				type: "item"
+				item: "xnet:netcable_blue"
+				count: 8
+			}]
+		}
+		{
+			x: 12.5d
+			y: 4.5d
+			description: [
+				"Powah的充能台自动化很有难度，这对于想大量生产水晶的人来说很难受，所以有了这个！"
+				""
+				"箭头下面的格子用来放置充能棒，不同的充能棒会对处理时间造成不同的影响，使用越高级的充能棒，充能所需的时间越少。"
+			]
+			id: "77E9B4230014E226"
+			tasks: [{
+				id: "687CBF86F5B93434"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:advanced_energizing_orb"
+					}
+				}
+			}]
+			rewards: [{
+				id: "72CAB36A1951D64D"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			title: "怪物神经网络"
+			x: 2.0d
+			y: 6.5d
+			shape: "gear"
+			subtitle: "新概念物资生产！"
+			description: ["虽然我也不知道这是怎么和人工智能扯上关系的，但是好用就完事了！"]
+			size: 1.2d
+			id: "1D7C72150C0C47B0"
+			tasks: [
+				{
+					id: "5729A056A4A0E69E"
+					type: "item"
+					item: "hostilenetworks:deep_learner"
+				}
+				{
+					id: "4FF4B0AB4BEC5C0D"
+					type: "item"
+					item: "hostilenetworks:blank_data_model"
+				}
+			]
+			rewards: [{
+				id: "7F4196480F8EF4F8"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 6.5d
+			subtitle: "炼丹炉"
+			description: ["当你的数据模型等级达到基础的时候，你就可以不用再击杀生物了，把你的模型放在这个里面，让它自己进化！"]
+			dependencies: ["1D7C72150C0C47B0"]
+			id: "5404DFB695712027"
+			tasks: [{
+				id: "2202C0B1F4FD1392"
+				type: "item"
+				item: "hostilenetworks:sim_chamber"
+			}]
+			rewards: [{
+				id: "326E0595BB22A6DB"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 6.5d
+			subtitle: "出成果"
+			description: ["将你收集到的预测产物放在这里面，制造战利品吧！"]
+			dependencies: ["5404DFB695712027"]
+			id: "1BB8F5361B2D247B"
+			tasks: [{
+				id: "5FCF48E514E44C18"
+				type: "item"
+				item: "hostilenetworks:loot_fabricator"
+			}]
+			rewards: [{
+				id: "23002C7F0D371174"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+		{
+			x: 10.5d
+			y: 4.5d
+			subtitle: "通用无线传输"
+			description: ["制作一个超立方体，它可以无线传输物品，流体和能量。"]
+			id: "64B21E762B4BB39E"
+			tasks: [{
+				id: "19D72DF81A9809D3"
+				type: "item"
+				item: "tesseract:tesseract"
+			}]
+			rewards: [{
+				id: "728886C07A8C1680"
+				type: "random"
+				table_id: 5332197433974249914L
+			}]
+		}
+	]
+}
