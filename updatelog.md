@@ -1,3 +1,18 @@
+## 1.9.3 2022/06/26
+Changes:
++ Removed Serene Seasons;
++ Fixed the crash when browsing data models;
++ Fixed the problem that silktouch doesn't work on andesite, diorite and granite;
++ New quests background;
++ Changed some textures;
++ Fixed the button conflict with Integrated Dynamics;
++ Reduced the count of Final Star Shard needed to craft Eternal Mana Pool;
++ Other bugfixes
+
+New Mods:
++ ExtraBotany
++ ProjectIntelligence
+
 ## 1.9.2 2022/03/23
 移除了 Scaling Health，现在可以正常联机了。
 ## 1.9.1 2022/03/16
