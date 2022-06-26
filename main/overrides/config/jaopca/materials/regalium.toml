@@ -21,3 +21,7 @@
 	#The base to use in Mekanism's Combiner to recreate ores.
 	ore_base = "#forge:cobblestone"
 
+[molten]
+	#The temperature of this molten fluid.
+	temperature = 1000
+
