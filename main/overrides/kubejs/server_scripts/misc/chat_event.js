@@ -11,8 +11,8 @@ events.listen('player.chat', function (event) {
 
     if (event.message.trim().equalsIgnoreCase('-book')) {
         event.server.scheduleInTicks(1, event.server, function (callback) {
-          callback.data.tell('\u00A7b给！放在工作台里面获得完整的书！')
-          callback.data.runCommandSilent(`/give ${event.player.name} akashictome:tome`)
+          callback.data.tell('\u00A7b给！这次别弄丢了!')
+          event.player.give(akashictome)
       })
       event.cancel()
     }

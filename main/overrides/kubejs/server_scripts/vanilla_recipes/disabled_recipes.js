@@ -24,11 +24,11 @@ events.listen('recipes', e => {
         'titanium:diamond_gear',
         'mekanism:steel_casing',
         'immersiveengineering:blastfurnace_preheater'
-    ]
+    ];
 
     disabledRecipesOutput.forEach(disabledRecipesOutput => 
         e.remove({output: disabledRecipesOutput} )
-    )
+    );
 
     const disabledRecipesId = [
         'emendatusenigmatica:alloy_dust/signalum',
@@ -40,17 +40,23 @@ events.listen('recipes', e => {
         'mekanism:enriching/enriched/carbon',
         'mekanism:infusion_conversion/carbon/from_coal',
         'mekanism:infusion_conversion/carbon/from_coal_block',
-        'lazierae2:fluix_aggregator',
+        'lazierae2:aggregator',
         'ae2wtlib:infinity_booster_card',
-        'boss_tools:blasting/steel_ingot'
-    ]
+        'boss_tools:blasting/steel_ingot',
+        /minecolonies:chainmail.*/,
+        'projectex:final_star_shard'
+    ];
 
     disabledRecipesId.forEach(disabledRecipesId => 
-        e.remove({id: disabledRecipesId} )
-    )
+        e.remove({id: disabledRecipesId})
+    );
 
     disabledItems.forEach(disabledItems =>
         e.remove({output: disabledItems})
-    )
+    );
+
+    if (Platform.isLoaded('torcherino')){
+        e.remove({mod: 'torcherino'})
+    }
     
 } )

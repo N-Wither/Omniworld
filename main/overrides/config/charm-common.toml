@@ -256,7 +256,7 @@
 	#If true, adds a recipe for Gilded Blackstone using gold nuggets and blackstone.
 	"Gilded Blackstone" = true
 	#If true, adds a recipe for the Trident using prismarine shards and crystals.
-	Trident = true
+	Trident = false
 	#If true, adds a recipe for Cyan Dye using warped roots.
 	"Cyan Dye" = true
 	#If true, adds a recipe for Green Dye using yellow and blue dyes.

@@ -24,3 +24,9 @@ net.minecraft.client.gui.screen.PackScreen {
 net.minecraft.client.gui.screen.OptionsScreen {
 }
 
+me.jellysquid.mods.sodium.client.gui.SodiumOptionsGUI {
+}
+
+net.coderbot.iris.gui.screen.ShaderPackScreen {
+}
+

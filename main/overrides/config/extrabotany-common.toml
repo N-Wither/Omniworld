@@ -1,0 +1,5 @@
+
+[common]
+	#Whether to disable the Ego's disarm. Default is false.
+	disableDisarm = true
+

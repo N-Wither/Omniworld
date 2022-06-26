@@ -17,6 +17,8 @@
 	#The max range of maid home mode
 	#Range: 3 ~ 64
 	MaidHomeRange = 8
+	#The entity that the maid will not hurt when in ranged attack
+	MaidRangedAttackIgnore = []
 
 [chair]
 	#Chair can switch models freely

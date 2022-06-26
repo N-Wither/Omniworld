@@ -529,5 +529,15 @@
 		{ item: "fluxnetworks:gargantuan_flux_storage" }
 		{ item: "pamhc2foodextended:supremepizzaitem", count: 8 }
 		{ item: "forbidden_arcanus:bat_soup" }
+		{ item: "pamhc2foodextended:bentoboxitem" }
+		{
+			item: {
+				id: "kubejs:engulfing_lightning"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
 	]
 }

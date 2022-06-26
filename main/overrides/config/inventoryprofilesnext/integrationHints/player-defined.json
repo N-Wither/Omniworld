@@ -40,5 +40,12 @@
                 "horizontalOffset": -14
             }
         }
+    },
+    "org.cyclops.integrateddynamics.core.client.gui.container.ContainerScreenAspectSettings": {
+        "buttonHints": {
+            "SORT": {
+                "top": -16
+            }
+        }
     }
 }

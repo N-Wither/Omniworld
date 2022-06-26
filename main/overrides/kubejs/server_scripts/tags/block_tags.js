@@ -32,4 +32,6 @@ onEvent('block.tags', event => {
 	tagging('forge:ores/glowstone', 'boss_tools:moon_glowstone_ore')
 
 	tagging('minecraft:beacon_base_blocks', 'kubejs:primomium_block')
+
+	tagging('forge:plants', ['projectvibrantjourneys:short_grass'])
 })

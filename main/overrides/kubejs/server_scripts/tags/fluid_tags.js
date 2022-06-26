@@ -41,4 +41,23 @@ events.listen('fluid.tags', event => {
         'boss_tools:oil'
     ])
     event.get('forge:crude_oil').add('boss_tools:oil')
+
+    event.get('minecraft:water').remove([
+        'create:chocolate',
+        'create:honey',
+        'create:flowing_chocolate',
+        'create:flowing_honey',
+        'createaddition:seed_oil',
+        'createaddition:flowing_seed_oil',
+        'boss_tools:oil',
+        'boss_tools:fuel',
+        'boss_tools:flowing_oil',
+        'boss_tools:flowing_fuel',
+        'cyclic:honey',
+        'cyclic:biomass',
+        'cyclic:xpjuice',
+        'cyclic:honey_flowing',
+        'cyclic:biomass_flowing',
+        'cyclic:xpjuice_flowing'
+    ])
 })

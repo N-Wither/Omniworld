@@ -259,4 +259,6 @@ onEvent('item.tags', event => {
 	tagging('forge:nuggets/ultimate', ec+'the_ultimate_nugget')
 	tagging('forge:nuggets/lapis', 'betternether:lapis_pile')
 
+	tagging('forge:workbenches', [/byg:.*crafting_table/, /betterendforge:.*crafting_table/])
+
 })

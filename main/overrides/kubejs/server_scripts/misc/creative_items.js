@@ -118,9 +118,6 @@ onEvent('recipes', e => {
               },
               {
                 "item": "projectex:final_star_shard"
-              },
-              {
-                "item": "projectex:final_star_shard"
               }
             ],
             "fromColor": 65535,

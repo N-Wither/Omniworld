@@ -1,0 +1,12 @@
+{
+    "name": "糖送萝卜",
+    "icon": "minecraft:player_head{SkullOwner:'TangSongLuoBo'}",
+    "category": "sponsor",
+    "pages": [
+        {
+            "type":"spotlight",
+            "item":"minecraft:player_head{SkullOwner:'TangSongLuoBo'}",
+            "text":""
+        }
+    ]
+}

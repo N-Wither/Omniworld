@@ -1,0 +1,12 @@
+{
+    "name": "房石阳明",
+    "icon": "minecraft:player_head{SkullOwner:'White_Road'}",
+    "category": "sponsor",
+    "pages": [
+        {
+            "type":"spotlight",
+            "item":"minecraft:player_head{SkullOwner:'White_Road'}",
+            "text":""
+        }
+    ]
+}

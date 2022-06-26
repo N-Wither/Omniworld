@@ -11,6 +11,8 @@
 		tooltip_shadow = true
 		# If enabled, items showing a custom border will have a special shine effect when hovered over.
 		shine_effect = true
+		# If enabled, utilizes some workarounds to improve compatibility with mods that alter tooltips.
+		compatibility_mode = false
 
 	# Custom borders are broken into 16 "levels", with level 0 being intended for the "best" or "rarest" items. Only level 0 has a custom border built-in, but others can be added with resource packs.
 	[client.custom_borders]
@@ -103,7 +105,7 @@
 			level7_entries = ["@ars_nouveau", "@forbidden_arcanus", "@psi", "@bloodmagic", "@tomeofblood", "@astralsorcery", "@mysticalagriculture", "@mysticalagradditions", "@mysticaladaptations", "@eidolon", "@projecte", "@projectex", "@majobroom", "@occultism"]
 			level8_entries = ["@immersiveengineering", "@immersivepetroleum", "@immersiveposts", "@engineersdecor"]
 			level9_entries = ["@mekanism", "@mekanismtools", "@mekanismgenerators", "@industrialforegoing", "@thermal", "@refinedstorage", "@refinedstorageaddons", "@rsrequestify", "@extrastorage", "@extradisks", "@cabletiers", "@powah", "@draconicevolution", "@integrateddynamics", "@integratedtunnels", "@integratedterminals", "@buildinggadgets", "@custommachinery", "@compactmachines", "@solarflux", "@fluxnetworks", "@rslargepatterns", "@rftoolsbase", "@rftoolsutility", "@xnet", "@rftoolsbuilder", "@appliedenergistics2", "@ae2wtlib", "@lazierae2", "@aeinfinitybooster", "@ae2extras", "@energymeter", "@packagedauto", "@computercraft", "@advancedperipherals", "@boss_tools", "@boss_tools_giselle_addon"]
-			level10_entries = ["@botania", "@aiotbotania", "@mythicbotany", "@botaniaadditions"]
+			level10_entries = ["@botania", "@aiotbotania", "@mythicbotany", "@botaniaadditions", "@extrabotany"]
 			level11_entries = ["@blue_skies"]
 			level12_entries = ["@create", "@createaddition", "@createplus"]
 			level13_entries = ["@atum"]

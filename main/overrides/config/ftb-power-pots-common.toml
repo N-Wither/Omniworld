@@ -9,7 +9,7 @@
 	maxEnergy = 100000
 	#Energy consumed per tick
 	#Range: > 0
-	perTickEnergy = 2000
+	perTickEnergy = 4000
 	#Amount of items outputted per operation
 	#Range: 1 ~ 1728
 	itemsPerOutput = 16
@@ -24,7 +24,7 @@
 	maxEnergy = 200000
 	#Energy consumed per tick
 	#Range: > 0
-	perTickEnergy = 5000
+	perTickEnergy = 10000
 	#Amount of items outputted per operation
 	#Range: 1 ~ 1728
 	itemsPerOutput = 32
@@ -36,10 +36,10 @@
 	speedModifier = 0.6
 	#How much energy the pot will hold
 	#Range: > 0
-	maxEnergy = 300000
+	maxEnergy = 400000
 	#Energy consumed per tick
 	#Range: > 0
-	perTickEnergy = 20000
+	perTickEnergy = 25000
 	#Amount of items outputted per operation
 	#Range: 1 ~ 1728
 	itemsPerOutput = 48
@@ -51,10 +51,10 @@
 	speedModifier = 0.8
 	#How much energy the pot will hold
 	#Range: > 0
-	maxEnergy = 400000
+	maxEnergy = 600000
 	#Energy consumed per tick
 	#Range: > 0
-	perTickEnergy = 40000
+	perTickEnergy = 60000
 	#Amount of items outputted per operation
 	#Range: 1 ~ 1728
 	itemsPerOutput = 64

@@ -246,16 +246,16 @@ onEvent('recipes', event => {
 		}).id('kubejs:blastfurnace_preheater')
 
 		//Lazier AE2
-		event.shaped('lazierae2:fluix_aggregator', ['HHH', 'RLR', 'PCP'], {
+		event.shaped('lazierae2:aggregator', ['HHH', 'RLR', 'PCP'], {
 			H: 'minecraft:hopper',
 			R: '#forge:dusts/redstone',
 			L: 'lazierae2:logic_unit',
 			P: ae+'logic_processor',
 			C: ae+'condenser'
-		}).id(kjs+'lazierae2/fluix_aggregator')
+		}).id(kjs+'lazierae2/aggregator')
 		event.replaceInput({id: 'lazierae2:growth_chamber'}, ae+'molecular_assembler', ae+'fluix_glass_cable')
-		event.replaceInput({id: 'lazierae2:pulse_centrifuge'}, 'lazierae2:speculative_processor', ae+'molecular_assembler')
-		event.replaceInput({id: 'lazierae2:circuit_etcher'}, 'lazierae2:speculative_processor', ae+'engineering_processor')
+		event.replaceInput({id: 'lazierae2:centrifuge'}, 'lazierae2:speculative_processor', ae+'molecular_assembler')
+		event.replaceInput({id: 'lazierae2:etcher'}, 'lazierae2:speculative_processor', ae+'engineering_processor')
 		event.replaceInput({id: 'lazierae2:universal_press'}, ae+'singularity', ae+'matter_ball')
 
 		//AE2WTLIB

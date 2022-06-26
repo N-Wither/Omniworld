@@ -1,0 +1,33 @@
+{
+  "downloadsAllowed": true,
+  "tutorialDisplayed": true,
+  "editMode": false,
+  "etCheckFluid": true,
+  "editingRepoLoc": "",
+  "editorAlwaysOnTop": false,
+  "editorLineWrap": false,
+  "maxTabs": 16,
+  "editorLAF": "",
+  "screenMode": 0,
+  "screenPosOverride": false,
+  "screenPosX": 0,
+  "screenPosY": 0,
+  "userLanguage": "[MINECRAFT-LANG]",
+  "homePage": "projectintelligence:",
+  "searchMode": "EVERYWHERE",
+  "pageLangOverrides": {
+    "draconicevolution:": "en_us",
+    "draconicevolution:draconium": "en_us",
+    "draconicevolution:modular_armor": "en_us",
+    "draconicevolution:modular_tools/pickaxe": "en_us",
+    "draconicevolution:modular_tools": "en_us",
+    "draconicevolution:chaos_guardian": "en_us",
+    "draconicevolution:module_system": "en_us",
+    "draconicevolution:mob_soul": "en_us",
+    "draconicevolution:modular_tools/axe": "en_us",
+    "projectintelligence:": "en_us",
+    "draconicevolution:awakened_draconium": "en_us"
+  },
+  "modLangOverrides": {},
+  "modVersionOverrides": {}
+}

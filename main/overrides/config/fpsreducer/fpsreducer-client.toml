@@ -25,7 +25,7 @@
 	#Range: 0 ~ 100
 	suppressedVolume = 20
 	#Enable HUD.
-	hudEnabled = true
+	hudEnabled = false
 	#Reference position of HUD.
 	#Range: 1 ~ 8
 	hudReferencePos = 3

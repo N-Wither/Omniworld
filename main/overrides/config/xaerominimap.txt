@@ -20,10 +20,10 @@ showCoords:true
 lockNorth:true
 zoom:2
 minimapSize:150
-chunkGrid:-1
+chunkGrid:7
 slimeChunks:false
 mapSafeMode:false
-minimapOpacity:100.0
+minimapOpacity:90.0
 waypointsIngameIconScale:0
 waypointsIngameDistanceScale:0
 waypointsIngameNameScale:0
@@ -33,7 +33,7 @@ blockColours:0
 lighting:true
 dotsStyle:0
 dotNameScale:1.0
-compassOverWaypoints:false
+compassOverEverything:true
 showBiome:true
 showFlowers:true
 keepWaypointNames:true
@@ -54,7 +54,7 @@ waypointOpacityMap:90
 hideWorldNames:1
 openSlimeSettings:true
 alwaysShowDistance:true
-showLightLevel:0
+showLightLevel:4
 renderLayerIndex:1
 crossDimensionalTp:true
 showTime:1
@@ -64,7 +64,7 @@ lookingAtAngleVertical:180
 centeredEnlarged:false
 zoomedOutEnlarged:false
 minimapTextAlign:2
-showAngles:false
+showAngles:true
 waypointsMutualEdit:true
 compassLocation:1
 compassScale:1
@@ -81,11 +81,11 @@ lightOverlayColor:13
 uiScale:0
 bossHealthPushBox:1
 potionEffectPushBox:1
-minimapFrame:0
-minimapFrameColor:9
+minimapFrame:2
+minimapFrameColor:3
 compassColor:9
 northCompassColor:-1
-showDimensionName:false
+showDimensionName:true
 displayMultipleWaypointInfo:1
 entityRadar:true
 adjustHeightForCarpetLikeBlocks:true
@@ -95,6 +95,10 @@ mainDotSize:2
 partialYTeleportation:true
 deleteReachedDeathpoints:true
 hideMinimapUnderScreen:true
+hideMinimapUnderF3:true
+manualCaveModeStartAuto:true
+manualCaveModeStart:-1
+chunkGridLineWidth:1
 interface:dummy:0:36:true:false:false:false
 interface:dummy:0:10000:true:false:false:false
 interface:dummy:0:0:false:false:true:false

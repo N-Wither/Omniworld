@@ -1,0 +1,27 @@
+type = menu
+
+customization-meta {
+  identifier = net.coderbot.iris.gui.screen.ShaderPackScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = bottom-centered
+  shadow = false
+  x = -73
+  action = addtext
+  actionid = b54b5e81-64c4-4331-8576-481ce6e21dde1651889991824
+  y = -66
+  scale = 1.0
+  alignment = left
+  value = §e对于使用光影产生的任何后果请自行负责！
+}
+

@@ -19,108 +19,96 @@ customization {
 }
 
 customization {
-  identifier = %id=400322%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   orientation = mid-left
   x = 1
   action = movebutton
-  y = -16
+  y = -23
 }
 
 customization {
-  identifier = %id=400322%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   width = 140
   action = resizebutton
   height = 20
 }
 
 customization {
-  identifier = %id=604382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   action = hidebutton
 }
 
 customization {
-  identifier = %id=400382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   orientation = mid-left
   x = 1
   action = movebutton
-  y = 26
+  y = 40
 }
 
 customization {
-  identifier = %id=400382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   width = 119
   action = resizebutton
   height = 20
 }
 
 customization {
-  identifier = %id=502382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   orientation = mid-left
   x = 1
   action = movebutton
-  y = 47
+  y = 61
 }
 
 customization {
-  identifier = %id=502382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   width = 140
   action = resizebutton
   height = 20
 }
 
 customization {
-  identifier = %id=376382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   orientation = mid-left
   x = 121
   action = movebutton
-  y = 26
+  y = 40
 }
 
 customization {
-  identifier = %id=400298%
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   orientation = mid-left
   x = 1
   action = movebutton
-  y = -37
+  y = -44
 }
 
 customization {
-  identifier = %id=400298%
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   width = 140
   action = resizebutton
   height = 20
 }
 
 customization {
-  identifier = %id=400346%
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   orientation = mid-left
   x = 1
   action = movebutton
-  y = 5
+  y = -2
 }
 
 customization {
-  identifier = %id=400346%
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   width = 140
   action = resizebutton
   height = 20
 }
 
 customization {
-  identifier = %id=502346%
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
   action = hidebutton
-}
-
-customization {
-  orientation = bottom-left
-  shadow = true
-  x = 2
-  action = addtext
-  actionid = 2b33a35b-72e4-458b-ba75-f4482e1a3f311631344520700
-  y = -66
-  scale = 1.0
-  alignment = left
-  value = QQ群1：950525056
 }
 
 customization {
@@ -143,30 +131,21 @@ customization {
   y = 61
   scale = 1.0
   alignment = left
-  value = Ver 1.9.2
+  value = Ver 1.9.3
 }
 
 customization {
-  orientation = bottom-left
-  shadow = true
-  x = 2
-  action = addtext
-  actionid = a582e77c-f069-42db-b10f-d24807804ea41641884297736
-  y = -58
-  scale = 1.0
-  alignment = left
-  value = QQ群2：765539643
-}
-
-customization {
-  orientation = bottom-left
-  shadow = true
-  x = 2
-  action = addtext
-  actionid = d9a673f9-5d6b-4611-b9cc-ed3680eaeeaf1648022685252
-  y = -50
-  scale = 1.0
-  alignment = left
-  value = QQ群3：814944873
+  orientation = mid-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  x = 1
+  width = 140
+  actionid = ba2fafcd-8541-4642-b5b0-4806414554931651901088486
+  action = addbutton
+  y = 19
+  label = 交流反馈
+  value = https://discord.gg/Vn5qGAWWxj
+  height = 20
 }
 

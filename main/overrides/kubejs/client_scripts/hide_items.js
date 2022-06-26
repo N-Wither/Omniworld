@@ -126,6 +126,7 @@ onEvent('jei.hide.items', event => {
         'emendatusenigmatica:certus_quartz_block',
         'emendatusenigmatica:charged_certus_quartz_block',
         'emendatusenigmatica:fluix_block',
+        /emendatusenigmatica:.*bucket/,
         'betterendforge:ender_dust',
         'miniutilities:ender_ore',
         'immersiveengineering:ingot_aluminum',

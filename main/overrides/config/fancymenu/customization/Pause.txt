@@ -145,17 +145,16 @@ customization {
 
 customization {
   orientation = mid-left
+  loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = openlink
-  label = 报告问题
-  loopbackgroundanimations = true
-  hoverlabel = 在主菜单可以找到QQ群号
   x = 1
   width = 130
   actionid = 4ff934ce-754a-484e-9b2f-1c6113c56d4d1634385486725
   action = addbutton
   y = -15
-  value = 
+  label = 报告问题
+  value = https://discord.gg/Vn5qGAWWxj
   height = 20
 }
 

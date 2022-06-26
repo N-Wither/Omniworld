@@ -427,5 +427,29 @@
 				table_id: 5332197433974249914L
 			}]
 		}
+		{
+			title: "战胜自我"
+			x: 14.0d
+			y: 0.0d
+			description: [
+				"在不少人（3个）的翘首以盼下，我最终决定将额外植物学加入这个整合包。为什么不早加入？因为这个模组的Boss会收缴所有不属于原版和植物魔法的物品，那么这么多其他模组岂不是很没面子？"
+				""
+				"所以我跟本我（曾用名：盖亚III）交涉了一下，现在他（也许是她，看你自己的性别）不会缴械了。"
+				""
+				"所以你问我怎么召唤本我？看到这个任务的奖励了吗？对，跟召唤盖亚守护者的方法一样，拿邀请函对着信标Shift右键就行了，就是这样，嗯！"
+			]
+			dependencies: ["3E27B2DC4368A363"]
+			id: "08F38EDD03F95305"
+			tasks: [{
+				id: "479BB8588FCC3CD1"
+				type: "item"
+				item: "extrabotany:treasurebox"
+			}]
+			rewards: [{
+				id: "06E76C57D8C8605B"
+				type: "item"
+				item: "extrabotany:challengeticket"
+			}]
+		}
 	]
 }
